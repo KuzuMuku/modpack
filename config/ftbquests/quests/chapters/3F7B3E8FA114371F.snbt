@@ -1,0 +1,745 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3F7B3E8FA114371F"
+	group: "634674170BA7361A"
+	icon: "create:cogwheel"
+	id: "3F7B3E8FA114371F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E01000000000010"]
+			description: [
+				"Create 是科技宅家流最早能成型的底盘。它不会直接替你打穿维度，但能把手搓、搬运、加工和补给慢慢交给机器。"
+				"刚开始别急着造大工厂。先做安山合金和外壳，再让水车或风车转起来；只要轴、齿轮、皮带能把动力送到机器上，你就已经跨过了 Create 最重要的门槛。"
+				"第一批值得自动化的东西很朴素：磨矿、压板、搅拌、切木头、搬物品。它们会让你少花时间重复劳动，把精力留给远征和器官材料。"
+				"卡住时先看机器有没有动力，再看方向对不对，最后再看物品有没有被送到正确位置。Create 大多数问题都不是配方难，而是机器没有连成一条会动的线。"
+			]
+			id: "3F01000000000000"
+			tasks: [{
+				id: "3F01000000000100"
+				title: "路线导读"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5788967FDC7A21DC"]
+			description: ["黄铜外壳意味着你已经从安山阶段跨入更完整的中期机械体系。很多真正好用的自动化都会从这里展开。"]
+			id: "14A7655D25625BC9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7D74DDDBFC11EF01"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F01000000000000"]
+			description: ["安山合金是你的第一块机械底材。做出它以后，就可以开始把重复手工活一点点交给机器。"]
+			id: "1DEF6A0040BC9BE3"
+			tasks: [{
+				id: "2227D2AE5D1A91BE"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DEF6A0040BC9BE3"]
+			description: ["安山外壳说明第一批机器骨架已经齐了。下一步不是堆机器，而是先让动力能稳定传过去。"]
+			id: "5788967FDC7A21DC"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "57E0D74F30D2310F"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5788967FDC7A21DC"]
+			description: ["轴、齿轮和皮带决定动力往哪走。只要你能看懂一条动力线从哪里来、到哪里去，后面的机器就不会像一堆谜语。"]
+			id: "717FC5B29020E001"
+			tasks: [{
+				id: "104959E14377C811"
+				title: "传动技术"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["717FC5B29020E001"]
+			description: ["轴和皮带连接器是最基础的直线传力手段。不会拉轴和挂皮带，就还没真正进入 Create。"]
+			id: "162CA9E2D1247D1A"
+			tasks: [
+				{
+					id: "7122678B63D7AEE4"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "261E1437ECE01C38"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["717FC5B29020E001"]
+			description: ["大小齿轮解决的是变速、转向和空间布局问题。它们决定你的机器能不能塞进基地里。"]
+			id: "5710A5A839E703AC"
+			tasks: [
+				{
+					id: "7572B9409029FA7C"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "51D55FFC1A170A11"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5788967FDC7A21DC"]
+			description: ["先学会发电，而不是急着堆机器。Create 的第一层门槛不是配方，而是你能不能持续产出应力。"]
+			id: "39574ED74844904D"
+			tasks: [{
+				id: "74E2CB0E0466DF33"
+				title: "原始应力发生装置"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5788967FDC7A21DC"]
+			description: ["这组是把应力转化为加工、采集和运输能力的核心。做出机器只是开始，更重要的是学会把它们串成流程。"]
+			id: "51EF488CD3534A83"
+			tasks: [{
+				id: "399DC2358CE56819"
+				title: "动力装置"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39574ED74844904D"]
+			description: ["水车是最稳定的早期应力来源。想快速起步就先找一条水道，不必一开始就追求大机器。"]
+			id: "6E147A2198A9E11B"
+			tasks: [{
+				id: "77EBFF1056FDE2DB"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39574ED74844904D"]
+			description: ["大型水车适合作为第一个真正的主动力源，为成片机器或早期工厂供能。"]
+			id: "7DBF2E87B1425940"
+			tasks: [{
+				id: "6010608325C2FE8C"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51EF488CD3534A83"]
+			description: ["磨石和粉碎轮把原矿与原料加工自动化，是资源翻倍和后续配方的基础。"]
+			id: "4A2C37451719E949"
+			tasks: [
+				{
+					id: "1293A32A64912DEB"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "6FE5C11040B998B2"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["39574ED74844904D"]
+			description: ["风车更适合基地级供能。它能顺便承担建筑轮廓，让功能和外观合在一起。"]
+			id: "1CEF2932B551FD9D"
+			tasks: [
+				{
+					id: "4BF6184979ADFA34"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "030707C5DD85F03D"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E00E19D347F207B"]
+			description: ["机械钻、锯和部署器是 Create 真正开始“替你动手”的标志。先学会它们，你的工厂才有手脚。"]
+			id: "6ED1589BB3C3C854"
+			tasks: [
+				{
+					id: "78915DE9D1DD567B"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "3CBD1E2125611B66"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "443C6A45AE54BBBD"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["51EF488CD3534A83"]
+			description: ["机械轴承和便携存储接口让机器从固定加工台变成可移动、可回收的装置。"]
+			id: "7E00E19D347F207B"
+			tasks: [
+				{
+					id: "043DA7FF5789DC45"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "7F4F92CFB9375771"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["51EF488CD3534A83"]
+			description: ["机械压力机和搅拌盆是大批量材料处理的起点。你会开始明显感受到机械加工和手工合成的差距。"]
+			id: "36A92197E40BF07B"
+			tasks: [
+				{
+					id: "357FEC1C42CD3E5F"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "7BB03DC5A5405158"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E00E19D347F207B"]
+			description: ["收割、犁地和铺路说明你的机械已经开始接管农业和地形处理，而不只是车间内的小活。"]
+			id: "4BE27BFE6A5CD7F4"
+			tasks: [
+				{
+					id: "3FB8423AA801FB01"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "58CD64FAE179FD16"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					id: "4361875634D97727"
+					item: "create:mechanical_roller"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["717FC5B29020E001"]
+			description: ["链式传送带适合处理中距离、可视化的物流。它是从点对点运输走向产线布局的一步。"]
+			id: "4FEF7BB874259A2B"
+			tasks: [{
+				id: "2FA96FA70151EEC2"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["717FC5B29020E001"]
+			description: ["漏斗和隧道解决的是‘东西往哪分、怎么分’。很多新手卡住，其实不是做不出机器，而是不会分流。"]
+			id: "02894FB9DF48F40D"
+			tasks: [
+				{
+					id: "21A7AEEA3A7C608D"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "253B9F68DAFCC1DA"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5788967FDC7A21DC"]
+			description: ["铜外壳代表你开始接触流体和更完整的中期装置。后面的燃油、锅炉、灌装都会依赖这一层。"]
+			id: "477CABAEE7473A9A"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0EABEE0FAF38465F"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5788967FDC7A21DC"]
+			description: ["扳手不是可有可无的小工具，而是你调整朝向、拆装机器和快速试错的核心交互器。"]
+			id: "4DBD235122621FAB"
+			tasks: [{
+				id: "7DEBA9831C5E5728"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DBD235122621FAB"]
+			id: "26D8C567D9D85204"
+			tasks: [{
+				id: "2B40FFE9151D3820"
+				item: "create_connected:encased_chain_cogwheel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DBD235122621FAB"]
+			id: "5151E35152328A0F"
+			tasks: [
+				{
+					id: "02DB473A1C50879A"
+					item: "create_connected:parallel_gearbox"
+					type: "item"
+				}
+				{
+					id: "4E1F2BB4402A822B"
+					item: "create_connected:vertical_parallel_gearbox"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DBD235122621FAB"]
+			id: "54D612E9F4C22CBA"
+			tasks: [
+				{
+					id: "4BCD7E510025B702"
+					item: "create_connected:six_way_gearbox"
+					type: "item"
+				}
+				{
+					id: "4DCDD2FAF6904F57"
+					item: "create_connected:vertical_six_way_gearbox"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["477CABAEE7473A9A"]
+			description: ["抽油机孔位是你把地下油田转成可持续资源的起点。"]
+			id: "51ECD3C27E464EAC"
+			tasks: [{
+				id: "30F80444EE1BF030"
+				item: "createdieselgenerators:pumpjack_hole"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["477CABAEE7473A9A"]
+			description: ["软管滑轮是流体世界的万能抽取器。会用它之后，熔岩、油、水和各种化工液都能接管。"]
+			id: "7F8F5C2A742F972B"
+			tasks: [{
+				id: "0A3C3B1F71C0EA42"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["477CABAEE7473A9A"]
+			description: ["注液器让你能把流体精确灌到物品上，是大量中后期工艺的关键中间环节。"]
+			id: "511D7A40ACBD21CD"
+			tasks: [{
+				id: "74DFF0D5463A3887"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["51ECD3C27E464EAC"]
+			description: ["抽油机曲柄和泵头到位后，才算真正把地下油田变成可持续资源。"]
+			id: "70C7C1DBD26449E2"
+			tasks: [
+				{
+					id: "6B8E4DF8C5A49EBC"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "0D4B75699172D611"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["70C7C1DBD26449E2"]
+			description: ["先拿到一桶原油，确认你的油线已经跑通，而不是只把多方块摆出来。"]
+			id: "283CBD76426BD600"
+			tasks: [{
+				amount: 1000L
+				fluid: "createdieselgenerators:crude_oil"
+				id: "60A90EDD73A28B4E"
+				type: "fluid"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["477CABAEE7473A9A"]
+			description: ["流体罐是所有油线、蒸汽线和化工线的缓冲核心。没有缓冲，机器就只会一抽一停。"]
+			id: "00A177004FF28205"
+			tasks: [{
+				id: "6CD15378043ADBF8"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6DB80FA9E642393E"]
+			id: "242C382E3F585063"
+			tasks: [{
+				amount: 1000L
+				fluid: "createdieselgenerators:gasoline"
+				id: "53BB5D5149260598"
+				type: "fluid"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6DB80FA9E642393E"]
+			id: "4C6F6891DD8AF2CE"
+			tasks: [{
+				amount: 1000L
+				fluid: "createdieselgenerators:diesel"
+				id: "169F6CC393881A22"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"242C382E3F585063"
+				"4C6F6891DD8AF2CE"
+			]
+			id: "7915A411F50E472A"
+			tasks: [{
+				id: "5CA4C60356F5DA2D"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7915A411F50E472A"]
+			id: "0798C30775E45E5A"
+			tasks: [{
+				id: "44AB75598A5A71DA"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"283CBD76426BD600"
+				"00A177004FF28205"
+			]
+			description: ["柴油线的重点不是一种特定燃料，而是学会把原油拆分、储存，再按用途送回动力系统。"]
+			id: "6DB80FA9E642393E"
+			tasks: [{
+				id: "04E74E180701933B"
+				title: "蒸馏塔"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["00A177004FF28205"]
+			description: ["锅炉和蒸汽机是另一条动力路线。它更重建设，但上限高，适合做成真正的机房。"]
+			id: "5E4F6B111C9DF1A5"
+			tasks: [{
+				id: "489EA9C2696DB51E"
+				title: "锅炉"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5E4F6B111C9DF1A5"]
+			description: ["蒸汽机说明你已经把热源、供水和动力输出接成了闭环。"]
+			id: "3C39E7C0BEF5C1B7"
+			tasks: [{
+				id: "4C67BF46A7912D06"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["00A177004FF28205"]
+			description: ["烈焰人燃烧室是锅炉和高温搅拌的关键热源，很多中期工艺都会要求你稳定喂它。"]
+			id: "2DB9BC62BE83AA0B"
+			tasks: [{
+				id: "3BCD223861FAD281"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14A7655D25625BC9"]
+			description: ["机械合成台意味着你已经从单机加工迈入多步同步生产线。大型配方会开始真正展开。"]
+			id: "38470866C07010F1"
+			tasks: [{
+				id: "6594F999C7694811"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["14A7655D25625BC9"]
+			id: "6757E05965FB33BF"
+			tasks: [{
+				id: "536EFECC2EB2F6F5"
+				item: "create_connected:kinetic_battery"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["14A7655D25625BC9"]
+			description: ["机械臂更适合做复杂分拣和多目标投递。它不是最早该学的，但一旦会用，产线可读性会提升很多。"]
+			id: "71D5D1E5DF5692B8"
+			tasks: [{
+				id: "286B6E67A53C662C"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0997DA7CF8ADFBEB"]
+			id: "04B409697FC756CC"
+			tasks: [{
+				id: "2E13AADCADC17D8C"
+				item: "create_new_age:basic_energiser"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5788967FDC7A21DC"]
+			id: "0997DA7CF8ADFBEB"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "60E3E9E803956D44"
+				item: "create_new_age:carbon_brushes"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["04B409697FC756CC"]
+			id: "52D650AC698AA892"
+			tasks: [{
+				id: "0CF9B4E4BF18A2B2"
+				item: "create_new_age:advanced_energiser"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["52D650AC698AA892"]
+			id: "4625A1570DEDB612"
+			tasks: [{
+				id: "576DC0FC27C57577"
+				item: "create_new_age:reinforced_energiser"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0997DA7CF8ADFBEB"]
+			id: "7861BE0D6D6FC21C"
+			tasks: [{
+				id: "41ED17717933922F"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7861BE0D6D6FC21C"]
+			id: "53D7878BF6119CAC"
+			tasks: [{
+				id: "01DF3B9B66CCE750"
+				item: "create_new_age:advanced_motor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["53D7878BF6119CAC"]
+			id: "4A9BB40775E4DF4E"
+			tasks: [{
+				id: "75DC2E02449B9595"
+				item: "create_new_age:reinforced_motor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["39574ED74844904D"]
+			id: "30905B7220247FC2"
+			tasks: [{
+				id: "35458D2552C7B484"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0997DA7CF8ADFBEB"]
+			id: "51AA267031EC96CD"
+			tasks: [{
+				id: "2757F1858DCAC313"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0997DA7CF8ADFBEB"]
+			id: "569484F514A923E6"
+			tasks: [{
+				id: "5F9DD9518E07689B"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0997DA7CF8ADFBEB"]
+			id: "7C9ADD0C8ADD774D"
+			tasks: [{
+				id: "60AAAD4FE7542016"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["51AA267031EC96CD"]
+			id: "6190BABE65103295"
+			tasks: [{
+				id: "61C910EA9C237CE4"
+				item: "create_new_age:redstone_magnet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+	]
+	title: "齿轮与传动轴"
+}

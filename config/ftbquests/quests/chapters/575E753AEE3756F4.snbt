@@ -1,0 +1,862 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "575E753AEE3756F4"
+	group: "634674170BA7361A"
+	icon: "ae2:controller"
+	id: "575E753AEE3756F4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E01000000000010"]
+			description: [
+				"AE2 不是早期必做，但当箱子开始乱、材料开始多、机器开始互相要零件时，它会非常值得投入。"
+				"第一次学 AE2，只抓一条线：先让充能器工作，再用陨石罗盘找陨石，拿到压印模具后做压印器，最后把磁盘仓和终端接成一个能用的 ME 网络。"
+				"不要一开始就追完整自动化。先让所有东西能被一个终端看见，你的基地整理压力就会立刻下降。"
+				"等你已经习惯用终端取放物品，再去碰接口、样板供应器、分子组装器和无线终端。那时它们才会像升级，而不是噪音。"
+			]
+			id: "5702000000000000"
+			tasks: [{
+				id: "5702000000000100"
+				title: "路线导读"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"23627E658125872D"
+				"5702000000000000"
+			]
+			description: [
+				"AE2 的第一个外出目标是陨石。没有压印模具，很多处理器都会卡住。"
+				"陨石罗盘不是装饰品，而是帮你把“我该去哪里找 AE2 材料”变成一个明确方向。"
+				"找到陨石后先把模具带回家，不要在外面边探索边临时加工。AE2 前期最怕材料散在背包里。"
+			]
+			id: "4A5AF0FDE37A1740"
+			tasks: [{
+				id: "5B74A253919CD335"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5702000000000000"]
+			description: [
+				"充能器是 AE2 最基础的开机机器。"
+				"你可以把它理解成一句话：从这台机器开始，原版矿物和材料正式被接到 ME 体系里。"
+				"如果你还没打算一口气学完 AE2，就先把这台和后面的压印器弄懂，已经能跨过最难的入门门槛。"
+			]
+			id: "23627E658125872D"
+			tasks: [{
+				id: "7B0050EF87D72EDA"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A5AF0FDE37A1740"]
+			description: [
+				"四种压印模具是 AE2 处理器线的钥匙。"
+				"AE2 很多东西看起来杂，但本质上大量内容都在围绕处理器运转。"
+				"只要你理解这些压印模具是拿来生产哪几类处理器的，后面整张任务图就会变得有顺序。"
+			]
+			id: "0D6AAD8761B79C7B"
+			tasks: [
+				{
+					id: "2EED3275BBDA8E69"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "128827C9F8D2BA67"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "6E01FAB89B1EDBDE"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "397FA5713BACE9EF"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D6AAD8761B79C7B"]
+			description: [
+				"压印器是 AE2 入门阶段最值得优先自动化的机器。"
+				"前期你可以手搓着做处理器，但很快就会发现这一步最耗人。"
+				"所以新手学 AE2 时，应该尽早形成一个概念：压印器不是临时工作台，而是以后必须批量运转的生产节点。"
+			]
+			id: "0B4873951926F6EA"
+			tasks: [{
+				id: "39495FAD10289DB6"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2880C0A60DA2DA14"]
+			id: "737EABA97A22BE87"
+			tasks: [{
+				id: "05B2BF06BE27AE39"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["737EABA97A22BE87"]
+			id: "5757D1E5E7880CA7"
+			tasks: [{
+				id: "16E938B3A4078B90"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5757D1E5E7880CA7"]
+			id: "68CC5DCBB8B360A3"
+			tasks: [{
+				id: "320A6B2762E96B80"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68CC5DCBB8B360A3"]
+			id: "492877D636ED0A0D"
+			tasks: [{
+				id: "02371D44EA1507E4"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["492877D636ED0A0D"]
+			id: "065327067CB1CDA3"
+			tasks: [{
+				id: "61775BB9DC283612"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23627E658125872D"]
+			description: ["充能赛特斯石英是从普通石英资源走向 AE2 自有材料链的第一步。"]
+			id: "60147B43F07C6315"
+			tasks: [{
+				id: "67866A760B102943"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60147B43F07C6315"]
+			description: ["Fluix 水晶是 AE2 最常见的基础材料之一。做到这里后，控制器、终端和大量网络方块才会真正开始展开。"]
+			id: "43BCC41537FBB338"
+			tasks: [{
+				id: "17D04679A2AD34FD"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"43BCC41537FBB338"
+				"146BD566FCF9657E"
+			]
+			description: ["ME 控制器意味着你的网络开始从零散机器迈向真正成体系的 ME 主网。"]
+			id: "4DCEEB4AAFA95D40"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "104B0CF01D9CE889"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["583A1D9033859A79"]
+			description: ["磁盘仓与容量组件决定你能把多少物资真正纳入 ME 系统。"]
+			id: "2880C0A60DA2DA14"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "70156D0CAB8B7271"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"264CC7C4D0BC8D81"
+				"69D18AF60BC20182"
+				"1FBDECEA7A93552F"
+			]
+			id: "044145E6CA397C6F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "36517AC45B1CC136"
+					item: "ae2:formation_core"
+					type: "item"
+				}
+				{
+					id: "0953815CA1DF279A"
+					item: "ae2:annihilation_core"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5702000000000000"]
+			description: ["接口和样板供应器是自动化的真正起点。前者负责把网络配方送出去，后者负责把配方交给具体机器。"]
+			id: "264CC7C4D0BC8D81"
+			tasks: [
+				{
+					id: "26428EB8BD0F8210"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "2A7EABFE88BABB37"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5702000000000000"]
+			description: ["分子组装器是最基础的 AE2 自动合成执行端。没有它，网络虽然知道配方，但不会真正把东西做出来。"]
+			id: "69D18AF60BC20182"
+			tasks: [{
+				id: "6AF7774CB11B0443"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["21E249892415E899"]
+			id: "75DEB89C19AEB222"
+			tasks: [{
+				id: "26B85A992C9D270C"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75DEB89C19AEB222"]
+			id: "31B7CC86C87EA21F"
+			tasks: [{
+				id: "542C42D254F0C290"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75DEB89C19AEB222"]
+			id: "792C4CF4E8D0B0C9"
+			tasks: [{
+				id: "03AB5C520789B684"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["792C4CF4E8D0B0C9"]
+			id: "62CDC6D19AE39DD1"
+			tasks: [{
+				id: "4D1CECDE020EF805"
+				item: "ae2:4k_crafting_storage"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62CDC6D19AE39DD1"]
+			id: "038E33D9DF64615D"
+			tasks: [{
+				id: "4D584DCDDA92F84C"
+				item: "ae2:16k_crafting_storage"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["038E33D9DF64615D"]
+			id: "5DA034964864838E"
+			tasks: [{
+				id: "128F2D383E6CF019"
+				item: "ae2:64k_crafting_storage"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["044145E6CA397C6F"]
+			id: "21E249892415E899"
+			tasks: [{
+				id: "73F8C851729E7664"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C6521F90E8B7BAA"]
+			id: "5652572A7784A424"
+			tasks: [{
+				id: "11AEA7343AA7C370"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5652572A7784A424"]
+			id: "75CB4AB6C75CF9EB"
+			tasks: [{
+				id: "426553FEF7A71678"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5652572A7784A424"]
+			id: "0D9DC98E7981B363"
+			tasks: [{
+				id: "48199D756FC63A13"
+				item: "ae2:pattern_encoding_terminal"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C6521F90E8B7BAA"]
+			id: "04638E85EC18D1A0"
+			tasks: [{
+				id: "1219E754A7346362"
+				item: "ae2:wireless_receiver"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0ED2397AFD8CFB99"]
+			id: "00506FDCF4FBE836"
+			tasks: [{
+				id: "2846A477D21F57FF"
+				item: {
+					Count: 1
+					id: "ae2:wireless_terminal"
+					tag: {
+						internalCurrentPower: 1600000.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["04638E85EC18D1A0"]
+			id: "0ED2397AFD8CFB99"
+			tasks: [{
+				id: "7FBF30547DC97E9F"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["737EABA97A22BE87"]
+			id: "0D34A067C12A7509"
+			tasks: [
+				{
+					id: "0AF833BCBA39F1F1"
+					item: "ae2:item_cell_housing"
+					type: "item"
+				}
+				{
+					id: "2C8B34F272EB01B2"
+					item: "ae2:fluid_cell_housing"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31B7CC86C87EA21F"]
+			id: "7A2DBCBDD6F6D58C"
+			tasks: [{
+				id: "4F5946DE34783066"
+				item: "extendedae_plus:4x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A2DBCBDD6F6D58C"]
+			id: "5E1628802F184DEB"
+			tasks: [{
+				id: "072A7DFBC9664869"
+				item: "extendedae_plus:16x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5E1628802F184DEB"]
+			id: "4D927EDBD0B7917D"
+			tasks: [{
+				id: "63CD55B14D3CC04D"
+				item: "extendedae_plus:64x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4D927EDBD0B7917D"]
+			id: "02D8B4F158AE2EB6"
+			tasks: [{
+				id: "798BAE7BB6FE999F"
+				item: "extendedae_plus:256x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["02D8B4F158AE2EB6"]
+			id: "008197C28CB19E04"
+			tasks: [{
+				id: "315D960698C19988"
+				item: "extendedae_plus:1024x_crafting_accelerator"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43BCC41537FBB338"]
+			id: "6BED8CC9FB311115"
+			tasks: [{
+				id: "194B88BBEEFFF72D"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6BED8CC9FB311115"]
+			id: "2A746FF7FE2F6C7A"
+			tasks: [{
+				id: "7BB3CCC0F54CB537"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A746FF7FE2F6C7A"]
+			id: "61F7DB87DE8B2A73"
+			tasks: [{
+				id: "07439354F1881FFF"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0B4873951926F6EA"]
+			id: "371B245EF71A33C8"
+			tasks: [
+				{
+					id: "7831DB70CE824B79"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "0DD0D49C57C011B8"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "453AECC09A47E4D8"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "74121DADA846F65A"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["371B245EF71A33C8"]
+			id: "146BD566FCF9657E"
+			tasks: [
+				{
+					id: "6311FF2DD826BC69"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "57C497C67166C67E"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "61D126D9706DF314"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DCEEB4AAFA95D40"]
+			id: "100C39957991A397"
+			tasks: [{
+				id: "1DD799FCBF4A1590"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C6521F90E8B7BAA"]
+			id: "63971C8A991D7E09"
+			tasks: [
+				{
+					id: "27DB903DDA641F9C"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+				{
+					id: "563D033BB0445A9B"
+					item: "ae2:import_bus"
+					type: "item"
+				}
+				{
+					id: "5927999A95D0EE93"
+					item: "ae2:export_bus"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A746FF7FE2F6C7A"]
+			id: "035D05E51D011E18"
+			tasks: [{
+				id: "081FFCC6B84A431D"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6BED8CC9FB311115"]
+			description: ["这里开始处理面板、总线和接口，重点是把人和网络、机器和网络连起来。"]
+			id: "7C6521F90E8B7BAA"
+			tasks: [{
+				id: "022E7A1FA7CB1B36"
+				title: "面板与接口"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4DCEEB4AAFA95D40"]
+			id: "583A1D9033859A79"
+			tasks: [{
+				id: "602BDA614AB00B5A"
+				title: "存储系统"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DCEEB4AAFA95D40"]
+			description: ["这是 AE2 自动化线的起点。之后你做的不是单台机器，而是可扩展的样板工厂。"]
+			id: "1FBDECEA7A93552F"
+			tasks: [{
+				id: "32EC1E67E40C6C00"
+				title: "自动化系统"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C6521F90E8B7BAA"]
+			id: "737CD058BAE77449"
+			tasks: [
+				{
+					id: "546ED2BC4E4F5911"
+					item: "ae2:storage_monitor"
+					type: "item"
+				}
+				{
+					id: "221F2059ABC47473"
+					item: "ae2:conversion_monitor"
+					type: "item"
+				}
+				{
+					id: "2DB30F100F9BA8F8"
+					item: "ae2:pattern_access_terminal"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00506FDCF4FBE836"]
+			description: ["无线终端把 ME 网络从基地内部带到野外，是后期体验差异最大的质量提升之一。"]
+			id: "34E09C8802CD986D"
+			tasks: [
+				{
+					id: "44AC902297FC2F2B"
+					item: {
+						Count: 1
+						id: "ae2:wireless_crafting_terminal"
+						tag: {
+							internalCurrentPower: 1600000.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46B6B47CBFB61BE6"
+					item: {
+						Count: 1
+						id: "ae2wtlib:wireless_pattern_encoding_terminal"
+						tag: {
+							internalCurrentPower: 1600000.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B37F94D65635030"
+					item: {
+						Count: 1
+						id: "ae2wtlib:wireless_pattern_access_terminal"
+						tag: {
+							internalCurrentPower: 1600000.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["34E09C8802CD986D"]
+			id: "6A9E988289CAABB3"
+			tasks: [{
+				id: "04A25D15F26F1866"
+				item: {
+					Count: 1
+					id: "ae2wtlib:wireless_universal_terminal"
+					tag: {
+						internalCurrentPower: 1600000.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["00506FDCF4FBE836"]
+			id: "468FF095073B1AF2"
+			tasks: [
+				{
+					id: "1A0497797BA1A245"
+					item: "meplacementtool:me_placement_tool"
+					type: "item"
+				}
+				{
+					id: "278678D15BAFD8C2"
+					item: "meplacementtool:multiblock_placement_tool"
+					type: "item"
+				}
+				{
+					id: "3332485692A15D44"
+					item: "meplacementtool:me_cable_placement_tool"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["264CC7C4D0BC8D81"]
+			id: "3F2A620FCBD54BD4"
+			tasks: [
+				{
+					id: "75CA7A3F038B8E96"
+					item: "expatternprovider:ex_pattern_provider"
+					type: "item"
+				}
+				{
+					id: "201D45DF14B7E974"
+					item: "expatternprovider:ex_interface"
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69D18AF60BC20182"]
+			id: "2B32CA3FC1018554"
+			tasks: [{
+				id: "0CD19E6D46F84F9C"
+				item: "expatternprovider:ex_molecular_assembler"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B4873951926F6EA"]
+			id: "2E27F754BD707EEA"
+			tasks: [{
+				id: "3ECC93E0C6EF6B21"
+				item: "expatternprovider:ex_inscriber"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["23627E658125872D"]
+			id: "595CA90969095603"
+			tasks: [{
+				id: "47B92A7B33772CA5"
+				item: "expatternprovider:ex_charger"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61F7DB87DE8B2A73"]
+			id: "634E5F4AA17C15DB"
+			tasks: [{
+				id: "0C33B60C57C66A91"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61F7DB87DE8B2A73"]
+			id: "4FF8DCFF4C65B81B"
+			tasks: [{
+				id: "6C1DB0C1100DEB21"
+				item: "expatternprovider:wireless_hub"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["61F7DB87DE8B2A73"]
+			id: "7775E3FD3C3B035E"
+			tasks: [
+				{
+					count: 8L
+					id: "0AF79F2745A48CED"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					id: "6F96AC3982BB3A85"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 10.0d
+		}
+	]
+	title: "自动化生产"
+}

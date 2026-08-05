@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "1932028AE2A3EB8D", title: "见闻与探索者" }
+		{ id: "634674170BA7361A", title: "技术与工程师" }
+		{ id: "6B135ADAEF98CFDF", title: "奥术与魔法师" }
+		{ id: "6AEED075A264200B", title: "工具与锻造师" }
+		{ id: "38C5EA8637E52202", title: "旅行与美食家" }
+	]
+}

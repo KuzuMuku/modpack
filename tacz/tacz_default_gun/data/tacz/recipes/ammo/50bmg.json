@@ -1,0 +1,34 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/steel"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:plates/brass"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:rods/blaze"
+      }
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "lc_specialized",
+    "id": "tacz:50bmg",
+    "count": 20
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

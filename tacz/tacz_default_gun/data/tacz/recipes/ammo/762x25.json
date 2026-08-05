@@ -1,0 +1,29 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/brass"
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:plates/brass"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "pd_cartridges",
+    "id": "tacz:762x25",
+    "count": 50
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

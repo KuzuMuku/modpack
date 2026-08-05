@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2A4C7E91B6F0D3A1"
+	group: "38C5EA8637E52202"
+	icon: "twilightdelight:hydra_burger"
+	id: "2A4C7E91B6F0D3A1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A07000000000002"]
+			description: ["先用烹饪锅和已解锁的维度食材做出真正的远征料理。异界料理线的重点不是收藏，而是把特殊食材变成稳定增益。"]
+			id: "2C07000000000001"
+			optional: true
+			tasks: [{
+				id: "2C07000000000101"
+				item: "create_central_kitchen:cooking_guide"
+				type: "item"
+			}]
+			title: "异界食谱"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2A07000000000002"
+				"654A8A0E9770844D"
+			]
+			description: ["火炬莓果汁是暮色食材转化为补给品的第一步。先学会把维度特产做成便携饮品。"]
+			id: "2C07000000000002"
+			optional: true
+			tasks: [{
+				id: "2C07000000000102"
+				item: "twilightdelight:torchberry_juice"
+				type: "item"
+			}]
+			title: "暮色果饮"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2A07000000000002"
+				"493BF3DC21914799"
+			]
+			description: ["击败九头蛇后，把它的素材真正变成料理。Boss 战利品不只该做武器，也可以成为远征强补给。"]
+			id: "2C07000000000003"
+			optional: true
+			tasks: [{
+				id: "2C07000000000103"
+				item: "twilightdelight:hydra_burger"
+				type: "item"
+			}]
+			title: "九头蛇大餐"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2A07000000000002"
+				"4DE28097D8377425"
+			]
+			description: ["天境花茶是典型的空岛轻量补给。它比重餐更适合高机动探索时随身携带。"]
+			id: "2C07000000000004"
+			optional: true
+			tasks: [{
+				id: "2C07000000000104"
+				item: "aetherdelight:aetherflower_tea"
+				type: "item"
+			}]
+			title: "天境花茶"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2A07000000000002"
+				"4DE28097D8377425"
+			]
+			description: ["鹌鹑炖菜更像一顿完整主餐。空岛料理不只是轻食，也能承担长时间远征的续航。"]
+			id: "2C07000000000005"
+			optional: true
+			tasks: [{
+				id: "2C07000000000105"
+				item: "aetherdelight:quail_stew"
+				type: "item"
+			}]
+			title: "云端炖菜"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2C07000000000004"
+				"2C07000000000005"
+			]
+			description: ["黄金叶沙拉适合作为天境资源线的收束节点，说明你已经能把空岛食材稳定转成增益料理。"]
+			id: "2C07000000000006"
+			optional: true
+			tasks: [{
+				id: "2C07000000000106"
+				item: "aetherdelight:goldenleaf_salad"
+				type: "item"
+			}]
+			title: "空岛盛宴"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2C07000000000001"]
+			description: ["中央厨房的价值在于把料理自动化。先做出桶装番茄酱，理解搅拌、灌装和批量处理的思路。"]
+			id: "2C07000000000007"
+			optional: true
+			tasks: [{
+				id: "2C07000000000107"
+				item: "create_central_kitchen:tomato_sauce_bucket"
+				type: "item"
+			}]
+			title: "厨房自动化"
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	title: "异界料理"
+}

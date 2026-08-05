@@ -1,0 +1,29 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/steel"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:plates/iron"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "ifp_rifle_cartridges",
+    "id": "tacz:68x51fury",
+    "count": 30
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

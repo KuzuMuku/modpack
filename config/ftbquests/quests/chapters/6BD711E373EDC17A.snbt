@@ -1,0 +1,1037 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6BD711E373EDC17A"
+	group: "6AEED075A264200B"
+	icon: {
+		Count: 1
+		id: "cataclysm:ignitium_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6BD711E373EDC17A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E01000000000010"]
+			description: [
+				"这一页改成按整套看，不再把头盔胸甲护腿靴子拆成四个格子。"
+				"阅读方式很简单：`原版套 -> Mekanism 套 -> 特殊路线套 -> 终局套`。想查一套值不值得做，就直接点那一整套。"
+				"如果某套的制作不直观，描述里会直接写前置路线，例如 `Mekanism 精炼链`、`龙锻炉`、`幽冥之地`、`Cataclysm 遗迹 / Boss`。"
+			]
+			id: "6B04000000000000"
+			optional: true
+			tasks: [{
+				id: "6B04000000000100"
+				title: "如何使用护甲词典"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B04000000000000"]
+			description: [
+				"`原版入门套`。皮革套主要是过渡和附魔底子，真正战斗强度很一般。"
+				"除非你前期特别缺防具，或者急着做点基础附魔，不然它更多是临时穿。"
+			]
+			id: "6B04000000000001"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000101"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000102"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000103"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000104"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "皮革套"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B04000000000000"]
+			description: [
+				"`原版过渡套`。锁链套比皮革更像真正护甲，但获取通常比铁套更看运气。"
+				"它更像战利品套，不是推荐你专门去量产的主路线。"
+			]
+			id: "6B04000000000002"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000105"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000106"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000107"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000108"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "锁链套"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B04000000000000"]
+			description: [
+				"`原版标准套`。铁套是主世界最基础的正式护甲线，任何玩家都绕不过。"
+				"如果你还没进模组套，这一套就是早期下矿、跑地牢和找结构的底线。"
+			]
+			id: "6B04000000000003"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000109"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000010A"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000010B"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000010C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "铁套"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B04000000000000"]
+			description: [
+				"`原版特殊套`。金套防御不高，但在某些环境里能省很多麻烦。"
+				"如果只是拿来正常抗伤，它不如铁套和钻石套；更适合功能用途。"
+			]
+			id: "6B04000000000004"
+			optional: true
+			tasks: [
+				{
+					id: "6B0400000000010D"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000010E"
+					item: {
+						Count: 1
+						id: "minecraft:golden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000010F"
+					item: {
+						Count: 1
+						id: "minecraft:golden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000110"
+					item: {
+						Count: 1
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "金套"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B04000000000000"]
+			description: [
+				"`原版中期套`。钻石套是很多模组套之前的默认中期护甲。"
+				"如果你的模组路线还没铺起来，先把钻套和附魔做稳，整包流程会舒服很多。"
+			]
+			id: "6B04000000000005"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000111"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000112"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000113"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000114"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "钻石套"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6B04000000000000"]
+			description: [
+				"`原版后期套`。下界合金套在很多整合包里只是过渡终装，不一定真毕业。"
+				"但如果你还没转向模组高阶护甲，它依然是非常扎实的一整套。"
+			]
+			id: "6B04000000000006"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000115"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000116"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000117"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000118"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "下界合金套"
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["654A8A0E9770844D"]
+			description: [
+				"`Mekanism 早中期套`。青铜套比原版铁套更像稳定工业过渡装。"
+				"如果你先推了 Mekanism 的基础冶炼，这套会比单纯硬攒钻石更顺手。"
+			]
+			id: "6B04000000000007"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000119"
+					item: {
+						Count: 1
+						id: "mekanismtools:bronze_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000011A"
+					item: {
+						Count: 1
+						id: "mekanismtools:bronze_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000011B"
+					item: {
+						Count: 1
+						id: "mekanismtools:bronze_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000011C"
+					item: {
+						Count: 1
+						id: "mekanismtools:bronze_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "青铜套"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["654A8A0E9770844D"]
+			description: [
+				"`Mekanism 早中期套`。钢套适合已经把工业线跑顺、想比青铜更稳一点的时候。"
+				"如果你主线推进偏工业而不是冒险，这套会很自然地接在前面。"
+			]
+			id: "6B04000000000008"
+			optional: true
+			tasks: [
+				{
+					id: "6B0400000000011D"
+					item: {
+						Count: 1
+						id: "mekanismtools:steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000011E"
+					item: {
+						Count: 1
+						id: "mekanismtools:steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000011F"
+					item: {
+						Count: 1
+						id: "mekanismtools:steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000120"
+					item: {
+						Count: 1
+						id: "mekanismtools:steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "钢套"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["654A8A0E9770844D"]
+			description: [
+				"`Mekanism 过渡套`。锇套是最经典的 Mekanism 护甲起点，比原版钻套更早接到工业路线。"
+				"如果你不想一直穿原版套，这套非常值得做整套。"
+			]
+			id: "6B04000000000009"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000121"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000122"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000123"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000124"
+					item: {
+						Count: 1
+						id: "mekanismtools:osmium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "锇套"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["654A8A0E9770844D"]
+			description: [
+				"`Mekanism 特化套`。青金石套更像功能和趣味型中期护甲，不是最硬的一条线。"
+				"如果你只是追纯防御，优先级通常不如锇套和后面的精炼套。"
+			]
+			id: "6B0400000000000A"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000125"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000126"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000127"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000128"
+					item: {
+						Count: 1
+						id: "mekanismtools:lapis_lazuli_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "青金石套"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A2E31B1E217A5FB"]
+			description: [
+				"`Mekanism 坦型套`。精炼黑曜石套就是整页里最典型的中后期抗压护甲。"
+				"前提是你先把 Mekanism 精炼链和黑曜石材料线跑通；做出来后非常适合近战、Boss 和高压遗迹。"
+			]
+			id: "6B0400000000000B"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000129"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000012A"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000012B"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000012C"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_obsidian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "精炼黑曜石套"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A2E31B1E217A5FB"]
+			description: [
+				"`Mekanism 机动套`。精炼萤石套适合枪械、法术、远程和高走位玩家。"
+				"做法同样吃 Mekanism 精炼链，只是路线从黑曜石转到萤石。"
+			]
+			id: "6B0400000000000C"
+			optional: true
+			tasks: [
+				{
+					id: "6B0400000000012D"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_glowstone_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000012E"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_glowstone_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000012F"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_glowstone_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000130"
+					item: {
+						Count: 1
+						id: "mekanismtools:refined_glowstone_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "精炼萤石套"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4741AC78B1449E7B"]
+			description: [
+				"`冰火后期套`。火龙钢套是冰火路线最标准的高危狩猎回报。"
+				"你得先打龙、拿龙血、搭龙锻炉、烧龙钢锭；真正难的是整条前置，不是合成表。"
+			]
+			id: "6B0400000000000D"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000131"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000132"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000133"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000134"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "火龙钢套"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4741AC78B1449E7B"]
+			description: [
+				"`冰火后期套`。冰龙钢套和火龙钢套同级，只是依赖冰系龙血。"
+				"如果你更早稳定打冰龙，这一套会比火龙钢更自然。"
+			]
+			id: "6B0400000000000E"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000135"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000136"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000137"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000138"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "冰龙钢套"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4741AC78B1449E7B"]
+			description: [
+				"`冰火终盘套`。雷龙钢套对应更后段的雷龙路线，属于真正的高阶套装。"
+				"想做这一套，先确认你已经能稳定处理雷龙和雷龙血。"
+			]
+			id: "6B0400000000000F"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000139"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000013A"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000013B"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000013C"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "雷龙钢套"
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10409A9A134A3856"]
+			description: [
+				"`主线后期套`。监守者套跟着幽冥之地和 Otherside 推进，自然就会进入你的视野。"
+				"如果你偏主线而不是冰火支线，这通常是更顺手的一条高阶护甲路线。"
+			]
+			id: "6B04000000000010"
+			optional: true
+			tasks: [
+				{
+					id: "6B0400000000013D"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000013E"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B0400000000013F"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B04000000000140"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "监守者套"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C04000000000006"]
+			description: [
+				"`Cataclysm 战利装`。骨爬虫头盔不是整套，而是高危遗迹里的特殊战利品。"
+				"因为它本身不是成套护甲，这里单独列出来，方便你知道这件值不值得留。"
+			]
+			id: "6B04000000000011"
+			optional: true
+			tasks: [{
+				id: "6B04000000000141"
+				item: {
+					Count: 1
+					id: "cataclysm:bone_reptile_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "骨爬虫头盔"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10409A9A134A3856"]
+			description: [
+				"`Cataclysm 终局套`。点燃套就是这包最明确的终局护甲候选之一。"
+				"你得先稳定拿到点燃锭，再把 Cataclysm 的高阶遗迹和 Boss 收益真正穿到身上。"
+			]
+			id: "6B04000000000012"
+			optional: true
+			tasks: [
+				{
+					id: "6B04000000000142"
+					item: "cataclysm:ignitium_helmet"
+					type: "item"
+				}
+				{
+					id: "6B04000000000143"
+					item: "cataclysm:ignitium_chestplate"
+					type: "item"
+				}
+				{
+					id: "6B04000000000144"
+					item: "cataclysm:ignitium_leggings"
+					type: "item"
+				}
+				{
+					id: "6B04000000000145"
+					item: "cataclysm:ignitium_boots"
+					type: "item"
+				}
+			]
+			title: "点燃套"
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B04000000000012"]
+			description: [
+				"如果你只想抄一条最稳的护甲升级路线，可以按 `铁 / 钻 -> 锇 -> 精炼黑曜石或精炼萤石 -> 龙钢或监守者 -> 点燃套`。"
+				"`黑曜石 = 抗压`，`萤石 = 机动`，`龙钢 = 冰火线`，`监守者 = 主线线`，`点燃 = 终局`。"
+			]
+			id: "6B04000000000013"
+			optional: true
+			tasks: [{
+				id: "6B04000000000146"
+				title: "推荐抄作业路线"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+	title: "防御装具"
+}

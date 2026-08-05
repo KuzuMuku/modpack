@@ -1,0 +1,464 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6FD8B00902A991B7"
+	group: "6B135ADAEF98CFDF"
+	icon: "ars_nouveau:novice_spell_book"
+	id: "6FD8B00902A991B7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E01000000000001"]
+			description: [
+				"§6Ars Nouveau 更像一本会成长的工具书。§r"
+				"它一开始不一定让你伤害爆炸，但会很快改善照明、挖矿、位移、采集和简单战斗。等你有了稳定 Source 供给，它才会慢慢展开成基地装置、使魔和自动化。"
+				"如果你喜欢自己拼法术、把一个技能栏改成适合自己的工具箱，就从这里开始。"
+				"给家里留一块奥术工作区会很有帮助，因为 Ars 后面不是只靠一本书，而是靠一套供魔和加工网络。"
+			]
+			id: "6F02000000000000"
+			optional: true
+			tasks: [{
+				id: "6F02000000000100"
+				title: "路线导读"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E01000000000001"]
+			description: [
+				"§6新手法术书是 Ars 的起点，也是你的第一本可编辑技能栏。§r"
+				"先别急着追高伤害，先试试照明、挖掘、位移和简单输出。它们会让你日常探索立刻顺手很多。"
+				"如果你想玩的是自己设计法术，而不是等掉落给技能，这一章就是那条路。"
+			]
+			id: "6F01000000000001"
+			tasks: [{
+				id: "6F01000000000101"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "新手法术书"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F01000000000001"]
+			description: [
+				"§6先学会读懂一条 Ars 法术。§r"
+				"一条法术大致分三段：怎么放出去、放出去后做什么、要不要强化效果。"
+				"比如 Projectile 决定它飞出去，Harm 决定它造成伤害，后面的强化符文再改变范围、强度或持续时间。"
+				"§a先理解这套语法，比直接抄十个法术更有用。§r"
+			]
+			id: "6F02000000000001"
+			optional: true
+			tasks: [{
+				id: "6F02000000000101"
+				title: "先看懂法术结构"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F01000000000001"]
+			description: [
+				"抄写台相当于 Ars 的主工作台。"
+				"你后面写符文、补法术部件、做很多基础奥术材料，都要围着它转。"
+				"先记住一点：Ars 不是先做高级装备，而是先把这张桌子和书用熟。只要会读书、会写部件，后面整条线都会顺很多。"
+			]
+			id: "6F01000000000002"
+			tasks: [{
+				id: "6F01000000000102"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "抄写台"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F01000000000002"]
+			description: [
+				"空白符文是 Ars 法术设计真正开始的信号。"
+				"从这一步起，你就不要把法术书当成普通武器了，而要把它当成一个可编辑的技能栏。"
+				"建议新手先从最实用的法术思路试起，比如位移、挖掘、照明、简单输出，不要一上来就追求华丽连锁。"
+			]
+			id: "6F01000000000003"
+			tasks: [{
+				id: "6F01000000000103"
+				item: "ars_nouveau:blank_glyph"
+				type: "item"
+			}]
+			title: "空白符文"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F01000000000003"]
+			description: [
+				"§6给新手的第一套常用法术栏建议是：一个照明或夜视法术，一个基础伤害法术，一个挖掘或采集法术，一个位移或保命法术。§r"
+				"Ars 前期最强的地方不是秒人，而是让你几乎所有日常动作都更顺手。"
+				"§e先让生活和探索效率提升，再慢慢往连锁输出和复杂套路发展，会比一上来只盯着伤害舒服很多。§r"
+			]
+			id: "6F02000000000002"
+			optional: true
+			tasks: [{
+				id: "6F02000000000102"
+				title: "前期推荐法术位"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F01000000000002"]
+			description: [
+				"§6很多人第一次玩 Ars 会卡在这里：法术会放，但 Source 不够。§r"
+				"魔源罐的意义就是把散落的魔源变成你能储存、调度、后续扩建的基础设施。"
+				"§a从这里开始，你要慢慢建立一个概念：Ars 不是只看书上的法术，而是看你家里有没有一整套供魔网络。§r"
+			]
+			id: "6F01000000000004"
+			tasks: [{
+				id: "6F01000000000104"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			title: "魔源罐"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6F01000000000004"]
+			description: [
+				"§6从魔源罐开始，你要把 Ars 当成一条基建线来看。§r"
+				"你后面所有更频繁的施法、使魔工作、仪式、自动化和高级装置，几乎都要吃 Source。也就是说，法术强不强，不只看书里写了什么，也看你家里供魔能不能跟上。"
+				"§eArs 玩家中期最重要的进步，往往不是多学一个伤害法术，而是第一次建立稳定的 Source 产线。§r"
+			]
+			id: "6F02000000000003"
+			optional: true
+			tasks: [{
+				id: "6F02000000000103"
+				title: "开始理解供魔"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6F01000000000003"
+				"6F01000000000004"
+			]
+			description: [
+				"附魔装置是 Ars 从“能用”走向“成型”的关键工作站。"
+				"很多中级装备、核心部件和真正能改变玩法的奥术物品，都要在这里完成。"
+				"如果前面抄写台教你的是怎么写法术，这一步教你的就是怎么把法术体系落到装备和构筑上。"
+			]
+			id: "6F01000000000005"
+			tasks: [{
+				id: "6F01000000000105"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			title: "附魔装置"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F01000000000005"]
+			description: [
+				"魔花种子意味着你已经能开始经营 Ars 自己的稳定作物线。"
+				"魔花纤维会频繁用于装备与工艺，所以这不是一个“做出来就算完”的节点，而是建议你尽快量产。对新手来说，把魔花当成 Ars 版的小麦或甘蔗会更容易理解。"
+			]
+			id: "6F02000000000004"
+			tasks: [{
+				id: "6F02000000000104"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			title: "魔花种子"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F02000000000004"]
+			description: [
+				"魔花纤维是 Ars 很多中期装备和耗材的共通材料。"
+				"一旦这东西开始稳定入库，你后面做衣服、线材和若干进阶物品的节奏就会舒服很多。"
+			]
+			id: "6F02000000000005"
+			tasks: [{
+				id: "6F02000000000105"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			title: "魔花纤维"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F01000000000005"]
+			description: [
+				"注魔室负责一批非常核心的中期材料与转化。"
+				"如果说附魔装置是你把散件放到祭坛上组合起来，注魔室更像是在做持续加工和正式材料升级。很多玩家在这里才会第一次感觉到 Ars 的工艺线开始真正展开。"
+			]
+			id: "6F02000000000006"
+			tasks: [{
+				id: "6F02000000000106"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			title: "注魔室"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F01000000000005"]
+			description: [
+				"源宝石是 Ars 中期很常见的重要材料。"
+				"当你开始稳定做出它时，说明你的 Source、基础工艺和前置材料线已经差不多接上了，可以开始向更像“魔法工业”的玩法迈进。"
+			]
+			id: "6F02000000000007"
+			tasks: [{
+				id: "6F02000000000107"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "源宝石"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F01000000000005"]
+			description: [
+				"§6学徒法术书代表你已经从“试玩施法”进入“正式培养法术流派”的阶段。§r"
+				"做到这一步后，建议你回头整理一下自己的法术栏：留下真正常用的移动、资源、保命和主输出技能，不要把书塞成什么都会但什么都不好用。"
+				"§aArs 的中期强度，很大程度上取决于你有没有形成一套稳定的施法顺序。§r"
+			]
+			id: "6F01000000000006"
+			tasks: [{
+				id: "6F01000000000106"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "学徒之书"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F01000000000005"]
+			description: [
+				"§6仪式火盆是 Ars 中期扩张的关键节点。§r"
+				"从这里开始，你不只是自己施法，而是开始布置仪式、召来生物、改变家里的资源组织方式。"
+				"§e仪式的价值往往不在瞬间战力，而在长期收益和玩法扩展。§r如果你已经有稳定住处和供魔，就可以把 Ars 从“法术工具”升级成“家里的一整套系统”。"
+			]
+			id: "6F02000000000008"
+			tasks: [{
+				id: "6F02000000000108"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			title: "仪式火盆"
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F02000000000008"]
+			description: [
+				"Source Link 才是 Ars 真正进入自动化的开始。"
+				"它们负责把农作物、怪物、菌类、熔岩等系统转成 Source，再回流到你的罐子和装置里。对新手来说，可以先记成一句话：法术书决定你能做什么，Source Link 决定你能不能一直做。"
+			]
+			id: "6F02000000000009"
+			optional: true
+			tasks: [{
+				id: "6F02000000000109"
+				title: "Source Link 是什么"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F02000000000008"]
+			description: [
+				"农耕 Source Link 适合最容易理解的前中期供魔。"
+				"如果你家里已经有作物、骨粉或简单农场，它通常是最平滑的入门选择。对新手来说，这类供魔最容易和现有基地结合。"
+			]
+			id: "6F0200000000000A"
+			tasks: [{
+				id: "6F0200000000010A"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			title: "农耕供魔"
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F02000000000008"]
+			description: [
+				"生命 Source Link 更适合和生物、治疗或生命流玩法结合。"
+				"如果你已经有怪物处理、动物或战斗循环，它会比单纯种地更有意思，但也更需要你理解整体资源流。"
+			]
+			id: "6F0200000000000B"
+			tasks: [{
+				id: "6F0200000000010B"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			title: "生命供魔"
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F02000000000008"]
+			description: [
+				"菌丝 Source Link 更偏某些特定环境和材料路线。"
+				"它不是最直观的第一选择，但如果你的基地本来就围绕相关生态展开，它能提供非常稳定的补充 Source。"
+			]
+			id: "6F0200000000000C"
+			tasks: [{
+				id: "6F0200000000010C"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			title: "菌系供魔"
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F02000000000008"]
+			description: [
+				"熔岩 Source Link 更像一条偏工业感的供魔路线。"
+				"它往往适合你已经有较成熟基建、能处理热源和方块转化的时候再接入。前期不是唯一答案，但后期很值得研究。"
+			]
+			id: "6F0200000000000D"
+			tasks: [{
+				id: "6F0200000000010D"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			title: "熔岩供魔"
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F02000000000008"]
+			description: [
+				"星宝精灵负责最早也最直观的 Ars 物流。"
+				"它们会搬东西、捡物品、照顾部分日常运输，是把 Ars 从“施法模组”推进到“基地模组”的第一步。对新手来说，星宝最大的意义不是可爱，而是让你第一次看见 Ars 自动化活起来。"
+			]
+			id: "6F0200000000000E"
+			tasks: [{
+				id: "6F0200000000010E"
+				item: "ars_nouveau:starbuncle_charm"
+				type: "item"
+			}]
+			title: "星宝精灵"
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6F0200000000000E"]
+			description: [
+				"支配魔杖是你真正开始指挥 Ars 生物与装置的工具。"
+				"很多精灵、床位、物流点位和行为绑定都离不开它。做出来以后，记得把它当成配置工具，而不是战斗武器。"
+			]
+			id: "6F0200000000000F"
+			tasks: [{
+				id: "6F0200000000010F"
+				item: "ars_nouveau:dominion_wand"
+				type: "item"
+			}]
+			title: "支配魔杖"
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6F02000000000008"]
+			description: [
+				"旋叶精灵偏向自然产物和环境经营。"
+				"如果你想让 Ars 帮你照顾木头、种子、花和部分自然资源，它会非常好用。适合把它放进长期基地，而不是只在短期战斗里考虑。"
+			]
+			id: "6F02000000000010"
+			tasks: [{
+				id: "6F02000000000110"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			title: "旋叶精灵"
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6F02000000000008"]
+			description: [
+				"Drygmy 是 Ars 最重要的掉落与经验生产者之一。"
+				"它能把附近生物的掉落转成长期收益，所以它对整包价值非常高，尤其适合拿来补器官来源、稀有掉落和经验宝石。理解 Drygmy，基本就等于理解 Ars 为什么能和整包其他章节深度联动。"
+			]
+			id: "6F02000000000011"
+			tasks: [{
+				id: "6F02000000000111"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			title: "Drygmy"
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6F02000000000008"]
+			description: [
+				"Wilden Tribute 标志着你已经能把 Ars 的野外战斗与仪式系统接起来。"
+				"它不仅是一个 Boss 奖励，也意味着你开始有资格进入更高阶的仪式、装备和书本发展。"
+			]
+			id: "6F02000000000012"
+			tasks: [{
+				id: "6F02000000000112"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			title: "Wilden Tribute"
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6F01000000000006"
+				"6F02000000000012"
+			]
+			description: [
+				"大法师之书说明你已经不只是“会用 Ars”，而是已经能支撑更高阶法术和更大的法术栏。"
+				"走到这里后，建议你重新规划整本书：保留一套常驻探索法术、一套战斗法术和一套基地工具法术。Ars 的真正强度，来自你愿不愿意把它按场景拆成多套而不是一套包打天下。"
+			]
+			id: "6F02000000000013"
+			tasks: [{
+				id: "6F02000000000113"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			title: "大法师之书"
+			x: 20.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F01000000000006"]
+			description: [
+				"学徒阶段后，最重要的事情不是继续乱加新法术，而是把法术书按场景整理。"
+				"推荐至少有三套思路：日常探索套、资源采集套、战斗套。Ars 一旦这样用起来，体验会比把所有功能混在一本书里强很多。"
+			]
+			id: "6F02000000000014"
+			optional: true
+			tasks: [{
+				id: "6F02000000000114"
+				title: "把 Ars 当工具箱而不是单技能"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+	]
+	title: "学徒魔法"
+}

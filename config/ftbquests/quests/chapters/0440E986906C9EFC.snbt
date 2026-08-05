@@ -1,0 +1,1759 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0440E986906C9EFC"
+	group: "6AEED075A264200B"
+	icon: {
+		Count: 1
+		id: "tacz:modern_kinetic_gun"
+		tag: {
+			GunCurrentAmmoCount: 8
+			GunFireMode: "SEMI"
+			GunId: "tacz:timeless50"
+			HasBulletInBarrel: 1b
+		}
+	}
+	id: "0440E986906C9EFC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E01000000000010"]
+			description: [
+				"枪械线适合想要稳定远程火力的玩家，但别一上来就奔着大狙和机枪。"
+				"先用手枪或便宜步枪练手，再准备一把近距离副枪，等弹药和换弹节奏熟了，再考虑狙击、机枪或火箭筒。"
+				"看枪时先看材料门槛：铁和木头是入门，金、青金石和石英开始进入中期，钻石、烈焰棒和下界合金就要认真考虑成本。"
+			]
+			id: "4402000000000000"
+			optional: true
+			tasks: [{
+				id: "4402000000000010"
+				title: "如何使用枪械词典"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["4402000000000000"]
+			description: ["枪匠台是 TACZ 武器线的基础工作台。先有它，后面才谈得上配枪、弹药和测试。"]
+			id: "01ADD7C301E0A595"
+			tasks: [{
+				id: "434229B2EE6E8B4A"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			title: "枪匠台"
+			x: 6.5d
+			y: -12.0d
+		}
+		{
+			description: ["把靶子立起来，确认你的枪械线已经从“做出来”走到“真正开始调校和实战测试”。"]
+			id: "4401000000000005"
+			tasks: [{
+				id: "4401000000000015"
+				item: "tacz:target"
+				type: "item"
+			}]
+			title: "靶场校准"
+			x: 4.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2AD44820749D508B"]
+			description: [
+				"`T1 手枪`。格洛克 17 是最典型的开荒副武器，重量轻、后坐小、弹药也便宜。"
+				"做法基本就是铁锭直做，门槛很低；如果你只是想先有一把能防身的枪，优先做它。"
+			]
+			id: "4403000000000001"
+			optional: true
+			tasks: [{
+				id: "4403000000000101"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:glock_17"
+					}
+				}
+				type: "item"
+			}]
+			title: "格洛克 17 手枪"
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["10B950B4238226A3"]
+			description: [
+				"`T1 手枪`。M1911 手感朴素但非常稳，适合刚接触 TacZ 的玩家练习瞄准和换弹。"
+				"材料依旧很便宜，通常只吃铁和少量木料，是标准的早期副武器。"
+			]
+			id: "4403000000000002"
+			optional: true
+			tasks: [{
+				id: "4403000000000102"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m1911"
+					}
+				}
+				type: "item"
+			}]
+			title: "M1911 手枪"
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2AD44820749D508B"]
+			description: [
+				"`T1 手枪`。伯莱塔 M9A4 是很均衡的现代手枪，既适合纯副武器，也适合前期单独拿来跑图。"
+				"做法便宜，通常只需要铁锭再补少量辅料，新手基本不会卡在材料上。"
+			]
+			id: "4403000000000003"
+			optional: true
+			tasks: [{
+				id: "4403000000000103"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m9a4"
+					}
+				}
+				type: "item"
+			}]
+			title: "伯莱塔 M9A4 手枪"
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2AD44820749D508B"]
+			description: [
+				"`T1 手枪`。CZ 75 自动手枪属于比较顺手的连续射击副武器，适合你想让近距离补枪更快的时候。"
+				"做法仍是前期材料强度，基本铁锭即可落地。"
+			]
+			id: "4403000000000004"
+			optional: true
+			tasks: [{
+				id: "4403000000000104"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:cz75"
+					}
+				}
+				type: "item"
+			}]
+			title: "CZ 75 自动手枪"
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["10B950B4238226A3"]
+			description: [
+				"`T1 手枪`。P320 是现代均衡型手枪，适合作为主武器之外的标准副手。"
+				"制作门槛很低，属于你一拿到枪匠台就可以考虑的选择。"
+			]
+			id: "4403000000000005"
+			optional: true
+			tasks: [{
+				id: "4403000000000105"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:p320"
+					}
+				}
+				type: "item"
+			}]
+			title: "P320 手枪"
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2AD44820749D508B"]
+			description: [
+				"`T1-T2 冲锋手枪`。B93R 比普通手枪更像小号冲锋枪，适合贴脸泼水和紧急压制。"
+				"材料比基础手枪稍高，但仍是前中期就能做的副武器。"
+			]
+			id: "4403000000000006"
+			optional: true
+			tasks: [{
+				id: "4403000000000106"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:b93r"
+					}
+				}
+				type: "item"
+			}]
+			title: "B93R 冲锋手枪"
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["10B950B4238226A3"]
+			description: [
+				"`T1-T2 进攻手枪`。MK23 比普通手枪更偏重威力和压制，适合近中距离打单体。"
+				"做法会比格洛克这类起步枪稍贵，但仍属于中前期可做装备。"
+			]
+			id: "4403000000000007"
+			optional: true
+			tasks: [{
+				id: "4403000000000107"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:hk_mk23"
+					}
+				}
+				type: "item"
+			}]
+			title: "MK23 进攻手枪"
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3A96C0D11A6CE98F"]
+			description: [
+				"`T1 左轮`。.357 犀牛是很标准的高单发副武器，适合想用一枪一枪补伤害的玩家。"
+				"它比普通手枪更有停顿感，但前期也能做，适合作为风格型选择。"
+			]
+			id: "4403000000000008"
+			optional: true
+			tasks: [{
+				id: "4403000000000108"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:rhino357"
+					}
+				}
+				type: "item"
+			}]
+			title: ".357 犀牛 左轮手枪"
+			x: 15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["238D7E26C84853A2"]
+			description: [
+				"`T2 大口径手枪`。.50 沙漠之鹰伤害很高，适合当作爆发型副手。"
+				"做法会开始吃更多金属和贵重辅料，不建议作为第一把枪硬冲。"
+			]
+			id: "4403000000000009"
+			optional: true
+			tasks: [{
+				id: "4403000000000109"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:deagle"
+					}
+				}
+				type: "item"
+			}]
+			title: ".50 沙漠之鹰"
+			x: 17.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3A96C0D11A6CE98F"]
+			description: [
+				"`T2 收藏手枪`。.357 黄金沙鹰更像风格和收藏向的大口径副武器。"
+				"造价会比普通沙鹰更贵，适合资源宽裕后再做。"
+			]
+			id: "440300000000000A"
+			optional: true
+			tasks: [{
+				id: "440300000000010A"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:deagle_golden"
+					}
+				}
+				type: "item"
+			}]
+			title: ".357 黄金沙漠之鹰"
+			x: 15.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["238D7E26C84853A2"]
+			description: [
+				"`T2-T3 手炮`。永恒 .50 Z 型更偏娱乐和高爆发，单发体验很强。"
+				"配方通常会明显拉高金锭、钻石或烈焰棒需求，不适合太早追。"
+			]
+			id: "440300000000000B"
+			optional: true
+			tasks: [{
+				id: "440300000000010B"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:timeless50"
+					}
+				}
+				type: "item"
+			}]
+			title: "永恒 .50 Z型"
+			x: 17.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["21E01C7ED7A274B9"]
+			description: [
+				"`T2-T3 手炮`。金牛座“狂暴猎手”是更极端的近距离爆发副武器。"
+				"材料消耗明显高于普通手枪，适合资源富余后追求爽感。"
+			]
+			id: "440300000000000C"
+			optional: true
+			tasks: [{
+				id: "440300000000010C"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:taurus500"
+					}
+				}
+				type: "item"
+			}]
+			title: "金牛座 狂暴猎手"
+			x: 19.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7572BC6772A7F56E"]
+			description: [
+				"`T2-T3 手炮`。孤星手炮属于单发高威力风格武器，打精英怪和补刀很好用。"
+				"做法会往中后期材料靠拢，通常不是第一把副手。"
+			]
+			id: "440300000000000D"
+			optional: true
+			tasks: [{
+				id: "440300000000010D"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:lonetrail"
+					}
+				}
+				type: "item"
+			}]
+			title: ".30-06 孤星 手炮"
+			x: 22.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2AD44820749D508B"]
+			description: [
+				"`T1 冲锋枪`。乌兹是最早能成型的泼水火力之一，近距离打杂兵非常顺手。"
+				"做法仍以铁和少量木料为主，是非常推荐的新手第一把冲锋枪。"
+			]
+			id: "440300000000000E"
+			optional: true
+			tasks: [{
+				id: "440300000000010E"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:uzi"
+					}
+				}
+				type: "item"
+			}]
+			title: "乌兹冲锋枪"
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AD44820749D508B"]
+			description: [
+				"`T1-T2 冲锋枪`。MP5A5 是非常稳的近中距离主副武器，后坐和手感都很友好。"
+				"材料略高于乌兹，但仍属便宜路线，新手非常值得做。"
+			]
+			id: "440300000000000F"
+			optional: true
+			tasks: [{
+				id: "440300000000010F"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:hk_mp5a5"
+					}
+				}
+				type: "item"
+			}]
+			title: "MP5A5 冲锋枪"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10B950B4238226A3"]
+			description: [
+				"`T2 冲锋枪`。UMP45 更偏稳健和中距离压制，适合想让副枪更硬一点的玩家。"
+				"做法会开始用到更多金属和辅料，但仍是中期能接受的投入。"
+			]
+			id: "4403000000000010"
+			optional: true
+			tasks: [{
+				id: "4403000000000110"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:ump45"
+					}
+				}
+				type: "item"
+			}]
+			title: "UMP45 冲锋枪"
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10B950B4238226A3"]
+			description: [
+				"`T2 冲锋枪`。维克托火力密度很高，适合贴脸速杀和高压地牢。"
+				"造价会继续抬升，资源不多时可以先用 MP5A5 或乌兹过渡。"
+			]
+			id: "4403000000000011"
+			optional: true
+			tasks: [{
+				id: "4403000000000111"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:vector45"
+					}
+				}
+				type: "item"
+			}]
+			title: "维克托 冲锋枪"
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["10CE3B3DED29ED1A"]
+			description: [
+				"`T2 冲锋枪`。P90 容量和持续火力都很舒服，适合拿来长时间清怪。"
+				"做法通常比普通 SMG 更贵，适合中期材料稳定后再上。"
+			]
+			id: "4403000000000012"
+			optional: true
+			tasks: [{
+				id: "4403000000000112"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:p90"
+					}
+				}
+				type: "item"
+			}]
+			title: "P90 冲锋枪"
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["520FD72EC4554BD0"]
+			description: [
+				"`T1 霰弹枪`。DB-2 杜林人是非常早期的双管霰弹，地牢贴脸伤害很高。"
+				"做法便宜，通常铁和木就能解决，是近战玩家最好理解的一把枪。"
+			]
+			id: "4403000000000013"
+			optional: true
+			tasks: [{
+				id: "4403000000000113"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:db_short"
+					}
+				}
+				type: "item"
+			}]
+			title: "DB-2 杜林人"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["520FD72EC4554BD0"]
+			description: [
+				"`T1 霰弹枪`。DB-4 乌萨斯是更长一些的双管，仍然偏重爆发和近距离清场。"
+				"材料依旧友好，适合想提早体验霰弹路线的玩家。"
+			]
+			id: "4403000000000014"
+			optional: true
+			tasks: [{
+				id: "4403000000000114"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:db_long"
+					}
+				}
+				type: "item"
+			}]
+			title: "DB-4 乌萨斯"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["520FD72EC4554BD0"]
+			description: [
+				"`T1-T2 霰弹枪`。M870 是这页最值得推荐给新手的近距离主武器之一。"
+				"它好做、够稳、打地牢很舒服，铁加木头就能很早成型。"
+			]
+			id: "4403000000000015"
+			optional: true
+			tasks: [{
+				id: "4403000000000115"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m870"
+					}
+				}
+				type: "item"
+			}]
+			title: "M870 霰弹枪"
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["520FD72EC4554BD0"]
+			description: [
+				"`T2 霰弹枪`。M1014 比 M870 更现代化，持续输出与容错更高。"
+				"材料会比 M870 再贵一层，但仍属于很实用的中期霰弹。"
+			]
+			id: "4403000000000016"
+			optional: true
+			tasks: [{
+				id: "4403000000000116"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m1014"
+					}
+				}
+				type: "item"
+			}]
+			title: "M1014 战斗霰弹枪"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["520FD72EC4554BD0"]
+			description: [
+				"`T2 霰弹枪`。SPAS-12 是非常经典的通用霰弹枪，适合清地牢和打高压近战。"
+				"配方会开始吃金锭、石英甚至钻石，别太早硬冲。"
+			]
+			id: "4403000000000017"
+			optional: true
+			tasks: [{
+				id: "4403000000000117"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:spas_12"
+					}
+				}
+				type: "item"
+			}]
+			title: "SPAS-12 多功能霰弹枪"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["520FD72EC4554BD0"]
+			description: [
+				"`T3 自动霰弹`。AA12 属于资源换爽感的典型武器，近距离压制能力极强。"
+				"制作会明显吃更多高阶材料，建议等中后期资源宽裕再追。"
+			]
+			id: "4403000000000018"
+			optional: true
+			tasks: [{
+				id: "4403000000000118"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:aa12"
+					}
+				}
+				type: "item"
+			}]
+			title: "AA12 霰弹枪"
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4163BF72779F8E14"]
+			description: [
+				"`T2 制式步枪`。M16A1 是非常标准的第一代制式步枪，适合从手枪升级到真正主武器。"
+				"配方便宜、结构直白，是很好的第一把步枪。"
+			]
+			id: "4403000000000019"
+			optional: true
+			tasks: [{
+				id: "4403000000000119"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m16a1"
+					}
+				}
+				type: "item"
+			}]
+			title: "M16A1 制式步枪"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4163BF72779F8E14"]
+			description: [
+				"`T2 制式步枪`。M16A4 比 A1 更适合当稳定主枪，射程和手感都很平衡。"
+				"如果你只想抄作业做一把通用步枪，它是非常稳的答案。"
+			]
+			id: "440300000000001A"
+			optional: true
+			tasks: [{
+				id: "440300000000011A"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m16a4"
+					}
+				}
+				type: "item"
+			}]
+			title: "M16A4 制式步枪"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["69F29A4A55236D70"]
+			description: [
+				"`T2 突击步枪`。AKM 火力和获取都很实在，是非常好的中期主枪。"
+				"配方通常主要吃铁和木，材料比很多高端步枪友好得多。"
+			]
+			id: "440300000000001B"
+			optional: true
+			tasks: [{
+				id: "440300000000011B"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:ak47"
+					}
+				}
+				type: "item"
+			}]
+			title: "AKM 突击步枪"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["69F29A4A55236D70"]
+			description: [
+				"`T2 制式步枪`。81-1式 和 AKM 一样属于很适合长期过渡的主武器。"
+				"材料门槛不夸张，适合你刚把枪械正式并入主力输出的时候。"
+			]
+			id: "440300000000001C"
+			optional: true
+			tasks: [{
+				id: "440300000000011C"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:type_81"
+					}
+				}
+				type: "item"
+			}]
+			title: "81-1式 制式步枪"
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4163BF72779F8E14"]
+			description: [
+				"`T2 卡宾枪`。M4A1 是很经典的通用主武器，适合跑图、地牢和 Boss 房切换。"
+				"做法比最便宜的步枪略贵，但几乎不会让你失望。"
+			]
+			id: "440300000000001D"
+			optional: true
+			tasks: [{
+				id: "440300000000011D"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m4a1"
+					}
+				}
+				type: "item"
+			}]
+			title: "M4A1 卡宾枪"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["137EE91D5CAF0DD5"]
+			description: [
+				"`T2 突击步枪`。95式“长弓”是很标准的中期主力步枪。"
+				"配方通常还是大量铁锭配少量辅料，适合资源稳定期推进。"
+			]
+			id: "440300000000001E"
+			optional: true
+			tasks: [{
+				id: "440300000000011E"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:qbz_95"
+					}
+				}
+				type: "item"
+			}]
+			title: "95式 长弓 突击步枪"
+			x: 15.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["137EE91D5CAF0DD5"]
+			description: [
+				"`T2 突击步枪`。191式 是更后期一点的现代主武器，手感和稳定性都很好。"
+				"做法会稍微更贵，但非常值得作为中后期制式枪。"
+			]
+			id: "440300000000001F"
+			optional: true
+			tasks: [{
+				id: "440300000000011F"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:qbz_191"
+					}
+				}
+				type: "item"
+			}]
+			title: "191式 突击步枪"
+			x: 15.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4163BF72779F8E14"]
+			description: [
+				"`T2 突击步枪`。AUG 适合想要稳定、现代化手感的步枪玩家。"
+				"材料比普通制式枪更贵一点，但仍属中期可接受范围。"
+			]
+			id: "4403000000000020"
+			optional: true
+			tasks: [{
+				id: "4403000000000120"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:aug"
+					}
+				}
+				type: "item"
+			}]
+			title: "AUG 突击步枪"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4163BF72779F8E14"]
+			description: [
+				"`T2 突击步枪`。G36K 也是很顺手的现代主武器，定位接近 AUG 与 M4A1。"
+				"做法走中期步枪标准线，适合按喜好选择。"
+			]
+			id: "4403000000000021"
+			optional: true
+			tasks: [{
+				id: "4403000000000121"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:g36k"
+					}
+				}
+				type: "item"
+			}]
+			title: "G36K 突击步枪"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4163BF72779F8E14"]
+			description: [
+				"`T2 突击步枪`。HK-416A5 是非常推荐的新手中期主枪，泛用性极高。"
+				"会吃一些更高一级的辅料，但投入和收益非常划算。"
+			]
+			id: "4403000000000022"
+			optional: true
+			tasks: [{
+				id: "4403000000000122"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:hk416d"
+					}
+				}
+				type: "item"
+			}]
+			title: "HK-416A5 突击步枪"
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4163BF72779F8E14"]
+			description: [
+				"`T2 突击步枪`。SCAR-L 是更贵但更舒服的现代主武器，适合后期稳定输出。"
+				"如果资源刚好够做一把高质量主枪，它是很强的候选。"
+			]
+			id: "4403000000000023"
+			optional: true
+			tasks: [{
+				id: "4403000000000123"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:scar_l"
+					}
+				}
+				type: "item"
+			}]
+			title: "SCAR-L 突击步枪"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["497DB96E086412E9"]
+			description: [
+				"`T2 战斗步枪`。G3 是从普通步枪升级到重型步枪的早期标志。"
+				"它会比突击步枪更重，但单发威力也更足。"
+			]
+			id: "4403000000000024"
+			optional: true
+			tasks: [{
+				id: "4403000000000124"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:hk_g3"
+					}
+				}
+				type: "item"
+			}]
+			title: "G3 战斗步枪"
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["497DB96E086412E9"]
+			description: [
+				"`T2 战斗步枪`。FN FAL 是非常经典的高威力中距离武器。"
+				"做法会开始吃更多金属和中高阶辅料，适合中期以后推进。"
+			]
+			id: "4403000000000025"
+			optional: true
+			tasks: [{
+				id: "4403000000000125"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:fn_fal"
+					}
+				}
+				type: "item"
+			}]
+			title: "FN FAL 战斗步枪"
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["497DB96E086412E9"]
+			description: [
+				"`T2-T3 战斗步枪`。SCAR-H 是很强的中后期主武器，打精英怪和 Boss 都舒服。"
+				"如果你想把主枪升级到更高一档，这把很值得做。"
+			]
+			id: "4403000000000026"
+			optional: true
+			tasks: [{
+				id: "4403000000000126"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:scar_h"
+					}
+				}
+				type: "item"
+			}]
+			title: "SCAR-H 战斗步枪"
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["69F29A4A55236D70"]
+			description: [
+				"`T2 战术步枪`。SKS 更偏单发稳定点射，适合打中距离和节省弹药。"
+				"材料属于中期档，适合不喜欢全自动压枪的玩家。"
+			]
+			id: "4403000000000027"
+			optional: true
+			tasks: [{
+				id: "4403000000000127"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:sks_tactical"
+					}
+				}
+				type: "item"
+			}]
+			title: "SKS 战术步枪"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["497DB96E086412E9"]
+			description: [
+				"`T2-T3 精确射手步枪`。MK14 EBR 是很推荐的中后期半自动远程主武器。"
+				"做法会开始用到更多高阶材料，但强度也很对得起投入。"
+			]
+			id: "4403000000000028"
+			optional: true
+			tasks: [{
+				id: "4403000000000128"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:mk14"
+					}
+				}
+				type: "item"
+			}]
+			title: "MK14 EBR 精确射手步枪"
+			x: 18.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["69F29A4A55236D70"]
+			description: [
+				"`T2-T3 轻机枪`。RPK 是从步枪线自然延伸出的持续压制武器。"
+				"如果你喜欢边推进边扫怪，它会比普通步枪更舒服，但弹药消耗也更大。"
+			]
+			id: "4403000000000029"
+			optional: true
+			tasks: [{
+				id: "4403000000000129"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:rpk"
+					}
+				}
+				type: "item"
+			}]
+			title: "RPK 轻机枪"
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4163BF72779F8E14"]
+			description: [
+				"`T3 机枪`。M249 是典型的高弹量持续火力，打群怪和压制非常爽。"
+				"做法会开始明显上探到钻石、烈焰棒等中后期资源。"
+			]
+			id: "440300000000002A"
+			optional: true
+			tasks: [{
+				id: "440300000000012A"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m249"
+					}
+				}
+				type: "item"
+			}]
+			title: "M249 机枪"
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["497DB96E086412E9"]
+			description: [
+				"`T3 机枪`。FN EVOLYS 是更高阶的持续压制武器，适合后期站桩火力。"
+				"配方会明显更贵，建议等主资源线稳定再追。"
+			]
+			id: "440300000000002B"
+			optional: true
+			tasks: [{
+				id: "440300000000012B"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:fn_evolys"
+					}
+				}
+				type: "item"
+			}]
+			title: "FN EVOLYS 机枪"
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["00DE4BB53F9F97B8"]
+			description: [
+				"`T1-T2 老式步枪`。毛瑟 KAR98K 是最早能体验狙击节奏的选择之一。"
+				"材料不算高，适合先学远距离点杀，而不是一上来就做顶级狙。"
+			]
+			id: "440300000000002C"
+			optional: true
+			tasks: [{
+				id: "440300000000012C"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:kar98"
+					}
+				}
+				type: "item"
+			}]
+			title: "毛瑟 KAR98K 制式步枪"
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["72BCB2CEF187FF20"]
+			description: [
+				"`T1-T2 老式步枪`。春田 1873 是另一把早期长距离点射武器，风格比实用性更强。"
+				"如果你喜欢杠杆或老枪手感，可以做来体验；否则 M700 更通用。"
+			]
+			id: "440300000000002D"
+			optional: true
+			tasks: [{
+				id: "440300000000012D"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:springfield1873"
+					}
+				}
+				type: "item"
+			}]
+			title: "春田 1873 活门步枪"
+			x: 13.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7572BC6772A7F56E"]
+			description: [
+				"`T2 狙击步枪`。M700 是最值得新手先做的现代狙击枪之一。"
+				"造价不像 AWM 那么夸张，但已经能提供很实在的远程点杀能力。"
+			]
+			id: "440300000000002E"
+			optional: true
+			tasks: [{
+				id: "440300000000012E"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m700"
+					}
+				}
+				type: "item"
+			}]
+			title: "M700 狙击步枪"
+			x: 22.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7F37453E01EE6078"]
+			description: [
+				"`T3 狙击步枪`。AWM 是真正高阶狙击线的开始，远距离点杀体验很强。"
+				"配方会明显上探到钻石、烈焰棒等高阶资源，别在前中期硬做。"
+			]
+			id: "440300000000002F"
+			optional: true
+			tasks: [{
+				id: "440300000000012F"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:ai_awp"
+					}
+				}
+				type: "item"
+			}]
+			title: "精密国际 AWM 狙击步枪"
+			x: 17.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4163BF72779F8E14"]
+			description: [
+				"`T3 反狙击步枪`。SPR-15 HB 偏向更高阶的精确火力武器。"
+				"制作成本已经明显不便宜，适合后期强化远程构筑。"
+			]
+			id: "4403000000000030"
+			optional: true
+			tasks: [{
+				id: "4403000000000130"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:spr15hb"
+					}
+				}
+				type: "item"
+			}]
+			title: "SPR-15 HB 射手座"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["295A7861A9CF7964"]
+			description: [
+				"`T3-T4 反器材步枪`。M95 是真正意义上的大狙，适合打高血量目标和 Boss。"
+				"做法会大量消耗高阶资源，是中后期明确的豪华武器。"
+			]
+			id: "4403000000000031"
+			optional: true
+			tasks: [{
+				id: "4403000000000131"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m95"
+					}
+				}
+				type: "item"
+			}]
+			title: "M95 .50口径反器材步枪"
+			x: 20.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["295A7861A9CF7964"]
+			description: ["`T4 反器材步枪`。M107 是 枪械线终局武器之一，能以400rpm的射速半自动射击.50子弹，dps足够高而子弹消耗不会过快."]
+			id: "4403000000000032"
+			optional: true
+			tasks: [{
+				id: "4403000000000132"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m107"
+					}
+				}
+				type: "item"
+			}]
+			title: "M107 .50口径反器材步枪"
+			x: 20.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["12240F0DFC11B1A0"]
+			description: [
+				"`T3 功能武器`。M320 榴弹发射器更偏爆破和范围处理，不是常规主武器。"
+				"做它之前先确认你真的需要范围爆发，否则投入可能不如升级主枪。"
+			]
+			id: "4403000000000033"
+			optional: true
+			tasks: [{
+				id: "4403000000000133"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:m320"
+					}
+				}
+				type: "item"
+			}]
+			title: "M320 榴弹发射器"
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["79C206A11A1D7FEA"]
+			description: [
+				"`T3-T4 重火器`。RPG-7 是非常明确的爆发与拆群工具，适合特定战斗场景。"
+				"材料高、弹药也贵，并且是本整合包中唯一一个具有范围破坏方块能力的枪械，使用时需要小心。"
+			]
+			id: "4403000000000034"
+			optional: true
+			tasks: [{
+				id: "4403000000000134"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:rpg7"
+					}
+				}
+				type: "item"
+			}]
+			title: "RPG-7 火箭筒"
+			x: 11.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["497DB96E086412E9"]
+			description: [
+				"`T4 终局重火器`。M134 转管机枪就是纯粹的终局火力消费品。"
+				"它往往要吃到非常昂贵的材料，甚至下界合金级别，建议把它当成毕业玩具。"
+			]
+			id: "4403000000000035"
+			optional: true
+			tasks: [{
+				id: "4403000000000135"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunId: "tacz:minigun"
+					}
+				}
+				type: "item"
+			}]
+			title: "M134 转管机枪"
+			x: 18.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4401000000000005"]
+			description: [
+				"如果你只想抄一个最稳的 TacZ 发展路线，可以直接照这个顺序走：`手枪练手 -> 一把制式步枪当主武器 -> 一把近距离副枪 -> 后期再决定是狙击、机枪还是火箭筒`。"
+				"最推荐的新手组合通常是 `格洛克/M9A4 + AKM/M4A1 + M870/MP5A5`。这样弹药压力、战斗距离和制作成本都比较平衡。"
+				"TacZ 最大的坑不是做不出来，而是太早贪大枪。先把弹药、换弹、准星和射程习惯练熟，比直接奔着 M107 或转管机枪更值。"
+			]
+			id: "4402000000000008"
+			optional: true
+			tasks: [{
+				id: "4402000000000018"
+				title: "推荐抄作业路线"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"0B28B4792D37D94A"
+				"4ABC40D249B1DBF4"
+			]
+			hide_dependency_lines: true
+			id: "2AD44820749D508B"
+			tasks: [{
+				count: 60L
+				id: "51B92393FB3CA88B"
+				item: {
+					Count: 60
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:9mm"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"0B28B4792D37D94A"
+				"4ABC40D249B1DBF4"
+			]
+			hide_dependency_lines: true
+			id: "10B950B4238226A3"
+			tasks: [{
+				count: 60L
+				id: "52C9EB27EFD428C9"
+				item: {
+					Count: 60
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:45acp"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4ABC40D249B1DBF4"]
+			hide_dependency_lines: true
+			id: "10CE3B3DED29ED1A"
+			tasks: [{
+				count: 60L
+				id: "33BD5DD8EFA65DC2"
+				item: {
+					Count: 60
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:46x30"
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B28B4792D37D94A"]
+			hide_dependency_lines: true
+			id: "238D7E26C84853A2"
+			tasks: [{
+				count: 48L
+				id: "16D037044917D195"
+				item: {
+					Count: 48
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50ae"
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0B28B4792D37D94A"]
+			hide_dependency_lines: true
+			id: "3A96C0D11A6CE98F"
+			tasks: [{
+				count: 48L
+				id: "49100338AC3ED54E"
+				item: {
+					Count: 48
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:357mag"
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0B28B4792D37D94A"]
+			hide_dependency_lines: true
+			id: "21E01C7ED7A274B9"
+			tasks: [{
+				count: 42L
+				id: "1105F7FFDDC6EFF7"
+				item: {
+					Count: 42
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:500mag"
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["01ADD7C301E0A595"]
+			id: "4ABC40D249B1DBF4"
+			tasks: [{
+				id: "6062AB5C6FFA5FA5"
+				title: "冲锋枪"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["01ADD7C301E0A595"]
+			id: "0B28B4792D37D94A"
+			tasks: [{
+				id: "490AD58EF80C7267"
+				title: "手枪"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01ADD7C301E0A595"]
+			id: "546828CCA5F0B4B8"
+			tasks: [{
+				id: "1DE97965332A7A58"
+				title: "霰弹枪"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["01ADD7C301E0A595"]
+			id: "6ADCF8889D658BD9"
+			tasks: [{
+				id: "260ABD97499F7BB7"
+				title: "步枪"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["546828CCA5F0B4B8"]
+			description: ["本整合包唯一的霰弹，霰弹枪本身的闭锁和枪管长度很大程度的影响了伤害，散布和优势射程。基础伤害3,弹丸数量10,穿甲很低"]
+			hide_dependency_lines: true
+			id: "520FD72EC4554BD0"
+			tasks: [{
+				count: 36L
+				id: "3A99D5E133CFD6F3"
+				item: {
+					Count: 36
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:12g"
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6ADCF8889D658BD9"
+				"748AF03F46C76C5E"
+			]
+			description: ["最常见的中间威力弹之一，伤害偏低，穿甲能力一般。这里参考的是m855，基础伤害7点，穿甲在40%左右"]
+			hide_dependency_lines: true
+			id: "4163BF72779F8E14"
+			tasks: [{
+				count: 60L
+				id: "776BD4CD177923C2"
+				item: {
+					Count: 60
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:556x45"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6ADCF8889D658BD9"
+				"748AF03F46C76C5E"
+			]
+			description: ["大口径子弹，装药显著高于其他几个步枪弹，因而也被部分狙击枪使用。这里参考的是m62曳光弹，基础伤害12,穿甲60%左右"]
+			hide_dependency_lines: true
+			id: "497DB96E086412E9"
+			tasks: [{
+				count: 48L
+				id: "37487A66D2FCB86A"
+				item: {
+					Count: 48
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:308"
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6ADCF8889D658BD9"
+				"748AF03F46C76C5E"
+			]
+			description: ["最经典的中间威力弹，使用钢壳，弹头偏重，因而伤害更高，但优势射程偏低。这里参考的是M43弹，基础伤害9,穿甲25%左右"]
+			hide_dependency_lines: true
+			id: "69F29A4A55236D70"
+			tasks: [{
+				count: 60L
+				id: "5C26A0F3ACE4877D"
+				item: {
+					Count: 60
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:762x39"
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6ADCF8889D658BD9"]
+			description: ["国产自主子弹，使用钢壳，这里参考的是DBP87式，基础伤害9,穿甲45%"]
+			hide_dependency_lines: true
+			id: "137EE91D5CAF0DD5"
+			tasks: [{
+				count: 60L
+				id: "0E917E66172B57B3"
+				item: {
+					Count: 60
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:58x42"
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E8E529D98F38082"]
+			description: ["老式子弹，基础伤害20,穿甲30%"]
+			hide_dependency_lines: true
+			id: "00DE4BB53F9F97B8"
+			tasks: [{
+				count: 36L
+				id: "68DF0996167CC235"
+				item: {
+					Count: 36
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:792x57"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1E8E529D98F38082"]
+			description: ["老式子弹，口径大装药量大弹头重，因此伤害高，但穿甲和优势射程较低。基础伤害28,穿甲25%"]
+			hide_dependency_lines: true
+			id: "72BCB2CEF187FF20"
+			tasks: [{
+				count: 48L
+				id: "5EC04F8C89997B72"
+				item: {
+					Count: 48
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:45_70"
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1E8E529D98F38082"]
+			description: ["经过远距精确射击特调的大口径子弹，飞行速度很快。基础伤害40,穿甲60%"]
+			hide_dependency_lines: true
+			id: "7F37453E01EE6078"
+			tasks: [{
+				count: 30L
+				id: "20889D2748A6665A"
+				item: {
+					Count: 30
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:338"
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["01ADD7C301E0A595"]
+			id: "748AF03F46C76C5E"
+			tasks: [{
+				id: "178DDEB3AD5EE431"
+				title: "机枪"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01ADD7C301E0A595"]
+			id: "5B05F33F66646C3A"
+			tasks: [{
+				id: "6C34D95C389A14A2"
+				title: "精确射击步枪"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["01ADD7C301E0A595"]
+			id: "1E8E529D98F38082"
+			tasks: [{
+				id: "29C51C09F1694045"
+				title: "狙击枪"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"0B28B4792D37D94A"
+				"1E8E529D98F38082"
+			]
+			hide_dependency_lines: true
+			id: "7572BC6772A7F56E"
+			tasks: [{
+				count: 36L
+				id: "5CE24DE69EC83599"
+				item: {
+					Count: 36
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:30_06"
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["01ADD7C301E0A595"]
+			id: "40C935E8E89749CF"
+			tasks: [{
+				id: "7AD8594D1DEEC139"
+				title: "爆炸武器"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"1E8E529D98F38082"
+				"5B05F33F66646C3A"
+			]
+			description: ["口径最大的常见子弹，也是本整合包中伤害最高，穿甲能力最强的子弹。这里参考的是m21曳光弹, 基础伤害60,穿甲80%左右"]
+			hide_dependency_lines: true
+			id: "295A7861A9CF7964"
+			tasks: [{
+				count: 30L
+				id: "302134D1C31E2176"
+				item: {
+					Count: 30
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:50bmg"
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["40C935E8E89749CF"]
+			description: ["榴弹发射器专用的榴弹，没有还原安全引信设定，使用时请小心"]
+			hide_dependency_lines: true
+			id: "12240F0DFC11B1A0"
+			tasks: [{
+				count: 6L
+				id: "20B66B32769CF97F"
+				item: {
+					Count: 6
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:40mm"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["40C935E8E89749CF"]
+			description: ["RPG专用火箭弹"]
+			hide_dependency_lines: true
+			id: "79C206A11A1D7FEA"
+			tasks: [{
+				count: 2L
+				id: "1E0FE3A41705488F"
+				item: {
+					Count: 2
+					id: "tacz:ammo"
+					tag: {
+						AmmoId: "tacz:rpg_rocket"
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.5d
+		}
+	]
+	title: "全动化火力"
+}

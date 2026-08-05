@@ -1,0 +1,491 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0199CBBE841D53C2"
+	group: "6B135ADAEF98CFDF"
+	icon: {
+		Count: 1
+		id: "botania:lexicon"
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	id: "0199CBBE841D53C2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E01000000000010"]
+			description: [
+				"Botania 看起来像种花，实际更像一套自然魔法工厂。"
+				"你一开始只需要盯住一件事：让魔力从花里产生出来，能被发射器送进魔力池，再用这些魔力做下一批材料。"
+				"前期照着花瓣、聚花盆、纯洁雏菊、活木活石、魔力池这条线走就够了。等魔力池真的开始稳定进账，再考虑符文祭坛、泰拉钢和精灵门。"
+				"如果装置不动，先别急着翻配方。大多数问题都出在花没有产魔、发射器没对准、或者池子根本没收到魔力。"
+			]
+			id: "1901000000000000"
+			tasks: [{
+				id: "1901000000000100"
+				title: "路线导读"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1901000000000000"]
+			description: [
+				"先收集几种常见花瓣。花瓣本身不强，但它们会把你带到聚花盆和第一批功能花。"
+				"这条线前期不追求爆发战力，更多是在给家里添一套会慢慢产出材料和功能的魔法基础设施。"
+				"如果你喜欢把基地做成“越放越会自己运转”的样子，Botania 会很适合你。"
+			]
+			id: "6F2B0A13ED4CB0BE"
+			tasks: [{
+				id: "210FFD646081142E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botania:petals)"
+					}
+				}
+				title: "Any #botania:petals"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F2B0A13ED4CB0BE"]
+			description: [
+				"聚花盆是 Botania 的第一张真正工作台。"
+				"后面大量基础花、功能花和开局关键节点都要从这里做出来。"
+				"新手最该在这一步学会的，不是某一朵花的配方，而是“丢材料、加水、出花”的基本节奏。"
+			]
+			id: "5072249D14741011"
+			tasks: [{
+				id: "4D9EE088FE7778EE"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5072249D14741011"]
+			description: [
+				"纯洁雏菊是 Botania 真正开始运转的开机按钮。"
+				"只要把原版木头和石头稳定转成活木与活石，你就等于拿到了这条线最基础的工业底材。"
+				"这一步虽然慢，但不要嫌它笨，因为它教你的正是 Botania 的核心思路：先搭循环，再谈产出。"
+			]
+			id: "7B084FDE20EB4954"
+			tasks: [{
+				id: "6D3BA1FF5A7F6827"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B084FDE20EB4954"]
+			description: [
+				"活木与活石是整条线最常见的底材。"
+				"后面你看到的很多池子、祭坛、传输装置和高阶结构，都会反复用到它们。"
+				"所以做到这里以后，最好尽快把纯洁雏菊做成一个半自动或至少顺手补货的循环，不然后面会一直卡材料。"
+			]
+			id: "53975F7F0F432275"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5433AC95696017FA"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "6AA7361FC90A766E"
+					item: "botania:livingrock"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["53975F7F0F432275"]
+			description: [
+				"森林法杖最大的价值不是拿来挥，而是拿来调。"
+				"很多花、魔力发射器和布线方式都需要它来切模式、转方向或检查状态。"
+				"如果你以后看见 Botania 装置不会动，先别急着怀疑配方，先拿法杖检查逻辑。"
+			]
+			id: "4043502D43EA797F"
+			tasks: [{
+				id: "075E7AAD1D90D490"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53975F7F0F432275"]
+			description: [
+				"魔力池相当于 Botania 的电池和总线中转站。"
+				"只会造花还不够，魔力必须有地方存、有地方流，后续加工才有意义。"
+				"从这里开始，新手要建立一个概念：Botania 不是看你做了几朵花，而是看你能不能把产魔、存魔、用魔串成闭环。"
+			]
+			id: "22E03F663048FDED"
+			tasks: [{
+				id: "3141792BC2D04DC4"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["22E03F663048FDED"]
+			description: [
+				"把珍珠和钻石灌成魔力版本，说明你的体系第一次具备了稳定加工能力。"
+				"这不只是多了两个材料，而是证明你的魔力产出终于不再只是够看，而是真的能拿来持续消耗。"
+				"新手做到这里时，通常就已经开始明白 Botania 的节奏了。"
+			]
+			id: "46C7CF4C076321D7"
+			tasks: [
+				{
+					id: "4775D04858BDF90C"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "0952A4934D09CCD8"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["46C7CF4C076321D7"]
+			description: [
+				"符文祭坛是 Botania 的第一次真正提速。"
+				"从这一步开始，很多配方不再是“扔点材料就结束”，而是需要你准备魔力、按步骤投入，并理解哪些符文是后续通用底材。"
+				"把它看作整条线的正式转职点就行：前面是在打地基，这里开始才算进入系统化生产。"
+			]
+			id: "5F1F382CCF9F1EF1"
+			tasks: [{
+				id: "3BF283F50365E34E"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["22E03F663048FDED"]
+			description: ["魔力钢是 Botania 第一种会被大量重复消耗的中间材料。建议尽早准备一套顺手的灌注流程。"]
+			id: "4617796903CF9BE8"
+			tasks: [{
+				id: "5DAF2E7FDE1847D4"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5F1F382CCF9F1EF1"]
+			description: [
+				"泰拉凝聚板和泰拉钢是 Botania 最著名的中期门槛。"
+				"做到这一步时，你已经不该再靠临时产魔凑过去，而是应该有一套持续稳定的魔力来源。"
+				"如果你发现这里特别卡，不要盯着配方抱怨贵，先回头检查自己的产魔花和魔力传输是不是太原始。"
+			]
+			id: "5108BF43EC769CC8"
+			tasks: [{
+				id: "2D5E234C05944055"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["5108BF43EC769CC8"]
+			id: "6A9DAB9EF35681CB"
+			tasks: [{
+				id: "1F3EA0E222D85452"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["53975F7F0F432275"]
+			description: ["魔力发射器是 `产魔` 和 `存魔` 之间的桥梁。很多新手有花也有池子，却不会传魔，问题通常就卡在这里。"]
+			id: "1761A61BEED14385"
+			tasks: [{
+				id: "4D388A9AED6B76D8"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6A9DAB9EF35681CB"]
+			description: [
+				"精灵门是 Botania 最明确的一道分界线。"
+				"门打开之前，你玩的是主世界植物魔法；门打开之后，你开始接触精灵侧的材料层级、装备和更深的功能件。"
+				"如果说泰拉钢是中期工业门槛，那么精灵门就是整条线进入后半段的通行证。"
+			]
+			id: "157233AC87E987F6"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3569F19B63B07BC4"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["157233AC87E987F6"]
+			id: "2DF07E196B8BF430"
+			tasks: [
+				{
+					id: "42B6DB38DC289ADA"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					id: "6BBB37F6F57D5061"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["157233AC87E987F6"]
+			id: "0F7BEFB45359C1DA"
+			tasks: [{
+				id: "2481BA21AF59B884"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2DF07E196B8BF430"]
+			id: "75A6A837A50FA8C2"
+			tasks: [{
+				id: "79DC74D4F76CE0B6"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["75A6A837A50FA8C2"]
+			id: "53D9BC0D96109FC9"
+			tasks: [{
+				id: "37D1B397982D4DA8"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["53D9BC0D96109FC9"]
+			id: "349B835D6454D0E2"
+			tasks: [{
+				id: "6CD75111DC31C431"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -22.5d
+		}
+		{
+			dependencies: ["53D9BC0D96109FC9"]
+			id: "47EF000B35BD3CAB"
+			tasks: [{
+				id: "1EC738F4A9705D86"
+				item: "extrabotany:orichalcos_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -22.5d
+		}
+		{
+			dependencies: [
+				"157233AC87E987F6"
+				"4AE744F1650152AE"
+			]
+			id: "78FB5926763160F0"
+			tasks: [{
+				id: "297C3B6DE7E982B9"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["53975F7F0F432275"]
+			id: "4AE744F1650152AE"
+			tasks: [{
+				id: "6F2B2056EEF5811D"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["46C7CF4C076321D7"]
+			id: "5DFB8D87BFE8A30D"
+			tasks: [{
+				id: "33E49DE3576A5B39"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["717CC8E5A8538403"]
+			description: ["这组内容不要求一种固定答案，重点是你已经开始用花系主动设计产魔逻辑。"]
+			id: "3E1D709A18401868"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "38116664D412FF97"
+				title: "魔力生产"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["3E1D709A18401868"]
+			id: "3FE0E1FD55FD4A89"
+			tasks: [{
+				id: "72B3C05C9637FE2B"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["1761A61BEED14385"]
+			id: "717CC8E5A8538403"
+			tasks: [{
+				id: "69FC7A7A797EEDE3"
+				item: "botania:mana_powder"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5072249D14741011"]
+			id: "16EBDDFEB9061994"
+			tasks: [{
+				id: "7F8F494AF8EB7F98"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3E1D709A18401868"]
+			id: "643E2643377C089D"
+			tasks: [{
+				id: "215B6F54E3F839F7"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["3E1D709A18401868"]
+			id: "58902069B51ADC0F"
+			tasks: [{
+				id: "57314AF593878833"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["3E1D709A18401868"]
+			id: "798AA1211E80FC02"
+			tasks: [{
+				id: "4F2565FC5BE7876C"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["3E1D709A18401868"]
+			id: "11D93FC0B30BE105"
+			tasks: [{
+				id: "5A409CFBF5224122"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3E1D709A18401868"]
+			id: "5E4D3482D11E740B"
+			tasks: [{
+				id: "2AFCE493BB56AECA"
+				item: "botania:bellethorn"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["22E03F663048FDED"]
+			id: "7675D70A010B0ECC"
+			tasks: [{
+				id: "37E9B608B1581DDC"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+	]
+	title: "精灵法术"
+}

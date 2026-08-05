@@ -1,0 +1,29 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/brass"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "tag": "forge:plates/brass"
+      },
+      "count": 3
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "lc_specialized",
+    "id": "tacz:500mag",
+    "count": 30
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

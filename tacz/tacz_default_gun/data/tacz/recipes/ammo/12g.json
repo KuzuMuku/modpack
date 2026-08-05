@@ -1,0 +1,29 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:nuggets/lead"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:plates/brass"
+      },
+      "count": 2
+    },
+    {
+      "item": {
+        "tag": "forge:gunpowder"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "ammo",
+    "group": "shotgun_shells",
+    "id": "tacz:12g",
+    "count": 18
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}
