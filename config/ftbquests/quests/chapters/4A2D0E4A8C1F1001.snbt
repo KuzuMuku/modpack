@@ -58,7 +58,7 @@
 				type: "checkmark"
 			}]
 			x: 2.5d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1D01000000000001"]
@@ -80,9 +80,11 @@
 		{
 			dependencies: ["1D01000000000002"]
 			description: [
-				"锤阶决定你能改什么。"
-				"新手最重要的节奏就是一路把锤子从低阶往上推：石锤解决最初级改造，铁锤开始稳定进入工作台循环，黑石锤才能承接更多中期模块，后面更高阶锤则与遗迹和高级工坊挂钩。"
-				"如果某个改造做不了，先别怀疑自己缺了隐藏配方，先看看是不是锤阶还不够。"
+				"锤子与原版工具等级类似，只有高等级的锤子才能加工部分材料。"
+				""
+				"tetra很重要的主线节奏就是一路把锤子从低阶往上推：石锤解决最初级改造，铁锤开始稳定进入工作台循环，黑石锤才能承接更多中期模块，后面更高阶锤则与遗迹和高级工坊挂钩。"
+				""
+				"如果你发现了高级材料无法加工，界面提示需要高级锤子，记得回来看看如何提升你的锤子等级。"
 			]
 			id: "1D02000000000002"
 			optional: true
@@ -92,67 +94,191 @@
 				type: "checkmark"
 			}]
 			x: 4.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1D01000000000002"]
 			description: [
-				"石锤是你第一次真正体会 Tetra 进阶工艺的门槛。"
-				"它不是毕业工具，但会告诉你一个很关键的概念：锤子本身也是要被一路升级的主工具。"
+				"石锤为2级，一般是你第一把 Tetra 锤，可直接通过原版工作台合成。它会告诉你一个很关键的概念：锤子也是要被一路升级的主工具。"
+				""
+				"你至少需要两把同等级锤子才能稳定升级：一把被升级，一把用来敲上升级材料。"
+				""
+				"由于tetra工具的tag繁多，任务书容易匹配失败，上面的圆石锤是可选任务，请自行打勾为自己标记已完成。"
 			]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/stone"
+					"double/basic_hammer_right_material": "basic_hammer/stone"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "6ac40cab-c1c2-43ab-b6f0-abcfd69a6a43"
+				}
+			}
 			id: "1D02000000000003"
 			optional: true
-			tasks: [{
-				id: "1D02000000000103"
-				title: "目标：石锤"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "1D02000000000103"
+					title: "目标：石锤"
+					type: "checkmark"
+				}
+				{
+					id: "58016435EC6F4B69"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/stone"
+							"double/basic_hammer_right_material": "basic_hammer/stone"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "6ac40cab-c1c2-43ab-b6f0-abcfd69a6a43"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 6.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1D02000000000003"]
 			description: [
-				"铁锤是前中期最重要的一次跨越。"
+				"铁锤为3级，是前中期最重要的一次跨越。"
 				"做到这一步后，你会明显感觉到能动的模块和材料突然多起来，很多“原来灰着”的方案开始亮了。"
 			]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+					"double/basic_hammer_right_material": "basic_hammer/iron"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "37f81503-d468-4316-be0a-0cca69a9d01e"
+				}
+			}
 			id: "1D02000000000004"
 			optional: true
-			tasks: [{
-				id: "1D02000000000104"
-				title: "目标：铁锤"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "1D02000000000104"
+					title: "目标：铁锤"
+					type: "checkmark"
+				}
+				{
+					id: "5819B9B84D095273"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/iron"
+							"double/basic_hammer_right_material": "basic_hammer/iron"
+							"double/basic_handle_material": "basic_handle/spruce"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "37f81503-d468-4316-be0a-0cca69a9d01e"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 8.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1D02000000000004"]
 			description: [
-				"黑石锤标志着你已经能认真碰 Tetra 中期内容。"
+				"黑石锤为4级，标志着你已经能认真碰 Tetra 中期内容。"
 				"如果你想继续往更高阶材料、遗迹模块和高级工坊走，这一阶通常是很重要的过渡。"
 			]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					"double/basic_hammer_right_material": "basic_hammer/blackstone"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "b486f05b-9819-44a1-9d02-dbeff8dbf7d8"
+				}
+			}
 			id: "1D02000000000005"
 			optional: true
-			tasks: [{
-				id: "1D02000000000105"
-				title: "目标：黑石锤"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "1D02000000000105"
+					title: "目标：黑石锤"
+					type: "checkmark"
+				}
+				{
+					id: "2D9296AD505F6316"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/blackstone"
+							"double/basic_hammer_right_material": "basic_hammer/blackstone"
+							"double/basic_handle_material": "basic_handle/spruce"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "b486f05b-9819-44a1-9d02-dbeff8dbf7d8"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 10.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1D01000000000002"]
 			description: [
-				"全息投影是 Tetra 最重要的读图工具。"
-				"它会告诉你一件装备还能往哪些方向强化、每条强化缺什么材料、哪些升级需要特殊遗迹或工作台。"
-				"新手玩 Tetra 时最容易犯的错，就是只看伤害数值，不看升级树；这个方块就是专门帮你避免这种情况的。"
+				"全息投影是 Tetra 最重要的信息工具。"
+				""
+				"它不光能告诉你一件装备能更换什么材料/部件，也是寻找tetra遗迹的重要工具。"
+				""
+				"直接做出来的全息球功能不全，需要你放进加工台再往上装配件"
 			]
 			id: "1D01000000000003"
 			tasks: [{
 				id: "1D01000000000103"
-				item: "tetra:holo"
+				item: {
+					Count: 1
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "core/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "frame/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				match_nbt: false
 				type: "item"
 			}]
 			title: "全息投影"
@@ -163,7 +289,7 @@
 			dependencies: ["1D01000000000003"]
 			description: [
 				"学会看全息球，比盲目改装重要得多。"
-				"你要特别留意四件事：还有哪些槽位能开、某个升级要什么材料、完整性够不够、旁边有没有提示需要遗迹或特殊工坊。"
+				"你要特别留意四件事：槽位上各种部件的区别、某个升级要什么材料、完整性够不够、旁边提示需要的工具等级。"
 				"只要把这四点看熟，新手就不会再有“为什么别人的 Tetra 很强，我的只能加一点点伤害”的困惑。"
 			]
 			id: "1D02000000000006"
@@ -173,8 +299,8 @@
 				title: "学会看全息球"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 7.0d
+			x: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1D01000000000002"]
@@ -191,23 +317,28 @@
 			}]
 			title: "模块化剑"
 			x: 4.5d
-			y: 9.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1D01000000000001"]
 			description: [
-				"模块化单手工具是 Tetra 对原版镐、斧、铲的一条总路线。"
-				"如果你更在意采集效率、挖矿体验和综合工具手感，而不是先做武器，这一支非常适合先推进。"
+				"模块化镐、斧、铲也是Tetra中的一条重要路线。"
+				""
+				"tetra工具在采集效率、挖矿体验和综合工具手感上可以做到比普通工具更强。也是很推荐制作的一条路线"
 			]
 			id: "1D02000000000007"
 			tasks: [{
 				id: "1D02000000000107"
-				item: "tetra:modular_single"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "模块化工具"
-			x: 4.5d
-			y: 3.0d
+			x: 2.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1D02000000000007"]
@@ -222,8 +353,8 @@
 				title: "先养一把主力工具"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 2.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1D01000000000004"]
@@ -239,8 +370,8 @@
 				type: "item"
 			}]
 			title: "重武器路线"
-			x: 6.5d
-			y: 9.0d
+			x: 4.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1D01000000000004"]
@@ -255,8 +386,8 @@
 				type: "item"
 			}]
 			title: "防守路线"
-			x: 6.5d
-			y: 11.0d
+			x: 4.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["1D01000000000004"]
@@ -277,8 +408,8 @@
 				type: "item"
 			}]
 			title: "远程路线"
-			x: 8.5d
-			y: 11.0d
+			x: 6.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1D01000000000004"]
@@ -294,14 +425,16 @@
 				title: "先学会修理"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 9.0d
+			x: 6.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1D01000000000004"]
 			description: [
-				"磨砺 `Hone` 是 Tetra 真正把一把武器养起来的方式之一。"
-				"简单理解，就是先把武器用出熟练度，再在工作台里继续打磨某些属性或某个改进。新手阶段不用强求极限数值，但一定要知道“武器会越用越能继续养”。"
+				"打磨 是 Tetra 养成一把武器的方式之一。"
+				"简单理解，就是先把武器用出熟练度，再在工作台里继续打磨某些属性或某个改进。"
+				""
+				"更换部分配件会清空打磨，新手阶段不用强求完整打磨，但一定要知道“武器会越用越强”。"
 			]
 			id: "1D0200000000000C"
 			optional: true
@@ -310,8 +443,8 @@
 				title: "理解磨砺系统"
 				type: "checkmark"
 			}]
-			x: 10.5d
-			y: 9.0d
+			x: 8.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1D0200000000000C"]
@@ -326,43 +459,52 @@
 				title: "一次只养一把主武器"
 				type: "checkmark"
 			}]
-			x: 12.5d
-			y: 9.0d
-		}
-		{
-			dependencies: [
-				"1D01000000000003"
-				"1D01000000000005"
-			]
-			description: [
-				"锻造工作台代表你不再只是做临时改装，而是真的开始经营一间武器工坊。"
-				"从这里开始，很多更深的模组位、材料路线和高级改造才会逐步打开。"
-				"做到这一步后，Tetra 的正确玩法就不再是“照着配方做一个”，而是“拿一把顺手武器，持续迭代到整条主线都够用”。"
-			]
-			id: "1D01000000000006"
-			tasks: [{
-				id: "1D01000000000106"
-				item: "tetra:forged_workbench"
-				type: "item"
-			}]
-			title: "真正的工坊"
-			x: 8.5d
-			y: 8.0d
-		}
-		{
-			dependencies: ["1D01000000000006"]
-			description: [
-				"从锻造工坊开始，很多更高级的模块都不再只靠主世界常规材料解决。"
-				"你会需要去遗迹、拆旧结构、找特殊零件、甚至回头重做锤子。也就是说，这里是 Tetra 从“改装工具”转向“考古工坊”的节点。"
-			]
-			id: "1D0200000000000E"
-			optional: true
-			tasks: [{
-				id: "1D0200000000010E"
-				title: "中期开始看遗迹"
-				type: "checkmark"
-			}]
 			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1D02000000000012"]
+			description: [
+				"地下遗迹可以找到这种方块，使用精准采集将它带回家。"
+				""
+				"带回来之后把锻锤摆在锻造台上方2格，然后在侧面长方孔贴燃烧室，正方孔贴上热电池即可使用。"
+				""
+				"锻造工作台代表你不再只是做临时改装，很多更强力的材料路线和高级改造会逐步打开。"
+				""
+				"做到这一步后，Tetra 的正确玩法就不再是“随便做一个先用着”，而是“综合配件，材料，附魔，多方面筛选做出一把当前阶段最顺手的武器”。"
+			]
+			icon: "tetra:hammer_base"
+			id: "1D01000000000006"
+			tasks: [
+				{
+					id: "1D01000000000106"
+					item: "tetra:forged_workbench"
+					type: "item"
+				}
+				{
+					id: "2A80F64B6426A3BE"
+					item: "tetra:hammer_base"
+					type: "item"
+				}
+				{
+					id: "02CFBA274F323DEE"
+					item: "tetra:combustion_chamber"
+					type: "item"
+				}
+				{
+					id: "673D34EA5257D24B"
+					item: {
+						Count: 1
+						id: "tetra:thermal_cell"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "真正的工坊"
+			x: 14.0d
 			y: 7.0d
 		}
 		{
@@ -379,8 +521,8 @@
 				type: "item"
 			}]
 			title: "寻找晶洞"
-			x: 10.5d
-			y: 3.0d
+			x: 6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1D0200000000000F"]
@@ -402,14 +544,17 @@
 				}
 			]
 			title: "高品质宝石"
-			x: 12.5d
-			y: 3.0d
+			x: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1D01000000000003"]
 			description: [
-				"全息球后续还能修复扫描功能。"
-				"近距离扫描能帮你更好地确认遗迹方向，放在地上再用锤子敲击，则能做更远程的区块扫描。对第一次找古代遗迹的新手来说，这套功能非常重要。"
+				"全息球需要修复扫描功能才能看见遗迹。"
+				""
+				"安装末影之眼开启近距离扫描能直接确认遗迹方向和位置，安装紫水晶碎片即可放在地上再用锤子敲击，做远程的区块扫描。"
+				""
+				"对第一次找古代遗迹的新手来说，这套功能非常重要。"
 			]
 			id: "1D02000000000011"
 			optional: true
@@ -418,56 +563,152 @@
 				title: "修复扫描功能"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 8.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["1D02000000000011"]
 			description: [
 				"古代遗迹通常生成在寒冷或山地深处。"
-				"如果你在地底深层活动时看到奇怪的旧工坊、残骸或大型构件，不要只当成普通地牢，它们很可能就是 Tetra 真正的中后期入口。"
+				"如果你在地底深层活动时看到奇怪的旧工坊、残骸或大型构件，不要只当成普通地牢，它们很可能就是 Tetra 的中后期入口。"
+				""
+				"&8科技发展靠考古…"
 			]
 			id: "1D02000000000012"
 			optional: true
 			tasks: [{
-				id: "1D02000000000113"
-				title: "寻找古代遗迹"
-				type: "checkmark"
+				id: "2171AE600177FADC"
+				structure: "#tetra:forged_ruins"
+				type: "structure"
 			}]
+			title: "寻找古代锻造遗迹"
+			x: 11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1D02000000000005"]
+			description: ["黑曜石锤为5级，标志着你已经拿到tetra中后期主要工具之一了。尽管一般建议直接换用下界合金锤，黑曜石锤也是可以用于大部分材料加工的。"]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/obsidian"
+					"double/basic_hammer_right_material": "basic_hammer/obsidian"
+					"double/basic_handle_material": "basic_handle/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_left:arrested": 0
+					"double/head_right": "double/basic_hammer_right"
+					"double/head_right:arrested": 0
+					id: "331b62d6-da09-4280-948b-8739bdf36790"
+				}
+			}
+			id: "4635A15DF1C30321"
+			tasks: [
+				{
+					id: "174B24BBF8E8D828"
+					title: "目标：黑曜石锤"
+					type: "checkmark"
+				}
+				{
+					id: "466A413100AE1526"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/obsidian"
+							"double/basic_hammer_right_material": "basic_hammer/obsidian"
+							"double/basic_handle_material": "basic_handle/iron"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_left:arrested": 0
+							"double/head_right": "double/basic_hammer_right"
+							"double/head_right:arrested": 0
+							id: "331b62d6-da09-4280-948b-8739bdf36790"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4635A15DF1C30321"]
+			description: ["下界合金锤为6级，这是你能拿到的最高级锤子了。"]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/netherite"
+					"double/basic_hammer_right_material": "basic_hammer/netherite"
+					"double/basic_handle_material": "basic_handle/forged_beam"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "dca48daf-0b3b-4b52-a953-2786789008cd"
+				}
+			}
+			id: "0618A9F276FE5F33"
+			tasks: [
+				{
+					id: "034A954417FD60E1"
+					title: "目标：下界合金锤"
+					type: "checkmark"
+				}
+				{
+					id: "201654878D3D3FA7"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/netherite"
+							"double/basic_hammer_right_material": "basic_hammer/netherite"
+							"double/basic_handle_material": "basic_handle/forged_beam"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "dca48daf-0b3b-4b52-a953-2786789008cd"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 14.5d
-			y: 7.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["1D02000000000012"]
-			description: [
-				"平面稳定器是遗迹里很值得带回来的高级零件。"
-				"它代表 Tetra 已经开始从常规改装走向真正的遗迹技术线，能服务于更强的弓、腰带或其他高级改造。"
+			dependencies: [
+				"1D01000000000006"
+				"0618A9F276FE5F33"
 			]
-			id: "1D02000000000013"
-			tasks: [{
-				id: "1D02000000000114"
-				item: "tetra:planar_stabilizer"
-				type: "item"
-			}]
-			title: "平面稳定器"
+			description: [
+				"后期材料会需要7级锤制作，然而没有材料能直接做出7级锤。"
+				""
+				"你需要使用全息球扫描远古锻造遗迹，拿到方块的锻造锤后，可以给锤子再加一级，达到7级。"
+			]
+			icon: "tetra:forged_workbench"
+			id: "46AF9E50AEE9DEB1"
+			tasks: [
+				{
+					id: "1A0281573AF2DE3C"
+					title: "目标：7级锤"
+					type: "checkmark"
+				}
+				{
+					id: "7C0183446A50AA42"
+					item: "tetra:forged_workbench"
+					type: "item"
+				}
+			]
 			x: 16.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["1D02000000000013"]
-			description: [
-				"Tetra 到后面会越来越像“长期投资一两把装备”的模组。"
-				"所以最适合新手的终极建议反而很简单：不要贪多，选一把近战主武器、一把主力工具，再视情况补一面盾或一把弓。把材料和时间集中投入，手感会比摊开养四五把装备好得多。"
-			]
-			id: "1D02000000000014"
-			optional: true
-			tasks: [{
-				id: "1D02000000000115"
-				title: "Tetra 的养成思路"
-				type: "checkmark"
-			}]
-			x: 18.5d
-			y: 7.0d
+			y: 4.0d
 		}
 	]
 	title: "锻造入门"

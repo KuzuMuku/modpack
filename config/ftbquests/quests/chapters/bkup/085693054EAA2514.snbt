@@ -1,0 +1,273 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "085693054EAA2514"
+	group: "1932028AE2A3EB8D"
+	icon: "minecraft:netherrack"
+	id: "085693054EAA2514"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E01000000000007"]
+			description: [
+				"下界不是进来逛一圈就走的地方。第一次来，先把路认清，再把回程点和补给点放好。"
+				"最先该拿的是烈焰棒，因为它会把酿造、末影之眼和后续主线都打开。之后再慢慢补远古残骸、凋灵骷髅头和下界器官。"
+				"你只要能围绕重生锚、金靴和几个固定落脚点稳定往返，下界就会从高压地图变成稳定资源区。"
+			]
+			id: "1B01000000000000"
+			tasks: [{
+				id: "1B01000000000100"
+				title: "阶段导读：下界远征"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E01000000000007"]
+			description: ["穿过传送门后，先寻找下界要塞与烈焰人。"]
+			id: "2378779C503E0B15"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "2455C278DBEB1F21"
+				type: "dimension"
+			}]
+			title: "踏入炼狱"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2378779C503E0B15"]
+			description: [
+				"§6下界第一目标永远是烈焰棒，不是逛图。§r"
+				"进门后先确认撤退路线，再找下界要塞和烈焰人。只有拿到烈焰棒，你才算真正打开了酿造、末影之眼、药水和后续主线。"
+				"如果一进来就开始贪遗迹、堡垒或奇怪结构，很容易把自己卡在没有补给的半路上。对新手来说，最稳的做法是先把路线打通，再原路回头刷资源。"
+			]
+			id: "1CB3C4648B41ACAE"
+			tasks: [{
+				id: "5A463A3E29D50D40"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "烈焰堡垒"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2378779C503E0B15"]
+			description: ["远古残骸通常出现在下界深层。准备好床爆或高效率镐，再进行系统性挖掘。"]
+			id: "5ABC25487AA3A531"
+			tasks: [{
+				id: "5613D513D17F913C"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "远古残骸"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5ABC25487AA3A531"]
+			description: [
+				"§6远古残骸是下界的第二个大门槛。§r"
+				"你要做的不是零散捡几个，而是先准备足够的矿镐、床爆或其他高效挖掘手段，然后按层系统清理。"
+				"把远古残骸烧成下界合金碎片，再与金锭合成为下界合金锭。做到这一步，才算真的从“下界生存”进入“下界强化”。"
+			]
+			id: "6D7ACF4275464A59"
+			tasks: [{
+				id: "45942BD49975FFCC"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "下界合金"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1CB3C4648B41ACAE"
+				"6D7ACF4275464A59"
+			]
+			description: ["开始系统刷取凋灵骷髅头。建议在要塞里清出生点、准备盾牌与远程手段。"]
+			id: "7B4735AEEFE36E50"
+			tasks: [{
+				count: 3L
+				id: "4BF8BB6548A394BA"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "凋灵骷髅"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B4735AEEFE36E50"]
+			description: [
+				"§c凋灵是检验你是否已经能稳定打下界内容的分界点。§r"
+				"不要在资源不够的时候强开。先准备战场、奶、金苹果、回复药水和足够的撤退空间，再去打。"
+				"如果你连烈焰棒、下界合金和稳定路线都还没有，就说明你还没到碰它的时机。"
+			]
+			id: "03FD01CEF237C049"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "684055B3A17416C9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "不死君王"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03FD01CEF237C049"]
+			description: ["拿到下界之星，代表你已经完成了下界阶段的核心挑战，可以前往暮色森林。"]
+			id: "654A8A0E9770844D"
+			rewards: [{
+				auto: "invisible"
+				command: "/gamephase add {p} twilight_forest"
+				elevate_perms: true
+				id: "654A8A0E9770844E"
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "72B368832645F2ED"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "下界之星：解锁暮色"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2378779C503E0B15"]
+			description: ["猪灵会主动攻击没有穿金甲的玩家。先做一双金靴，再考虑在堡垒和玄武岩三角洲附近活动。"]
+			id: "1B01000000000003"
+			tasks: [{
+				id: "1B01000000000103"
+				item: {
+					Count: 1
+					id: "minecraft:golden_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "猪灵的规矩"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CB3C4648B41ACAE"]
+			description: ["如果你打算长期在下界活动，做一个重生锚可以显著降低跑尸成本。记得再带萤石为它充能。"]
+			id: "1B01000000000004"
+			tasks: [{
+				id: "1B01000000000104"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "下界前哨"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2378779C503E0B15"]
+			description: [
+				"§a下界第一次给你的，不只是材料，而是一次明显变强的机会。§r"
+				"拿到烈焰棒以后，你可以回头补 Create 的铜和热源线，补 Mekanism 的设备，补 Botania 的产魔，也能让 Iron's 和 Ars 因为材料更顺、战斗更稳。"
+				"如果你已经开始觉得下一维度吃力，不要硬冲，先把当前最短的短板补掉。"
+			]
+			id: "1B01000000000006"
+			optional: true
+			tasks: [{
+				id: "1B01000000000106"
+				title: "现在可以做什么"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2378779C503E0B15"]
+			description: [
+				"§6下界材料不是顺路就能齐的。§r"
+				"烈焰棒找要塞，远古残骸去深层，猪灵相关素材穿金甲去堡垒，黑石、灵魂沙、萤石和下界疣则是中后期会一直回头拿的基础货。"
+				"第一次进下界，重点不是刷满，而是把路标记出来。第二次再专门来刷，效率会高很多。"
+			]
+			id: "1B01000000000007"
+			optional: true
+			tasks: [{
+				id: "1B01000000000107"
+				title: "下界资源怎么拿"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2378779C503E0B15"]
+			description: [
+				"§6下界器官最值钱的地方，是它能把你最弱的那一格直接换掉。§r"
+				"很多时候不是你输出不够，而是缺一块让你在高温、密集怪群或长时间战斗里站得住的部件。"
+				"先换最影响手感的那一格，不用急着凑整套。只要这一格换对了，你会立刻感觉自己没那么容易被下界拖死。"
+			]
+			id: "1B01000000000008"
+			optional: true
+			tasks: [{
+				id: "1B01000000000108"
+				title: "下界器官怎么接入"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2378779C503E0B15"]
+			description: ["进入下界后，优先去图鉴里看“下界器官”。这一组偏近战爆发、火焰法斗和高热续航，是中期最直接的战斗强化来源。"]
+			id: "1B01000000000005"
+			optional: true
+			tasks: [{
+				id: "1B01000000000105"
+				title: "查看图鉴：下界器官"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F4862A6CD6EA6B5"]
+			description: ["黑曜石是搭建下界传送门的基础材料。"]
+			id: "1B01000000000001"
+			tasks: [{
+				id: "1B01000000000101"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "黑曜石"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B01000000000001"]
+			description: ["点燃传送门，然后准备进入下界。"]
+			id: "1B01000000000002"
+			tasks: [{
+				id: "1B01000000000102"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "燧石与钢铁"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "炙热炼狱"
+}

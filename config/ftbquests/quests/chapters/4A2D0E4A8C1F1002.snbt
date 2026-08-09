@@ -66,22 +66,6 @@
 			x: 4.0d
 			y: 0.0d
 		}
-		{
-			dependencies: ["4A2D0E4A8C1F1206"]
-			description: [
-				"枪械线断档时，先补最常用的弹种和副武器。"
-				"能稳定回到 `9mm / 5.56 / 12g` 这类常见弹药，再慢慢恢复中后期大枪，成本最低。"
-			]
-			id: "4A2D0E4A8C1F1208"
-			optional: true
-			tasks: [{
-				id: "4A2D0E4A8C1F1209"
-				title: "失败后怎么回稳"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
 	]
 	title: "枪械入门"
 }

@@ -1,0 +1,16 @@
+
+[hud]
+	#Whether the affinity HUD should render on the client.
+	enabled = true
+	#Hide the HUD when all synced affinity points are zero.
+	hideWhenEmpty = true
+	#HUD x position from the top-left corner in GUI pixels.
+	#Range: 0 ~ 10000
+	x = 12
+	#HUD y position from the top-left corner in GUI pixels.
+	#Range: 0 ~ 10000
+	y = 12
+	#HUD scale multiplier.
+	#Range: 0.5 ~ 4.0
+	scale = 1.0
+

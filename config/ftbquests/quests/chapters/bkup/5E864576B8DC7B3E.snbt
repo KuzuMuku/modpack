@@ -1,0 +1,467 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5E864576B8DC7B3E"
+	group: "634674170BA7361A"
+	icon: "toms_storage:ts.storage_terminal"
+	id: "09808611602ED099"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1CEE0C043F4A260B"]
+			description: ["先做出背包，再考虑各种功能升级；否则这些配件没有承载主体。"]
+			id: "0823A4A9CDE48CFB"
+			tasks: [{
+				id: "00765F30B6E49C75"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E534877419CC904"]
+			description: ["储物升级底座是 Sophisticated Storage 后续功能件的公共前提。"]
+			id: "5FB52B96CEA9B33C"
+			tasks: [{
+				id: "64C7E7F684B8506E"
+				item: "sophisticatedstorage:upgrade_base"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "1717E616800E2340"
+			tasks: [{
+				id: "18436D9BE92EBEB3"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "2E4CF7B75F95B0A9"
+			tasks: [{
+				id: "1FA385D8F7850D8C"
+				item: "sophisticatedbackpacks:filter_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "55EAD541CEAA8224"
+			tasks: [{
+				id: "6ACBFA7445CDD452"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "42E59E07E11466A2"
+			tasks: [{
+				id: "6B0247726AC9C258"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "5DCD87CB0039A19A"
+			tasks: [{
+				id: "470F0E1E91351DEF"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "4329517158E5C800"
+			tasks: [{
+				id: "0229D043D40EE56D"
+				item: "sophisticatedbackpacks:smoking_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "788FD9C7923D146D"
+			tasks: [{
+				id: "663C490B61F140C8"
+				item: "sophisticatedbackpacks:blasting_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "329492B05EFE9CAD"
+			tasks: [{
+				id: "6CDA707F23C1CF04"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "70CD0800FDC81DB1"
+			tasks: [{
+				id: "166578F0E8A6612C"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "7C47554F0B9D9358"
+			tasks: [{
+				id: "5166327D9182D2CA"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "4D1722B83E5C924E"
+			tasks: [{
+				id: "59B35D7137671FDC"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "0DF5D82AA826843E"
+			tasks: [{
+				id: "1435297449E9BF69"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "09C9F45304CCE080"
+			tasks: [{
+				id: "63CBF5694CB9F221"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "72FE4498D6187D0A"
+			tasks: [{
+				id: "6C690E69D212ADC1"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "1FED5E243A5199A9"
+			tasks: [{
+				id: "0493558DC0AD58AB"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "53FB1CF0E46F0DAE"
+			tasks: [{
+				id: "7C614C9AA106D9DF"
+				item: "sophisticatedstorage:filter_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "22E5247F65AFE7CB"
+			tasks: [{
+				id: "6631939F1998E1A7"
+				item: "sophisticatedstorage:magnet_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "4816629C4D213119"
+			tasks: [{
+				id: "2BEA31BCC5C85770"
+				item: "sophisticatedstorage:void_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "4BC662EAFD9088AD"
+			tasks: [{
+				id: "1D21BCC4E4D52B1E"
+				item: "sophisticatedstorage:compression_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "3E046F9454AF7FB2"
+			tasks: [{
+				id: "639F6732FBA5A934"
+				item: "sophisticatedstorage:hopper_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "714B7E8E6225D83B"
+			tasks: [{
+				id: "00CF5592B1F053E1"
+				item: "sophisticatedstorage:smelting_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "738380BA254F0DB6"
+			tasks: [{
+				id: "5C02297E5D69D5C3"
+				item: "sophisticatedstorage:smoking_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "729494854CC7F94F"
+			tasks: [{
+				id: "2B0B431F3B77301D"
+				item: "sophisticatedstorage:blasting_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "6DEEE0F06BD319AC"
+			tasks: [{
+				id: "097635210FA851D6"
+				item: "sophisticatedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "24321F46B54E16BF"
+			tasks: [{
+				id: "67AECFE6F20F8A7E"
+				item: "sophisticatedstorage:stonecutter_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E534877419CC904"]
+			id: "41C2BBB8460CC5E2"
+			tasks: [{
+				id: "4BE99481F2CFE51C"
+				item: "sophisticatedstorage:basic_tier_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "79BFAD7432C6C267"
+			tasks: [{
+				id: "043121026CA9C4F2"
+				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "70961F8A64282B47"
+			tasks: [{
+				id: "475140F23EB719E0"
+				item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "4C0F5784713F9933"
+			tasks: [{
+				id: "55B9C0E300988140"
+				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "7B2F250F7740E8D9"
+			tasks: [{
+				id: "30B460C5BC133D20"
+				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "6F14FBCA861F82BE"
+			tasks: [{
+				id: "3FC52CEED9E9BD36"
+				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C6519897916B7B5"]
+			id: "3A0E654FF41274C2"
+			tasks: [{
+				id: "3BD06AC4C0261F0F"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C6519897916B7B5"]
+			id: "4C311F240147C48A"
+			tasks: [{
+				id: "64BB34D264FF9E03"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1E01000000000010"]
+			description: [
+				"背包和仓储不是后勤小事，它们会直接决定你一次远征能带回多少东西。"
+				"如果你总是半路满包、回家找不到材料，先做这一章。左侧解决随身携带，中间解决统一检索，右侧解决固定仓储。"
+				"前期最推荐先做一个背包和一个固定储物区；等箱子开始变多，再接 Tom's Storage 或更高阶仓储。"
+			]
+			id: "308A0F02BAB71CB9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "72B9BEC45FCEE0A9"
+				title: "存储与背包"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["308A0F02BAB71CB9"]
+			description: ["最基础的储物桶就能把散乱箱子先收住。前期不用一步到位，先把常用矿物、食物和战利品分区放好。"]
+			id: "7E534877419CC904"
+			tasks: [{
+				id: "38D74452DB219928"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["308A0F02BAB71CB9"]
+			description: ["背包会立刻改变跑图体验。它让你不用因为几组石头、食物或战利品就提前回家。"]
+			id: "1CEE0C043F4A260B"
+			tasks: [{
+				id: "6422603A583AA83E"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["308A0F02BAB71CB9"]
+			description: ["Tom's Storage 终端适合把零散箱柜先接成一个能搜索的网络，是中期最省事的统一入口。"]
+			id: "7C6519897916B7B5"
+			tasks: [{
+				id: "6B48557EAF246B29"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "合成与存储"
+}

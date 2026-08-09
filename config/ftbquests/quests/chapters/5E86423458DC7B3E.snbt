@@ -1,31 +1,14 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "5E86423458DC7B3E"
 	group: "20AEB0F73A64FBCF"
 	icon: "kubejs:andesite_alloy_heart"
 	id: "5E86423458DC7B3E"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["1E0100000000000D"]
-			description: [
-				"这里保留完整器官图鉴，方便你以后按来源和方向查找。"
-				"第一次看不要试图全部记住。先记住自己现在能去哪里，再看那一块区域能提供什么器官。"
-			]
-			id: "4E56DD1FD44ED6D5"
-			shape: "gear"
-			size: 2.0d
-			subtitle: "来源 x 方向"
-			tasks: [{
-				id: "427868E5297F5CB8"
-				title: "器官总览"
-				type: "checkmark"
-			}]
-			x: -13.0d
-			y: -6.0d
-		}
 		{
 			description: [
 				"§6把这一页当地图，不要当考试大纲。§r"
@@ -34,13 +17,14 @@
 				"§a真正需要背下来的不是器官名字，而是“我现在能刷哪里、这组能补什么短板”。§r"
 			]
 			id: "39E4121EB1560BEF"
+			size: 2.0d
 			tasks: [{
 				id: "1E99F311784F4B9F"
 				title: "如何使用图鉴"
 				type: "checkmark"
 			}]
-			x: -17.0d
-			y: -6.0d
+			x: -13.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -50,82 +34,74 @@
 				"到暮色森林时，再开始考虑成套构筑：近战围绕站场，远程围绕距离，法术围绕施法节奏。"
 			]
 			id: "2CCF8FBF20ACD0D6"
+			size: 2.0d
 			tasks: [{
 				id: "3780C51DCBEEED6D"
 				title: "前期器官怎么搭"
 				type: "checkmark"
 			}]
-			x: -17.0d
-			y: -4.0d
+			x: -15.0d
+			y: -7.0d
 		}
 		{
 			description: ["近战器官主要解决贴脸输出、承伤、击退和换血。总是被怪围住或打 Boss 刮痧时，先看这里。"]
 			id: "605D1EA8AC5C59A4"
+			size: 2.0d
 			tasks: [{
 				id: "425179EBABA2E934"
 				title: "近战"
 				type: "checkmark"
 			}]
 			x: -8.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			description: ["弓箭器官适合远程拉扯、命中收益和弹药/箭矢节奏。喜欢保持距离、不想频繁贴脸，就看这里。"]
 			id: "450DBAFAC02415DB"
+			size: 2.0d
 			tasks: [{
 				id: "68BAF54FF5BEAE68"
 				title: "弓箭"
 				type: "checkmark"
 			}]
 			x: -4.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			description: ["法术器官会影响法力、冷却、法术强度和异常效果。主修 Ars 或 Iron's 后，再回来挑这些会更容易判断价值。"]
 			id: "4FF34B4D658BDB77"
+			size: 2.0d
 			tasks: [{
 				id: "73B4C7A9EDF47215"
 				title: "法术"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			description: ["资源器官不一定直接加战斗力，但会让挖矿、采集、战利品和长期发育更舒服。科技宅家流尤其值得早看。"]
 			id: "5C1BDFFCF420EAE6"
+			size: 2.0d
 			tasks: [{
 				id: "5A11308CA6B0BE42"
 				title: "资源"
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			description: ["辅助器官负责联动、触发、回流和特殊机制。前期不用急着看，等你已经有几件同源器官后再来补。"]
 			id: "0EFD7B21C53CEC64"
+			size: 2.0d
 			tasks: [{
 				id: "441170F4C912C178"
 				title: "体系内辅助：辅助器官负责联动、触发、回流和特殊机制。前期不用急着看，等你已经有几件同源器官后再来补。做出来后可以增强器官之间的协同效果。来源是器官系统的辅助方向。"
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: -6.0d
-		}
-		{
-			description: ["蓄压爆发与机械采掘起点。这个器官来自 Create T1 工业系统，使用方法是安装到器官槽中，可以提高应力上限和近战爆发能力。做出来后适合工业路线玩家早期战斗强化。来源是 Create 工业模组。"]
-			id: "44FBDB1D95A302FC"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "安山阶段粗机械器官"
-			tasks: [{
-				id: "00A91B850EFDCB80"
-				title: "Create T1"
-				type: "checkmark"
-			}]
-			x: -13.0d
-			y: 0.0d
+			y: -5.0d
 		}
 		{
 			description: [
@@ -133,17 +109,17 @@
 				"它偏向近战爆发、基础采掘和应力循环，适合刚做出机械动力、想把生存装置变成战斗优势的时候。"
 			]
 			id: "0B5C078508E3D98F"
+			size: 2.0d
 			tasks: [{
 				id: "79FB1015436AF07B"
 				title: "来源说明：Create T1"
 				type: "checkmark"
 			}]
-			x: -17.0d
+			x: -13.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["44FBDB1D95A302FC"]
-			description: ["活塞冲拳（Piston Punch）消耗应力打出高压近战重拳。使用方法是装备在近战器官槽中，攻击时消耗应力造成高伤害。做出来后适合近战玩家在中期战斗中使用。来源是 Create T1 器官系统。"]
+			description: ["活塞冲拳消耗应力打出高压近战重拳。适合近战玩家在中期战斗中使用。"]
 			id: "6C90ECACD511840F"
 			subtitle: "活塞冲拳"
 			tasks: [{
@@ -155,8 +131,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["44FBDB1D95A302FC"]
-			description: ["动力锤击（Power Hammer）受击时放出应力，反砸周围敌人。使用方法是装备后被攻击时自动释放应力伤害周围敌人。做出来后适合在被围攻时提供反击能力。来源是 Create T1 器官系统。"]
+			description: ["动力锤击受击时放出应力，反砸周围敌人。"]
 			id: "7D090DF5C97CBD14"
 			subtitle: "动力锤击"
 			tasks: [{
@@ -168,8 +143,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["44FBDB1D95A302FC"]
-			description: ["弹射撞角（Spring Ram）消耗应力冲锋，并把目标撞开。使用方法是装备后可以主动冲锋攻击，造成伤害并击退目标。做出来后适合近战玩家快速接近或击退敌人。来源是 Create T1 器官系统。"]
+			description: ["装备后可以主动冲锋攻击，造成伤害并击退目标。"]
 			id: "68B405737EF2E65C"
 			subtitle: "弹射撞角"
 			tasks: [{
@@ -181,8 +155,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["44FBDB1D95A302FC"]
-			description: ["传动链锯（Drive Chainsaw）持续烧应力，维持贴身切割。使用方法是装备后持续消耗应力对近距离敌人造成持续伤害。做出来后适合贴身持续输出的战斗风格。来源是 Create T1 器官系统。"]
+			description: ["装备后持续消耗应力对近距离敌人造成持续伤害。做出来后适合贴身持续输出的战斗风格。"]
 			id: "2F00E3A60A032661"
 			subtitle: "传动链锯"
 			tasks: [{
@@ -194,8 +167,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["44FBDB1D95A302FC"]
-			description: ["应力镐（Stress Pickaxe）消耗应力，快速粉碎前方矿块。使用方法是装备后挖矿时消耗应力快速破坏方块。做出来后适合工业玩家快速采矿。来源是 Create T1 器官系统。"]
+			description: ["应力镐消耗应力，快速粉碎前方矿块。做出来后适合工业玩家快速采矿。"]
 			id: "2BE860B1F6345698"
 			subtitle: "应力镐"
 			tasks: [{
@@ -207,7 +179,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["44FBDB1D95A302FC"]
 			description: ["消耗应力处理原矿，并提高产出。"]
 			id: "22D8E8660DC4A361"
 			subtitle: "粉碎齿轮"
@@ -220,7 +191,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["44FBDB1D95A302FC"]
 			description: ["提供应力上限，同时稳住基础蓄压。"]
 			id: "2BB8C23970AC5CFF"
 			subtitle: "安山飞轮心脏"
@@ -233,7 +203,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["44FBDB1D95A302FC"]
 			description: ["持续提供应力，并保持飞轮回压。"]
 			id: "07769B001582044E"
 			subtitle: "微型水车"
@@ -246,7 +215,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["44FBDB1D95A302FC"]
 			description: ["移动时提供应力，并放大机动回压。"]
 			id: "7A52E4CFA89854E6"
 			subtitle: "微型风车"
@@ -259,8 +227,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["44FBDB1D95A302FC"]
-			description: ["微型水车（Micro Water Wheel）提高应力上限，并把攻击挖矿转成蓄压。使用方法是安装后提高最大应力值，并将部分行动转化为应力积累。做出来后适合工业玩家长期活动。来源是 Create 工业系统。"]
+			description: ["安装后提高最大应力值，并将部分行动转化为应力积累。但受到攻击时会打断机械稳定性，受到一定反噬。"]
 			id: "078F6EFD981D62FD"
 			subtitle: "增压传动轴"
 			tasks: [{
@@ -272,35 +239,21 @@
 			y: 3.0d
 		}
 		{
-			description: ["微型风车（Micro Windmill）应力释放与重压输出。使用方法是安装后帮助应力管理，提供重压输出能力。做出来后适合需要应力循环的玩家。来源是 Create 工业系统。"]
-			id: "2993E23D8E3F5A86"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "黄铜阶段机械器官"
+			description: [
+				"`Create T2` 代表黄铜阶段的进阶机械构筑。"
+				"这一组更偏重高压近战、稳定回流和节拍联动，适合已经有中期工坊、开始追求整套器官协同的时候。"
+			]
+			id: "55D652003E977AE8"
+			size: 2.0d
 			tasks: [{
-				id: "3312483AF508FBBA"
-				title: "Create T2"
+				id: "42638AFE8AA70091"
+				title: "来源说明：Create T2"
 				type: "checkmark"
 			}]
 			x: -13.0d
 			y: 6.0d
 		}
 		{
-			description: [
-				"`Create T2` 代表黄铜阶段的进阶机械构筑。"
-				"这一组更偏重高压近战、稳定回流和节拍联动，适合已经有中期工坊、开始追求整套器官协同的时候。"
-			]
-			id: "55D652003E977AE8"
-			tasks: [{
-				id: "42638AFE8AA70091"
-				title: "来源说明：Create T2"
-				type: "checkmark"
-			}]
-			x: -17.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["2993E23D8E3F5A86"]
 			description: ["提供近身爆发，并补足终端伤害。"]
 			id: "36E913D1B5A1AB59"
 			subtitle: "黄铜打桩拳"
@@ -313,7 +266,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2993E23D8E3F5A86"]
 			description: ["提供近身压制，并补足贴脸输出。"]
 			id: "1D31D64830F21EF7"
 			subtitle: "棘轮破城肩"
@@ -326,7 +278,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["2993E23D8E3F5A86"]
 			description: ["提供法术强度，并强化施法节奏。"]
 			id: "3F35448EC324A44F"
 			subtitle: "增压锻炉肺"
@@ -339,7 +290,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2993E23D8E3F5A86"]
 			description: ["提供恢复回流，并把受击转成续航。"]
 			id: "0BAF02A6E0F5314E"
 			subtitle: "润滑回流腺"
@@ -352,7 +302,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2993E23D8E3F5A86"]
 			description: ["提供采集爆发，并拉高资源产量。"]
 			id: "491D0C35842DA84F"
 			subtitle: "螺旋掘进钻"
@@ -365,7 +314,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["2993E23D8E3F5A86"]
 			description: ["提供基础核心，并托住整套体系。"]
 			id: "6AD323EB168E131C"
 			subtitle: "黄铜增压心室"
@@ -378,7 +326,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2993E23D8E3F5A86"]
 			description: ["提供稳定驱动，并把动作转成蓄压。"]
 			id: "037FC2333109A9BF"
 			subtitle: "配重飞轮囊"
@@ -391,7 +338,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["2993E23D8E3F5A86"]
 			description: ["提供稳压支点，并把攻击挖矿转成回响。"]
 			id: "5DA84D5C305BEBD7"
 			subtitle: "黄铜离合脊"
@@ -404,7 +350,6 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["2993E23D8E3F5A86"]
 			description: ["提供体系联动，并放大同源器官。"]
 			id: "2422836983A57F08"
 			subtitle: "节拍校准耳蜗"
@@ -417,7 +362,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["2993E23D8E3F5A86"]
 			description: ["提供承压护体，并补足站场稳定。"]
 			id: "0814CA27BF7EED56"
 			subtitle: "配压黄铜膜"
@@ -430,31 +374,18 @@
 			y: 10.0d
 		}
 		{
-			description: ["基础能量驱动与工业战斗。"]
-			id: "757D33C64DEEA987"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "基础工业器官"
-			tasks: [{
-				id: "5CADDE912EA4BD16"
-				title: "Mekanism T1"
-				type: "checkmark"
-			}]
-			x: -13.0d
-			y: 13.0d
-		}
-		{
 			description: [
 				"`Mekanism T1` 是基础工业器官来源。"
 				"它偏向能量驱动、资源精炼和工业战斗，适合你已经进入机器量产阶段，希望把后勤能力转化成正面战力。"
 			]
 			id: "02E90298D8DC6FCA"
+			size: 2.0d
 			tasks: [{
 				id: "7F497FDE748EED2C"
 				title: "来源说明：Mekanism T1"
 				type: "checkmark"
 			}]
-			x: -17.0d
+			x: -13.0d
 			y: 13.0d
 		}
 		{
@@ -626,35 +557,21 @@
 			y: 18.0d
 		}
 		{
-			description: ["高频稳相耳蜗（High-Frequency Stabilized Cochlea）提供高阶能量、护盾与复制功能。使用方法是装备后提高能量上限和护盾能力，并支持复制机制。做出来后适合终局玩家的高阶配置。来源是高级器官系统。"]
-			id: "4835080A8C3B403A"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "高阶过载器官"
+			description: [
+				"`Mekanism T2` 是高阶工业器官来源。"
+				"这一组围绕护盾、纳米修复、远程锁定和复制展开，更适合中后期高压 Boss 战或终局后勤流派。"
+			]
+			id: "1B008864AE34F816"
+			size: 2.0d
 			tasks: [{
-				id: "257FBB5BD777E2BA"
-				title: "Mekanism T2"
+				id: "19D9185FF241237F"
+				title: "来源说明：Mekanism T2"
 				type: "checkmark"
 			}]
 			x: -13.0d
 			y: 21.0d
 		}
 		{
-			description: [
-				"`Mekanism T2` 是高阶工业器官来源。"
-				"这一组围绕护盾、纳米修复、远程锁定和复制展开，更适合中后期高压 Boss 战或终局后勤流派。"
-			]
-			id: "1B008864AE34F816"
-			tasks: [{
-				id: "19D9185FF241237F"
-				title: "来源说明：Mekanism T2"
-				type: "checkmark"
-			}]
-			x: -17.0d
-			y: 21.0d
-		}
-		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供近身爆发，并补足终端伤害。"]
 			id: "66CD76225379B338"
 			subtitle: "相位切断臂"
@@ -667,7 +584,6 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供近身压制，并补足贴脸输出。"]
 			id: "4ED1F3E701E61956"
 			subtitle: "偏折棱肩"
@@ -680,7 +596,6 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供远程压制，并延长命中后续。"]
 			id: "6BCDD0651D918294"
 			subtitle: "矢量锁定眼"
@@ -693,7 +608,6 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供远程终端，并制造命中压制。"]
 			id: "6DE9E22554555692"
 			subtitle: "光矛抛射腱"
@@ -706,7 +620,6 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供冷却压缩，并稳住法术节拍。"]
 			id: "002FC9F4081EB095"
 			subtitle: "棱镜演算脑"
@@ -719,7 +632,6 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供恢复回流，并把受击转成续航。"]
 			id: "39067B6DE5429017"
 			subtitle: "纳米回充巢"
@@ -732,7 +644,6 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供采集爆发，并拉高资源产量。"]
 			id: "2295264A64B526ED"
 			subtitle: "纳米复制腺"
@@ -745,7 +656,6 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "0E8D0D3C6601FDDC"
 			subtitle: "零损采样爪"
@@ -758,7 +668,6 @@
 			y: 23.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供基础核心，并托住整套体系。"]
 			id: "61C09445AD0347F6"
 			subtitle: "量子护盾核"
@@ -771,7 +680,6 @@
 			y: 21.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供稳定驱动，并把动作转成蓄压。"]
 			id: "6B4E11E9233846A3"
 			subtitle: "等离子膜肺"
@@ -784,7 +692,6 @@
 			y: 22.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供稳压支点，并把攻击挖矿转成回响。"]
 			id: "5A87D7C1AFA6429C"
 			subtitle: "过载稳相脊"
@@ -797,7 +704,6 @@
 			y: 23.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供承压护体，并补足站场稳定。"]
 			id: "58CFB46F6DC49A00"
 			subtitle: "护盾编织膜"
@@ -806,11 +712,10 @@
 				item: "kubejs:shield_weave_membrane"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 24.0d
+			x: 9.0d
+			y: 21.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供体系联动，并放大同源器官。"]
 			id: "3CF21FAF2261828C"
 			subtitle: "纳米修复网"
@@ -819,11 +724,10 @@
 				item: "kubejs:nano_repair_mesh"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 25.0d
+			x: 9.0d
+			y: 22.0d
 		}
 		{
-			dependencies: ["4835080A8C3B403A"]
 			description: ["提供机动速度，并强化追击撤离。"]
 			id: "2540D275F4DF4BDB"
 			subtitle: "采能步进足"
@@ -832,22 +736,8 @@
 				item: "kubejs:energy_harvest_step_foot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 26.0d
-		}
-		{
-			description: ["等离子膜肺（Plasma Membrane Lung）提供耐热、磨血与火土法斗能力。使用方法是装备后提高火焰抗性和持续战斗能力。做出来后适合在高温和火焰环境中活动的玩家。来源是高级器官系统。"]
-			id: "201130663134DCF7"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "烈日与砂压"
-			tasks: [{
-				id: "44F63108E933F053"
-				title: "沙漠器官"
-				type: "checkmark"
-			}]
-			x: -13.0d
-			y: 29.0d
+			x: 9.0d
+			y: 23.0d
 		}
 		{
 			description: [
@@ -855,12 +745,13 @@
 				"它们偏向耐热、磨血、火土混合法斗和采集回收，适合想走稳扎稳打或长线消耗路线的构筑。"
 			]
 			id: "7D27FA1AB02D773C"
+			size: 2.0d
 			tasks: [{
 				id: "79B9266460328F34"
 				title: "来源说明：沙漠器官"
 				type: "checkmark"
 			}]
-			x: -17.0d
+			x: -13.0d
 			y: 29.0d
 		}
 		{
@@ -984,31 +875,18 @@
 			y: 31.0d
 		}
 		{
-			description: ["日蚀冠脑（Solar Eclipse Crown Brain）提供前排缠斗与自然法坦能力。使用方法是装备后提高近战抗性和自然魔法坦度。做出来后适合坦克和近战玩家。来源是高级器官系统。"]
-			id: "47928566A7447479"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "缠斗与自然施法"
-			tasks: [{
-				id: "2063C49F9EC6FDBC"
-				title: "丛林器官"
-				type: "checkmark"
-			}]
-			x: -13.0d
-			y: 34.0d
-		}
-		{
 			description: [
 				"丛林器官主要来自丛林地表、神庙和自然施法环境。"
 				"它们偏向前排缠斗、召唤与自然法术续航，适合喜欢贴身压制又不想放弃法术节奏的构筑。"
 			]
 			id: "76CFBB86D35C97AB"
+			size: 2.0d
 			tasks: [{
 				id: "65AF9C140CE2BAAD"
 				title: "来源说明：丛林器官"
 				type: "checkmark"
 			}]
-			x: -17.0d
+			x: -13.0d
 			y: 34.0d
 		}
 		{
@@ -1132,35 +1010,21 @@
 			y: 37.0d
 		}
 		{
-			description: ["兰荧法芽肺（Lan Ying Spore Bud Lung）提供低光生存与孢种增殖能力。使用方法是装备后在低光环境中提高生存能力，并支持孢种繁殖。做出来后适合在暗处和特殊环境活动的玩家。来源是高级器官系统。"]
-			id: "393A611CD94D8553"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "孢光与洞穴共生"
+			description: [
+				"繁茂洞穴器官来自低光、孢种和洞穴生态。"
+				"它们偏向生存、孢种增殖和持续恢复，适合长期探矿、持久战和偏资源路线的构筑。"
+			]
+			id: "1875E2C38600AA62"
+			size: 2.0d
 			tasks: [{
-				id: "217C987486FB80B7"
-				title: "繁茂洞穴器官"
+				id: "4F048F0A95FD5B2A"
+				title: "来源说明：繁茂洞穴器官"
 				type: "checkmark"
 			}]
 			x: -13.0d
 			y: 40.0d
 		}
 		{
-			description: [
-				"繁茂洞穴器官来自低光、孢种和洞穴生态。"
-				"它们偏向生存、孢种增殖和持续恢复，适合长期探矿、持久战和偏资源路线的构筑。"
-			]
-			id: "1875E2C38600AA62"
-			tasks: [{
-				id: "4F048F0A95FD5B2A"
-				title: "来源说明：繁茂洞穴器官"
-				type: "checkmark"
-			}]
-			x: -17.0d
-			y: 40.0d
-		}
-		{
-			dependencies: ["393A611CD94D8553"]
 			description: ["提供近身压制，并补足贴脸输出。"]
 			id: "3B0C383D8C2A46CC"
 			subtitle: "垂根束臂"
@@ -1173,7 +1037,6 @@
 			y: 40.0d
 		}
 		{
-			dependencies: ["393A611CD94D8553"]
 			description: ["提供法术强度，并强化施法节奏。"]
 			id: "6BEEF1F91B34D240"
 			subtitle: "孢光肺叶"
@@ -1186,7 +1049,6 @@
 			y: 40.0d
 		}
 		{
-			dependencies: ["393A611CD94D8553"]
 			description: ["提供法力储备，并改善施法续航。"]
 			id: "63BD5D12F976D11E"
 			subtitle: "亮苞浆囊"
@@ -1199,7 +1061,6 @@
 			y: 41.0d
 		}
 		{
-			dependencies: ["393A611CD94D8553"]
 			description: ["提供冷却压缩，并稳住法术节拍。"]
 			id: "0C46666BC80580D1"
 			subtitle: "幽苔冠脑"
@@ -1212,7 +1073,6 @@
 			y: 42.0d
 		}
 		{
-			dependencies: ["393A611CD94D8553"]
 			description: ["提供恢复回流，并把受击转成续航。"]
 			id: "25900348498C2036"
 			subtitle: "洞苔回春肝"
@@ -1225,7 +1085,6 @@
 			y: 40.0d
 		}
 		{
-			dependencies: ["393A611CD94D8553"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "6617C8056484E6B4"
 			subtitle: "孢床脾囊"
@@ -1238,7 +1097,6 @@
 			y: 41.0d
 		}
 		{
-			dependencies: ["393A611CD94D8553"]
 			description: ["提供基础核心，并托住整套体系。"]
 			id: "284D2690F66FD013"
 			subtitle: "苔光心核"
@@ -1251,7 +1109,6 @@
 			y: 40.0d
 		}
 		{
-			dependencies: ["393A611CD94D8553"]
 			description: ["提供承压护体，并补足站场稳定。"]
 			id: "3E8816A8C9974FF3"
 			subtitle: "钙脉胸骨"
@@ -1264,7 +1121,6 @@
 			y: 41.0d
 		}
 		{
-			dependencies: ["393A611CD94D8553"]
 			description: ["提供体系联动，并放大同源器官。"]
 			id: "4AA073C7244A3C21"
 			subtitle: "孢芽腺团"
@@ -1277,7 +1133,6 @@
 			y: 42.0d
 		}
 		{
-			dependencies: ["393A611CD94D8553"]
 			description: ["提供机动速度，并强化追击撤离。"]
 			id: "2783E3ECC5B8A12B"
 			subtitle: "菌丝足垫"
@@ -1290,35 +1145,21 @@
 			y: 43.0d
 		}
 		{
-			description: ["亮苞浆囊（Bright Pod Sac）提供低速压制与冰法反打能力。使用方法是装备后降低移动速度但提高冰系反打伤害。做出来后适合冰系法师和控制型玩家。来源是高级器官系统。"]
-			id: "3F8D317E8989E87E"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "寒势与冰裂"
+			description: [
+				"雪原器官主要来自寒冷地表和冰雪环境。"
+				"这组偏向减速压制、冰法反打和低速硬控，适合希望拉开距离、控制节奏的远程与法术流派。"
+			]
+			id: "24D916578E472859"
+			size: 2.0d
 			tasks: [{
-				id: "5CAFC8D707B6816A"
-				title: "雪原器官"
+				id: "4D79C34EE2152FF5"
+				title: "来源说明：雪原器官"
 				type: "checkmark"
 			}]
 			x: -13.0d
 			y: 46.0d
 		}
 		{
-			description: [
-				"雪原器官主要来自寒冷地表和冰雪环境。"
-				"这组偏向减速压制、冰法反打和低速硬控，适合希望拉开距离、控制节奏的远程与法术流派。"
-			]
-			id: "24D916578E472859"
-			tasks: [{
-				id: "4D79C34EE2152FF5"
-				title: "来源说明：雪原器官"
-				type: "checkmark"
-			}]
-			x: -17.0d
-			y: 46.0d
-		}
-		{
-			dependencies: ["3F8D317E8989E87E"]
 			description: ["提供近身压制，并补足贴脸输出。"]
 			id: "1799CF8E74F84BFA"
 			subtitle: "冰碴臂束"
@@ -1331,7 +1172,6 @@
 			y: 46.0d
 		}
 		{
-			dependencies: ["3F8D317E8989E87E"]
 			description: ["提供远程压制，并延长命中后续。"]
 			id: "1B83FB416CE7BF1D"
 			subtitle: "雪盲虹膜"
@@ -1344,7 +1184,6 @@
 			y: 46.0d
 		}
 		{
-			dependencies: ["3F8D317E8989E87E"]
 			description: ["提供法力储备，并改善施法续航。"]
 			id: "3D9B2342C4530710"
 			subtitle: "白桦髓肝"
@@ -1357,7 +1196,6 @@
 			y: 46.0d
 		}
 		{
-			dependencies: ["3F8D317E8989E87E"]
 			description: ["提供法术强度，并强化施法节奏。"]
 			id: "0A0FA60B14020D8C"
 			subtitle: "冰晶肺叶"
@@ -1370,7 +1208,6 @@
 			y: 47.0d
 		}
 		{
-			dependencies: ["3F8D317E8989E87E"]
 			description: ["提供冷却压缩，并稳住法术节拍。"]
 			id: "1FD007A23A8C4FA7"
 			subtitle: "寒光冠脑"
@@ -1383,7 +1220,6 @@
 			y: 48.0d
 		}
 		{
-			dependencies: ["3F8D317E8989E87E"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "58A7BF30DB81BF3F"
 			subtitle: "雪藏脾囊"
@@ -1396,7 +1232,6 @@
 			y: 46.0d
 		}
 		{
-			dependencies: ["3F8D317E8989E87E"]
 			description: ["提供恢复回流，并把受击转成续航。"]
 			id: "7330D4734CCFF159"
 			subtitle: "冻裂髓鞘"
@@ -1409,7 +1244,6 @@
 			y: 47.0d
 		}
 		{
-			dependencies: ["3F8D317E8989E87E"]
 			description: ["提供基础核心，并托住整套体系。"]
 			id: "7A64D39690935BE4"
 			subtitle: "霜封心室"
@@ -1422,7 +1256,6 @@
 			y: 46.0d
 		}
 		{
-			dependencies: ["3F8D317E8989E87E"]
 			description: ["提供承压护体，并补足站场稳定。"]
 			id: "7BECEC3D5DFA1BBF"
 			subtitle: "冻土胸甲膜"
@@ -1435,7 +1268,6 @@
 			y: 47.0d
 		}
 		{
-			dependencies: ["3F8D317E8989E87E"]
 			description: ["提供机动速度，并强化追击撤离。"]
 			id: "0E61D21A5FABB42C"
 			subtitle: "霜蹄腿腱"
@@ -1448,35 +1280,21 @@
 			y: 48.0d
 		}
 		{
-			description: ["雪盲虹膜（Snow Blind Iris）提供污染扩散与湿地锁人能力。使用方法是装备后在湿地环境中提高控制能力，并支持污染扩散。做出来后适合在特殊地形战斗的玩家。来源是高级器官系统。"]
-			id: "56EDE6428EE0C9CB"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "腐水与黏毒"
+			description: [
+				"沼泽器官来自泥潭、毒雾和黏液生态。"
+				"它们偏向污染扩散、黏毒缠斗和潜行追击，适合喜欢用持续效果和地形慢慢压垮敌人的构筑。"
+			]
+			id: "3E4910D0FFFC10B8"
+			size: 2.0d
 			tasks: [{
-				id: "6EC8977EF4DD09B1"
-				title: "沼泽器官"
+				id: "0CB45691366113BD"
+				title: "来源说明：沼泽器官"
 				type: "checkmark"
 			}]
 			x: -13.0d
 			y: 51.0d
 		}
 		{
-			description: [
-				"沼泽器官来自泥潭、毒雾和黏液生态。"
-				"它们偏向污染扩散、黏毒缠斗和潜行追击，适合喜欢用持续效果和地形慢慢压垮敌人的构筑。"
-			]
-			id: "3E4910D0FFFC10B8"
-			tasks: [{
-				id: "0CB45691366113BD"
-				title: "来源说明：沼泽器官"
-				type: "checkmark"
-			}]
-			x: -17.0d
-			y: 51.0d
-		}
-		{
-			dependencies: ["56EDE6428EE0C9CB"]
 			description: ["提供近身压制，并补足贴脸输出。"]
 			id: "726EA3CF00E23964"
 			subtitle: "史莱姆牵丝臂"
@@ -1489,7 +1307,6 @@
 			y: 51.0d
 		}
 		{
-			dependencies: ["56EDE6428EE0C9CB"]
 			description: ["提供远程终端，并制造命中压制。"]
 			id: "240B020ABCC21D9F"
 			subtitle: "毒囊花喉"
@@ -1502,7 +1319,6 @@
 			y: 51.0d
 		}
 		{
-			dependencies: ["56EDE6428EE0C9CB"]
 			description: ["提供法力储备，并改善施法续航。"]
 			id: "243BE2CE76277146"
 			subtitle: "腐苔滤肝"
@@ -1515,7 +1331,6 @@
 			y: 51.0d
 		}
 		{
-			dependencies: ["56EDE6428EE0C9CB"]
 			description: ["提供法术强度，并强化施法节奏。"]
 			id: "7AE33A117C796FBE"
 			subtitle: "孢浆沼肺"
@@ -1528,7 +1343,6 @@
 			y: 52.0d
 		}
 		{
-			dependencies: ["56EDE6428EE0C9CB"]
 			description: ["提供冷却压缩，并稳住法术节拍。"]
 			id: "49D534997F656685"
 			subtitle: "巫沼冠脑"
@@ -1541,7 +1355,6 @@
 			y: 53.0d
 		}
 		{
-			dependencies: ["56EDE6428EE0C9CB"]
 			description: ["提供恢复回流，并把受击转成续航。"]
 			id: "05058C8477BEB222"
 			subtitle: "泥潭蓄腐囊"
@@ -1554,7 +1367,6 @@
 			y: 51.0d
 		}
 		{
-			dependencies: ["56EDE6428EE0C9CB"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "03A280F432A28A20"
 			subtitle: "黏液回蓝脾"
@@ -1567,7 +1379,6 @@
 			y: 52.0d
 		}
 		{
-			dependencies: ["56EDE6428EE0C9CB"]
 			description: ["提供基础核心，并托住整套体系。"]
 			id: "734B824E676E2FE9"
 			subtitle: "淤泥毒心"
@@ -1580,7 +1391,6 @@
 			y: 51.0d
 		}
 		{
-			dependencies: ["56EDE6428EE0C9CB"]
 			description: ["提供承压护体，并补足站场稳定。"]
 			id: "26F7EFC521C66641"
 			subtitle: "黏膜护壳"
@@ -1593,7 +1403,6 @@
 			y: 52.0d
 		}
 		{
-			dependencies: ["56EDE6428EE0C9CB"]
 			description: ["提供机动速度，并强化追击撤离。"]
 			id: "2E67095520ED5B73"
 			subtitle: "蛙蹼潜行腿"
@@ -1606,31 +1415,18 @@
 			y: 53.0d
 		}
 		{
-			description: ["史莱姆牵丝臂（Slime Silk Arm）提供水域机动与潮压控场能力。使用方法是装备后在水域提高移动能力，并支持潮压控制。做出来后适合水域探索和战斗的玩家。来源是高级器官系统。"]
-			id: "6A3C208C6B221583"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "潮压与远航"
-			tasks: [{
-				id: "207A59B84246420A"
-				title: "海洋器官"
-				type: "checkmark"
-			}]
-			x: -13.0d
-			y: 56.0d
-		}
-		{
 			description: [
 				"海洋器官来自海底遗迹、神殿和深水生态。"
 				"这一组偏向水域机动、潮压控场和远航生存，适合中期远征与需要机动性的弓箭路线。"
 			]
 			id: "482E852900DDBDA0"
+			size: 2.0d
 			tasks: [{
 				id: "7D058F23C50450A7"
 				title: "来源说明：海洋器官"
 				type: "checkmark"
 			}]
-			x: -17.0d
+			x: -13.0d
 			y: 56.0d
 		}
 		{
@@ -1874,35 +1670,21 @@
 			y: 63.0d
 		}
 		{
-			description: ["海流脾囊（Ocean Current Spleen Sac）提供袭击节奏与战利回收能力。使用方法是装备后提高攻击节奏，并增强战利品回收效率。做出来后适合快速战斗和资源收集的玩家。来源是高级器官系统。"]
-			id: "292655E70F568BFD"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "袭扰与掠夺"
+			description: [
+				"掠夺者器官来自袭击、前哨和掠夺者系战利品。"
+				"它们偏向袭扰节奏、远程压制和战利回收，适合世界探索、流动作战和中前期杂战构筑。"
+			]
+			id: "1A341DC7177706F4"
+			size: 2.0d
 			tasks: [{
-				id: "336E57A22C1CAB3C"
-				title: "掠夺者器官"
+				id: "2FDDEDFF423ED88F"
+				title: "来源说明：掠夺者器官"
 				type: "checkmark"
 			}]
 			x: -13.0d
 			y: 66.0d
 		}
 		{
-			description: [
-				"掠夺者器官来自袭击、前哨和掠夺者系战利品。"
-				"它们偏向袭扰节奏、远程压制和战利回收，适合世界探索、流动作战和中前期杂战构筑。"
-			]
-			id: "1A341DC7177706F4"
-			tasks: [{
-				id: "2FDDEDFF423ED88F"
-				title: "来源说明：掠夺者器官"
-				type: "checkmark"
-			}]
-			x: -17.0d
-			y: 66.0d
-		}
-		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供近身压制，并补足贴脸输出。"]
 			id: "429730FBA149BA74"
 			subtitle: "斥候臂束"
@@ -1915,7 +1697,6 @@
 			y: 66.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供近身压制，并补足贴脸输出。"]
 			id: "25292E07D456D400"
 			subtitle: "旗刺肩甲"
@@ -1928,7 +1709,6 @@
 			y: 67.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供远程压制，并延长命中后续。"]
 			id: "24E220821A99EFF0"
 			subtitle: "侦掠虹膜"
@@ -1941,7 +1721,6 @@
 			y: 66.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供远程终端，并制造命中压制。"]
 			id: "5A9A67A622FEA681"
 			subtitle: "暗箭喉囊"
@@ -1954,7 +1733,6 @@
 			y: 67.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供法力储备，并改善施法续航。"]
 			id: "5E7706F79EEF6A93"
 			subtitle: "绿宝肝囊"
@@ -1967,7 +1745,6 @@
 			y: 66.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供冷却压缩，并稳住法术节拍。"]
 			id: "1D3B38A9DE2ACC57"
 			subtitle: "号角冠脑"
@@ -1980,7 +1757,6 @@
 			y: 67.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "3DBAC35AD3B2FEA9"
 			subtitle: "战利脾囊"
@@ -1993,7 +1769,6 @@
 			y: 66.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供恢复回流，并把受击转成续航。"]
 			id: "5F1E1CFD05844F28"
 			subtitle: "流亡肾鞘"
@@ -2006,7 +1781,6 @@
 			y: 67.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "7581FA713A204483"
 			subtitle: "袭击拾荒手"
@@ -2019,7 +1793,6 @@
 			y: 68.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供基础核心，并托住整套体系。"]
 			id: "5A3D20E8737E3CB0"
 			subtitle: "劫掠心室"
@@ -2032,7 +1805,6 @@
 			y: 66.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供稳压支点，并把攻击挖矿转成回响。"]
 			id: "24A26E60F2AEDE7B"
 			subtitle: "旗帜脊轮"
@@ -2045,7 +1817,6 @@
 			y: 67.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供承压护体，并补足站场稳定。"]
 			id: "46C358AD8D573186"
 			subtitle: "前哨胸甲"
@@ -2058,7 +1829,6 @@
 			y: 68.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供体系联动，并放大同源器官。"]
 			id: "0BF099A54C73F4FD"
 			subtitle: "破阵腺团"
@@ -2071,7 +1841,6 @@
 			y: 69.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供体系联动，并放大同源器官。"]
 			id: "31AD78F3746478BD"
 			subtitle: "战鼓耳蜗"
@@ -2084,7 +1853,6 @@
 			y: 70.0d
 		}
 		{
-			dependencies: ["292655E70F568BFD"]
 			description: ["提供机动速度，并强化追击撤离。"]
 			id: "6B9F92A2922A2446"
 			subtitle: "夜袭足腱"
@@ -2097,31 +1865,18 @@
 			y: 71.0d
 		}
 		{
-			description: ["暗箭喉囊（Dark Arrow Throat Sac）提供祝福补给与秩序站场能力。使用方法是装备后提高回复能力，并支持稳定站场。做出来后适合辅助和持续战斗的玩家。来源是高级器官系统。"]
-			id: "15CB56E83865A3D6"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "秩序与补给"
-			tasks: [{
-				id: "3727517A0151BA2E"
-				title: "村庄器官"
-				type: "checkmark"
-			}]
-			x: -13.0d
-			y: 74.0d
-		}
-		{
 			description: [
 				"村庄器官来自交易、铁傀儡和秩序型玩法。"
 				"这组偏向补给、修补、声望与站场稳定，适合作为开荒和长期远征的底盘构筑。"
 			]
 			id: "5E8D5FD7D4B6B0F0"
+			size: 2.0d
 			tasks: [{
 				id: "1F6E8DAA1E5F019A"
 				title: "来源说明：村庄器官"
 				type: "checkmark"
 			}]
-			x: -17.0d
+			x: -13.0d
 			y: 74.0d
 		}
 		{
@@ -2305,31 +2060,18 @@
 			y: 80.0d
 		}
 		{
-			description: ["职业肝囊（Professional Liver Sac）提供折跃追击与空间法斗能力。使用方法是装备后提高快速移动和空间法术能力。做出来后适合高机动性玩家。来源是高级器官系统。"]
-			id: "5E52D1066FBB40BA"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "折返与位移"
-			tasks: [{
-				id: "302230F192BFD460"
-				title: "末地器官"
-				type: "checkmark"
-			}]
-			x: -13.0d
-			y: 83.0d
-		}
-		{
 			description: [
 				"末地器官来自折跃、潜影和末影位移相关战利品。"
 				"它们偏向高机动、折返追击和空间法斗，更适合后期成型构筑或终局清图。"
 			]
 			id: "2BD55F36F789FCCD"
+			size: 2.0d
 			tasks: [{
 				id: "51B92506D03EDA74"
 				title: "来源说明：末地器官"
 				type: "checkmark"
 			}]
-			x: -17.0d
+			x: -13.0d
 			y: 83.0d
 		}
 		{
@@ -2573,35 +2315,21 @@
 			y: 90.0d
 		}
 		{
-			description: ["末影肺叶（Ender Lung Leaf）提供高热献祭与爆裂输出能力。使用方法是装备后在高热环境中提高爆发伤害。做出来后适合终局挑战的玩家。来源是高级器官系统。"]
-			id: "6370FDF4350425DB"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "献祭与高热"
+			description: [
+				"下界器官来自高热、献祭、堡垒与下界高压生存。"
+				"它们偏向爆裂输出、火焰法斗和高压近战，是中期最直接的战斗强化来源之一。"
+			]
+			id: "65E216E1DFB5C060"
+			size: 2.0d
 			tasks: [{
-				id: "2FD0BBF51EDDD914"
-				title: "下界器官"
+				id: "4C5F8E4BAE0A7653"
+				title: "来源说明：下界器官"
 				type: "checkmark"
 			}]
 			x: -13.0d
 			y: 93.0d
 		}
 		{
-			description: [
-				"下界器官来自高热、献祭、堡垒与下界高压生存。"
-				"它们偏向爆裂输出、火焰法斗和高压近战，是中期最直接的战斗强化来源之一。"
-			]
-			id: "65E216E1DFB5C060"
-			tasks: [{
-				id: "4C5F8E4BAE0A7653"
-				title: "来源说明：下界器官"
-				type: "checkmark"
-			}]
-			x: -17.0d
-			y: 93.0d
-		}
-		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供近身压制，并补足贴脸输出。"]
 			id: "22EB68DEB328013D"
 			subtitle: "烈焰臂束"
@@ -2614,7 +2342,6 @@
 			y: 93.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供近身爆发，并补足终端伤害。"]
 			id: "0479B8A15AA79EC8"
 			subtitle: "献火拳峰"
@@ -2627,7 +2354,6 @@
 			y: 94.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供近身压制，并补足贴脸输出。"]
 			id: "6663B170896757DA"
 			subtitle: "烈狱肩甲"
@@ -2640,7 +2366,6 @@
 			y: 95.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供远程终端，并制造命中压制。"]
 			id: "18221F2D9C45D849"
 			subtitle: "灼喉囊"
@@ -2653,7 +2378,6 @@
 			y: 93.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供远程压制，并延长命中后续。"]
 			id: "65137768B99E791E"
 			subtitle: "灰烬虹膜"
@@ -2666,7 +2390,6 @@
 			y: 94.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供远程终端，并制造命中压制。"]
 			id: "085301395522DB66"
 			subtitle: "黑焰喉管"
@@ -2679,7 +2402,6 @@
 			y: 95.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供法力储备，并改善施法续航。"]
 			id: "1CB2DA85D4AC25F4"
 			subtitle: "余烬肝囊"
@@ -2692,7 +2414,6 @@
 			y: 93.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供法术强度，并强化施法节奏。"]
 			id: "6806F3B7451C58FE"
 			subtitle: "灵焰肺叶"
@@ -2705,7 +2426,6 @@
 			y: 94.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供冷却压缩，并稳住法术节拍。"]
 			id: "3F04831E732D8BE1"
 			subtitle: "过载冠脑"
@@ -2718,7 +2438,6 @@
 			y: 95.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供法力储备，并改善施法续航。"]
 			id: "7F44CCB26218FA61"
 			subtitle: "下界疣肝"
@@ -2731,7 +2450,6 @@
 			y: 96.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供法力储备，并改善施法续航。"]
 			id: "69C452BB2213FD78"
 			subtitle: "猪灵契约肝"
@@ -2744,7 +2462,6 @@
 			y: 97.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供法术强度，并强化施法节奏。"]
 			id: "764FB4CAC0C7614D"
 			subtitle: "灰谷囊肺"
@@ -2757,7 +2474,6 @@
 			y: 98.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "0B694304464E82D0"
 			subtitle: "灰烬脾囊"
@@ -2770,7 +2486,6 @@
 			y: 93.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供恢复回流，并把受击转成续航。"]
 			id: "3AFF0F485F8589BB"
 			subtitle: "熔渣回流腺"
@@ -2783,7 +2498,6 @@
 			y: 94.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "01B4635C3385937F"
 			subtitle: "黑石脾膜"
@@ -2796,7 +2510,6 @@
 			y: 95.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "0DB68DE1D688FBE9"
 			subtitle: "要塞骨钥"
@@ -2809,7 +2522,6 @@
 			y: 96.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "1E1253FA24763232"
 			subtitle: "古残拾取手"
@@ -2822,7 +2534,6 @@
 			y: 97.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供资源回收，并提高采集收益。"]
 			id: "42C8C48696630F0C"
 			subtitle: "灼金回收爪"
@@ -2835,7 +2546,6 @@
 			y: 98.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供基础核心，并托住整套体系。"]
 			id: "65C9840E9CEC80F6"
 			subtitle: "地狱心炉"
@@ -2848,7 +2558,6 @@
 			y: 93.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供稳压支点，并把攻击挖矿转成回响。"]
 			id: "0CC0FB7E8865C546"
 			subtitle: "献血脊炉"
@@ -2861,7 +2570,6 @@
 			y: 94.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供承压护体，并补足站场稳定。"]
 			id: "51807C4EB310F16D"
 			subtitle: "黑曜胸腔"
@@ -2874,7 +2582,6 @@
 			y: 95.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供体系联动，并放大同源器官。"]
 			id: "0F16102ED1FB2D84"
 			subtitle: "灵魂沙囊肺"
@@ -2887,7 +2594,6 @@
 			y: 96.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供承压护体，并补足站场稳定。"]
 			id: "5DD7EA4FF32FF9C4"
 			subtitle: "炉渣肾鞘"
@@ -2900,7 +2606,6 @@
 			y: 97.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供机动速度，并强化追击撤离。"]
 			id: "6704A9E9F3E83F6F"
 			subtitle: "熔岩跟腱"
@@ -2913,7 +2618,6 @@
 			y: 98.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供机动速度，并强化追击撤离。"]
 			id: "19C192E1C896EDC6"
 			subtitle: "烈行脚踝"
@@ -2926,7 +2630,6 @@
 			y: 99.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供体系联动，并放大同源器官。"]
 			id: "5AC577EB503C805E"
 			subtitle: "狱火尾椎"
@@ -2939,7 +2642,6 @@
 			y: 100.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供体系联动，并放大同源器官。"]
 			id: "5D2C3BD374F297A6"
 			subtitle: "炉火膝环"
@@ -2952,7 +2654,6 @@
 			y: 101.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供机动速度，并强化追击撤离。"]
 			id: "56226BF5EC35F333"
 			subtitle: "堡垒蹄锁"
@@ -2965,7 +2666,6 @@
 			y: 102.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供体系联动，并放大同源器官。"]
 			id: "288410C905F6C9B3"
 			subtitle: "熔拳副心"
@@ -2978,7 +2678,6 @@
 			y: 103.0d
 		}
 		{
-			dependencies: ["6370FDF4350425DB"]
 			description: ["提供基础核心，并托住整套体系。"]
 			id: "6F209F6396866B4A"
 			subtitle: "灾厄熔核"
@@ -2991,31 +2690,18 @@
 			y: 104.0d
 		}
 		{
-			description: ["要塞骨钥（Fortress Bone Key）提供感知压制与黑暗标记能力。使用方法是装备后提高感知能力，并支持黑暗标记机制。做出来后适合在要塞和黑暗区域活动的玩家。来源是高级器官系统。"]
-			id: "698D63F817284D59"
-			shape: "gear"
-			size: 1.5d
-			subtitle: "静默与回响"
-			tasks: [{
-				id: "07CB478988BA84C6"
-				title: "幽匿器官"
-				type: "checkmark"
-			}]
-			x: -13.0d
-			y: 107.0d
-		}
-		{
 			description: [
 				"幽匿器官来自 Deep Dark、远古城市和幽冥异界。"
 				"这一组偏向潜行、感知压制、黑暗标记与回响联动，适合后期高压环境和专门的刺杀 / 控场构筑。"
 			]
 			id: "1D3748FD6D2E76E8"
+			size: 2.0d
 			tasks: [{
 				id: "304D9710EEE1D02B"
 				title: "来源说明：幽匿器官"
 				type: "checkmark"
 			}]
-			x: -17.0d
+			x: -13.0d
 			y: 107.0d
 		}
 		{

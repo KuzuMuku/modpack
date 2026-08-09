@@ -1,0 +1,16 @@
+
+[bow_muscular_strength]
+	#Fallback maximum projectile speed for BowItem shots after muscular strength is applied.
+	#Range: 0.0 ~ 64.0
+	defaultBowVelocityCap = 3.0
+	#Per-bow projectile speed caps after muscular strength is applied.
+	#Format: namespace:item=value
+	#Example: minecraft:bow=3.0
+	bowVelocityCaps = ["minecraft:bow=3.0"]
+	#Additional projectile speed cap granted by each level of the Tension enchantment.
+	#Range: 0.0 ~ 64.0
+	velocityCapBonusPerEnchantLevel = 0.35
+	#Maximum level of the Tension enchantment.
+	#Range: 1 ~ 10
+	velocityCapEnchantmentMaxLevel = 3
+

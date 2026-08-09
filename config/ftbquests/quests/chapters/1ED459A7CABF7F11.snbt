@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: true
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "1ED459A7CABF7F11"
 	group: "20AEB0F73A64FBCF"
 	icon: {
@@ -883,10 +884,10 @@
 		}
 		{
 			description: ["原版木剑，推荐先做木镐挖石头。"]
-			id: "4A2D0E4A8C1F2102"
+			id: "1D96C38C75125214"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2103"
+				id: "13E265B0A87006A7"
 				item: {
 					Count: 1
 					id: "minecraft:wooden_sword"
@@ -901,10 +902,10 @@
 		}
 		{
 			description: ["原版石剑，至少比木头强。"]
-			id: "4A2D0E4A8C1F2104"
+			id: "6481BDEE9639FF25"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2105"
+				id: "1AB3F5FD24A286CE"
 				item: {
 					Count: 1
 					id: "minecraft:stone_sword"
@@ -919,10 +920,10 @@
 		}
 		{
 			description: ["原版铁剑，主世界早期最标准的武器。"]
-			id: "4A2D0E4A8C1F2106"
+			id: "01EE68259CA7D1CC"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2107"
+				id: "0E24B2A3736E6780"
 				item: {
 					Count: 1
 					id: "minecraft:iron_sword"
@@ -937,10 +938,10 @@
 		}
 		{
 			description: ["原版钻石剑，经典武器。"]
-			id: "4A2D0E4A8C1F2108"
+			id: "35BBF5572FCF309B"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2109"
+				id: "4486D7633330F297"
 				item: {
 					Count: 1
 					id: "minecraft:diamond_sword"
@@ -955,10 +956,10 @@
 		}
 		{
 			description: ["原版金剑，除了拿给皇帝狩猎外，附魔它有&6更高概率获得优质附魔&r，可用于获取附魔书。"]
-			id: "4A2D0E4A8C1F210A"
+			id: "5D33B86F41B1BE48"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F210B"
+				id: "6DB359B1766256BB"
 				item: {
 					Count: 1
 					id: "minecraft:golden_sword"
@@ -976,10 +977,10 @@
 				"前往地狱12层附近挖掘远古残骸可制作下界合金，锻造模板从宝箱里获得"
 				"不推荐把下界合金浪费在这上。"
 			]
-			id: "4A2D0E4A8C1F210C"
+			id: "74F13F90BDB87BF7"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F210D"
+				id: "5EA3C9354ACD146F"
 				item: {
 					Count: 1
 					id: "minecraft:netherite_sword"
@@ -994,10 +995,10 @@
 		}
 		{
 			description: ["原版弓，所有远程体系的起点。"]
-			id: "4A2D0E4A8C1F210E"
+			id: "359C13FDFCF262A8"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F210F"
+				id: "7C10F789B520BF7B"
 				item: {
 					Count: 1
 					id: "minecraft:bow"
@@ -1012,10 +1013,10 @@
 		}
 		{
 			description: ["原版弩，偏工具化和战术化的远程选择。"]
-			id: "4A2D0E4A8C1F2110"
+			id: "34EFC914CA4FA383"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2111"
+				id: "6BFA74477CD3CD40"
 				item: {
 					Count: 1
 					id: "minecraft:crossbow"
@@ -1030,10 +1031,10 @@
 		}
 		{
 			description: ["原版盾牌，最普遍也最可靠的保命副手。"]
-			id: "4A2D0E4A8C1F2112"
+			id: "44916AA45A1D951F"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2113"
+				id: "4D5B2E8769FC4B45"
 				item: {
 					Count: 1
 					id: "minecraft:shield"
@@ -1048,10 +1049,10 @@
 		}
 		{
 			description: ["原版三叉戟，海线与附魔联动价值都很高。"]
-			id: "4A2D0E4A8C1F2114"
+			id: "68ACDB6607DEF39D"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2115"
+				id: "736A3FD6ADD6A726"
 				item: {
 					Count: 1
 					id: "minecraft:trident"
@@ -1066,10 +1067,10 @@
 		}
 		{
 			description: ["AE2 赛特斯石英剑。"]
-			id: "4A2D0E4A8C1F2116"
+			id: "36A15591683156EC"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2117"
+				id: "60FA0A76E499567E"
 				item: {
 					Count: 1
 					id: "ae2:certus_quartz_sword"
@@ -1084,10 +1085,10 @@
 		}
 		{
 			description: ["AE2 下界石英剑。"]
-			id: "4A2D0E4A8C1F2118"
+			id: "21C637BC6AE83ED1"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2119"
+				id: "18C7DFC3DD949923"
 				item: {
 					Count: 1
 					id: "ae2:nether_quartz_sword"
@@ -1105,10 +1106,10 @@
 				"AE2 福鲁伊克斯剑，自带抢夺1，有比没有强。"
 				"自行附魔抢夺2,3的效果与其他武器相同，&6不会叠加&r"
 			]
-			id: "4A2D0E4A8C1F211A"
+			id: "55D75C063791D0F4"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F211B"
+				id: "2232EA026BCA199C"
 				item: {
 					Count: 1
 					id: "ae2:fluix_sword"
@@ -1123,10 +1124,10 @@
 		}
 		{
 			description: ["合成获得，绑定无线接入点后可把击杀掉落物直接送进me网络，无视接入点信号范围"]
-			id: "4A2D0E4A8C1F211C"
+			id: "5B5D337AB221B49A"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F211D"
+				id: "03D16E5B0479A0D0"
 				item: {
 					Count: 1
 					id: "ae2cs:ender_crystal_sword"
@@ -1141,10 +1142,10 @@
 		}
 		{
 			description: ["合成获得，为下界合金级，只是耐久和伤害比较高  "]
-			id: "4A2D0E4A8C1F211E"
+			id: "0C60B5191A9217C2"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F211F"
+				id: "007654D7F3E72F00"
 				item: {
 					Count: 1
 					id: "ae2cs:meteor_crystal_sword"
@@ -1159,10 +1160,10 @@
 		}
 		{
 			description: ["合成获得，自带附魔，下界合金级，同时可以把掉落物传送进me网络。"]
-			id: "4A2D0E4A8C1F2120"
+			id: "61061CBBED97F7A1"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2121"
+				id: "659C299190E8E409"
 				item: {
 					Count: 1
 					id: "ae2cs:resonating_crystal_sword"
@@ -1177,10 +1178,10 @@
 		}
 		{
 			description: ["合成获得，会自然恢复耐久\\n&e有同材质斧头可选"]
-			id: "4A2D0E4A8C1F2122"
+			id: "6E5262C7D47500DB"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2123"
+				id: "5660FF5603D19781"
 				item: {
 					Count: 1
 					id: "aether:skyroot_sword"
@@ -1195,10 +1196,10 @@
 		}
 		{
 			description: ["合成获得，使用时概率掉落神能晶片\\n&e有同材质斧头可选"]
-			id: "4A2D0E4A8C1F2124"
+			id: "2751E4C71206105B"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2125"
+				id: "06EADFD0AD141B17"
 				item: {
 					Count: 1
 					id: "aether:holystone_sword"
@@ -1217,10 +1218,10 @@
 				"6-14点伤害，耐久度越低伤害越高"
 				"&e有同材质斧头可选"
 			]
-			id: "4A2D0E4A8C1F2126"
+			id: "698E635B4BF03426"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2127"
+				id: "44BB396EA89A8A1E"
 				item: {
 					Count: 1
 					id: "aether:zanite_sword"
@@ -1239,10 +1240,10 @@
 				"可以让目标&6飞起来&r，可用于灵活破解部分地牢怪物"
 				"&e有同材质斧头可选(斧头没有特殊能力)"
 			]
-			id: "4A2D0E4A8C1F2128"
+			id: "19E7EE38E2D6BBAE"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2129"
+				id: "0CE9B422F21A7C1F"
 				item: {
 					Count: 1
 					id: "aether:gravitite_sword"
@@ -1260,10 +1261,10 @@
 				"来自白银地牢普通奖励箱和boss奖励箱"
 				"对亡灵伤害+8点"
 			]
-			id: "4A2D0E4A8C1F212A"
+			id: "5B84EE049D9C8120"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F212B"
+				id: "44E79957D72DFC9C"
 				item: {
 					Count: 1
 					id: "aether:holy_sword"
@@ -1281,10 +1282,10 @@
 				"来自白银地牢普通奖励箱和boss奖励箱"
 				"击中时召唤雷电，&c会破坏掉落物&r，会触发雷电转换(指猪变猪灵那类转换)"
 			]
-			id: "4A2D0E4A8C1F212C"
+			id: "78B6F74CD9DC24A3"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F212D"
+				id: "4B99FE117187FC43"
 				item: {
 					Count: 1
 					id: "aether:lightning_sword"
@@ -1299,10 +1300,10 @@
 		}
 		{
 			description: ["来自青铜地牢boss奖励箱, 击中时点燃目标"]
-			id: "4A2D0E4A8C1F212E"
+			id: "09B585AD615B398E"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F212F"
+				id: "3B554CFD72882A37"
 				item: {
 					Count: 1
 					id: "aether:flaming_sword"
@@ -1317,10 +1318,10 @@
 		}
 		{
 			description: ["破坏天境的彩蛋礼物盒获取，基本是玩具"]
-			id: "4A2D0E4A8C1F2130"
+			id: "53F27ECD8E14EC7F"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2131"
+				id: "085F4BE99635D246"
 				item: {
 					Count: 1
 					id: "aether:candy_cane_sword"
@@ -1335,10 +1336,10 @@
 		}
 		{
 			description: ["海线战利短剑。"]
-			id: "4A2D0E4A8C1F2134"
+			id: "4A64EFB02BD02B70"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2135"
+				id: "00D16C63CC2B7CFF"
 				item: {
 					Count: 1
 					id: "alexsmobs:skelewag_sword"
@@ -1353,10 +1354,10 @@
 		}
 		{
 			description: ["寒海可怖之剑。"]
-			id: "4A2D0E4A8C1F2136"
+			id: "10B3801F8DE12FAD"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2137"
+				id: "5982DD4F7AEDBC36"
 				item: {
 					Count: 1
 					id: "aquamirae:terrible_sword"
@@ -1371,10 +1372,10 @@
 		}
 		{
 			description: ["暮色料理支线武器，也许是胡椒做的。"]
-			id: "4A2D0E4A8C1F2138"
+			id: "27C0BB1F7CF5F667"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2139"
+				id: "79AA2D0C34EEBDAB"
 				item: {
 					Count: 1
 					id: "twilightdelight:teardrop_sword"
@@ -1389,10 +1390,10 @@
 		}
 		{
 			description: ["Ars 的附魔师之盾。"]
-			id: "4A2D0E4A8C1F213C"
+			id: "7129AA0137B8D906"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F213D"
+				id: "21D27552207AD435"
 				item: {
 					Count: 1
 					id: "ars_nouveau:enchanters_shield"
@@ -1407,10 +1408,10 @@
 		}
 		{
 			description: ["魔力钢制作，只是盾牌"]
-			id: "4A2D0E4A8C1F2140"
+			id: "2DA18F89776D861C"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2141"
+				id: "1A3AB1795A8080BB"
 				item: {
 					Count: 1
 					id: "extrabotany:manasteel_shield"
@@ -1428,10 +1429,10 @@
 				"开启精灵门后可制作"
 				"阻挡攻击会点燃敌人"
 			]
-			id: "4A2D0E4A8C1F2142"
+			id: "3411FA904FC278F8"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2143"
+				id: "2F6E004DD8A00F80"
 				item: {
 					Count: 1
 					id: "extrabotany:elementium_shield"
@@ -1449,10 +1450,10 @@
 				"可聚合泰拉钢后制作"
 				"格挡时反弹部分伤害给攻击者"
 			]
-			id: "4A2D0E4A8C1F2144"
+			id: "7EB47C5BF56524B1"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2145"
+				id: "2CC3213E69D2D1D0"
 				item: {
 					Count: 1
 					id: "extrabotany:terrasteel_shield"
@@ -1471,10 +1472,10 @@
 				"会反弹伤害，同时召唤小精灵。主手攻击每次命中会提供1颗黄心，最多10颗"
 				"达到6颗黄心时可以潜行+右键激活剑模式，伤害15点，并持续消耗黄心"
 			]
-			id: "4A2D0E4A8C1F2146"
+			id: "0023C7D208E2E405"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2147"
+				id: "4CD8F48315A72855"
 				item: {
 					Count: 1
 					id: "extrabotany:achilles_shield"
@@ -1489,10 +1490,10 @@
 		}
 		{
 			description: ["灾厄黑钢剑。"]
-			id: "4A2D0E4A8C1F214A"
+			id: "5B709CF2B723ADC8"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F214B"
+				id: "66CBC5FAB1951B6B"
 				item: {
 					Count: 1
 					id: "cataclysm:black_steel_sword"
@@ -1507,10 +1508,10 @@
 		}
 		{
 			description: ["灾厄诅咒弓。"]
-			id: "4A2D0E4A8C1F214C"
+			id: "2FE6582E4BB22141"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F214D"
+				id: "3E36593FC9D83666"
 				item: "cataclysm:cursed_bow"
 				type: "item"
 			}]
@@ -1522,10 +1523,10 @@
 				"刷卫城附近的怪物获得泪宝石后可合成"
 				"在怪物攻击前一刻恰好举盾会触发弹反，击退对方，给予对方2秒的缓慢II效果，同时给予玩家2秒的力量II"
 			]
-			id: "4A2D0E4A8C1F214E"
+			id: "7F74A305CF9F13F9"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F214F"
+				id: "32F1C4E5EFCEFB7F"
 				item: {
 					Count: 1
 					id: "cataclysm:azure_sea_shield"
@@ -1543,10 +1544,10 @@
 				"击杀维度内幽魂并合成获得。没有特殊效果"
 				"&e有同材质斧头可选"
 			]
-			id: "4A2D0E4A8C1F2150"
+			id: "4C710AF0F4AFA8D6"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2151"
+				id: "6AE13E00B4492308"
 				item: {
 					Count: 1
 					id: "deeperdarker:resonarium_sword"
@@ -1564,10 +1565,10 @@
 				"击杀监守类生物，合成获得。没有特殊效果。"
 				"&e有同材质斧头可选"
 			]
-			id: "4A2D0E4A8C1F2152"
+			id: "2A5F5D7CEE92BB97"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2153"
+				id: "704F6816A6E1E619"
 				item: {
 					Count: 1
 					id: "deeperdarker:warden_sword"
@@ -1582,10 +1583,10 @@
 		}
 		{
 			description: ["纸板剑,伤害为0,适合用来和你的朋友游玩揍击派对"]
-			id: "4A2D0E4A8C1F2154"
+			id: "6C27EF342BB00D7D"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2155"
+				id: "2B947C401D087341"
 				item: "create:cardboard_sword"
 				type: "item"
 			}]
@@ -1593,11 +1594,11 @@
 			y: 2.5d
 		}
 		{
-			description: ["Iron's 自动装填弩。"]
-			id: "4A2D0E4A8C1F2156"
+			description: ["自动装填弩。"]
+			id: "677D4D02D94EEEF2"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2157"
+				id: "5C7860CC14A5BE8C"
 				item: {
 					Count: 1
 					id: "irons_spellbooks:autoloader_crossbow"
@@ -1607,15 +1608,15 @@
 				}
 				type: "item"
 			}]
-			x: 35.0d
+			x: 36.5d
 			y: -6.0d
 		}
 		{
 			description: ["青铜盾。"]
-			id: "4A2D0E4A8C1F2158"
+			id: "01B84BAECB42ABE7"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2159"
+				id: "23707400A9E98A4B"
 				item: {
 					Count: 1
 					id: "mekanismtools:bronze_shield"
@@ -1630,10 +1631,10 @@
 		}
 		{
 			description: ["锇盾。"]
-			id: "4A2D0E4A8C1F215A"
+			id: "40F1BFD63C8588CC"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F215B"
+				id: "52B0DA46B62CB594"
 				item: {
 					Count: 1
 					id: "mekanismtools:osmium_shield"
@@ -1648,10 +1649,10 @@
 		}
 		{
 			description: ["钢盾。"]
-			id: "4A2D0E4A8C1F215C"
+			id: "2CEFCD877599D003"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F215D"
+				id: "084BD846C6A6BC15"
 				item: {
 					Count: 1
 					id: "mekanismtools:steel_shield"
@@ -1666,10 +1667,10 @@
 		}
 		{
 			description: ["青金石盾。"]
-			id: "4A2D0E4A8C1F215E"
+			id: "0243159D5F86CA05"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F215F"
+				id: "0C868A4F058E2AF9"
 				item: {
 					Count: 1
 					id: "mekanismtools:lapis_lazuli_shield"
@@ -1684,10 +1685,10 @@
 		}
 		{
 			description: ["强化萤石盾。"]
-			id: "4A2D0E4A8C1F2160"
+			id: "05242320BDB273AA"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2161"
+				id: "4D5E746398BCD03F"
 				item: {
 					Count: 1
 					id: "mekanismtools:refined_glowstone_shield"
@@ -1702,10 +1703,10 @@
 		}
 		{
 			description: ["强化黑曜石盾。"]
-			id: "4A2D0E4A8C1F2162"
+			id: "49BAF726F7FBB4D6"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2163"
+				id: "7DB1FD150F44D3F1"
 				item: {
 					Count: 1
 					id: "mekanismtools:refined_obsidian_shield"
@@ -1720,10 +1721,10 @@
 		}
 		{
 			description: ["可直接合成\\n&e有同材质斧头可选"]
-			id: "4A2D0E4A8C1F2164"
+			id: "3CCB71872D7A662C"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2165"
+				id: "45AD8C8D1ED69227"
 				item: {
 					Count: 1
 					id: "iceandfire:copper_sword"
@@ -1738,10 +1739,10 @@
 		}
 		{
 			description: ["可直接合成\\n&e有同材质斧头可选"]
-			id: "4A2D0E4A8C1F2166"
+			id: "1E015197C4743A0D"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2167"
+				id: "5F737DDA90BA1935"
 				item: {
 					Count: 1
 					id: "iceandfire:silver_sword"
@@ -1756,10 +1757,10 @@
 		}
 		{
 			description: ["用击杀狮鹫获得的掉落物合成"]
-			id: "4A2D0E4A8C1F2168"
+			id: "55731B2DDCE7395B"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2169"
+				id: "008AF22BE02C9851"
 				item: {
 					Count: 1
 					id: "iceandfire:hippogryph_sword"
@@ -1777,10 +1778,10 @@
 				"使用幽灵的低概率掉落物合成。"
 				"伤害耐久都很高，还具有一定远程能力，但投掷物伤害为5点，不能完全远程使用"
 			]
-			id: "4A2D0E4A8C1F216A"
+			id: "1C7F1AFBECFE713C"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F216B"
+				id: "18C9981B3FA17B56"
 				item: {
 					Count: 1
 					id: "iceandfire:ghost_sword"
@@ -1795,10 +1796,10 @@
 		}
 		{
 			description: ["击杀悚陵附近的怪物掉落"]
-			id: "4A2D0E4A8C1F216C"
+			id: "7D903887F2323ACB"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F216D"
+				id: "2E9B0772BF1DAE03"
 				item: {
 					Count: 1
 					id: "iceandfire:dread_sword"
@@ -1813,10 +1814,10 @@
 		}
 		{
 			description: ["击杀悚怖尸骑概率掉落，没有特殊效果，只是伤害很高"]
-			id: "4A2D0E4A8C1F216E"
+			id: "07B4CB3CE19F41D2"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F216F"
+				id: "4CA3FD6494080969"
 				item: {
 					Count: 1
 					id: "iceandfire:dread_knight_sword"
@@ -1831,10 +1832,10 @@
 		}
 		{
 			description: ["击杀低概率生成的悚怖尸巫低概率掉落, 右键发射冰魂髑髅追踪攻击附近实体，伤害仅为6点"]
-			id: "4A2D0E4A8C1F2170"
+			id: "1DFAC516678C0D68"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2171"
+				id: "140D1D48C2EB4C1F"
 				item: {
 					Count: 1
 					id: "iceandfire:lich_staff"
@@ -1849,10 +1850,10 @@
 		}
 		{
 			description: ["潮汐三叉戟，冰火海线代表兵器。"]
-			id: "4A2D0E4A8C1F2176"
+			id: "7B62E169E638F593"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2177"
+				id: "004C03ACA95FDDF3"
 				item: {
 					Count: 1
 					id: "iceandfire:tide_trident"
@@ -1867,10 +1868,10 @@
 		}
 		{
 			description: ["暮色骑士盾。"]
-			id: "4A2D0E4A8C1F2178"
+			id: "1A08B84C7B8C3CD9"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2179"
+				id: "0277B40184577CA4"
 				item: {
 					Count: 1
 					id: "twilightforest:knightmetal_shield"
@@ -1889,10 +1890,10 @@
 				"只有一点耐久，但是有40点伤害"
 				"&8只要有办法附上&3无法破坏&8…&r"
 			]
-			id: "4A2D0E4A8C1F217C"
+			id: "3D2E2434706DAF17"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F217D"
+				id: "0DE2C95AAA8D237D"
 				item: {
 					Count: 1
 					id: "twilightforest:glass_sword"

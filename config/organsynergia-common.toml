@@ -1,0 +1,18 @@
+
+[affinity]
+	#When an element affinity point total is above this value, the player is treated as susceptible to that Synergia element.
+	#Range: > 1
+	susceptibilityThreshold = 4
+	#When an element affinity point total is above this value, normal melee attacks trigger that Synergia element.
+	#Range: > 1
+	strongAffinityThreshold = 8
+	#How long the compat-applied susceptibility element stays on the player before it must be refreshed again.
+	#Range: 1 ~ 1200
+	susceptibilityRefreshTicks = 40
+	#How often susceptibility state is pushed into Synergia.
+	#Range: 1 ~ 1200
+	susceptibilityUpdateIntervalTicks = 20
+	#How long a strong-affinity melee hit applies its element to the target.
+	#Range: 1 ~ 1200
+	meleeElementDurationTicks = 40
+

@@ -1,0 +1,15 @@
+
+[slaughter]
+	#Current health ratio at or below which chest opening is allowed. 0.30 = 30% health.
+	#Range: 0.0 ~ 1.0
+	health_threshold_ratio = 0.3
+	#Duration in ticks for post-opening restriction effects. 20 ticks = 1 second.
+	#Range: 0 ~ 72000
+	restriction_duration_ticks = 600
+	#Amplifier for slowness applied after opening. 0 = Slowness I.
+	#Range: 0 ~ 255
+	slowness_amplifier = 4
+	#Amplifier for weakness applied after opening. 0 = Weakness I.
+	#Range: 0 ~ 255
+	weakness_amplifier = 2
+

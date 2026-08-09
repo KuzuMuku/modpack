@@ -1,0 +1,935 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0FD713321E407D7B"
+	group: "634674170BA7361A"
+	icon: {
+		Count: 1
+		id: "mekanism:basic_energy_cube"
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "4000000"
+				}]
+			}
+		}
+	}
+	id: "0FD713321E407D7B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E01000000000010"]
+			description: [
+				"Mekanism 是更重、更长线的工业路线。它适合你已经有固定基地，想把矿物处理、电力、装备和后期材料都交给机器的时候再认真推进。"
+				"入门时先盯住锇矿、钢外壳和冶金灌注机。只要这三件事跑通，后面的电路、合金、基础机器和发电就会自然接上。"
+				"这条线的收益很直接：矿物处理更高效，材料库存更稳定，后期还能提供强装备和高阶器官材料。代价也很明确：你需要愿意铺线、囤中间材料、维护能源。"
+				"如果你只是想马上变强，先回去补装备和器官；如果你想让基地越滚越大，从这里开始投入就很划算。"
+			]
+			id: "0F02000000000000"
+			tasks: [{
+				id: "0F02000000000100"
+				title: "路线导读"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F02000000000000"]
+			description: [
+				"锇矿是 Mekanism 的第一张门票。看到它，就可以开始考虑把这条工业线接进你的基地。"
+				"前期不用记住一长串机器名字。先记住一个短链：锇矿做底，钢外壳做机壳，冶金灌注机做电路和合金。"
+				"只要这条短链顺了，后面的机器就不再是一堆陌生方块，而是一层一层往上升级。"
+			]
+			id: "00FCB842D31CF554"
+			tasks: [{
+				id: "137683E1A74876EA"
+				item: "mekanism:osmium_ore"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00FCB842D31CF554"]
+			description: [
+				"钢外壳可以理解为 Mekanism 的标准机壳。"
+				"从这一步开始，你做的就不再是单独的材料，而是一套工业设备的骨架。"
+				"从这里开始，你做的不是一台孤立机器，而是一整套工业骨架。最好早点给中间材料留箱子，不然后面会一直回来补零件。"
+			]
+			id: "5098210FD7A16120"
+			tasks: [{
+				id: "157E28CB6C44A949"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5098210FD7A16120"]
+			description: [
+				"冶金灌注机是 Mekanism 早期绝对的核心。"
+				"你后面做电路、做合金、做更高层机器，几乎都会反复回到它。"
+				"如果这章只能先学一台机器，就学它。后面的电路、合金和机器升级都会反复回到这里。"
+			]
+			id: "01740776D36A310A"
+			tasks: [{
+				id: "16B8D71E6D9B2A37"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01740776D36A310A"]
+			description: [
+				"控制电路决定了你当前能进入哪一层工业等级。"
+				"基础电路只是门票的第一层，但从这里开始，你会逐渐感受到 Mekanism 明确的等级制成长。"
+				"看不懂后面一串机器也没关系，只要先明白：做更高机器，本质上就是在追更高阶电路和更高阶合金。"
+			]
+			id: "2EA0CFBC0379A309"
+			tasks: [{
+				id: "1654E1DD702A758E"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D37EF84099A25A6"
+				"2EA0CFBC0379A309"
+			]
+			description: [
+				"到了进阶电路这一步，你已经不再只是‘玩玩基础机器’，而是开始往真正的工业体系过渡。"
+				"从这里以后，建议你开始考虑自动输入输出、材料批量化和供电稳定性，不然每做一台新机器都会像重开一遍。"
+			]
+			id: "0003BAADADEA750C"
+			tasks: [{
+				id: "692878898789D7DF"
+				item: "mekanism:advanced_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0003BAADADEA750C"
+				"19EAFC89520260D2"
+			]
+			description: [
+				"精英电路和原子合金是 Mekanism 中期成熟度的证明。"
+				"做到这里以后，你已经有能力支撑多方块、核线前置和更重型的自动化设施。"
+				"如果你此时仍然是手搓为主，那接下来会越来越痛苦，最好尽快把常用材料做成批量化流程。"
+			]
+			id: "5BE22359954280E5"
+			tasks: [{
+				id: "06AC1C61A375F27D"
+				item: "mekanism:elite_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5BE22359954280E5"
+				"4B6635D59401EBF2"
+			]
+			id: "5E3EB7067D1F1160"
+			tasks: [{
+				id: "3828D3562C14A971"
+				item: "mekanism:ultimate_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["01740776D36A310A"]
+			description: [
+				"富集合金是 Mekanism 材料阶梯的第一层。"
+				"从这一步开始，你要慢慢习惯“上一层合金是下一层机器的底材”这种递进关系。"
+				"这条线真正难的不是某个单配方，而是你是否愿意把中间材料做成库存。"
+			]
+			id: "0D37EF84099A25A6"
+			tasks: [{
+				id: "61D5ECB3F7E1F7B0"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0D37EF84099A25A6"]
+			description: ["强化合金是很多中期机器的通用底材。新手可以把它理解成一条提醒：从现在开始，库存中间材料比临时做一台机器更重要。"]
+			id: "19EAFC89520260D2"
+			tasks: [{
+				id: "17EF7173541DA57A"
+				item: "mekanism:alloy_reinforced"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["19EAFC89520260D2"]
+			description: ["原子合金是高阶电路和高阶机器反复消耗的关键层。这里往往标志着你该开始认真做供电和批量化了。"]
+			id: "4B6635D59401EBF2"
+			tasks: [{
+				id: "79120616B671F98F"
+				item: "mekanism:alloy_atomic"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5E3EB7067D1F1160"
+				"3DEFBE7DFD285B24"
+			]
+			id: "30822B8C7B811EDA"
+			tasks: [{
+				id: "21EFEAD078B6B9D0"
+				item: "mekanism_extras:absolute_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"30822B8C7B811EDA"
+				"459EF1600BB3FD53"
+			]
+			id: "38B89D8E3916DF5B"
+			tasks: [{
+				id: "27C3D49E8B5D230C"
+				item: "mekanism_extras:supreme_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"66B05E05105D7CC0"
+				"38B89D8E3916DF5B"
+			]
+			id: "79D14AFA3CBE8F93"
+			tasks: [{
+				id: "3A15D037DEADC656"
+				item: "mekanism_extras:cosmic_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"79D14AFA3CBE8F93"
+				"6D857B88407A3B3A"
+			]
+			id: "29D5987C885D954D"
+			tasks: [{
+				id: "35B0CA3BC5860619"
+				item: "mekanism_extras:infinite_control_circuit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"4B6635D59401EBF2"
+				"064B8F6F746CB73F"
+			]
+			id: "3DEFBE7DFD285B24"
+			tasks: [{
+				id: "67CE3A3F950801CF"
+				item: "mekanism_extras:alloy_radiance"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"78C390451096DA91"
+				"3DEFBE7DFD285B24"
+			]
+			id: "459EF1600BB3FD53"
+			tasks: [{
+				id: "2CA930239893E033"
+				item: "mekanism_extras:alloy_thermonuclear"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"32D9D45C97F746A7"
+				"459EF1600BB3FD53"
+			]
+			id: "66B05E05105D7CC0"
+			tasks: [{
+				id: "46F496386CC452F1"
+				item: "mekanism_extras:alloy_shining"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"288A4E3540196AB3"
+				"66B05E05105D7CC0"
+			]
+			id: "6D857B88407A3B3A"
+			tasks: [{
+				id: "0CC18BFD3CFD3527"
+				item: "mekanism_extras:alloy_spectrum"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6C79FE1BEF609803"]
+			description: ["黄饼铀和铀锭是核线真正开始前的资源确认。先把矿源和处理流程跑通。"]
+			id: "6FB0926651A52DA1"
+			tasks: [{
+				id: "5CF96BC665134813"
+				item: "mekanism:yellow_cake_uranium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6FB0926651A52DA1"]
+			id: "064B8F6F746CB73F"
+			tasks: [{
+				id: "1336238949072A0F"
+				item: "mekanism_extras:enriched_radiance"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"064B8F6F746CB73F"
+				"70BC5A9F9FB25CCB"
+			]
+			id: "78C390451096DA91"
+			tasks: [{
+				id: "28549E002C0DB4AC"
+				item: "mekanism_extras:enriched_thermonuclear"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"78C390451096DA91"
+				"24616B138488B1E0"
+			]
+			id: "32D9D45C97F746A7"
+			tasks: [{
+				id: "33501643DF4488D7"
+				item: "mekanism_extras:enriched_shining"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["32D9D45C97F746A7"]
+			id: "288A4E3540196AB3"
+			tasks: [{
+				id: "317006E47B768093"
+				item: "mekanism_extras:enriched_spectrum"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["497CBCC7AE9FA4CA"]
+			id: "24616B138488B1E0"
+			tasks: [{
+				id: "5C724B003AE5FE03"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3BF22474C7C31BE8"]
+			description: ["SPS 是通往反物质的高耗能节点，通常需要你先把供电和缓冲体系一起补齐。"]
+			id: "497CBCC7AE9FA4CA"
+			tasks: [
+				{
+					id: "7156AD0BBB851D40"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "5D9B935E7AFC8625"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5BE22359954280E5"]
+			description: ["裂变反应堆结构件意味着你已经不只是做材料，而是在准备真正的多方块设施。"]
+			id: "17BDF0A12E9CB5EE"
+			tasks: [
+				{
+					id: "0E6CDFF7AB32387D"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "478138C08BDBEC4C"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "53FAECF80B3AFFE3"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+					type: "item"
+				}
+				{
+					id: "6DB77DC03C4F8309"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+				{
+					id: "574EC3139FB80BFF"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50F727CA7340EA98"]
+			id: "70BC5A9F9FB25CCB"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:superheated_sodium"
+				id: "1135F6827F3207BE"
+				type: "fluid"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5C2331EB0EE5534C"]
+			id: "6C79FE1BEF609803"
+			tasks: [{
+				id: "76471E4E8A41B9AF"
+				item: "mekanism:ingot_uranium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["658B031245D02795"]
+			id: "54187BEFE25C8978"
+			tasks: [{
+				id: "4174D7349A232834"
+				item: "mekanism:hdpe_sheet"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68F6943726FC7D05"]
+			id: "0936FEE891E4559D"
+			tasks: [{
+				id: "1FB5D75FBD5FB59A"
+				item: "mekanism:pellet_polonium"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3EBE9866A947C222"]
+			id: "3BF22474C7C31BE8"
+			tasks: [{
+				id: "56951D22A9571A58"
+				item: "mekanism:pellet_plutonium"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"54187BEFE25C8978"
+				"1993B891D99B983A"
+			]
+			id: "68F6943726FC7D05"
+			tasks: [{
+				id: "59B525222E9F267C"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5EDDDE25A9909A74"]
+			id: "3EBE9866A947C222"
+			tasks: [{
+				id: "47EB662063E0C39F"
+				item: "mekanism:isotopic_centrifuge"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"448249D3842234B7"
+				"59E1CBB06E625C8C"
+			]
+			id: "5EDDDE25A9909A74"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:uranium_hexafluoride"
+				id: "21C05126B39F6FE8"
+				type: "fluid"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6FB0926651A52DA1"]
+			id: "448249D3842234B7"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:uranium_oxide"
+				id: "1BD81E123790C09A"
+				type: "fluid"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["276D83A083F5A40E"]
+			id: "59E1CBB06E625C8C"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:hydrofluoric_acid"
+				id: "198E2A6C75C5F691"
+				type: "fluid"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7166672283901EF8"]
+			id: "276D83A083F5A40E"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:sulfuric_acid"
+				id: "26F69481851FF19D"
+				type: "fluid"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3BC610E5DAC4DA6F"]
+			id: "705DAB908C4E01C1"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:sulfur_dioxide"
+				id: "1926892278794800"
+				type: "fluid"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["705DAB908C4E01C1"]
+			id: "7166672283901EF8"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:sulfur_trioxide"
+				id: "6C6A7D10981A1220"
+				type: "fluid"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F02000000000000"]
+			id: "5E5E7C337A49FA05"
+			tasks: [{
+				id: "4283AD54CCA04DC1"
+				item: "mekanism:dust_sulfur"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5E5E7C337A49FA05"]
+			id: "3BC610E5DAC4DA6F"
+			tasks: [{
+				id: "5D7644D71F20A222"
+				item: "mekanism:chemical_oxidizer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23E29EF9B9E34A97"]
+			id: "658B031245D02795"
+			tasks: [{
+				id: "67B25B6103D60161"
+				item: "mekanism:substrate"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"65BE314E991E5F69"
+				"7AED923FE0ED98CA"
+			]
+			id: "23E29EF9B9E34A97"
+			tasks: [{
+				id: "31266F1B363DA015"
+				item: "mekanism:pressurized_reaction_chamber"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E4E315C79E4FA1A"]
+			id: "65BE314E991E5F69"
+			tasks: [{
+				id: "7BA7E41D7339FAA1"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23E29EF9B9E34A97"]
+			id: "79FAE8FFB3E2FD1C"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:ethene"
+				id: "36563E350B2FBA6E"
+				type: "fluid"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79FAE8FFB3E2FD1C"]
+			id: "3E1B50492D810377"
+			tasks: [{
+				id: "6C86003FA5754FB1"
+				item: "mekanismgenerators:gas_burning_generator"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F02000000000000"]
+			id: "5C2331EB0EE5534C"
+			tasks: [{
+				id: "72676712CE44B677"
+				item: "mekanism:uranium_ore"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5BE22359954280E5"
+				"5E1F38057FC6CA0A"
+			]
+			id: "6489596C290FAAB8"
+			tasks: [{
+				id: "246F771DDD05A440"
+				item: "mekanism:chemical_injection_chamber"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0003BAADADEA750C"
+				"7AED923FE0ED98CA"
+			]
+			id: "5E1F38057FC6CA0A"
+			tasks: [{
+				id: "56FEA2C59ED2DCC8"
+				item: "mekanism:purification_chamber"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EA0CFBC0379A309"]
+			id: "7AED923FE0ED98CA"
+			tasks: [{
+				id: "0C88CF1694822099"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0003BAADADEA750C"]
+			id: "45CCB200628F555B"
+			tasks: [
+				{
+					id: "63DF831BAC0BC902"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					id: "0790F4450F4F2935"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0936FEE891E4559D"
+				"5E3EB7067D1F1160"
+			]
+			id: "6144144F2D611078"
+			tasks: [
+				{
+					id: "2788B118988ABCF9"
+					item: "mekanismgenerators:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "1DDCD91255F5AAA1"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"55E56CC9964E0BC9"
+				"6144144F2D611078"
+			]
+			id: "24163DAFBF0979C5"
+			tasks: [{
+				id: "502FBD3BBFE19BC9"
+				item: {
+					Count: 1
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"0A8E0745C67E5227"
+				"631AC6C658C7E07C"
+			]
+			id: "55E56CC9964E0BC9"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanismgenerators:fusion_fuel"
+				id: "51572F5E72EAC77C"
+				type: "fluid"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F02000000000000"]
+			id: "4E4E315C79E4FA1A"
+			tasks: [{
+				id: "11A42CFF13A3DF5D"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45CCB200628F555B"]
+			id: "1993B891D99B983A"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanism:lithium"
+				id: "0D7FA52C69EB39B2"
+				type: "fluid"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["68F6943726FC7D05"]
+			id: "0A8E0745C67E5227"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanismgenerators:tritium"
+				id: "30504884BB6216EA"
+				type: "fluid"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["191403DB36A29F24"]
+			id: "631AC6C658C7E07C"
+			tasks: [{
+				amount: 1000L
+				fluid: "mekanismgenerators:deuterium"
+				id: "57DB2B48D343C2AB"
+				type: "fluid"
+			}]
+			x: 14.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0F02000000000000"]
+			id: "43336D11E1ED98B5"
+			tasks: [
+				{
+					id: "318C910945D25A7D"
+					item: "mekanism:upgrade_filter"
+					type: "item"
+				}
+				{
+					id: "4BA9E38B3DCA7273"
+					item: "mekanism:electric_pump"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43336D11E1ED98B5"]
+			description: ["电解分离机负责把核聚变链条所需的轻元素真正拆出来。"]
+			id: "191403DB36A29F24"
+			tasks: [{
+				id: "27781684E9ADD9DE"
+				item: "mekanism:electrolytic_separator"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["448249D3842234B7"]
+			description: ["这里开始进入核裂变燃料链。酸、氧化物和六氟化物都意味着流程会明显拉长。"]
+			id: "50F727CA7340EA98"
+			tasks: [{
+				id: "1E786D6ECED646D1"
+				title: "核裂变与燃料"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5BE22359954280E5"]
+			id: "49A078E32A7583B7"
+			tasks: [
+				{
+					id: "293AC373D165E5AA"
+					item: "mekanism:induction_casing"
+					type: "item"
+				}
+				{
+					id: "2CC92F8DE4050663"
+					item: "mekanism:induction_port"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1993B891D99B983A"]
+			id: "7FE060F2F4938B38"
+			tasks: [{
+				id: "5F1E1F984C1E6E77"
+				item: "mekanism:dust_lithium"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"49A078E32A7583B7"
+				"7FE060F2F4938B38"
+			]
+			id: "4BA760F79900532D"
+			tasks: [{
+				id: "1DB073D50B7FBC9F"
+				item: "mekanism:induction_port"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+	]
+	title: "电力与核聚变"
+}

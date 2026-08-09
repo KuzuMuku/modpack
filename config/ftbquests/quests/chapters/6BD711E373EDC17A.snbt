@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "6BD711E373EDC17A"
 	group: "20AEB0F73A64FBCF"
 	icon: {
@@ -11,28 +12,18 @@
 		}
 	}
 	id: "6BD711E373EDC17A"
+	images: [{
+		height: 31.9d
+		image: "kubejs:item/ftbq_mod_themed_sheet"
+		rotation: 0.0d
+		width: 42.53333333333333d
+		x: 10.123638976560983d
+		y: 10.362850456810023d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1E01000000000010"]
-			description: [
-				"这一页改成按整套看，不再把头盔胸甲护腿靴子拆成四个格子。"
-				"阅读方式很简单：`原版套 -> Mekanism 套 -> 特殊路线套 -> 终局套`。想查一套值不值得做，就直接点那一整套。"
-				"如果某套的制作不直观，描述里会直接写前置路线，例如 `Mekanism 精炼链`、`龙锻炉`、`幽冥之地`、`Cataclysm 遗迹 / Boss`。"
-			]
-			id: "6B04000000000000"
-			optional: true
-			tasks: [{
-				id: "6B04000000000100"
-				title: "如何使用护甲词典"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6B04000000000000"]
 			description: [
 				"`原版入门套`。皮革套主要是过渡和附魔底子，真正战斗强度很一般。"
 				"除非你前期特别缺防具，或者急着做点基础附魔，不然它更多是临时穿。"
@@ -86,11 +77,10 @@
 				}
 			]
 			title: "皮革套"
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["6B04000000000000"]
 			description: [
 				"`原版过渡套`。锁链套比皮革更像真正护甲，但获取通常比铁套更看运气。"
 				"它更像战利品套，不是推荐你专门去量产的主路线。"
@@ -144,11 +134,10 @@
 				}
 			]
 			title: "锁链套"
-			x: 2.0d
-			y: -2.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["6B04000000000000"]
 			description: [
 				"`原版标准套`。铁套是主世界最基础的正式护甲线，任何玩家都绕不过。"
 				"如果你还没进模组套，这一套就是早期下矿、跑地牢和找结构的底线。"
@@ -202,11 +191,10 @@
 				}
 			]
 			title: "铁套"
-			x: 4.0d
-			y: -2.0d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["6B04000000000000"]
 			description: [
 				"`原版特殊套`。金套防御不高，但在某些环境里能省很多麻烦。"
 				"如果只是拿来正常抗伤，它不如铁套和钻石套；更适合功能用途。"
@@ -260,11 +248,10 @@
 				}
 			]
 			title: "金套"
-			x: 6.0d
-			y: -2.0d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
-			dependencies: ["6B04000000000000"]
 			description: [
 				"`原版中期套`。钻石套是很多模组套之前的默认中期护甲。"
 				"如果你的模组路线还没铺起来，先把钻套和附魔做稳，整包流程会舒服很多。"
@@ -318,11 +305,10 @@
 				}
 			]
 			title: "钻石套"
-			x: 8.0d
-			y: -2.0d
+			x: 11.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["6B04000000000000"]
 			description: [
 				"`原版后期套`。下界合金套在很多整合包里只是过渡终装，不一定真毕业。"
 				"但如果你还没转向模组高阶护甲，它依然是非常扎实的一整套。"
@@ -376,8 +362,8 @@
 				}
 			]
 			title: "下界合金套"
-			x: 10.0d
-			y: -2.0d
+			x: 13.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["654A8A0E9770844D"]
@@ -434,8 +420,8 @@
 				}
 			]
 			title: "青铜套"
-			x: 0.0d
-			y: 0.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["654A8A0E9770844D"]
@@ -492,8 +478,8 @@
 				}
 			]
 			title: "钢套"
-			x: 2.0d
-			y: 0.0d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["654A8A0E9770844D"]
@@ -550,8 +536,8 @@
 				}
 			]
 			title: "锇套"
-			x: 4.0d
-			y: 0.0d
+			x: 12.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["654A8A0E9770844D"]
@@ -608,8 +594,8 @@
 				}
 			]
 			title: "青金石套"
-			x: 6.0d
-			y: 0.0d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7A2E31B1E217A5FB"]
@@ -666,8 +652,8 @@
 				}
 			]
 			title: "精炼黑曜石套"
-			x: 8.0d
-			y: 0.0d
+			x: 16.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7A2E31B1E217A5FB"]
@@ -724,8 +710,8 @@
 				}
 			]
 			title: "精炼萤石套"
-			x: 10.0d
-			y: 0.0d
+			x: 11.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4741AC78B1449E7B"]
@@ -782,8 +768,8 @@
 				}
 			]
 			title: "火龙钢套"
-			x: 12.0d
-			y: -2.0d
+			x: 28.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4741AC78B1449E7B"]
@@ -840,8 +826,8 @@
 				}
 			]
 			title: "冰龙钢套"
-			x: 14.0d
-			y: -2.0d
+			x: 28.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4741AC78B1449E7B"]
@@ -898,8 +884,8 @@
 				}
 			]
 			title: "雷龙钢套"
-			x: 16.0d
-			y: -2.0d
+			x: 28.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["10409A9A134A3856"]
@@ -956,31 +942,8 @@
 				}
 			]
 			title: "监守者套"
-			x: 18.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6C04000000000006"]
-			description: [
-				"`Cataclysm 战利装`。骨爬虫头盔不是整套，而是高危遗迹里的特殊战利品。"
-				"因为它本身不是成套护甲，这里单独列出来，方便你知道这件值不值得留。"
-			]
-			id: "6B04000000000011"
-			optional: true
-			tasks: [{
-				id: "6B04000000000141"
-				item: {
-					Count: 1
-					id: "cataclysm:bone_reptile_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "骨爬虫头盔"
-			x: 20.0d
-			y: 0.0d
+			x: 14.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["10409A9A134A3856"]
@@ -1013,15 +976,11 @@
 				}
 			]
 			title: "点燃套"
-			x: 22.0d
-			y: 0.0d
+			x: 25.5d
+			y: 14.5d
 		}
 		{
-			dependencies: ["6B04000000000012"]
-			description: [
-				"如果你只想抄一条最稳的护甲升级路线，可以按 `铁 / 钻 -> 锇 -> 精炼黑曜石或精炼萤石 -> 龙钢或监守者 -> 点燃套`。"
-				"`黑曜石 = 抗压`，`萤石 = 机动`，`龙钢 = 冰火线`，`监守者 = 主线线`，`点燃 = 终局`。"
-			]
+			description: ["如果你只想抄一条最稳的护甲升级路线，可以根据选择科技/魔法路线来选择： 铁 -> 锇/钻石 -> 精炼黑曜石/泰拉套 或 法师套/龙鳞套-> mekasuit 或 龙钢套"]
 			id: "6B04000000000013"
 			optional: true
 			tasks: [{
@@ -1029,15 +988,15 @@
 				title: "推荐抄作业路线"
 				type: "checkmark"
 			}]
-			x: 24.0d
-			y: 0.0d
+			x: -5.0d
+			y: -3.0d
 		}
 		{
 			description: ["这套装备来自原版内容，适合前期过渡使用。穿上后提供基础防御，帮助新手在探索时减少伤害。做出来后可以作为基础护甲使用，直到获得更好的装备为止。"]
-			id: "4A2D0E4A8C1F2202"
+			id: "4505C578E8E79152"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2203"
+				id: "5F925EAF95F5EBB3"
 				item: {
 					Count: 1
 					id: "minecraft:turtle_helmet"
@@ -1048,16 +1007,19 @@
 				type: "item"
 			}]
 			title: "海龟壳头盔"
-			x: 0.0d
-			y: 2.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
-			description: ["这套护甲来自天境维度（The Aether），使用紫晶材料制作。穿上后提供中等防御力，适合空岛探索的新手玩家。做出来后可以在空岛维度中更安全地探索和战斗，是进入天境的入门装备。"]
-			id: "4A2D0E4A8C1F2204"
+			description: [
+				"挖掘矿石冶炼后制作"
+				"此版本模组未实装特殊效果&8&m随着耐久度降低防御会提高"
+			]
+			id: "2E1AF4FE29875397"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2205"
+					id: "4239517994CD041B"
 					item: {
 						Count: 1
 						id: "aether:zanite_helmet"
@@ -1068,7 +1030,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2206"
+					id: "6331736D163628B9"
 					item: {
 						Count: 1
 						id: "aether:zanite_chestplate"
@@ -1079,7 +1041,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2207"
+					id: "753D2977EA340F03"
 					item: {
 						Count: 1
 						id: "aether:zanite_leggings"
@@ -1090,7 +1052,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2208"
+					id: "68F3B81537FEF2EF"
 					item: {
 						Count: 1
 						id: "aether:zanite_boots"
@@ -1102,16 +1064,19 @@
 				}
 			]
 			title: "紫晶套"
-			x: 2.0d
-			y: 2.0d
+			x: 8.0d
+			y: 11.0d
 		}
 		{
-			description: ["天境重力套来自空岛维度，提供较好的防御和重力相关特性。穿戴后可以在空岛环境中获得更好的机动性和生存能力。做出来后适合在天境维度长期活动时使用。"]
-			id: "4A2D0E4A8C1F2209"
+			description: [
+				"挖掘神炼重力晶矿合成"
+				"此版本模组未实装特殊效果&8&m装备全套套装后，潜行时跳跃最高可跳6米高，并完全免疫摔落伤害"
+			]
+			id: "2C58F9AD1A977FD3"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F220A"
+					id: "237E58697FAD5B72"
 					item: {
 						Count: 1
 						id: "aether:gravitite_helmet"
@@ -1122,7 +1087,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F220B"
+					id: "154E5492EE5F9C0B"
 					item: {
 						Count: 1
 						id: "aether:gravitite_chestplate"
@@ -1133,7 +1098,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F220C"
+					id: "5AF12228F78BF559"
 					item: {
 						Count: 1
 						id: "aether:gravitite_leggings"
@@ -1144,7 +1109,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F220D"
+					id: "44D2A9BEC35CD9F9"
 					item: {
 						Count: 1
 						id: "aether:gravitite_boots"
@@ -1156,16 +1121,19 @@
 				}
 			]
 			title: "重力套"
-			x: 4.0d
-			y: 2.0d
+			x: 11.5d
+			y: 10.5d
 		}
 		{
-			description: ["天境女武神套是空岛维度的高级护甲，来自女武神相关内容。穿戴后提供强大的防御力和战斗加成，适合挑战空岛首领和探索危险区域。做出来后可以显著提升在天境的战斗能力。"]
-			id: "4A2D0E4A8C1F220E"
+			description: [
+				"白银地牢宝箱获得"
+				"此版本模组未实装特殊效果&8&m装备全套套装后会完全免疫摔落伤害，且可以短暂飞行3s"
+			]
+			id: "037FF680435A3A63"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F220F"
+					id: "41AECB751FFA0E84"
 					item: {
 						Count: 1
 						id: "aether:valkyrie_helmet"
@@ -1176,7 +1144,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2210"
+					id: "2D03BFDD9DF682FE"
 					item: {
 						Count: 1
 						id: "aether:valkyrie_chestplate"
@@ -1187,7 +1155,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2211"
+					id: "24141D461E5DDEBF"
 					item: {
 						Count: 1
 						id: "aether:valkyrie_leggings"
@@ -1198,7 +1166,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2212"
+					id: "7EA7930ACED51263"
 					item: {
 						Count: 1
 						id: "aether:valkyrie_boots"
@@ -1210,16 +1178,19 @@
 				}
 			]
 			title: "女武神套"
-			x: 6.0d
-			y: 2.0d
+			x: 12.5d
+			y: 11.5d
 		}
 		{
-			description: ["天境海神套来自空岛维度的海洋相关内容，提供水下适应性和防御。穿戴后可以在水下环境中更长时间活动，适合海洋探索。做出来后可以帮助玩家在天境的水域区域更安全地活动。"]
-			id: "4A2D0E4A8C1F2213"
+			description: [
+				"青铜地牢宝箱获得"
+				"此版本模组未实装特殊效果&8&m装备全套套装后会游的很快"
+			]
+			id: "28DDB1950D0D1396"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2214"
+					id: "135E90B34E7DB3C3"
 					item: {
 						Count: 1
 						id: "aether:neptune_helmet"
@@ -1230,7 +1201,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2215"
+					id: "1E4AF9492F01DF6B"
 					item: {
 						Count: 1
 						id: "aether:neptune_chestplate"
@@ -1241,7 +1212,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2216"
+					id: "04E824DC7ED68940"
 					item: {
 						Count: 1
 						id: "aether:neptune_leggings"
@@ -1252,7 +1223,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2217"
+					id: "64964E6C4C1D0A7D"
 					item: {
 						Count: 1
 						id: "aether:neptune_boots"
@@ -1264,16 +1235,20 @@
 				}
 			]
 			title: "海神套"
-			x: 8.0d
-			y: 2.0d
+			x: 12.5d
+			y: 10.5d
 		}
 		{
-			description: ["天境凤凰套是空岛维度的高级装备，与凤凰相关的内容有关。穿戴后提供高防御力和特殊火焰抗性。做出来后适合挑战高级空岛内容和首领战斗。"]
-			id: "4A2D0E4A8C1F2218"
+			description: [
+				"黄金地牢宝箱获得"
+				"此版本模组未实装特殊效果&8&m&8&m装备全套套装后会完全抗火，并在岩浆里游的很快。&r"
+				"穿着这套装备&6不能接触任何水，包括雨水&r，否则会变成黑曜石套"
+			]
+			id: "7115A455741B3F1E"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2219"
+					id: "2C340C861EB5FA16"
 					item: {
 						Count: 1
 						id: "aether:phoenix_helmet"
@@ -1284,7 +1259,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F221A"
+					id: "0A989828ACC51BBA"
 					item: {
 						Count: 1
 						id: "aether:phoenix_chestplate"
@@ -1295,7 +1270,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F221B"
+					id: "0A22AD49439B8188"
 					item: {
 						Count: 1
 						id: "aether:phoenix_leggings"
@@ -1306,7 +1281,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F221C"
+					id: "4C6126F5237798BA"
 					item: {
 						Count: 1
 						id: "aether:phoenix_boots"
@@ -1318,16 +1293,19 @@
 				}
 			]
 			title: "凤凰套"
-			x: 10.0d
-			y: 2.0d
+			x: 11.5d
+			y: 11.5d
 		}
 		{
-			description: ["天境黑曜石套使用黑曜石材料制作，来自空岛维度。穿戴后提供高防御力和抗压能力，适合在高压环境中活动。做出来后可以在危险区域提供更好的保护。"]
-			id: "4A2D0E4A8C1F221D"
+			description: [
+				"通过凤凰套装跳进水里10s获得"
+				"只是下界合金级的面板，没有特殊效果"
+			]
+			id: "721F4B9687621385"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F221E"
+					id: "42638BC0BA887EFB"
 					item: {
 						Count: 1
 						id: "aether:obsidian_helmet"
@@ -1338,7 +1316,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F221F"
+					id: "235996CE5E8F0031"
 					item: {
 						Count: 1
 						id: "aether:obsidian_chestplate"
@@ -1349,7 +1327,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2220"
+					id: "3BEAEDC95729C2F5"
 					item: {
 						Count: 1
 						id: "aether:obsidian_leggings"
@@ -1360,7 +1338,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2221"
+					id: "33A430724F0280A7"
 					item: {
 						Count: 1
 						id: "aether:obsidian_boots"
@@ -1372,15 +1350,18 @@
 				}
 			]
 			title: "黑曜石套"
-			x: 12.0d
-			y: 2.0d
+			x: 13.5d
+			y: 11.0d
 		}
 		{
-			description: ["天境哨兵靴来自空岛维度的哨兵内容，提供移动速度和防御加成。穿戴后可以提高探索效率和机动性。做出来后适合在空岛快速移动和探索时使用。"]
-			id: "4A2D0E4A8C1F2222"
+			description: [
+				"通过青铜地牢宝箱获得"
+				"完全免疫摔落伤害"
+			]
+			id: "2D753132C23393B5"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2223"
+				id: "7E410DDD6E2C18C2"
 				item: {
 					Count: 1
 					id: "aether:sentry_boots"
@@ -1391,16 +1372,16 @@
 				type: "item"
 			}]
 			title: "哨兵靴"
-			x: 14.0d
-			y: 2.0d
+			x: 6.5d
+			y: 11.0d
 		}
 		{
 			description: ["Ars 学者下装是 Ars Nouveau 魔法体系的装备部件。穿戴后可以提升法术能力和魔力相关属性。做出来后适合法师路线玩家在施法时获得额外加成。来源是 Ars Nouveau 的学者装备线。"]
-			id: "4A2D0E4A8C1F2224"
+			id: "096EEC76BBD10E9D"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2225"
+					id: "6D4D761799C29FE6"
 					item: {
 						Count: 1
 						id: "ars_nouveau:arcanist_leggings"
@@ -1411,7 +1392,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2226"
+					id: "20405F0309B4CC58"
 					item: {
 						Count: 1
 						id: "ars_nouveau:arcanist_boots"
@@ -1423,16 +1404,16 @@
 				}
 			]
 			title: "学者下装"
-			x: 16.0d
-			y: 2.0d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			description: ["Ars 战法师下装是 Ars Nouveau 的战斗向装备。穿戴后可以增强战斗法术效果和提供防御。做出来后适合喜欢近战与法术结合玩法的玩家使用。"]
-			id: "4A2D0E4A8C1F2227"
+			id: "0AEC82C80A17C3A2"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2228"
+					id: "26D05B0E783C04B7"
 					item: {
 						Count: 1
 						id: "ars_nouveau:battlemage_leggings"
@@ -1443,7 +1424,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2229"
+					id: "1F1DBB278BB9A3A5"
 					item: {
 						Count: 1
 						id: "ars_nouveau:battlemage_boots"
@@ -1455,16 +1436,16 @@
 				}
 			]
 			title: "战法师下装"
-			x: 18.0d
-			y: 2.0d
+			x: 14.5d
+			y: -3.0d
 		}
 		{
 			description: ["Ars 术士下装是 Ars Nouveau 的术士装备，提供高魔力相关属性。穿戴后可以增强施法能力和魔力回复。做出来后适合纯法师路线的玩家在高强度施法场景中使用。"]
-			id: "4A2D0E4A8C1F222A"
+			id: "32F3723E2864D82C"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F222B"
+					id: "43439B18C8C580B5"
 					item: {
 						Count: 1
 						id: "ars_nouveau:sorcerer_leggings"
@@ -1475,7 +1456,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F222C"
+					id: "29BCA2B9D4F561DE"
 					item: {
 						Count: 1
 						id: "ars_nouveau:sorcerer_boots"
@@ -1487,16 +1468,16 @@
 				}
 			]
 			title: "术士下装"
-			x: 0.0d
-			y: 4.0d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			description: ["Botania 法织套使用魔法植物和法术材料制作。穿戴后提供魔力相关加成和防御，适合 Botania 魔法路线玩家。做出来后可以在使用 Botania 魔法系统时获得额外增益。来源是 Botania 的法术装备线。"]
-			id: "4A2D0E4A8C1F222D"
+			id: "7E7F94C497423643"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F222E"
+					id: "04FD5CC4661AF05C"
 					item: {
 						Count: 1
 						id: "botania:manaweave_helmet"
@@ -1507,7 +1488,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F222F"
+					id: "1A42DA4A74782F94"
 					item: {
 						Count: 1
 						id: "botania:manaweave_chestplate"
@@ -1518,7 +1499,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2230"
+					id: "2B7772C9DC24901E"
 					item: {
 						Count: 1
 						id: "botania:manaweave_leggings"
@@ -1529,7 +1510,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2231"
+					id: "35E95B77D9A3B8FE"
 					item: {
 						Count: 1
 						id: "botania:manaweave_boots"
@@ -1541,16 +1522,16 @@
 				}
 			]
 			title: "法织套"
-			x: 2.0d
-			y: 4.0d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			description: ["Botania 魔钢套是 Botania 的中期装备，使用魔力钢材料制作。穿戴后提供较高防御力和魔力抗性。做出来后适合在中期探索和战斗时使用，比基础装备更强。"]
-			id: "4A2D0E4A8C1F2232"
+			id: "32DEDDF961569D4E"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2233"
+					id: "43FAE1D30D8296C2"
 					item: {
 						Count: 1
 						id: "botania:manasteel_helmet"
@@ -1561,7 +1542,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2234"
+					id: "168F8CB8B8519D62"
 					item: {
 						Count: 1
 						id: "botania:manasteel_chestplate"
@@ -1572,7 +1553,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2235"
+					id: "21EC644EFD339FC1"
 					item: {
 						Count: 1
 						id: "botania:manasteel_leggings"
@@ -1583,7 +1564,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2236"
+					id: "0CA4B0BFE8430FE8"
 					item: {
 						Count: 1
 						id: "botania:manasteel_boots"
@@ -1595,16 +1576,16 @@
 				}
 			]
 			title: "魔钢套"
-			x: 4.0d
-			y: 4.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			description: ["Botania 源质套使用源质材料制作，是 Botania 的高级装备。穿戴后提供强大的防御和魔力加成。做出来后适合在高级内容和首领挑战中使用。"]
-			id: "4A2D0E4A8C1F2237"
+			id: "2D1E3F01F5B95589"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2238"
+					id: "2D99CF75CF3BCB46"
 					item: {
 						Count: 1
 						id: "botania:elementium_helmet"
@@ -1615,7 +1596,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2239"
+					id: "358165CFC377CE8E"
 					item: {
 						Count: 1
 						id: "botania:elementium_chestplate"
@@ -1626,7 +1607,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F223A"
+					id: "22A28E110DFF718F"
 					item: {
 						Count: 1
 						id: "botania:elementium_leggings"
@@ -1637,7 +1618,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F223B"
+					id: "41D90E8B0B593379"
 					item: {
 						Count: 1
 						id: "botania:elementium_boots"
@@ -1649,16 +1630,16 @@
 				}
 			]
 			title: "源质套"
-			x: 6.0d
-			y: 4.0d
+			x: 7.5d
+			y: 5.0d
 		}
 		{
 			description: ["Botania 泰拉套是 Botania 的终极装备，使用泰拉钢材料制作。穿戴后提供最高级别的防御和魔力属性加成。做出来后适合终局挑战和高压战斗场景。"]
-			id: "4A2D0E4A8C1F223C"
+			id: "545EBCE4C0FA35BB"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F223D"
+					id: "7DAC97A3D83DAC39"
 					item: {
 						Count: 1
 						id: "botania:terrasteel_helmet"
@@ -1669,7 +1650,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F223E"
+					id: "562C5C569F0B9311"
 					item: {
 						Count: 1
 						id: "botania:terrasteel_chestplate"
@@ -1680,7 +1661,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F223F"
+					id: "76381C6109A7ADC5"
 					item: {
 						Count: 1
 						id: "botania:terrasteel_leggings"
@@ -1691,7 +1672,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2240"
+					id: "6C1C77AA8CF2F7A1"
 					item: {
 						Count: 1
 						id: "botania:terrasteel_boots"
@@ -1703,16 +1684,16 @@
 				}
 			]
 			title: "泰拉套"
-			x: 8.0d
-			y: 4.0d
+			x: 18.0d
+			y: 5.0d
 		}
 		{
 			description: ["Create 纸板套是 Create 工业模组的入门装备，使用纸板材料制作。穿戴后提供基础防御，适合工业路线玩家早期使用。做出来后可以作为工业探索时的临时护甲。来源是 Create 模组的基础装备。"]
-			id: "4A2D0E4A8C1F2241"
+			id: "5D97EF7FB7F63C66"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2242"
+					id: "636D86005A0552C1"
 					item: {
 						Count: 1
 						id: "create:cardboard_helmet"
@@ -1723,7 +1704,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2243"
+					id: "56EC5E1BDF633E3C"
 					item: {
 						Count: 1
 						id: "create:cardboard_chestplate"
@@ -1734,7 +1715,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2244"
+					id: "0E1129B6F57D919D"
 					item: {
 						Count: 1
 						id: "create:cardboard_leggings"
@@ -1745,7 +1726,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2245"
+					id: "462F3A893BA29C09"
 					item: {
 						Count: 1
 						id: "create:cardboard_boots"
@@ -1757,16 +1738,16 @@
 				}
 			]
 			title: "纸板套"
-			x: 10.0d
-			y: 4.0d
+			x: -2.5d
+			y: 7.0d
 		}
 		{
-			description: ["Create 铜潜水件是 Create 的水下探索装备，使用铜材料制作。穿戴后可以提供水下呼吸和移动能力，适合水下探索和资源采集。做出来后可以在水下环境中更长时间活动。"]
-			id: "4A2D0E4A8C1F2246"
+			description: ["可用于潜水，需要消耗气罐"]
+			id: "0727CBCB4CC24F46"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2247"
+					id: "6838686AA985B8B5"
 					item: {
 						Count: 1
 						id: "create:copper_diving_helmet"
@@ -1777,7 +1758,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2248"
+					id: "4AE831E5E0659298"
 					item: {
 						Count: 1
 						id: "create:copper_diving_boots"
@@ -1789,16 +1770,16 @@
 				}
 			]
 			title: "铜潜水件"
-			x: 12.0d
-			y: 4.0d
+			x: 5.0d
+			y: 7.0d
 		}
 		{
-			description: ["Create 下界合金潜水件是 Create 的高级水下装备，使用下界合金制作。穿戴后提供更强的水下适应性和防御力。做出来后适合在危险水下区域长期活动。来源是 Create 的高级装备线。"]
-			id: "4A2D0E4A8C1F2249"
+			description: ["可用于潜水，防御力更高，需要消耗气罐"]
+			id: "03137268F59B7BEC"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F224A"
+					id: "698B997BC89BCFCF"
 					item: {
 						Count: 1
 						id: "create:netherite_diving_helmet"
@@ -1809,7 +1790,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F224B"
+					id: "37B5DC278A6D47BD"
 					item: {
 						Count: 1
 						id: "create:netherite_diving_boots"
@@ -1821,16 +1802,16 @@
 				}
 			]
 			title: "下界合金潜水件"
-			x: 14.0d
-			y: 4.0d
+			x: 14.5d
+			y: 7.0d
 		}
 		{
 			description: ["幽匿共鸣套是深暗之域（Otherside）的装备，与幽匿生态相关。穿戴后提供深暗环境适应性和特殊抗性。做出来后适合在幽匿维度探索和战斗时使用。来源是深暗之域的生态装备。"]
-			id: "4A2D0E4A8C1F224C"
+			id: "3A863E67C0A13C55"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F224D"
+					id: "1B653BC93EF71690"
 					item: {
 						Count: 1
 						id: "deeperdarker:resonarium_helmet"
@@ -1841,7 +1822,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F224E"
+					id: "7D591CBF380D1836"
 					item: {
 						Count: 1
 						id: "deeperdarker:resonarium_chestplate"
@@ -1852,7 +1833,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F224F"
+					id: "569C8073945A0822"
 					item: {
 						Count: 1
 						id: "deeperdarker:resonarium_leggings"
@@ -1863,7 +1844,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2250"
+					id: "383929337EB6BAA5"
 					item: {
 						Count: 1
 						id: "deeperdarker:resonarium_boots"
@@ -1875,16 +1856,16 @@
 				}
 			]
 			title: "共鸣套"
-			x: 16.0d
-			y: 4.0d
+			x: 6.0d
+			y: 21.0d
 		}
 		{
 			description: ["Iron's 巫师套是 Iron's Spellbooks 魔法体系的装备。穿戴后提供法术能力加成和防御，适合法师路线玩家。做出来后可以增强施法效果和生存能力。来源是 Iron's Spellbooks 的巫师装备线。"]
-			id: "4A2D0E4A8C1F2251"
+			id: "25A11CAC87936894"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2252"
+					id: "1D2F08020C8BF79C"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:wizard_helmet"
@@ -1895,7 +1876,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2253"
+					id: "20C26075C837E5C1"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:wizard_chestplate"
@@ -1906,7 +1887,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2254"
+					id: "478FCB603F49C377"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:wizard_leggings"
@@ -1917,7 +1898,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2255"
+					id: "3AB1C65715BE1E56"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:wizard_boots"
@@ -1929,16 +1910,16 @@
 				}
 			]
 			title: "巫师套"
-			x: 18.0d
-			y: 4.0d
+			x: 12.5d
+			y: 23.0d
 		}
 		{
 			description: ["Iron's 下界合金法师套是 Iron's Spellbooks 的高级装备，使用下界合金制作。穿戴后提供强大的法术加成和高防御力。做出来后适合在高压战斗和高级内容中使用。"]
-			id: "4A2D0E4A8C1F2256"
+			id: "036F9DDBBE0C11CC"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2257"
+					id: "3A403CF59BDC8C00"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:netherite_mage_helmet"
@@ -1949,7 +1930,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2258"
+					id: "1DD997CBBDDC700C"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:netherite_mage_chestplate"
@@ -1960,7 +1941,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2259"
+					id: "4256D5538645A824"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:netherite_mage_leggings"
@@ -1971,7 +1952,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F225A"
+					id: "4397634543BDA314"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:netherite_mage_boots"
@@ -1983,16 +1964,16 @@
 				}
 			]
 			title: "下界合金法师套"
-			x: 0.0d
-			y: 6.0d
+			x: 15.5d
+			y: 23.0d
 		}
 		{
 			description: ["Iron's 祭司套是 Iron's Spellbooks 的治疗和辅助向装备。穿戴后提供治疗加成和防御，适合辅助和团队玩法。做出来后可以增强回复能力和团队生存能力。来源是 Iron's Spellbooks 的祭司装备线。"]
-			id: "4A2D0E4A8C1F225B"
+			id: "35664387DA328099"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F225C"
+					id: "756C6B293D5DE01B"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:priest_helmet"
@@ -2003,7 +1984,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F225D"
+					id: "44149EA1F78D105B"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:priest_chestplate"
@@ -2014,7 +1995,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F225E"
+					id: "55EFDA3863591ED0"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:priest_leggings"
@@ -2025,7 +2006,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F225F"
+					id: "1EC9C2431537F6F5"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:priest_boots"
@@ -2037,16 +2018,16 @@
 				}
 			]
 			title: "祭司套"
-			x: 2.0d
-			y: 6.0d
+			x: 17.5d
+			y: 22.5d
 		}
 		{
 			description: ["Iron's 火术士套是 Iron's Spellbooks 的火系法术装备。穿戴后提供火焰抗性和火系法术加成。做出来后适合在火焰环境和火系战斗中使用。来源是 Iron's Spellbooks 的元素装备线。"]
-			id: "4A2D0E4A8C1F2260"
+			id: "519547D5A36EB1AD"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2261"
+					id: "5CF55208268D4554"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:pyromancer_helmet"
@@ -2057,7 +2038,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2262"
+					id: "06E1415454EFE16F"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:pyromancer_chestplate"
@@ -2068,7 +2049,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2263"
+					id: "6EBDFE5A80A0816C"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:pyromancer_leggings"
@@ -2079,7 +2060,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2264"
+					id: "3EFAEA35B8CBAA79"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:pyromancer_boots"
@@ -2091,16 +2072,16 @@
 				}
 			]
 			title: "火术士套"
-			x: 4.0d
-			y: 6.0d
+			x: 17.5d
+			y: 23.5d
 		}
 		{
 			description: ["Iron's 冰术士套是 Iron's Spellbooks 的冰系法术装备。穿戴后提供冰冻抗性和冰系法术加成。做出来后适合在寒冷环境和冰系战斗中使用。来源是 Iron's Spellbooks 的冰术士装备线。"]
-			id: "4A2D0E4A8C1F2265"
+			id: "1A86A4185456138D"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2266"
+					id: "020350AAEAC86AD0"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:cryomancer_helmet"
@@ -2111,7 +2092,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2267"
+					id: "6766845FE56E7D40"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:cryomancer_chestplate"
@@ -2122,7 +2103,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2268"
+					id: "6625550595B1DC3F"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:cryomancer_leggings"
@@ -2133,7 +2114,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2269"
+					id: "481BF2A15DA329C7"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:cryomancer_boots"
@@ -2145,16 +2126,16 @@
 				}
 			]
 			title: "冰术士套"
-			x: 6.0d
-			y: 6.0d
+			x: 16.0d
+			y: 22.5d
 		}
 		{
 			description: ["Iron's 雷术士套是 Iron's Spellbooks 的雷系法术装备。穿戴后提供雷电抗性和雷系法术加成。做出来后适合在雷电环境和高速战斗中使用。来源是 Iron's Spellbooks 的雷术士装备线。"]
-			id: "4A2D0E4A8C1F226A"
+			id: "6F27408644593F3E"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F226B"
+					id: "5F8CB3FDDDEB4F9F"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:electromancer_helmet"
@@ -2165,7 +2146,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F226C"
+					id: "18323D5E41D45733"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:electromancer_chestplate"
@@ -2176,7 +2157,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F226D"
+					id: "476BE32862764D32"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:electromancer_leggings"
@@ -2187,7 +2168,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F226E"
+					id: "4B9CE3CB4F8C1A16"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:electromancer_boots"
@@ -2199,16 +2180,16 @@
 				}
 			]
 			title: "雷术士套"
-			x: 8.0d
-			y: 6.0d
+			x: 16.0d
+			y: 23.5d
 		}
 		{
 			description: ["Iron's 影行者套是 Iron's Spellbooks 的 stealth 和移动向装备。穿戴后提供隐身和移动速度加成。做出来后适合在探索和潜行任务中使用。来源是 Iron's Spellbooks 的影行者装备线。"]
-			id: "4A2D0E4A8C1F226F"
+			id: "27C83EFC01050023"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2270"
+					id: "7CDE5958058DDBD3"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:shadowwalker_helmet"
@@ -2219,7 +2200,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2271"
+					id: "1800D96860D934BE"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:shadowwalker_chestplate"
@@ -2230,7 +2211,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2272"
+					id: "446020C1E1F6019F"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:shadowwalker_leggings"
@@ -2241,7 +2222,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2273"
+					id: "547069407A80F153"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:shadowwalker_boots"
@@ -2253,16 +2234,16 @@
 				}
 			]
 			title: "影行者套"
-			x: 10.0d
-			y: 6.0d
+			x: 15.5d
+			y: 22.5d
 		}
 		{
 			description: ["Iron's 邪教徒套是 Iron's Spellbooks 的黑暗系装备。穿戴后提供暗影抗性和黑暗法术加成。做出来后适合在黑暗环境和特殊战斗中使用。来源是 Iron's Spellbooks 的邪教装备线。"]
-			id: "4A2D0E4A8C1F2274"
+			id: "77AC2D02FD3FFD3E"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2275"
+					id: "30C75721528B97E9"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:cultist_helmet"
@@ -2273,7 +2254,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2276"
+					id: "5A66B60FB05C0654"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:cultist_chestplate"
@@ -2284,7 +2265,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2277"
+					id: "149C3C08549FF6A2"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:cultist_leggings"
@@ -2295,7 +2276,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2278"
+					id: "5DB09FA639D265AA"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:cultist_boots"
@@ -2307,16 +2288,16 @@
 				}
 			]
 			title: "邪教徒套"
-			x: 12.0d
-			y: 6.0d
+			x: 15.5d
+			y: 23.5d
 		}
 		{
 			description: ["Iron's 疫病套是 Iron's Spellbooks 的疫病相关装备。穿戴后提供疫病抗性和相关加成。做出来后适合在疫病环境和特殊挑战中使用。来源是 Iron's Spellbooks 的疫病装备线。"]
-			id: "4A2D0E4A8C1F2279"
+			id: "26D02DB0969B72EC"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F227A"
+					id: "3FF0166AA62F56E2"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:plagued_helmet"
@@ -2327,7 +2308,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F227B"
+					id: "34A20B4F41C6C493"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:plagued_chestplate"
@@ -2338,7 +2319,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F227C"
+					id: "2A03BFFEECFFD6E5"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:plagued_leggings"
@@ -2349,7 +2330,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F227D"
+					id: "3401085195432CAC"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:plagued_boots"
@@ -2361,16 +2342,16 @@
 				}
 			]
 			title: "疫病套"
-			x: 14.0d
-			y: 6.0d
+			x: 16.0d
+			y: 23.0d
 		}
 		{
 			description: ["Iron's 大法师套是 Iron's Spellbooks 的终极装备。穿戴后提供最高级别的法术加成和防御力。做出来后适合终局挑战和高压战斗场景。来源是 Iron's Spellbooks 的大法师装备线。"]
-			id: "4A2D0E4A8C1F227E"
+			id: "32DB7D3031992F5E"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F227F"
+					id: "7F6D13CDB8C32B80"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:archevoker_helmet"
@@ -2381,7 +2362,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2280"
+					id: "625CBA7A9874BFB3"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:archevoker_chestplate"
@@ -2392,7 +2373,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2281"
+					id: "25CB4B99BA93C039"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:archevoker_leggings"
@@ -2403,7 +2384,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2282"
+					id: "36DFDF078298D61A"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:archevoker_boots"
@@ -2414,17 +2395,17 @@
 					type: "item"
 				}
 			]
-			title: "大法师套"
-			x: 16.0d
-			y: 6.0d
+			title: "唤魔者套"
+			x: 17.5d
+			y: 23.0d
 		}
 		{
 			description: ["Iron's 流浪法师套是 Iron's Spellbooks 的旅行向装备。穿戴后提供移动和探索加成。做出来后适合在远征和长途探索时使用。来源是 Iron's Spellbooks 的流浪装备线。"]
-			id: "4A2D0E4A8C1F2283"
+			id: "7E071160B298FE71"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2284"
+					id: "2B7EF600D7379E61"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:wandering_magician_helmet"
@@ -2435,7 +2416,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2285"
+					id: "7AF09B060A5569B2"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:wandering_magician_chestplate"
@@ -2446,7 +2427,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2286"
+					id: "789AD49DCF7A1649"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:wandering_magician_leggings"
@@ -2457,7 +2438,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2287"
+					id: "7238FD57B375E141"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:wandering_magician_boots"
@@ -2469,16 +2450,16 @@
 				}
 			]
 			title: "流浪法师套"
-			x: 18.0d
-			y: 6.0d
+			x: 6.0d
+			y: 22.5d
 		}
 		{
 			description: ["Iron's 南瓜套是 Iron's Spellbooks 的特殊装备，与南瓜相关内容有关。穿戴后提供特殊加成和防御。做出来后适合在特殊活动和挑战中使用。来源是 Iron's Spellbooks 的特殊装备线。"]
-			id: "4A2D0E4A8C1F2288"
+			id: "2946B491A8C0217C"
 			optional: true
 			tasks: [
 				{
-					id: "4A2D0E4A8C1F2289"
+					id: "19B575BF7FC6F12B"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:pumpkin_helmet"
@@ -2489,7 +2470,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F228A"
+					id: "27D3B8A03D18D8E2"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:pumpkin_chestplate"
@@ -2500,7 +2481,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F228B"
+					id: "76385EE7736AB9E3"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:pumpkin_leggings"
@@ -2511,7 +2492,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F228C"
+					id: "37BD0127DCD57606"
 					item: {
 						Count: 1
 						id: "irons_spellbooks:pumpkin_boots"
@@ -2523,15 +2504,15 @@
 				}
 			]
 			title: "南瓜套"
-			x: 0.0d
-			y: 8.0d
+			x: 11.5d
+			y: 23.0d
 		}
 		{
 			description: ["Iron's 圣骑士胸甲是 Iron's Spellbooks 的圣骑士装备部件。穿戴后提供高防御和治疗加成。做出来后适合辅助和坦克角色在团队中使用。来源是 Iron's Spellbooks 的圣骑士装备线。"]
-			id: "4A2D0E4A8C1F228D"
+			id: "291316E6DB1C459E"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F228E"
+				id: "5F94D9E24696EFFE"
 				item: {
 					Count: 1
 					id: "irons_spellbooks:paladin_chestplate"
@@ -2542,15 +2523,15 @@
 				type: "item"
 			}]
 			title: "圣骑士胸甲"
-			x: 2.0d
-			y: 8.0d
+			x: 18.0d
+			y: 22.5d
 		}
 		{
 			description: ["Iron's 炼狱术士胸甲是 Iron's Spellbooks 的火焰术士装备。穿戴后提供火焰抗性和高防御。做出来后适合在炼狱环境和火焰战斗中使用。来源是 Iron's Spellbooks 的炼狱装备线。"]
-			id: "4A2D0E4A8C1F228F"
+			id: "144DA3A679C25EDD"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2290"
+				id: "5C034685E8D9F317"
 				item: {
 					Count: 1
 					id: "irons_spellbooks:infernal_sorcerer_chestplate"
@@ -2561,15 +2542,15 @@
 				type: "item"
 			}]
 			title: "炼狱术士胸甲"
-			x: 4.0d
-			y: 8.0d
+			x: 18.0d
+			y: 23.5d
 		}
 		{
 			description: ["Iron's 速度靴是 Iron's Spellbooks 的移动装备。穿戴后提供移动速度加成和基础防御。做出来后适合在快速移动和探索时使用。来源是 Iron's Spellbooks 的速度装备线。"]
-			id: "4A2D0E4A8C1F2291"
+			id: "5A76468745BF43B5"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2292"
+				id: "61F97E05FA401BBE"
 				item: {
 					Count: 1
 					id: "irons_spellbooks:speed_boots"
@@ -2580,15 +2561,15 @@
 				type: "item"
 			}]
 			title: "速度靴"
-			x: 6.0d
-			y: 8.0d
+			x: 18.0d
+			y: 23.0d
 		}
 		{
 			description: ["Iron's 破旧头盔是 Iron's Spellbooks 的入门装备。穿戴后提供基础防御和简单加成。做出来后适合新手玩家在早期阶段使用。来源是 Iron's Spellbooks 的入门装备线。"]
-			id: "4A2D0E4A8C1F2293"
+			id: "6EBD0810B20F95C8"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2294"
+				id: "69D98C9EFDB9B68B"
 				item: {
 					Count: 1
 					id: "irons_spellbooks:tarnished_helmet"
@@ -2599,60 +2580,34 @@
 				type: "item"
 			}]
 			title: "破旧头盔"
-			x: 8.0d
-			y: 8.0d
+			x: 6.0d
+			y: 23.5d
 		}
 		{
 			description: ["Mekanism 防化靴是 Mekanism 工业模组的防护装备。穿戴后提供毒气和化学环境抗性。做出来后适合在工业区域和危险环境中活动时使用。来源是 Mekanism 的防护装备线。"]
-			id: "4A2D0E4A8C1F2295"
+			id: "5FB70E6B86F1093B"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2296"
+				id: "359A2D449B3A0DB6"
 				item: "mekanism:hazmat_boots"
 				type: "item"
 			}]
 			title: "防化靴"
-			x: 10.0d
-			y: 8.0d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			description: ["MekaSuit 头盔是 Mekanism 的高级装备部件。穿戴后提供高防御和工业环境适应性。做出来后适合在工业探索和高压区域中使用。来源是 Mekanism 的 MekaSuit 装备线。"]
-			id: "4A2D0E4A8C1F2297"
+			id: "27B410079C8C61D2"
 			optional: true
 			tasks: [{
-				id: "4A2D0E4A8C1F2298"
+				id: "70375074F86C9CD8"
 				item: "mekanism:mekasuit_helmet"
 				type: "item"
 			}]
 			title: "MekaSuit 头盔"
-			x: 12.0d
-			y: 8.0d
-		}
-		{
-			description: ["MekaSuit 靴子是 Mekanism 的高级装备部件。穿戴后提供移动和防御加成。做出来后适合在工业区域快速移动和活动时使用。来源是 Mekanism 的 MekaSuit 装备线。"]
-			id: "4A2D0E4A8C1F2299"
-			optional: true
-			tasks: [{
-				id: "4A2D0E4A8C1F229A"
-				item: "mekanism:mekasuit_boots"
-				type: "item"
-			}]
-			title: "MekaSuit 靴子"
-			x: 14.0d
-			y: 8.0d
-		}
-		{
-			description: ["前哨胸甲是 KubeJS 特殊装备，提供特殊防御和功能。穿戴后可以获得独特的加成和能力。做出来后适合在特殊任务和挑战中使用。来源是 KubeJS 的自定义装备系统。"]
-			id: "4A2D0E4A8C1F229B"
-			optional: true
-			tasks: [{
-				id: "4A2D0E4A8C1F229C"
-				item: "kubejs:outpost_chestplate"
-				type: "item"
-			}]
-			title: "前哨胸甲"
-			x: 16.0d
-			y: 8.0d
+			x: 28.0d
+			y: 3.0d
 		}
 		{
 			description: ["蜈蚣护腿是深暗之域（Otherside）的装备，与蜈蚣生态相关。穿戴后提供深暗环境抗性和移动能力。做出来后适合在深暗维度探索和战斗时使用。来源是深暗之域的生态装备。"]
@@ -2670,8 +2625,8 @@
 				type: "item"
 			}]
 			title: "蜈蚣护腿"
-			x: 0.0d
-			y: 10.5d
+			x: 2.5d
+			y: 19.5d
 		}
 		{
 			description: ["鳄鱼胸甲是 Aquamirae 海洋模组的装备，与鳄鱼生态相关。穿戴后提供水下适应性和防御。做出来后适合在海洋和深海探索时使用。来源是 Aquamirae 的生态装备线。"]
@@ -2689,8 +2644,8 @@
 				type: "item"
 			}]
 			title: "鳄鱼胸甲"
-			x: 2.0d
-			y: 10.5d
+			x: 7.5d
+			y: 19.0d
 		}
 		{
 			description: ["鸸鹋护腿是 Alex's Mobs 的装备，与鸸鹋生物相关。穿戴后提供移动速度和基础防御。做出来后适合在探索和快速移动时使用。来源是 Alex's Mobs 的生态装备。"]
@@ -2708,8 +2663,8 @@
 				type: "item"
 			}]
 			title: "鸸鹋护腿"
-			x: 4.0d
-			y: 10.5d
+			x: 10.0d
+			y: 19.0d
 		}
 		{
 			description: ["飞鱼靴是 Alex's Mobs 的装备，与飞鱼相关。穿戴后提供水上移动能力和基础防御。做出来后适合在水域区域探索时使用。来源是 Alex's Mobs 的生态装备。"]
@@ -2727,8 +2682,8 @@
 				type: "item"
 			}]
 			title: "飞鱼靴"
-			x: 6.0d
-			y: 10.5d
+			x: 3.5d
+			y: 19.0d
 		}
 		{
 			description: ["寒踪者头盔是 Alex's Mobs 的装备，与寒踪者生物相关。穿戴后提供寒冷抗性和防御。做出来后适合在寒冷环境和探索时使用。来源是 Alex's Mobs 的生态装备。"]
@@ -2746,8 +2701,8 @@
 				type: "item"
 			}]
 			title: "寒踪者头盔"
-			x: 8.0d
-			y: 10.5d
+			x: 11.0d
+			y: 18.5d
 		}
 		{
 			description: ["走鹃靴是 Alex's Mobs 的装备，与走鹃生物相关。穿戴后提供移动速度和基础防御。做出来后适合在快速探索时使用。来源是 Alex's Mobs 的生态装备。"]
@@ -2765,8 +2720,8 @@
 				type: "item"
 			}]
 			title: "走鹃靴"
-			x: 10.0d
-			y: 10.5d
+			x: 11.0d
+			y: 19.5d
 		}
 		{
 			description: ["岩石胸甲是 Alex's Mobs 的装备，与岩石生物相关。穿戴后提供高防御力和抗压能力。做出来后适合在危险区域和战斗时使用。来源是 Alex's Mobs 的生态装备。"]
@@ -2784,21 +2739,8 @@
 				type: "item"
 			}]
 			title: "岩石胸甲"
-			x: 12.0d
-			y: 10.5d
-		}
-		{
-			description: ["跨火兽头盔是 Alex's Mobs 的装备，与跨火兽生物相关。穿戴后提供火焰抗性和防御。做出来后适合在火焰环境和战斗中使用。来源是 Alex's Mobs 的生态装备。"]
-			id: "4A2D0E4A8C1F2310"
-			optional: true
-			tasks: [{
-				id: "4A2D0E4A8C1F2311"
-				item: "alexsmobs:straddle_helmet"
-				type: "item"
-			}]
-			title: "跨火兽头盔"
-			x: 14.0d
-			y: 10.5d
+			x: 2.5d
+			y: 18.5d
 		}
 		{
 			description: ["寒海可怖套是 Aquamirae 的高级装备，与深海可怖生物相关。穿戴后提供高防御和深海适应性。做出来后适合在深海危险区域活动时使用。来源是 Aquamirae 的高级装备线。"]
@@ -2851,8 +2793,8 @@
 				}
 			]
 			title: "可怖套"
-			x: 16.0d
-			y: 10.5d
+			x: 9.0d
+			y: 17.0d
 		}
 		{
 			description: ["深渊散件是 Aquamirae 的深渊装备，与深渊生物相关。穿戴后提供深海适应性和特殊抗性。做出来后适合在深渊区域探索时使用。来源是 Aquamirae 的深渊装备线。"]
@@ -2883,8 +2825,8 @@
 				}
 			]
 			title: "深渊散件"
-			x: 18.0d
-			y: 10.5d
+			x: 12.0d
+			y: 17.0d
 		}
 		{
 			description: ["三栓散件是 Aquamirae 的装备，与三栓生物相关。穿戴后提供特殊防御和海洋适应性。做出来后适合在特定海洋区域活动时使用。来源是 Aquamirae 的生态装备。"]
@@ -2896,6 +2838,17 @@
 					item: {
 						Count: 1
 						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "428787DCFAD248F7"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
 						tag: {
 							Damage: 0
 						}
@@ -2926,8 +2879,8 @@
 				}
 			]
 			title: "三栓散件"
-			x: 0.0d
-			y: 12.5d
+			x: -1.0d
+			y: 17.0d
 		}
 		{
 			description: ["灾厄诅咒钢套是 Cataclysm 模组的装备，与诅咒相关内容有关。穿戴后提供高防御力和特殊抗性。做出来后适合在灾厄区域挑战和战斗中使用。来源是 Cataclysm 的诅咒装备线。"]
@@ -2956,8 +2909,8 @@
 				}
 			]
 			title: "诅咒钢套"
-			x: 2.0d
-			y: 12.5d
+			x: 27.5d
+			y: 15.0d
 		}
 		{
 			description: ["骨爬虫护具是 Cataclysm 的装备，与骨爬虫生物相关。穿戴后提供基础防御和特殊加成。做出来后适合在灾厄区域活动时使用。来源是 Cataclysm 的生态装备。"]
@@ -2988,8 +2941,8 @@
 				}
 			]
 			title: "骨爬虫护具"
-			x: 4.0d
-			y: 12.5d
+			x: 26.0d
+			y: 15.0d
 		}
 		{
 			description: ["灾厄坚固靴是 Cataclysm 的装备，与灾厄内容相关。穿戴后提供移动能力和防御。做出来后适合在灾厄区域快速移动和探索时使用。来源是 Cataclysm 的装备线。"]
@@ -3001,8 +2954,8 @@
 				type: "item"
 			}]
 			title: "坚固靴"
-			x: 6.0d
-			y: 12.5d
+			x: -1.0d
+			y: 15.0d
 		}
 		{
 			description: ["点燃鞘翅胸甲是特殊装备，与鞘翅相关内容有关。穿戴后提供飞行能力加成和防御。做出来后适合在飞行和高空探索时使用。来源是特殊装备系统。"]
@@ -3014,8 +2967,8 @@
 				type: "item"
 			}]
 			title: "点燃鞘翅胸甲"
-			x: 8.0d
-			y: 12.5d
+			x: 25.5d
+			y: 15.5d
 		}
 		{
 			description: ["哥布林杀手套是特殊装备，与哥布林内容相关。穿戴后提供对哥布林的伤害加成和防御。做出来后适合在对抗哥布林时使用。来源是特殊战斗装备线。"]
@@ -3068,8 +3021,8 @@
 				}
 			]
 			title: "哥布林杀手套"
-			x: 10.0d
-			y: 12.5d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			description: ["影武者套是特殊装备，与影武者内容相关。穿戴后提供隐身和快速移动能力。做出来后适合在潜行和快速探索任务中使用。来源是特殊装备系统。"]
@@ -3122,532 +3075,116 @@
 				}
 			]
 			title: "影武者套"
-			x: 12.0d
-			y: 12.5d
+			x: 7.0d
+			y: 4.5d
 		}
 		{
 			description: ["战斗女仆靴是特殊装备，与女仆内容相关。穿戴后提供战斗加成和移动能力。做出来后适合在战斗场景中使用。来源是特殊装备系统。"]
 			id: "4A2D0E4A8C1F2334"
 			optional: true
-			tasks: [{
-				id: "4A2D0E4A8C1F2335"
-				item: {
-					Count: 1
-					id: "extrabotany:pleiades_combat_maid_boots"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1FA6E9D42576CE2C"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_headgear"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
-			title: "战斗女仆靴"
-			x: 14.0d
-			y: 12.5d
+				{
+					id: "34643DF6D79C432A"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3347C72005F9684E"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_skirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2335"
+					item: {
+						Count: 1
+						id: "extrabotany:pleiades_combat_maid_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "战斗女仆套"
+			x: 20.0d
+			y: 5.0d
 		}
 		{
 			description: ["星偶像靴是特殊装备，与星偶像内容相关。穿戴后提供特殊加成和移动能力。做出来后适合在探索和特殊活动中使用。来源是特殊装备系统。"]
 			id: "4A2D0E4A8C1F2336"
 			optional: true
-			tasks: [{
-				id: "4A2D0E4A8C1F2337"
-				item: {
-					Count: 1
-					id: "extrabotany:starry_idol_boots"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "56E14B52870DCDF4"
+					item: {
+						Count: 1
+						id: "extrabotany:starry_idol_headgear"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "091C60FAC63AFF02"
+					item: {
+						Count: 1
+						id: "extrabotany:starry_idol_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34B06E7BE5E1CBDE"
+					item: {
+						Count: 1
+						id: "extrabotany:starry_idol_skirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2337"
+					item: {
+						Count: 1
+						id: "extrabotany:starry_idol_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "星偶像靴"
-			x: 16.0d
-			y: 12.5d
-		}
-		{
-			description: ["冰火铜套是 Ice and Fire 模组的装备，使用铜材料和龙相关材料制作。穿戴后提供基础防御和冰火抗性。做出来后适合在早期挑战龙相关内容时使用。来源是 Ice and Fire 的铜装备线。"]
-			id: "4A2D0E4A8C1F2338"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F2339"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_copper_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F233A"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_copper_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F233B"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_copper_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F233C"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_copper_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "铜套"
-			x: 18.0d
-			y: 12.5d
-		}
-		{
-			description: ["冰火银套是 Ice and Fire 模组的装备，使用银材料制作。穿戴后提供中等防御和银质抗性。做出来后适合在中期龙挑战中使用。来源是 Ice and Fire 的银装备线。"]
-			id: "4A2D0E4A8C1F233D"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F233E"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_silver_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F233F"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_silver_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2340"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_silver_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2341"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_silver_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "银套"
-			x: 0.0d
-			y: 14.5d
-		}
-		{
-			description: ["冰火蓝宝石套是 Ice and Fire 模组的装备，使用蓝宝石材料制作。穿戴后提供高防御和宝石加成。做出来后适合在高级龙挑战中使用。来源是 Ice and Fire 的蓝宝石装备线。"]
-			id: "4A2D0E4A8C1F2342"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F2343"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_sapphire_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2344"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_sapphire_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2345"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_sapphire_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2346"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_sapphire_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "蓝宝石套"
-			x: 2.0d
-			y: 14.5d
-		}
-		{
-			description: ["冰火红龙鳞套是 Ice and Fire 模组的高级装备，使用火龙鳞片制作。穿戴后提供高防御和火焰抗性。做出来后适合挑战火龙和火焰环境时使用。来源是 Ice and Fire 的红龙装备线。"]
-			id: "4A2D0E4A8C1F234C"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F234D"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_red_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F234E"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_red_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F234F"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_red_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2350"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_red_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "红龙鳞套"
-			x: 6.0d
-			y: 14.5d
-		}
-		{
-			description: ["冰火绿龙鳞套是 Ice and Fire 模组的高级装备，使用绿龙鳞片制作。穿戴后提供高防御和毒素抗性。做出来后适合挑战绿龙和毒素环境时使用。来源是 Ice and Fire 的绿龙装备线。"]
-			id: "4A2D0E4A8C1F2351"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F2352"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_green_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2353"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_green_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2354"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_green_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2355"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_green_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "绿龙鳞套"
-			x: 8.0d
-			y: 14.5d
-		}
-		{
-			description: ["冰火蓝龙鳞套是 Ice and Fire 模组的高级装备，使用蓝龙鳞片制作。穿戴后提供高防御和冰冻抗性。做出来后适合挑战蓝龙和寒冷环境时使用。来源是 Ice and Fire 的蓝龙装备线。"]
-			id: "4A2D0E4A8C1F2356"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F2357"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_blue_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2358"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_blue_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2359"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_blue_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F235A"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_blue_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "蓝龙鳞套"
-			x: 10.0d
-			y: 14.5d
-		}
-		{
-			description: ["冰火白龙鳞套是 Ice and Fire 模组的高级装备，使用白龙鳞片制作。穿戴后提供高防御和光明抗性。做出来后适合挑战白龙时使用。来源是 Ice and Fire 的白龙装备线。"]
-			id: "4A2D0E4A8C1F235B"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F235C"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_white_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F235D"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_white_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F235E"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_white_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F235F"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_white_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "白龙鳞套"
-			x: 12.0d
-			y: 14.5d
-		}
-		{
-			description: ["冰火黑龙鳞套是 Ice and Fire 模组的终极装备，使用黑龙鳞片制作。穿戴后提供最高防御和黑暗抗性。做出来后适合终局龙挑战和高压战斗。来源是 Ice and Fire 的黑龙装备线。"]
-			id: "4A2D0E4A8C1F2360"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F2361"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_black_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2362"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_black_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2363"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_black_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2364"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_black_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "黑龙鳞套"
-			x: 14.0d
-			y: 14.5d
-		}
-		{
-			description: ["冰火青铜龙鳞套是 Ice and Fire 模组的特殊装备，使用青铜龙鳞制作。穿戴后提供特殊防御和青铜加成。做出来后适合在特殊龙挑战中使用。来源是 Ice and Fire 的青铜装备线。"]
-			id: "4A2D0E4A8C1F2365"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F2366"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_bronze_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2367"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_bronze_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2368"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_bronze_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2369"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_bronze_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "青铜龙鳞套"
-			x: 16.0d
-			y: 14.5d
+			x: 16.5d
+			y: 5.0d
 		}
 		{
 			description: ["冰火铜金属套是 Ice and Fire 模组的装备，使用铜金属材料制作。穿戴后提供中等防御和金属抗性。做出来后适合在工业和龙挑战混合场景中使用。来源是 Ice and Fire 的铜金属装备线。"]
@@ -3700,8 +3237,8 @@
 				}
 			]
 			title: "铜金属套"
-			x: 18.0d
-			y: 14.5d
+			x: -1.5d
+			y: 13.0d
 		}
 		{
 			description: ["冰火银金属套是 Ice and Fire 模组的装备，使用银金属材料制作。穿戴后提供高防御和银质抗性。做出来后适合在高级挑战中使用。来源是 Ice and Fire 的银金属装备线。"]
@@ -3754,116 +3291,8 @@
 				}
 			]
 			title: "银金属套"
-			x: 0.0d
-			y: 16.5d
-		}
-		{
-			description: ["冰火雷龙鳞套是 Ice and Fire 模组的装备，使用雷龙鳞片制作。穿戴后提供高防御和雷电抗性。做出来后适合挑战雷龙和雷电环境时使用。来源是 Ice and Fire 的雷龙装备线。"]
-			id: "4A2D0E4A8C1F2374"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F2375"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_electric_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2376"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_electric_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2377"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_electric_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2378"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_electric_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "雷龙鳞套"
-			x: 2.0d
-			y: 16.5d
-		}
-		{
-			description: ["冰火灰龙鳞套是 Ice and Fire 模组的装备，使用灰龙鳞片制作。穿戴后提供高防御和灰色抗性。做出来后适合挑战灰龙时使用。来源是 Ice and Fire 的灰龙装备线。"]
-			id: "4A2D0E4A8C1F2379"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F237A"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_gray_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F237B"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_gray_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F237C"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_gray_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F237D"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_gray_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "灰龙鳞套"
-			x: 4.0d
-			y: 16.5d
+			x: 2.5d
+			y: 13.0d
 		}
 		{
 			description: ["冰火羊毛套是 Ice and Fire 模组的特殊装备，使用羊毛材料制作。穿戴后提供基础防御和温暖加成。做出来后适合在寒冷环境中活动时使用。来源是 Ice and Fire 的羊毛装备线。"]
@@ -3916,11 +3345,11 @@
 				}
 			]
 			title: "羊毛套"
-			x: 6.0d
-			y: 16.5d
+			x: -2.5d
+			y: 13.0d
 		}
 		{
-			description: ["红死蠕套是 Cataclysm 或相关模组的装备，与红色死蠕相关。穿戴后提供特殊防御和抗性。做出来后适合在特定挑战和环境中使用。来源是相关生态装备线。"]
+			description: ["各颜色的护甲只是颜色不同，功能上没有区别。"]
 			id: "4A2D0E4A8C1F238D"
 			optional: true
 			tasks: [
@@ -3968,72 +3397,8 @@
 					}
 					type: "item"
 				}
-			]
-			title: "红死蠕套"
-			x: 12.0d
-			y: 16.5d
-		}
-		{
-			description: ["白死蠕套是特殊装备，与白色死蠕相关。穿戴后提供特殊防御和抗性。做出来后适合在特定挑战中使用。来源是相关生态装备线。"]
-			id: "4A2D0E4A8C1F2392"
-			optional: true
-			tasks: [
 				{
-					id: "4A2D0E4A8C1F2393"
-					item: {
-						Count: 1
-						id: "iceandfire:deathworm_white_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2394"
-					item: {
-						Count: 1
-						id: "iceandfire:deathworm_white_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2395"
-					item: {
-						Count: 1
-						id: "iceandfire:deathworm_white_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F2396"
-					item: {
-						Count: 1
-						id: "iceandfire:deathworm_white_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "白死蠕套"
-			x: 14.0d
-			y: 16.5d
-		}
-		{
-			description: ["黄死蠕套是特殊装备，与黄色死蠕相关。穿戴后提供特殊防御和抗性。做出来后适合在特定挑战中使用。来源是相关生态装备线。"]
-			id: "4A2D0E4A8C1F2397"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F2398"
+					id: "61AE58B6F8889DB4"
 					item: {
 						Count: 1
 						id: "iceandfire:deathworm_yellow_helmet"
@@ -4044,7 +3409,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F2399"
+					id: "6DCD6F44BA130313"
 					item: {
 						Count: 1
 						id: "iceandfire:deathworm_yellow_chestplate"
@@ -4055,7 +3420,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F239A"
+					id: "06F2010294F1DB98"
 					item: {
 						Count: 1
 						id: "iceandfire:deathworm_yellow_leggings"
@@ -4066,7 +3431,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F239B"
+					id: "70EB5EE3A94BE8C6"
 					item: {
 						Count: 1
 						id: "iceandfire:deathworm_yellow_boots"
@@ -4076,13 +3441,60 @@
 					}
 					type: "item"
 				}
+				{
+					id: "21A7329B1693834E"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_white_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "314C5BDFDA1BF2B2"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_white_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52916BA0734E46D7"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_white_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "16362DBDA6CB99E0"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_white_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
 			]
-			title: "黄死蠕套"
-			x: 16.0d
-			y: 16.5d
+			title: "死亡蠕虫套"
+			x: 6.5d
+			y: 13.5d
 		}
 		{
-			description: ["森林巨魔皮套是 Twilight Forest 或相关模组的装备，使用森林巨魔皮制作。穿戴后提供中等防御和自然抗性。做出来后适合在森林和暮色维度中使用。来源是森林巨魔生态装备线。"]
+			description: [
+				"击杀食人妖制作，不建议做，很难刷齐。"
+				"各颜色的护甲只是颜色不同，功能上没有区别。"
+			]
 			id: "4A2D0E4A8C1F239C"
 			optional: true
 			tasks: [
@@ -4130,72 +3542,8 @@
 					}
 					type: "item"
 				}
-			]
-			title: "森林巨魔皮套"
-			x: 18.0d
-			y: 16.5d
-		}
-		{
-			description: ["霜冻巨魔皮套是 Twilight Forest 的装备，使用霜冻巨魔皮制作。穿戴后提供寒冷抗性和防御。做出来后适合在寒冷区域和暮色维度中使用。来源是霜冻巨魔生态装备线。"]
-			id: "4A2D0E4A8C1F23A1"
-			optional: true
-			tasks: [
 				{
-					id: "4A2D0E4A8C1F23A2"
-					item: {
-						Count: 1
-						id: "iceandfire:frost_troll_leather_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23A3"
-					item: {
-						Count: 1
-						id: "iceandfire:frost_troll_leather_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23A4"
-					item: {
-						Count: 1
-						id: "iceandfire:frost_troll_leather_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23A5"
-					item: {
-						Count: 1
-						id: "iceandfire:frost_troll_leather_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "霜冻巨魔皮套"
-			x: 0.0d
-			y: 18.5d
-		}
-		{
-			description: ["山地巨魔皮套是 Twilight Forest 的装备，使用山地巨魔皮制作。穿戴后提供高防御和山地适应性。做出来后适合在山地区域活动时使用。来源是山地巨魔生态装备线。"]
-			id: "4A2D0E4A8C1F23A6"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F23A7"
+					id: "0265F82FF2BBDCEF"
 					item: {
 						Count: 1
 						id: "iceandfire:mountain_troll_leather_helmet"
@@ -4206,7 +3554,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F23A8"
+					id: "2ACA7ACA27B334DA"
 					item: {
 						Count: 1
 						id: "iceandfire:mountain_troll_leather_chestplate"
@@ -4217,7 +3565,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F23A9"
+					id: "041DBFD108C850A6"
 					item: {
 						Count: 1
 						id: "iceandfire:mountain_troll_leather_leggings"
@@ -4228,7 +3576,7 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F23AA"
+					id: "31008EFDEE415319"
 					item: {
 						Count: 1
 						id: "iceandfire:mountain_troll_leather_boots"
@@ -4238,21 +3586,11 @@
 					}
 					type: "item"
 				}
-			]
-			title: "山地巨魔皮套"
-			x: 2.0d
-			y: 18.5d
-		}
-		{
-			description: ["潮汐蓝套是 Aquamirae 的装备，与潮汐蓝内容相关。穿戴后提供海洋适应性和防御。做出来后适合在海洋探索时使用。来源是 Aquamirae 的潮汐装备线。"]
-			id: "4A2D0E4A8C1F23AB"
-			optional: true
-			tasks: [
 				{
-					id: "4A2D0E4A8C1F23AC"
+					id: "4E3AE479BDEC3FF2"
 					item: {
 						Count: 1
-						id: "iceandfire:tide_blue_helmet"
+						id: "iceandfire:frost_troll_leather_helmet"
 						tag: {
 							Damage: 0
 						}
@@ -4260,10 +3598,10 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F23AD"
+					id: "39774C81AA76366D"
 					item: {
 						Count: 1
-						id: "iceandfire:tide_blue_chestplate"
+						id: "iceandfire:frost_troll_leather_chestplate"
 						tag: {
 							Damage: 0
 						}
@@ -4271,10 +3609,10 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F23AE"
+					id: "1606502C20EDD374"
 					item: {
 						Count: 1
-						id: "iceandfire:tide_blue_leggings"
+						id: "iceandfire:frost_troll_leather_leggings"
 						tag: {
 							Damage: 0
 						}
@@ -4282,10 +3620,10 @@
 					type: "item"
 				}
 				{
-					id: "4A2D0E4A8C1F23AF"
+					id: "1FFC05D2E513A6D0"
 					item: {
 						Count: 1
-						id: "iceandfire:tide_blue_boots"
+						id: "iceandfire:frost_troll_leather_boots"
 						tag: {
 							Damage: 0
 						}
@@ -4293,333 +3631,9 @@
 					type: "item"
 				}
 			]
-			title: "潮汐蓝套"
-			x: 4.0d
-			y: 18.5d
-		}
-		{
-			description: ["潮汐绿套是 Aquamirae 的装备，与潮汐绿内容相关。穿戴后提供海洋适应性和防御。做出来后适合在海洋探索时使用。来源是 Aquamirae 的潮汐装备线。"]
-			id: "4A2D0E4A8C1F23B0"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F23B1"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_green_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23B2"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_green_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23B3"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_green_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23B4"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_green_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "潮汐绿套"
-			x: 6.0d
-			y: 18.5d
-		}
-		{
-			description: ["潮汐青铜套是 Aquamirae 的装备，使用青铜材料制作。穿戴后提供中等防御和海洋抗性。做出来后适合在海洋区域活动时使用。来源是 Aquamirae 的潮汐装备线。"]
-			id: "4A2D0E4A8C1F23B5"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F23B6"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_bronze_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23B7"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_bronze_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23B8"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_bronze_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23B9"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_bronze_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "潮汐青铜套"
-			x: 8.0d
-			y: 18.5d
-		}
-		{
-			description: ["潮汐深蓝套是 Aquamirae 的高级装备，与深蓝内容相关。穿戴后提供高防御和深海适应性。做出来后适合在深海区域活动时使用。来源是 Aquamirae 的潮汐装备线。"]
-			id: "4A2D0E4A8C1F23BA"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F23BB"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_deepblue_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23BC"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_deepblue_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23BD"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_deepblue_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23BE"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_deepblue_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "潮汐深蓝套"
-			x: 10.0d
-			y: 18.5d
-		}
-		{
-			description: ["潮汐紫套是 Aquamirae 的装备，与潮汐紫内容相关。穿戴后提供特殊防御和海洋抗性。做出来后适合在特定海洋区域活动时使用。来源是 Aquamirae 的潮汐装备线。"]
-			id: "4A2D0E4A8C1F23BF"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F23C0"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_purple_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23C1"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_purple_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23C2"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_purple_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23C3"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_purple_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "潮汐紫套"
-			x: 12.0d
-			y: 18.5d
-		}
-		{
-			description: ["潮汐红套是 Aquamirae 的装备，与潮汐红内容相关。穿戴后提供特殊防御和海洋抗性。做出来后适合在特定海洋区域活动时使用。来源是 Aquamirae 的潮汐装备线。"]
-			id: "4A2D0E4A8C1F23C4"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F23C5"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_red_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23C6"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_red_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23C7"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_red_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23C8"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_red_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "潮汐红套"
-			x: 14.0d
-			y: 18.5d
-		}
-		{
-			description: ["潮汐青套是 Aquamirae 的装备，与潮汐青内容相关。穿戴后提供海洋适应性和防御。做出来后适合在海洋探索时使用。来源是 Aquamirae 的潮汐装备线。"]
-			id: "4A2D0E4A8C1F23C9"
-			optional: true
-			tasks: [
-				{
-					id: "4A2D0E4A8C1F23CA"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_teal_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23CB"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_teal_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23CC"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_teal_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4A2D0E4A8C1F23CD"
-					item: {
-						Count: 1
-						id: "iceandfire:tide_teal_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "潮汐青套"
-			x: 16.0d
-			y: 18.5d
+			title: "食人妖套"
+			x: 6.5d
+			y: 12.5d
 		}
 		{
 			description: ["暮色极地套是 Twilight Forest 的装备，与极地内容相关。穿戴后提供寒冷抗性和高防御。做出来后适合在暮色森林的极地区域活动时使用。来源是 Twilight Forest 的极地装备线。"]
@@ -4672,8 +3686,8 @@
 				}
 			]
 			title: "极地套"
-			x: 18.0d
-			y: 18.5d
+			x: 7.0d
+			y: 9.5d
 		}
 		{
 			description: ["暮色炽铁套是 Twilight Forest 的装备，与炽铁内容相关。穿戴后提供火焰抗性和高防御。做出来后适合在暮色森林的火焰区域活动时使用。来源是 Twilight Forest 的炽铁装备线。"]
@@ -4726,8 +3740,8 @@
 				}
 			]
 			title: "炽铁套"
-			x: 0.0d
-			y: 20.5d
+			x: 13.5d
+			y: 9.0d
 		}
 		{
 			description: ["暮色铁木套是 Twilight Forest 的装备，使用铁木材料制作。穿戴后提供中等防御和自然抗性。做出来后适合在暮色森林早期探索时使用。来源是 Twilight Forest 的铁木装备线。"]
@@ -4780,8 +3794,8 @@
 				}
 			]
 			title: "铁木套"
-			x: 2.0d
-			y: 20.5d
+			x: 7.0d
+			y: 8.5d
 		}
 		{
 			description: ["暮色骑士金属套是 Twilight Forest 的高级装备，使用骑士金属制作。穿戴后提供高防御和战斗加成。做出来后适合在暮色森林的高级挑战中使用。来源是 Twilight Forest 的骑士装备线。"]
@@ -4834,8 +3848,8 @@
 				}
 			]
 			title: "骑士金属套"
-			x: 4.0d
-			y: 20.5d
+			x: 12.0d
+			y: 9.0d
 		}
 		{
 			description: ["暮色娜迦散件是 Twilight Forest 的装备，与娜迦相关内容有关。穿戴后提供特殊防御和水下适应性。做出来后适合在暮色森林的水域区域活动时使用。来源是 Twilight Forest 的娜迦装备线。"]
@@ -4866,8 +3880,8 @@
 				}
 			]
 			title: "娜迦散件"
-			x: 6.0d
-			y: 20.5d
+			x: 9.5d
+			y: 9.0d
 		}
 		{
 			description: ["暮色幻灵散件是 Twilight Forest 的装备，与幻灵相关内容有关。穿戴后提供特殊防御和幻灵抗性。做出来后适合在暮色森林的幻灵区域活动时使用。来源是 Twilight Forest 的幻灵装备线。"]
@@ -4899,7 +3913,7 @@
 			]
 			title: "幻灵散件"
 			x: 8.0d
-			y: 20.5d
+			y: 9.0d
 		}
 		{
 			description: ["暮色钢叶套是 Twilight Forest 的装备，使用钢叶材料制作。穿戴后提供高防御和自然抗性。做出来后适合在暮色森林的中后期探索时使用。来源是 Twilight Forest 的钢叶装备线。"]
@@ -4952,8 +3966,8 @@
 				}
 			]
 			title: "钢叶套"
-			x: 10.0d
-			y: 20.5d
+			x: 11.0d
+			y: 9.0d
 		}
 		{
 			description: ["暮色雪怪套是 Twilight Forest 的装备，与雪怪相关内容有关。穿戴后提供寒冷抗性和高防御。做出来后适合在暮色森林的寒冷区域和雪怪挑战中使用。来源是 Twilight Forest 的雪怪装备线。"]
@@ -5006,8 +4020,866 @@
 				}
 			]
 			title: "雪怪套"
-			x: 12.0d
-			y: 20.5d
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			description: [
+				"数值优秀，还能减免龙息伤害，是优秀的中期护甲，在对抗龙时耐久显的很低，注意及时修复。"
+				"各颜色的护甲只是颜色不同，功能上没有区别。"
+			]
+			id: "4A2D0E4A8C1F2338"
+			optional: true
+			tasks: [
+				{
+					id: "4A2D0E4A8C1F2339"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F233A"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F233B"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F233C"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F233E"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F233F"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2340"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2341"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2343"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_sapphire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2344"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_sapphire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2345"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_sapphire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2346"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_sapphire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F234D"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_red_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F234E"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_red_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F234F"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_red_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2350"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_red_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2352"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_green_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2353"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_green_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2354"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_green_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2355"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_green_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2357"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_blue_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2358"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_blue_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2359"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_blue_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F235A"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_blue_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F235C"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_white_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F235D"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_white_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F235E"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_white_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F235F"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_white_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2361"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_black_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2362"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_black_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2363"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_black_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2364"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_black_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2366"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_bronze_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2367"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_bronze_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2368"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_bronze_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2369"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_bronze_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2375"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_electric_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2376"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_electric_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2377"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_electric_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F2378"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_electric_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F237A"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_gray_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F237B"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_gray_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F237C"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_gray_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F237D"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_gray_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1497A0FF0E2032B2"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_amethyst_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BE9A97E36D774FF"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_amethyst_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40F70398578A3AC0"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_amethyst_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26F294BE60950E11"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_amethyst_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "龙鳞套"
+			x: 14.5d
+			y: 13.0d
+		}
+		{
+			id: "4A2D0E4A8C1F23AB"
+			optional: true
+			tasks: [
+				{
+					id: "4A2D0E4A8C1F23AC"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23AD"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23AE"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23AF"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23B1"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_green_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23B2"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_green_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23B3"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_green_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23B4"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_green_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23B6"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_bronze_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23B7"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_bronze_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23B8"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_bronze_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23B9"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_bronze_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23BB"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_deepblue_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23BC"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_deepblue_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23BD"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_deepblue_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23BE"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_deepblue_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23C0"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_purple_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23C1"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_purple_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23C2"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_purple_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23C3"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_purple_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23C5"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_red_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23C6"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_red_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23C7"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_red_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23C8"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_red_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23CA"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_teal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23CB"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_teal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23CC"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_teal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D0E4A8C1F23CD"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_teal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "海蟒套"
+			x: 13.5d
+			y: 13.0d
 		}
 	]
 	title: "护甲词典"

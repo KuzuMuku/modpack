@@ -1,0 +1,1650 @@
+# OneEnoughDamage hardcoded damage config dictionary
+# Edit the number on the right to change the initial value of the attribute.
+# /r means replace original damage, /m means multiply original damage.
+
+# Global damage multiplier: applies to all attributed damage
+"oneenoughdamage:global_damage" = 1.0
+
+# CloudMinion - Cloud Minion (迷你云护卫) (Type: Living)
+[entity."aether:cloud_minion"]
+# OED global damage multiplier: only applies to aether:cloud_minion
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: aetherdamagetypes:indirect_entity_damage_source, com.aetherteam.aether.entity.projectile.crystal.CloudCrystal#m_5790_#1
+"oneenoughdamage:com/aetherteam/aether/entity/projectile/crystal/cloud_crystal/m_5790/1/r" = 5.0
+
+# Sentry - Sentry (爆破哨石) (Type: Living)
+[entity."aether:sentry"]
+# Vanilla melee base damage: only applies to aether:sentry
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to aether:sentry
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269333, com.aetherteam.aether.entity.monster.dungeon.Sentry#explodeAt#1
+"oneenoughdamage:com/aetherteam/aether/entity/monster/dungeon/sentry/explode_at/1/r" = 1.0
+
+# SunSpirit - Sun Spirit (烈阳巨灵) (Type: Living)
+[entity."aether:sun_spirit"]
+# OED global damage multiplier: only applies to aether:sun_spirit
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 10.0, DamageType: aetherdamagetypes:entity_damage_source, com.aetherteam.aether.entity.monster.dungeon.boss.SunSpirit#burnEntities#1
+"oneenoughdamage:com/aetherteam/aether/entity/monster/dungeon/boss/sun_spirit/burn_entities/1/r" = 10.0
+# mode: replace (/r), default: 15.0, DamageType: aetherdamagetypes:indirect_entity_damage_source, com.aetherteam.aether.entity.projectile.crystal.FireCrystal#m_5790_#1
+"oneenoughdamage:com/aetherteam/aether/entity/projectile/crystal/fire_crystal/m_5790/1/r" = 15.0
+# mode: replace (/r), default: 7.0, DamageType: aetherdamagetypes:indirect_entity_damage_source, com.aetherteam.aether.entity.projectile.crystal.IceCrystal#doDamage#1
+"oneenoughdamage:com/aetherteam/aether/entity/projectile/crystal/ice_crystal/do_damage/1/r" = 7.0
+
+# ValkyrieQueen - Valkyrie Queen (武神女王) (Type: Living)
+[entity."aether:valkyrie_queen"]
+# Vanilla melee base damage: only applies to aether:valkyrie_queen
+"minecraft:generic.attack_damage" = 13.5
+# OED global damage multiplier: only applies to aether:valkyrie_queen
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: aetherdamagetypes:indirect_entity_damage_source, com.aetherteam.aether.entity.projectile.crystal.ThunderCrystal#m_5790_#1
+"oneenoughdamage:com/aetherteam/aether/entity/projectile/crystal/thunder_crystal/m_5790/1/r" = 5.0
+
+# EntityAlligatorSnappingTurtle - EntityAlligatorSnappingTurtle (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityAlligatorSnappingTurtle#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_alligator_snapping_turtle/m_8119/1/m" = 1.0
+
+# EntityAnaconda - EntityAnaconda (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityAnaconda#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_anaconda/m_8119/1/m" = 1.0
+# mode: replace (/r), default: 4.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityAnaconda$AIMelee#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_anaconda_a_i_melee/m_8037/1/r" = 4.0
+
+# EntityAnacondaPart - EntityAnacondaPart (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityAnacondaPart#hurtHeadId#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_anaconda_part/hurt_head_id/1/m" = 1.0
+
+# EntityBaldEagle - EntityBaldEagle (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityBaldEagle#directFromPlayer#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_bald_eagle/direct_from_player/1/m" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityBaldEagle#m_19956_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_bald_eagle/m_19956/1/r" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityBaldEagle#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_bald_eagle/m_8119/1/r" = 2.0
+# mode: replace (/r), default: 5.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityBaldEagle$AITackle#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_bald_eagle_a_i_tackle/m_8037/1/r" = 5.0
+
+# EntityBison - EntityBison (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityBison#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_bison/m_8119/1/m" = 1.0
+
+# EntityBoneSerpentPart - EntityBoneSerpentPart (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityBoneSerpentPart#m_6469_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_bone_serpent_part/m_6469/1/m" = 1.0
+
+# EntityBunfungus - EntityBunfungus (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityBunfungus#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_bunfungus/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityBunfungus#m_8119_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_bunfungus/m_8119/2/m" = 1.0
+
+# EntityCachalotWhale - EntityCachalotWhale (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityCachalotWhale#m_8107_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_cachalot_whale/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityCachalotWhale#m_8107_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_cachalot_whale/m_8107/2/m" = 1.0
+# mode: replace (/r), default: 1000.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityCachalotWhale#m_8107_#3
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_cachalot_whale/m_8107/3/r" = 1000.0
+
+# EntityCapuchinMonkey - EntityCapuchinMonkey (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityCapuchinMonkey#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_capuchin_monkey/m_8119/1/m" = 1.0
+
+# EntityCatfish - EntityCatfish (Type: Living)
+# mode: replace (/r), default: 12000.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityCatfish$TargetFoodGoal#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_catfish_target_food_goal/m_8037/1/r" = 12000.0
+
+# EntityCentipedeBody - EntityCentipedeBody (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityCentipedeBody#m_6469_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_centipede_body/m_6469/1/m" = 1.0
+
+# EntityCosmaw - EntityCosmaw (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityCosmaw#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_cosmaw/m_8119/1/m" = 1.0
+
+# EntityCrimsonMosquito - EntityCrimsonMosquito (Type: Living)
+# mode: replace (/r), default: 2.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityCrimsonMosquito#m_6083_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_crimson_mosquito/m_6083/1/r" = 2.0
+
+# EntityCrocodile - EntityCrocodile (Type: Living)
+# mode: replace (/r), default: 2.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityCrocodile#m_19956_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_crocodile/m_19956/1/r" = 2.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityCrocodile#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_crocodile/m_8119/1/m" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityCrocodile#m_8119_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_crocodile/m_8119/2/r" = 5.0
+
+# EntityDropBear - EntityDropBear (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityDropBear#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_drop_bear/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityDropBear#m_8119_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_drop_bear/m_8119/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityDropBear#m_8119_#3
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_drop_bear/m_8119/3/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityDropBear#onLand#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_drop_bear/on_land/1/m" = 1.0
+
+# EntityElephant - EntityElephant (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityElephant#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_elephant/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityElephant#m_8119_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_elephant/m_8119/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityElephant#m_8119_#3
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_elephant/m_8119/3/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityElephant#m_8119_#4
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_elephant/m_8119/4/m" = 1.0
+
+# EntityEmu - EntityEmu (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityEmu#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_emu/m_8119/1/m" = 1.0
+
+# EntityEnderiophage - EntityEnderiophage (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityEnderiophage#m_6083_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_enderiophage/m_6083/1/m" = 1.0
+
+# EntityFarseer - EntityFarseer (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityFarseer#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_farseer/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: amdamagetypes:cause_farseer_damage, com.github.alexthe666.alexsmobs.entity.EntityFarseer$AttackGoal#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_farseer_attack_goal/m_8037/1/m" = 1.0
+
+# EntityFly - EntityFly (Type: Living)
+# mode: replace (/r), default: 1.0, DamageType: m_269264, com.github.alexthe666.alexsmobs.entity.EntityFly$AnnoyZombieGoal#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_fly_annoy_zombie_goal/m_8037/1/r" = 1.0
+
+# EntityFrilledShark - EntityFrilledShark (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityFrilledShark#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_frilled_shark/m_8119/1/m" = 1.0
+
+# EntityFroststalker - EntityFroststalker (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityFroststalker#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_froststalker/m_8119/1/m" = 1.0
+
+# EntityGeladaMonkey - EntityGeladaMonkey (Type: Living)
+# mode: replace (/r), default: 0.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityGeladaMonkey#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_gelada_monkey/m_8119/1/r" = 0.0
+
+# EntityGiantSquid - EntityGiantSquid (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityGiantSquid#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_giant_squid/m_8119/1/m" = 1.0
+
+# EntityGiantSquidPart - EntityGiantSquidPart (Type: Entity)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityGiantSquidPart#onAttackedFromServer#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_giant_squid_part/on_attacked_from_server/1/m" = 1.0
+
+# EntityGorilla - EntityGorilla (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityGorilla#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_gorilla/m_8119/1/m" = 1.0
+
+# EntityHemolymph - EntityHemolymph (Type: Entity)
+# mode: replace (/r), default: 7.0, DamageType: m_269299, com.github.alexthe666.alexsmobs.entity.EntityHemolymph#onEntityHit#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_hemolymph/on_entity_hit/1/r" = 7.0
+
+# EntityIceShard - EntityIceShard (Type: Entity)
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.alexthe666.alexsmobs.entity.EntityIceShard#onEntityHit#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_ice_shard/on_entity_hit/1/m" = 1.0
+
+# EntityLeafcutterAnt - EntityLeafcutterAnt (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityLeafcutterAnt#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_leafcutter_ant/m_8119/1/m" = 1.0
+
+# EntityLobster - EntityLobster (Type: Living)
+# mode: replace (/r), default: 2.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityLobster#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_lobster/m_8119/1/r" = 2.0
+
+# EntityMantisShrimp - EntityMantisShrimp (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityMantisShrimp#m_8107_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_mantis_shrimp/m_8107/1/m" = 1.0
+
+# EntityMimicOctopus - EntityMimicOctopus (Type: Living)
+# mode: replace (/r), default: 5.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityMimicOctopus#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_mimic_octopus/m_8119/1/r" = 5.0
+# mode: replace (/r), default: 4.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityMimicOctopus$AIAttack#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_mimic_octopus_a_i_attack/m_8037/1/r" = 4.0
+# mode: replace (/r), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityMimicOctopus$AIAttack#m_8037_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_mimic_octopus_a_i_attack/m_8037/2/r" = 1.0
+
+# EntityMoose - EntityMoose (Type: Living)
+# mode: replace (/r), default: 2.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityMoose#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_moose/m_8119/1/r" = 2.0
+
+# EntityMosquitoSpit - EntityMosquitoSpit (Type: Entity)
+# mode: replace (/r), default: 4.0, DamageType: m_269299, com.github.alexthe666.alexsmobs.entity.EntityMosquitoSpit#onEntityHit#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_mosquito_spit/on_entity_hit/1/r" = 4.0
+
+# EntityMurmurHead - EntityMurmurHead (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityMurmurHead#m_6469_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_murmur_head/m_6469/1/m" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityMurmurHead$AttackGoal#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_murmur_head_attack_goal/m_8037/1/r" = 5.0
+
+# EntityOrca - EntityOrca (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityOrca#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_orca/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityOrca#m_8119_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_orca/m_8119/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityOrca#onJumpHit#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_orca/on_jump_hit/1/m" = 1.0
+
+# EntityPotoo - EntityPotoo (Type: Living)
+# mode: replace (/r), default: 2.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityPotoo$AIMelee#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_potoo_a_i_melee/m_8037/1/r" = 2.0
+
+# EntityRaccoon - EntityRaccoon (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityRaccoon#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_raccoon/m_8119/1/m" = 1.0
+# mode: replace (/r), default: 0.0, DamageType: m_269264, com.github.alexthe666.alexsmobs.entity.EntityRaccoon$AIStealFromVillagers#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_raccoon_a_i_steal_from_villagers/m_8037/1/r" = 0.0
+
+# EntityRattlesnake - EntityRattlesnake (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityRattlesnake#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_rattlesnake/m_8119/1/m" = 1.0
+
+# EntityRhinoceros - EntityRhinoceros (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityRhinoceros#attackWithPotion#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_rhinoceros/attack_with_potion/1/m" = 1.0
+
+# EntityRoadrunner - EntityRoadrunner (Type: Living)
+# mode: replace (/r), default: 2.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityRoadrunner#m_8107_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_roadrunner/m_8107/1/r" = 2.0
+
+# EntityRockyRoller - EntityRockyRoller (Type: Living)
+# mode: replace (/r), default: 2.0, DamageType: m_269374, com.github.alexthe666.alexsmobs.entity.EntityRockyRoller#m_6469_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_rocky_roller/m_6469/1/r" = 2.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityRockyRoller#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_rocky_roller/m_8119/1/m" = 1.0
+
+# EntitySandShot - EntitySandShot (Type: Entity)
+# mode: replace (/r), default: 2.5, DamageType: m_269299, com.github.alexthe666.alexsmobs.entity.EntitySandShot#onEntityHit#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_sand_shot/on_entity_hit/1/r" = 2.5
+
+# EntitySeaBear - EntitySeaBear (Type: Living)
+# mode: replace (/r), default: 6.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntitySeaBear$AttackAI#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_sea_bear_attack_a_i/m_8037/1/r" = 6.0
+
+# EntityShoebill - EntityShoebill (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityShoebill#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_shoebill/m_8119/1/m" = 1.0
+
+# EntitySkelewag - EntitySkelewag (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntitySkelewag#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_skelewag/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntitySkelewag#m_8119_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_skelewag/m_8119/2/m" = 1.0
+
+# EntitySoulVulture - EntitySoulVulture (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntitySoulVulture$AITackleMelee#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_soul_vulture_a_i_tackle_melee/m_8037/1/m" = 1.0
+
+# EntityStradpole - EntityStradpole (Type: Living)
+# mode: replace (/r), default: 3.0, DamageType: m_269299, com.github.alexthe666.alexsmobs.entity.EntityStradpole#onEntityHit#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_stradpole/on_entity_hit/1/r" = 3.0
+
+# EntityTarantulaHawk - EntityTarantulaHawk (Type: Living)
+# mode: replace (/r), default: 10.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityTarantulaHawk#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_tarantula_hawk/m_8119/1/r" = 10.0
+
+# EntityTasmanianDevil - EntityTasmanianDevil (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityTasmanianDevil#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_tasmanian_devil/m_8119/1/m" = 1.0
+
+# EntityTerrapin - EntityTerrapin (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityTerrapin#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_terrapin/m_8119/1/m" = 1.0
+
+# EntityTiger - EntityTiger (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityTiger#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_tiger/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityTiger$AIMelee#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_tiger_a_i_melee/m_8037/1/m" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityTiger$AIMelee#m_8037_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_tiger_a_i_melee/m_8037/2/r" = 2.0
+
+# EntityTossedItem - EntityTossedItem (Type: Projectile)
+# mode: replace (/r), default: 4.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityTossedItem#m_5790_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_tossed_item/m_5790/1/r" = 4.0
+
+# EntityTusklin - EntityTusklin (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityTusklin#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_tusklin/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityTusklin#m_8119_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_tusklin/m_8119/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityTusklin#m_8119_#3
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_tusklin/m_8119/3/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityTusklin#m_8119_#4
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_tusklin/m_8119/4/m" = 1.0
+
+# EntityVoidWorm - EntityVoidWorm (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityVoidWorm#wormAttack#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_void_worm/worm_attack/1/m" = 1.0
+
+# EntityVoidWormShot - EntityVoidWormShot (Type: Entity)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.alexthe666.alexsmobs.entity.EntityVoidWormShot#wormAttack#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_void_worm_shot/worm_attack/1/m" = 1.0
+
+# EntityWarpedMosco - EntityWarpedMosco (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityWarpedMosco#m_19956_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_warped_mosco/m_19956/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityWarpedMosco#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_warped_mosco/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityWarpedMosco#m_8119_#2
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_warped_mosco/m_8119/2/m" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityWarpedMosco$AttackGoal#m_8037_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_warped_mosco_attack_goal/m_8037/1/r" = 5.0
+
+# EntityWarpedToad - EntityWarpedToad (Type: Living)
+# mode: replace (/r), default: 3.4028235E38, DamageType: m_269333, com.github.alexthe666.alexsmobs.entity.EntityWarpedToad#m_8119_#1
+"oneenoughdamage:com/github/alexthe666/alexsmobs/entity/entity_warped_toad/m_8119/1/r" = 3.4028235E38
+
+# CaptainCornelia - §dGhost of Captain Cornelia (§d船长科妮莉亚亡灵) (Type: Living)
+[entity."aquamirae:captain_cornelia"]
+# Vanilla melee base damage: only applies to aquamirae:captain_cornelia
+"minecraft:generic.attack_damage" = 1.0
+# OED global damage multiplier: only applies to aquamirae:captain_cornelia
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.obscuria.aquamirae.common.entities.CaptainCornelia#doHurtTarget#1
+"oneenoughdamage:com/obscuria/aquamirae/common/entities/captain_cornelia/do_hurt_target/1/m" = 1.0
+
+# EffectGravity - Gravity (重力) (Type: Other)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.hollingsworth.arsnouveau.common.entity.EnchantedFallingBlock#lambda$causeFallDamage$0#1
+"oneenoughdamage:com/hollingsworth/arsnouveau/common/entity/enchanted_falling_block/lambda_cause_fall_damage_0/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.hollingsworth.arsnouveau.common.entity.EnchantedFallingBlock#m_5790_#1
+"oneenoughdamage:com/hollingsworth/arsnouveau/common/entity/enchanted_falling_block/m_5790/1/m" = 1.0
+
+# SummonSkeleton - Summoned Skeleton (被召唤的骷髅) (Type: Living)
+[entity."ars_nouveau:summon_skeleton"]
+# Vanilla melee base damage: only applies to ars_nouveau:summon_skeleton
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to ars_nouveau:summon_skeleton
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.projectile.AbstractArrow#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/abstract_arrow/m_5790/1/m" = 1.0
+
+# WildenGuardian - Wilden Defender (荒野守卫者) (Type: Living)
+[entity."ars_nouveau:wilden_guardian"]
+# Vanilla melee base damage: only applies to ars_nouveau:wilden_guardian
+"minecraft:generic.attack_damage" = 4.5
+# OED global damage multiplier: only applies to ars_nouveau:wilden_guardian
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.hollingsworth.arsnouveau.common.entity.EntityChimeraProjectile#m_5790_#1
+"oneenoughdamage:com/hollingsworth/arsnouveau/common/entity/entity_chimera_projectile/m_5790/1/m" = 1.0
+# mode: replace (/r), default: 3.0, DamageType: m_269374, com.hollingsworth.arsnouveau.common.entity.WildenGuardian#m_6475_#1
+"oneenoughdamage:com/hollingsworth/arsnouveau/common/entity/wilden_guardian/m_6475/1/r" = 3.0
+
+# GaiaGuardianEntity - GaiaGuardianEntity (Type: Living)
+# mode: replace (/r), default: 6.0, DamageType: m_269333, vazkii.botania.common.entity.GaiaGuardianEntity#teleportRandomly#1
+"oneenoughdamage:vazkii/botania/common/entity/gaia_guardian_entity/teleport_randomly/1/r" = 6.0
+
+# MagicMissileEntity - MagicMissileEntity (Type: Projectile)
+# mode: replace (/r), default: 7.0, DamageType: unknown, vazkii.botania.common.entity.MagicMissileEntity#m_8119_#1
+"oneenoughdamage:vazkii/botania/common/entity/magic_missile_entity/m_8119/1/r" = 7.0
+
+# PixieEntity - PixieEntity (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269075, vazkii.botania.common.entity.PixieEntity#m_8024_#1
+"oneenoughdamage:vazkii/botania/common/entity/pixie_entity/m_8024/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, vazkii.botania.common.entity.PixieEntity#m_8024_#2
+"oneenoughdamage:vazkii/botania/common/entity/pixie_entity/m_8024/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, vazkii.botania.common.entity.PixieEntity#m_8024_#3
+"oneenoughdamage:vazkii/botania/common/entity/pixie_entity/m_8024/3/m" = 1.0
+
+# Amethyst_Crab_Entity - Amethyst Crab (紫水晶巨蟹) (Type: Living)
+[entity."cataclysm:amethyst_crab"]
+# Vanilla melee base damage: only applies to cataclysm:amethyst_crab
+"minecraft:generic.attack_damage" = 13.0
+# OED global damage multiplier: only applies to cataclysm:amethyst_crab
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Amethyst_Crab_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/amethyst_crab_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Amethyst_Cluster_Projectile_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/amethyst_cluster_projectile_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Amethyst_Cluster_Projectile_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/amethyst_cluster_projectile_entity/m_5790/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.EarthQuake_Entity#onUpdateInAir#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/earth_quake_entity/on_update_in_air/1/m" = 1.0
+
+# Ancient_Remnant_Entity - Ancient Remnant (远古遗魂) (Type: Living)
+[entity."cataclysm:ancient_remnant"]
+# Vanilla melee base damage: only applies to cataclysm:ancient_remnant
+"minecraft:generic.attack_damage" = 25.0
+# OED global damage multiplier: only applies to cataclysm:ancient_remnant
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Ancient_Remnant.Ancient_Remnant_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/ancient_remnant/ancient_remnant_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Ancient_Remnant.Ancient_Remnant_Entity#Charge#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/ancient_remnant/ancient_remnant_entity/charge/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Ancient_Remnant.Ancient_Remnant_Entity#TailAreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/ancient_remnant/ancient_remnant_entity/tail_area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Ancient_Remnant.Ancient_Remnant_Entity#spawnBlocks#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/ancient_remnant/ancient_remnant_entity/spawn_blocks/1/m" = 1.0
+# mode: replace (/r), default: 7.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.effect.Sandstorm_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/sandstorm_entity/damage/1/r" = 7.0
+# mode: replace (/r), default: 7.0, DamageType: m_269104, com.github.L_Ender.cataclysm.entity.effect.Sandstorm_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/sandstorm_entity/damage/2/r" = 7.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Ancient_Desert_Stele_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ancient_desert_stele_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Ancient_Desert_Stele_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ancient_desert_stele_entity/m_5790/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.EarthQuake_Entity#onUpdateInAir#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/earth_quake_entity/on_update_in_air/1/m" = 1.0
+
+# Aptrgangr_Entity - Aptrgangr (冥行武弁) (Type: Living)
+[entity."cataclysm:aptrgangr"]
+# Vanilla melee base damage: only applies to cataclysm:aptrgangr
+"minecraft:generic.attack_damage" = 18.0
+# OED global damage multiplier: only applies to cataclysm:aptrgangr
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Draugar.Aptrgangr_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/draugar/aptrgangr_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Draugar.Aptrgangr_Entity#ChargeGrab#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/draugar/aptrgangr_entity/charge_grab/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Draugar.Aptrgangr_Entity#UpperAreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/draugar/aptrgangr_entity/upper_area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_maledictio_damage, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Draugar.Aptrgangr_Entity#m_19956_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/draugar/aptrgangr_entity/m_19956/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Axe_Blade_Entity#onHitEntity#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/axe_blade_entity/on_hit_entity/1/m" = 1.0
+
+# Cindaria_Entity - Cindaria (水母莉亚) (Type: Living)
+[entity."cataclysm:cindaria"]
+# Vanilla melee base damage: only applies to cataclysm:cindaria
+"minecraft:generic.attack_damage" = 7.0
+# OED global damage multiplier: only applies to cataclysm:cindaria
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.AcropolisMonsters.Cindaria_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/acropolis_monsters/cindaria_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Water_Spear_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/water_spear_entity/m_5790/1/m" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Water_Spear_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/water_spear_entity/m_5790/2/r" = 5.0
+
+# Clawdian_Entity - Clawdian (巨钳守卫) (Type: Living)
+[entity."cataclysm:clawdian"]
+# Vanilla melee base damage: only applies to cataclysm:clawdian
+"minecraft:generic.attack_damage" = 16.0
+# OED global damage multiplier: only applies to cataclysm:clawdian
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.AcropolisMonsters.Clawdian_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/acropolis_monsters/clawdian_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.AcropolisMonsters.Clawdian_Entity#BlockSmashDamage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/acropolis_monsters/clawdian_entity/block_smash_damage/1/m" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.AcropolisMonsters.Clawdian_Entity#HoldAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/acropolis_monsters/clawdian_entity/hold_attack/1/r" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.AcropolisMonsters.Clawdian_Entity#HoldAttack#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/acropolis_monsters/clawdian_entity/hold_attack/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.AcropolisMonsters.Clawdian_Entity#m_8107_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/acropolis_monsters/clawdian_entity/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.effect.Wave_Entity#attackEntities#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/wave_entity/attack_entities/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Accretion_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/accretion_entity/m_5790/1/m" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269318, com.github.L_Ender.cataclysm.entity.projectile.Accretion_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/accretion_entity/m_5790/2/r" = 5.0
+
+# Coral_Golem_Entity - Coral Golem (珊瑚傀儡) (Type: Living)
+[entity."cataclysm:coral_golem"]
+# Vanilla melee base damage: only applies to cataclysm:coral_golem
+"minecraft:generic.attack_damage" = 11.0
+# OED global damage multiplier: only applies to cataclysm:coral_golem
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Deepling.Coral_Golem_Entity#EarthQuake#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/coral_golem_entity/earth_quake/1/m" = 1.0
+
+# Coralssus_Entity - Coralssus (珊瑚巨像) (Type: Living)
+[entity."cataclysm:coralssus"]
+# Vanilla melee base damage: only applies to cataclysm:coralssus
+"minecraft:generic.attack_damage" = 10.0
+# OED global damage multiplier: only applies to cataclysm:coralssus
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Coralssus_Entity#EarthQuake#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/coralssus_entity/earth_quake/1/m" = 1.0
+
+# Deepling_Entity - Deepling (渊灵) (Type: Living)
+[entity."cataclysm:deepling"]
+# Vanilla melee base damage: only applies to cataclysm:deepling
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to cataclysm:deepling
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/deepling_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269525, com.github.L_Ender.cataclysm.entity.projectile.ThrownCoral_Spear_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/thrown_coral_spear_entity/m_5790/1/m" = 1.0
+
+# Deepling_Angler_Entity - Deepling Angler (渊灵垂钓者) (Type: Living)
+[entity."cataclysm:deepling_angler"]
+# Vanilla melee base damage: only applies to cataclysm:deepling_angler
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to cataclysm:deepling_angler
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Angler_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/deepling_angler_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Angler_Entity#m_8119_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/deepling_angler_entity/m_8119/2/m" = 1.0
+
+# Deepling_Brute_Entity - Deepling Brute (渊灵蛮兵) (Type: Living)
+[entity."cataclysm:deepling_brute"]
+# Vanilla melee base damage: only applies to cataclysm:deepling_brute
+"minecraft:generic.attack_damage" = 5.0
+# OED global damage multiplier: only applies to cataclysm:deepling_brute
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Brute_Entity#m_21071_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/deepling_brute_entity/m_21071/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Brute_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/deepling_brute_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269525, com.github.L_Ender.cataclysm.entity.projectile.ThrownCoral_Bardiche_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/thrown_coral_bardiche_entity/m_5790/1/m" = 1.0
+
+# Deepling_Priest_Entity - Deepling Priest (渊灵祭司) (Type: Living)
+[entity."cataclysm:deepling_priest"]
+# Vanilla melee base damage: only applies to cataclysm:deepling_priest
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to cataclysm:deepling_priest
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Priest_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/deepling_priest_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269104, com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Priest_Entity#m_8119_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/deepling_priest_entity/m_8119/2/m" = 1.0
+
+# Deepling_Warlock_Entity - Deepling Warlock (渊灵术士) (Type: Living)
+[entity."cataclysm:deepling_warlock"]
+# Vanilla melee base damage: only applies to cataclysm:deepling_warlock
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to cataclysm:deepling_warlock
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_death_laser_damage, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.Portal_Abyss_Blast_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/portal_abyss_blast_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Deepling.Deepling_Warlock_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/deepling_warlock_entity/m_8119/1/m" = 1.0
+
+# Drowned_Host_Entity - Drowned Host (溺尸宿主) (Type: Living)
+[entity."cataclysm:drowned_host"]
+# Vanilla melee base damage: only applies to cataclysm:drowned_host
+"minecraft:generic.attack_damage" = 3.0
+# OED global damage multiplier: only applies to cataclysm:drowned_host
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269525, net.minecraft.world.entity.projectile.ThrownTrident#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/thrown_trident/m_5790/1/m" = 1.0
+
+# Elite_Draugr_Entity - Elite Draugr (精英魂尸) (Type: Living)
+[entity."cataclysm:elite_draugr"]
+# Vanilla melee base damage: only applies to cataclysm:elite_draugr
+"minecraft:generic.attack_damage" = 5.0
+# OED global damage multiplier: only applies to cataclysm:elite_draugr
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Draugar.Elite_Draugr_Entity$ReloadedGoal#m_8037_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/draugar/elite_draugr_entity_reloaded_goal/m_8037/1/m" = 1.0
+
+# Ender_Golem_Entity - Ender Golem (末影傀儡) (Type: Living)
+[entity."cataclysm:ender_golem"]
+# Vanilla melee base damage: only applies to cataclysm:ender_golem
+"minecraft:generic.attack_damage" = 10.0
+# OED global damage multiplier: only applies to cataclysm:ender_golem
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ender_Golem_Entity#EarthQuake#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ender_golem_entity/earth_quake/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ender_Golem_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ender_golem_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Void_Rune_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/void_rune_entity/damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269104, com.github.L_Ender.cataclysm.entity.projectile.Void_Rune_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/void_rune_entity/damage/2/m" = 1.0
+
+# Ender_Guardian_Entity - Ender Guardian (末影守卫) (Type: Living)
+[entity."cataclysm:ender_guardian"]
+# Vanilla melee base damage: only applies to cataclysm:ender_guardian
+"minecraft:generic.attack_damage" = 16.0
+# OED global damage multiplier: only applies to cataclysm:ender_guardian
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ender_Guardian_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ender_guardian_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ender_Guardian_Entity#MassDestruction#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ender_guardian_entity/mass_destruction/1/m" = 1.0
+# mode: replace (/r), default: 6.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Ender_Guardian_Bullet_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ender_guardian_bullet_entity/m_5790/1/r" = 6.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Void_Rune_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/void_rune_entity/damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269104, com.github.L_Ender.cataclysm.entity.projectile.Void_Rune_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/void_rune_entity/damage/2/m" = 1.0
+
+# Endermaptera_Entity - Endermaptera (末影甲虫) (Type: Living)
+[entity."cataclysm:endermaptera"]
+# Vanilla melee base damage: only applies to cataclysm:endermaptera
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to cataclysm:endermaptera
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.Endermaptera_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/endermaptera_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.Endermaptera_Entity#m_8119_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/endermaptera_entity/m_8119/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Void_Shard_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/void_shard_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269104, com.github.L_Ender.cataclysm.entity.projectile.Void_Shard_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/void_shard_entity/m_5790/2/m" = 1.0
+
+# Hippocamtus_Entity - Hippocamtus (沧溟巡守) (Type: Living)
+[entity."cataclysm:hippocamtus"]
+# Vanilla melee base damage: only applies to cataclysm:hippocamtus
+"minecraft:generic.attack_damage" = 10.0
+# OED global damage multiplier: only applies to cataclysm:hippocamtus
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.AcropolisMonsters.Hippocamtus_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/acropolis_monsters/hippocamtus_entity/area_attack/1/m" = 1.0
+
+# Ignis_Entity - Ignis (焰魔) (Type: Living)
+[entity."cataclysm:ignis"]
+# Vanilla melee base damage: only applies to cataclysm:ignis
+"minecraft:generic.attack_damage" = 14.0
+# OED global damage multiplier: only applies to cataclysm:ignis
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignis_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ignis_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignis_Entity#BodyCheckAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ignis_entity/body_check_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignis_Entity#Phase_Transition#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ignis_entity/phase_transition/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignis_Entity#Poke#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ignis_entity/poke/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignis_Entity#ShieldSmashDamage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ignis_entity/shield_smash_damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignis_Entity#UltimateAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ignis_entity/ultimate_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignis_Entity#m_19956_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ignis_entity/m_19956/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignis_Entity#m_8107_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ignis_entity/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignis_Entity#m_8107_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ignis_entity/m_8107/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.effect.Flame_Strike_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/flame_strike_entity/damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_flame_strike_damage, com.github.L_Ender.cataclysm.entity.effect.Flame_Strike_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/flame_strike_entity/damage/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Ignis_Abyss_Fireball_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ignis_abyss_fireball_entity/m_5790/1/m" = 1.0
+# mode: replace (/r), default: 10.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Ignis_Abyss_Fireball_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ignis_abyss_fireball_entity/m_5790/2/r" = 10.0
+# mode: replace (/r), default: 5.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Ignis_Abyss_Fireball_Entity#m_5790_#3
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ignis_abyss_fireball_entity/m_5790/3/r" = 5.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Ignis_Fireball_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ignis_fireball_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Ignis_Fireball_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ignis_fireball_entity/m_5790/2/m" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Ignis_Fireball_Entity#m_5790_#3
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ignis_fireball_entity/m_5790/3/r" = 5.0
+
+# Ignited_Berserker_Entity - Ignited Berserker (炽燃狂魂) (Type: Living)
+[entity."cataclysm:ignited_berserker"]
+# Vanilla melee base damage: only applies to cataclysm:ignited_berserker
+"minecraft:generic.attack_damage" = 7.5
+# OED global damage multiplier: only applies to cataclysm:ignited_berserker
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Ignited_Berserker_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/ignited_berserker_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_sword_dance_damage, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Ignited_Berserker_Entity#AreaSwordAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/ignited_berserker_entity/area_sword_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Ignited_Berserker_Entity#m_8107_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/ignited_berserker_entity/m_8107/1/m" = 1.0
+
+# Ignited_Revenant_Entity - Ignited Revenant (炽燃遗魂) (Type: Living)
+[entity."cataclysm:ignited_revenant"]
+# Vanilla melee base damage: only applies to cataclysm:ignited_revenant
+"minecraft:generic.attack_damage" = 6.0
+# OED global damage multiplier: only applies to cataclysm:ignited_revenant
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.Ignited_Revenant_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/ignited_revenant_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269104, com.github.L_Ender.cataclysm.entity.projectile.Ashen_Breath_Entity#hitEntities#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ashen_breath_entity/hit_entities/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Blazing_Bone_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/blazing_bone_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Blazing_Bone_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/blazing_bone_entity/m_5790/2/m" = 1.0
+
+# Kobolediator_Entity - Kobolediator (骸龙斗士) (Type: Living)
+[entity."cataclysm:kobolediator"]
+# Vanilla melee base damage: only applies to cataclysm:kobolediator
+"minecraft:generic.attack_damage" = 14.0
+# OED global damage multiplier: only applies to cataclysm:kobolediator
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Kobolediator_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/kobolediator_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Kobolediator_Entity#m_8107_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/kobolediator_entity/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Kobolediator_Entity#spawnBlocks#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/kobolediator_entity/spawn_blocks/1/m" = 1.0
+
+# Koboleton_Entity - Koboleton (骸龙) (Type: Living)
+[entity."cataclysm:koboleton"]
+# Vanilla melee base damage: only applies to cataclysm:koboleton
+"minecraft:generic.attack_damage" = 3.0
+# OED global damage multiplier: only applies to cataclysm:koboleton
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.Koboleton_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/koboleton_entity/m_8119/1/m" = 1.0
+
+# Lionfish_Entity - Lionfish (蓑鲉) (Type: Living)
+[entity."cataclysm:lionfish"]
+# Vanilla melee base damage: only applies to cataclysm:lionfish
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to cataclysm:lionfish
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269374, com.github.L_Ender.cataclysm.entity.Deepling.Lionfish_Entity#m_6469_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/lionfish_entity/m_6469/1/r" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Deepling.Lionfish_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/deepling/lionfish_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Lionfish_Spike_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/lionfish_spike_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Lionfish_Spike_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/lionfish_spike_entity/m_5790/2/m" = 1.0
+
+# Maledictus_Entity - Maledictus (咒翼灵骸) (Type: Living)
+[entity."cataclysm:maledictus"]
+# Vanilla melee base damage: only applies to cataclysm:maledictus
+"minecraft:generic.attack_damage" = 13.0
+# OED global damage multiplier: only applies to cataclysm:maledictus
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#ComboAreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/combo_area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#Grab#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/grab/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#Rushattack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/rushattack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#ShieldSmashDamage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/shield_smash_damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#m_8107_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#m_8107_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/m_8107/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#m_8107_#3
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/m_8107/3/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#m_8107_#4
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/m_8107/4/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#m_8107_#5
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/m_8107/5/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Maledictus.Maledictus_Entity#uppercut#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/maledictus/maledictus_entity/uppercut/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.projectile.Phantom_Arrow_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/phantom_arrow_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Phantom_Halberd_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/phantom_halberd_entity/damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_maledictio_magicae_damage, com.github.L_Ender.cataclysm.entity.projectile.Phantom_Halberd_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/phantom_halberd_entity/damage/2/m" = 1.0
+
+# Modern_Remnant_Entity - Modern Remnant (现世遗魂) (Type: Living)
+[entity."cataclysm:modern_remnant"]
+# Vanilla melee base damage: only applies to cataclysm:modern_remnant
+"minecraft:generic.attack_damage" = 6.0
+# OED global damage multiplier: only applies to cataclysm:modern_remnant
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Pet.Modern_Remnant_Entity$ModernRemnantAIMelee#m_8037_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/pet/modern_remnant_entity_modern_remnant_a_i_melee/m_8037/1/m" = 1.0
+
+# Netherite_Monstrosity_Entity - Netherite Monstrosity (下界合金巨兽) (Type: Living)
+[entity."cataclysm:netherite_monstrosity"]
+# Vanilla melee base damage: only applies to cataclysm:netherite_monstrosity
+"minecraft:generic.attack_damage" = 25.0
+# OED global damage multiplier: only applies to cataclysm:netherite_monstrosity
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.NewNetherite_Monstrosity.Netherite_Monstrosity_Entity#EarthQuake#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/new_netherite_monstrosity/netherite_monstrosity_entity/earth_quake/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.NewNetherite_Monstrosity.Netherite_Monstrosity_Entity#m_8107_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/new_netherite_monstrosity/netherite_monstrosity_entity/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.NewNetherite_Monstrosity.Netherite_Monstrosity_Entity#spawnBlocks#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/new_netherite_monstrosity/netherite_monstrosity_entity/spawn_blocks/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Flame_Jet_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/flame_jet_entity/damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Flame_Jet_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/flame_jet_entity/damage/2/m" = 1.0
+# mode: replace (/r), default: 7.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Flare_Bomb_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/flare_bomb_entity/m_5790/1/r" = 7.0
+# mode: replace (/r), default: 7.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Flare_Bomb_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/flare_bomb_entity/m_5790/2/r" = 7.0
+
+# Scylla_Entity - Scylla (斯库拉) (Type: Living)
+[entity."cataclysm:scylla"]
+# Vanilla melee base damage: only applies to cataclysm:scylla
+"minecraft:generic.attack_damage" = 18.0
+# OED global damage multiplier: only applies to cataclysm:scylla
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_storm_bringer_damage, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Scylla.Scylla_Ceraunus_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/scylla/scylla_ceraunus_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Scylla.Scylla_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/scylla/scylla_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Scylla.Scylla_Entity#SpinDamage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/scylla/scylla_entity/spin_damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Scylla.Scylla_Entity#Whip#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/scylla/scylla_entity/whip/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_lightning_mob_damage, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Scylla.Scylla_Entity#m_8107_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/scylla/scylla_entity/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_lightning_mob_damage, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Scylla.Scylla_Entity#m_8107_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/scylla/scylla_entity/m_8107/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_lightning_mob_damage, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.IABossMonsters.Scylla.Scylla_Entity#m_8107_#3
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/i_a_boss_monsters/scylla/scylla_entity/m_8107/3/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269548, com.github.L_Ender.cataclysm.entity.effect.Lightning_Area_Effect_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/lightning_area_effect_entity/damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_lightning_damage, com.github.L_Ender.cataclysm.entity.effect.Lightning_Area_Effect_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/lightning_area_effect_entity/damage/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.effect.Lightning_Storm_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/lightning_storm_entity/damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_lightning_damage, com.github.L_Ender.cataclysm.entity.effect.Lightning_Storm_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/lightning_storm_entity/damage/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.effect.Wave_Entity#attackEntities#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/wave_entity/attack_entities/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_lightning_damage, com.github.L_Ender.cataclysm.entity.projectile.Lightning_Spear_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/lightning_spear_entity/m_5790/1/m" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Lightning_Spear_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/lightning_spear_entity/m_5790/2/r" = 5.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Storm_Serpent_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/storm_serpent_entity/damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269104, com.github.L_Ender.cataclysm.entity.projectile.Storm_Serpent_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/storm_serpent_entity/damage/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Water_Spear_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/water_spear_entity/m_5790/1/m" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Water_Spear_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/water_spear_entity/m_5790/2/r" = 5.0
+
+# Symbiocto_Entity - Symbiocto (章鱼共生体) (Type: Living)
+[entity."cataclysm:symbiocto"]
+# Vanilla melee base damage: only applies to cataclysm:symbiocto
+"minecraft:generic.attack_damage" = 3.0
+# OED global damage multiplier: only applies to cataclysm:symbiocto
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 3.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Octo_Ink_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/octo_ink_entity/m_5790/1/r" = 3.0
+
+# The_Baby_Leviathan_Entity - The Baby Leviathan (幼年利维坦) (Type: Living)
+[entity."cataclysm:the_baby_leviathan"]
+# Vanilla melee base damage: only applies to cataclysm:the_baby_leviathan
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to cataclysm:the_baby_leviathan
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.Pet.The_Baby_Leviathan_Entity#biteattack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/pet/the_baby_leviathan_entity/biteattack/1/m" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: cmdamagetypes:cause_death_laser_damage, com.github.L_Ender.cataclysm.entity.projectile.Mini_Abyss_Blast_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/mini_abyss_blast_entity/m_8119/1/r" = 5.0
+
+# The_Harbinger_Entity - The Harbinger (先驱者) (Type: Living)
+[entity."cataclysm:the_harbinger"]
+# Vanilla melee base damage: only applies to cataclysm:the_harbinger
+"minecraft:generic.attack_damage" = 9.0
+# OED global damage multiplier: only applies to cataclysm:the_harbinger
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Harbinger_Entity#blockbreak#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_harbinger_entity/blockbreak/1/m" = 1.0
+# mode: replace (/r), default: 3.0, DamageType: m_269251, com.github.L_Ender.cataclysm.entity.effect.Wither_Smoke_Effect_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/wither_smoke_effect_entity/damage/1/r" = 3.0
+# mode: replace (/r), default: 3.0, DamageType: m_269104, com.github.L_Ender.cataclysm.entity.effect.Wither_Smoke_Effect_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/effect/wither_smoke_effect_entity/damage/2/r" = 3.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_death_laser_damage, com.github.L_Ender.cataclysm.entity.projectile.Death_Laser_Beam_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/death_laser_beam_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_laser_damage, com.github.L_Ender.cataclysm.entity.projectile.Laser_Beam_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/laser_beam_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Wither_Homing_Missile_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/wither_homing_missile_entity/m_5790/1/m" = 1.0
+# mode: replace (/r), default: 3.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Wither_Homing_Missile_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/wither_homing_missile_entity/m_5790/2/r" = 3.0
+# mode: replace (/r), default: 11.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Wither_Howitzer_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/wither_howitzer_entity/m_5790/1/r" = 11.0
+# mode: replace (/r), default: 5.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Wither_Howitzer_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/wither_howitzer_entity/m_5790/2/r" = 5.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Wither_Missile_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/wither_missile_entity/m_5790/1/m" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Wither_Missile_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/wither_missile_entity/m_5790/2/r" = 5.0
+
+# The_Leviathan_Entity - The Leviathan (利维坦) (Type: Living)
+[entity."cataclysm:the_leviathan"]
+# Vanilla melee base damage: only applies to cataclysm:the_leviathan
+"minecraft:generic.attack_damage" = 15.0
+# OED global damage multiplier: only applies to cataclysm:the_leviathan
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_death_laser_damage, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.Abyss_Blast_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/abyss_blast_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.Abyss_Orb_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/abyss_orb_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.Abyss_Orb_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/abyss_orb_entity/m_5790/2/m" = 1.0
+# mode: replace (/r), default: 10.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.Dimensional_Rift_Entity#damage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/dimensional_rift_entity/damage/1/r" = 10.0
+# mode: replace (/r), default: 10.0, DamageType: m_269104, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.Dimensional_Rift_Entity#damage#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/dimensional_rift_entity/damage/2/r" = 10.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_death_laser_damage, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.Portal_Abyss_Blast_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/portal_abyss_blast_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.The_Leviathan_Entity#TailWhips#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/the_leviathan_entity/tail_whips/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.The_Leviathan_Entity#TentacleHoldattack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/the_leviathan_entity/tentacle_holdattack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.The_Leviathan_Entity#Tentacleattack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/the_leviathan_entity/tentacleattack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.The_Leviathan_Entity#biteattack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/the_leviathan_entity/biteattack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.BossMonsters.The_Leviathan.The_Leviathan_Entity#chargeDamage#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/boss_monsters/the_leviathan/the_leviathan_entity/charge_damage/1/m" = 1.0
+
+# The_Prowler_Entity - The Prowler (徘徊者) (Type: Living)
+[entity."cataclysm:the_prowler"]
+# Vanilla melee base damage: only applies to cataclysm:the_prowler
+"minecraft:generic.attack_damage" = 14.0
+# OED global damage multiplier: only applies to cataclysm:the_prowler
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.The_Prowler_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/the_prowler_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_death_laser_damage, com.github.L_Ender.cataclysm.entity.projectile.Death_Laser_Beam_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/death_laser_beam_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Wither_Homing_Missile_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/wither_homing_missile_entity/m_5790/1/m" = 1.0
+# mode: replace (/r), default: 3.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Wither_Homing_Missile_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/wither_homing_missile_entity/m_5790/2/r" = 3.0
+
+# The_Watcher_Entity - The Watcher (观测者) (Type: Living)
+[entity."cataclysm:the_watcher"]
+# Vanilla melee base damage: only applies to cataclysm:the_watcher
+"minecraft:generic.attack_damage" = 5.0
+# OED global damage multiplier: only applies to cataclysm:the_watcher
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.AnimationMonster.The_Watcher_Entity#m_8119_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/animation_monster/the_watcher_entity/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: cmdamagetypes:cause_laser_damage, com.github.L_Ender.cataclysm.entity.projectile.Laser_Beam_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/laser_beam_entity/m_5790/1/m" = 1.0
+
+# Urchinkin_Entity - Urchinkin (小海胆) (Type: Living)
+[entity."cataclysm:urchinkin"]
+# Vanilla melee base damage: only applies to cataclysm:urchinkin
+"minecraft:generic.attack_damage" = 3.0
+# OED global damage multiplier: only applies to cataclysm:urchinkin
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.AcropolisMonsters.Urchinkin_Entity#m_8107_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/acropolis_monsters/urchinkin_entity/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Urchin_Spike_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/urchin_spike_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Urchin_Spike_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/urchin_spike_entity/m_5790/2/m" = 1.0
+
+# Wadjet_Entity - Wadjet (瓦吉特) (Type: Living)
+[entity."cataclysm:wadjet"]
+# Vanilla melee base damage: only applies to cataclysm:wadjet
+"minecraft:generic.attack_damage" = 11.0
+# OED global damage multiplier: only applies to cataclysm:wadjet
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.L_Ender.cataclysm.entity.InternalAnimationMonster.Wadjet_Entity#AreaAttack#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/internal_animation_monster/wadjet_entity/area_attack/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Ancient_Desert_Stele_Entity#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ancient_desert_stele_entity/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Ancient_Desert_Stele_Entity#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/ancient_desert_stele_entity/m_5790/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269299, com.github.L_Ender.cataclysm.entity.projectile.Sandstorm_Projectile#m_5790_#1
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/sandstorm_projectile/m_5790/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.github.L_Ender.cataclysm.entity.projectile.Sandstorm_Projectile#m_5790_#2
+"oneenoughdamage:com/github/l_ender/cataclysm/entity/projectile/sandstorm_projectile/m_5790/2/m" = 1.0
+
+# Stalker - Stalker (潜行者) (Type: Living)
+[entity."deeperdarker:stalker"]
+# Vanilla melee base damage: only applies to deeperdarker:stalker
+"minecraft:generic.attack_damage" = 22.0
+# OED global damage multiplier: only applies to deeperdarker:stalker
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: unknown, com.kyanite.deeperdarker.content.entities.Stalker#m_8119_#1
+"oneenoughdamage:com/kyanite/deeperdarker/content/entities/stalker/m_8119/1/r" = 2.0
+
+# FallingCorpse - Falling Corpse (Type: Living)
+[entity."graveyard:falling_corpse"]
+# Vanilla melee base damage: only applies to graveyard:falling_corpse
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to graveyard:falling_corpse
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 10.0, DamageType: m_268989, com.lion.graveyard.entities.FallingCorpse#m_6123_#1
+"oneenoughdamage:com/lion/graveyard/entities/falling_corpse/m_6123/1/r" = 10.0
+
+# SkullEntity - SkullEntity (Type: Projectile)
+# mode: replace (/r), default: 10.0, DamageType: m_269104, com.lion.graveyard.entities.projectiles.SkullEntity#m_5790_#1
+"oneenoughdamage:com/lion/graveyard/entities/projectiles/skull_entity/m_5790/1/r" = 10.0
+
+# Wraith - Wraith (幽魂) (Type: Living)
+[entity."graveyard:wraith"]
+# Vanilla melee base damage: only applies to graveyard:wraith
+"minecraft:generic.attack_damage" = 6.5
+# OED global damage multiplier: only applies to graveyard:wraith
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: tfdamagetypes:get_entity_damage_source, twilightforest.entity.monster.Wraith#m_7327_#1
+"oneenoughdamage:twilightforest/entity/monster/wraith/m_7327/1/m" = 1.0
+
+# WildenChimera - WildenChimera (Type: Living)
+# mode: replace (/r), default: 6.0, DamageType: m_269374, com.hollingsworth.arsnouveau.common.entity.WildenChimera#m_6469_#1
+"oneenoughdamage:com/hollingsworth/arsnouveau/common/entity/wilden_chimera/m_6469/1/r" = 6.0
+
+# EntityAmphithere - EntityAmphithere (Type: Living)
+# mode: replace (/r), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityAmphithere#m_19956_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_amphithere/m_19956/1/r" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityAmphithere#m_8119_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_amphithere/m_8119/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityAmphithere#m_8119_#2
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_amphithere/m_8119/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityAmphithere#m_8119_#3
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_amphithere/m_8119/3/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityAmphithere#m_8119_#4
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_amphithere/m_8119/4/m" = 1.0
+
+# EntityCockatrice - EntityCockatrice (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityCockatrice#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_cockatrice/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityCockatrice#m_8107_#2
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_cockatrice/m_8107/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269251, com.iafenvoy.iceandfire.entity.EntityCockatrice#m_8107_#3
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_cockatrice/m_8107/3/m" = 1.0
+
+# EntityCyclops - EntityCyclops (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityCyclops#m_19956_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_cyclops/m_19956/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityCyclops#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_cyclops/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityCyclops#m_8107_#2
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_cyclops/m_8107/2/m" = 1.0
+
+# EntityCyclopsEye - EntityCyclopsEye (Type: Entity)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.iafenvoy.iceandfire.entity.EntityCyclopsEye#m_6469_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_cyclops_eye/m_6469/1/m" = 1.0
+
+# EntityDeathWorm - EntityDeathWorm (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityDeathWorm#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_death_worm/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityDeathWorm#m_8119_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_death_worm/m_8119/1/m" = 1.0
+
+# EntityDragonBase - EntityDragonBase (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityDragonBase#m_7327_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_dragon_base/m_7327/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityDragonBase#updatePreyInMouth#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_dragon_base/update_prey_in_mouth/1/m" = 1.0
+
+# EntityDreadBeast - EntityDreadBeast (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityDreadBeast#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_dread_beast/m_8107/1/m" = 1.0
+
+# EntityDreadGhoul - EntityDreadGhoul (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityDreadGhoul#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_dread_ghoul/m_8107/1/m" = 1.0
+
+# EntityDreadScuttler - EntityDreadScuttler (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityDreadScuttler#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_dread_scuttler/m_8107/1/m" = 1.0
+
+# EntityGorgon - EntityGorgon (Type: Living)
+# mode: replace (/r), default: 2.14748365E9, DamageType: unknown, com.iafenvoy.iceandfire.entity.EntityGorgon#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_gorgon/m_8107/1/r" = 2147483648.0
+
+# EntityHippogryph - EntityHippogryph (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityHippogryph#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_hippogryph/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityHippogryph#m_8107_#2
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_hippogryph/m_8107/2/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityHippogryph#m_8119_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_hippogryph/m_8119/1/m" = 1.0
+
+# EntityHydra - EntityHydra (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityHydra#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_hydra/m_8107/1/m" = 1.0
+
+# EntityHydraBreath - EntityHydraBreath (Type: Projectile)
+# mode: replace (/r), default: 2.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityHydraBreath#m_6532_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_hydra_breath/m_6532/1/r" = 2.0
+
+# EntityHydraHead - EntityHydraHead (Type: Entity)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.iafenvoy.iceandfire.entity.EntityHydraHead#m_6469_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_hydra_head/m_6469/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, com.iafenvoy.iceandfire.entity.EntityHydraHead#m_6469_#2
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_hydra_head/m_6469/2/m" = 1.0
+
+# EntitySeaSerpent - EntitySeaSerpent (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntitySeaSerpent#doSplashDamage#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_sea_serpent/do_splash_damage/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntitySeaSerpent#hurtMob#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_sea_serpent/hurt_mob/1/m" = 1.0
+
+# EntitySeaSerpentBubbles - EntitySeaSerpentBubbles (Type: Projectile)
+# mode: replace (/r), default: 6.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntitySeaSerpentBubbles#m_6532_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_sea_serpent_bubbles/m_6532/1/r" = 6.0
+
+# EntitySiren - EntitySiren (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntitySiren#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_siren/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntitySiren#m_8107_#2
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_siren/m_8107/2/m" = 1.0
+
+# EntityStymphalianBird - EntityStymphalianBird (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityStymphalianBird#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_stymphalian_bird/m_8107/1/m" = 1.0
+
+# EntityTroll - EntityTroll (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityTroll#m_8107_#1
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_troll/m_8107/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.iafenvoy.iceandfire.entity.EntityTroll#m_8107_#2
+"oneenoughdamage:com/iafenvoy/iceandfire/entity/entity_troll/m_8107/2/m" = 1.0
+
+# Troll - Troll (食人妖) (Type: Living)
+[entity."iceandfire:troll"]
+# Vanilla melee base damage: only applies to iceandfire:troll
+"minecraft:generic.attack_damage" = 10.0
+# OED global damage multiplier: only applies to iceandfire:troll
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 6.0, DamageType: tfdamagetypes:get_damage_source, twilightforest.entity.projectile.ThrownBlock#m_5790_#1
+"oneenoughdamage:twilightforest/entity/projectile/thrown_block/m_5790/1/r" = 6.0
+
+# SummonedSkeleton - Summoned Skeleton (召唤出的骷髅) (Type: Living)
+[entity."irons_spellbooks:summoned_skeleton"]
+# Vanilla melee base damage: only applies to irons_spellbooks:summoned_skeleton
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to irons_spellbooks:summoned_skeleton
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.projectile.AbstractArrow#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/abstract_arrow/m_5790/1/m" = 1.0
+
+# AbstractHorse - AbstractHorse (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.animal.horse.AbstractHorse#m_142535_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/horse/abstract_horse/m_142535/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.animal.horse.AbstractHorse#m_142535_#2
+"oneenoughdamage:net/minecraft/world/entity/animal/horse/abstract_horse/m_142535/2/m" = 1.0
+
+# Axolotl - Axolotl (Type: Living)
+[entity."minecraft:axolotl"]
+# Vanilla melee base damage: only applies to minecraft:axolotl
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:axolotl
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: m_269483, net.minecraft.world.entity.animal.axolotl.Axolotl#m_149193_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/axolotl/axolotl/m_149193/1/r" = 2.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.animal.axolotl.Axolotl#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/axolotl/axolotl/m_7327/1/m" = 1.0
+
+# Bee - Bee (Type: Living)
+[entity."minecraft:bee"]
+# Vanilla melee base damage: only applies to minecraft:bee
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:bee
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269396, net.minecraft.world.entity.animal.Bee#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/bee/m_7327/1/m" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269063, net.minecraft.world.entity.animal.Bee#m_8024_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/bee/m_8024/1/r" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269264, net.minecraft.world.entity.animal.Bee#m_8024_#2
+"oneenoughdamage:net/minecraft/world/entity/animal/bee/m_8024/2/m" = 1.0
+
+# Blaze - Blaze (Type: Living)
+[entity."minecraft:blaze"]
+# Vanilla melee base damage: only applies to minecraft:blaze
+"minecraft:generic.attack_damage" = 6.0
+# OED global damage multiplier: only applies to minecraft:blaze
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269453, net.minecraft.world.entity.projectile.SmallFireball#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/small_fireball/m_5790/1/r" = 5.0
+
+# Cat - Cat (Type: Living)
+[entity."minecraft:cat"]
+# Vanilla melee base damage: only applies to minecraft:cat
+"minecraft:generic.attack_damage" = 3.0
+# OED global damage multiplier: only applies to minecraft:cat
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.animal.Cat#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/cat/m_7327/1/m" = 1.0
+
+# Dolphin - Dolphin (Type: Living)
+[entity."minecraft:dolphin"]
+# Vanilla melee base damage: only applies to minecraft:dolphin
+"minecraft:generic.attack_damage" = 3.0
+# OED global damage multiplier: only applies to minecraft:dolphin
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.animal.Dolphin#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/dolphin/m_7327/1/m" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269483, net.minecraft.world.entity.animal.Dolphin#m_8119_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/dolphin/m_8119/1/r" = 1.0
+
+# Drowned - Drowned (Type: Living)
+[entity."minecraft:drowned"]
+# Vanilla melee base damage: only applies to minecraft:drowned
+"minecraft:generic.attack_damage" = 3.0
+# OED global damage multiplier: only applies to minecraft:drowned
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269525, net.minecraft.world.entity.projectile.ThrownTrident#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/thrown_trident/m_5790/1/m" = 1.0
+
+# EnderDragon - Ender Dragon (Type: Living)
+[entity."minecraft:ender_dragon"]
+# OED global damage multiplier: only applies to minecraft:ender_dragon
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269333, net.minecraft.world.entity.boss.enderdragon.EnderDragon#m_31131_#1
+"oneenoughdamage:net/minecraft/world/entity/boss/enderdragon/ender_dragon/m_31131/1/r" = 5.0
+# mode: replace (/r), default: 10.0, DamageType: m_269333, net.minecraft.world.entity.boss.enderdragon.EnderDragon#m_31141_#1
+"oneenoughdamage:net/minecraft/world/entity/boss/enderdragon/ender_dragon/m_31141/1/r" = 10.0
+
+# Evoker - Evoker (Type: Living)
+[entity."minecraft:evoker"]
+# Vanilla melee base damage: only applies to minecraft:evoker
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:evoker
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 6.0, DamageType: m_269425, net.minecraft.world.entity.projectile.EvokerFangs#m_36944_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/evoker_fangs/m_36944/1/r" = 6.0
+# mode: replace (/r), default: 6.0, DamageType: m_269104, net.minecraft.world.entity.projectile.EvokerFangs#m_36944_#2
+"oneenoughdamage:net/minecraft/world/entity/projectile/evoker_fangs/m_36944/2/r" = 6.0
+
+# FallingBlockEntity - FallingBlockEntity (Type: Entity)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.item.FallingBlockEntity#m_149646_#1
+"oneenoughdamage:net/minecraft/world/entity/item/falling_block_entity/m_149646/1/m" = 1.0
+
+# Ghast - Ghast (Type: Living)
+[entity."minecraft:ghast"]
+# OED global damage multiplier: only applies to minecraft:ghast
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 6.0, DamageType: m_269453, net.minecraft.world.entity.projectile.LargeFireball#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/large_fireball/m_5790/1/r" = 6.0
+
+# Goat - Goat (Type: Living)
+[entity."minecraft:goat"]
+# Vanilla melee base damage: only applies to minecraft:goat
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:goat
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269364, net.minecraft.world.entity.ai.behavior.RamTarget#m_6725_#1
+"oneenoughdamage:net/minecraft/world/entity/ai/behavior/ram_target/m_6725/1/m" = 1.0
+
+# Guardian - Guardian (Type: Living)
+[entity."minecraft:guardian"]
+# Vanilla melee base damage: only applies to minecraft:guardian
+"minecraft:generic.attack_damage" = 6.0
+# OED global damage multiplier: only applies to minecraft:guardian
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: m_269374, net.minecraft.world.entity.monster.Guardian#m_6469_#1
+"oneenoughdamage:net/minecraft/world/entity/monster/guardian/m_6469/1/r" = 2.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269104, net.minecraft.world.entity.monster.Guardian$GuardianAttackGoal#m_8037_#1
+"oneenoughdamage:net/minecraft/world/entity/monster/guardian_guardian_attack_goal/m_8037/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.monster.Guardian$GuardianAttackGoal#m_8037_#2
+"oneenoughdamage:net/minecraft/world/entity/monster/guardian_guardian_attack_goal/m_8037/2/m" = 1.0
+
+# Illusioner - Illusioner (Type: Living)
+[entity."minecraft:illusioner"]
+# Vanilla melee base damage: only applies to minecraft:illusioner
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:illusioner
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.projectile.AbstractArrow#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/abstract_arrow/m_5790/1/m" = 1.0
+
+# IronGolem - Iron Golem (Type: Living)
+[entity."minecraft:iron_golem"]
+# Vanilla melee base damage: only applies to minecraft:iron_golem
+"minecraft:generic.attack_damage" = 15.0
+# OED global damage multiplier: only applies to minecraft:iron_golem
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.animal.IronGolem#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/iron_golem/m_7327/1/m" = 1.0
+
+# LivingEntity - LivingEntity (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.LivingEntity#m_142535_#1
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_142535/1/m" = 1.0
+# mode: replace (/r), default: 0.0, DamageType: m_269264, net.minecraft.world.entity.LivingEntity#m_269138_#1
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_269138/1/r" = 0.0
+# mode: replace (/r), default: 3.4028235E38, DamageType: m_287172, net.minecraft.world.entity.LivingEntity#m_6074_#1
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_6074/1/r" = 3.4028235E38
+# mode: replace (/r), default: 1.0, DamageType: m_269318, net.minecraft.world.entity.LivingEntity#m_6075_#1
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_6075/1/r" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_287287, net.minecraft.world.entity.LivingEntity#m_6075_#2
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_6075/2/m" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: m_269063, net.minecraft.world.entity.LivingEntity#m_6075_#3
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_6075/3/r" = 2.0
+# mode: replace (/r), default: 4.0, DamageType: m_269341, net.minecraft.world.entity.LivingEntity#m_6088_#1
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_6088/1/r" = 4.0
+# mode: replace (/r), default: 6.0, DamageType: m_269354, net.minecraft.world.entity.LivingEntity#m_6138_#1
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_6138/1/r" = 6.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269515, net.minecraft.world.entity.LivingEntity#m_7023_#1
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_7023/1/m" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269109, net.minecraft.world.entity.LivingEntity#m_8107_#1
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_8107/1/r" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269063, net.minecraft.world.entity.LivingEntity#m_8107_#2
+"oneenoughdamage:net/minecraft/world/entity/living_entity/m_8107/2/r" = 1.0
+
+# Llama - Llama (Type: Living)
+[entity."minecraft:llama"]
+# OED global damage multiplier: only applies to minecraft:llama
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.animal.horse.Llama#m_142535_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/horse/llama/m_142535/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.animal.horse.Llama#m_142535_#2
+"oneenoughdamage:net/minecraft/world/entity/animal/horse/llama/m_142535/2/m" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269299, net.minecraft.world.entity.projectile.LlamaSpit#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/llama_spit/m_5790/1/r" = 1.0
+
+# Mob - Mob (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.Mob#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/mob/m_7327/1/m" = 1.0
+
+# Ocelot - Ocelot (Type: Living)
+[entity."minecraft:ocelot"]
+# Vanilla melee base damage: only applies to minecraft:ocelot
+"minecraft:generic.attack_damage" = 3.0
+# OED global damage multiplier: only applies to minecraft:ocelot
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.animal.Ocelot#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/ocelot/m_7327/1/m" = 1.0
+
+# Parrot - Parrot (Type: Living)
+[entity."minecraft:parrot"]
+# OED global damage multiplier: only applies to minecraft:parrot
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 3.4028235E38, DamageType: m_269075, net.minecraft.world.entity.animal.Parrot#m_6071_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/parrot/m_6071/1/r" = 3.4028235E38
+# mode: replace (/r), default: 3.0, DamageType: m_269333, net.minecraft.world.entity.animal.Parrot#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/parrot/m_7327/1/r" = 3.0
+
+# Player - Player (Type: Living)
+[entity."minecraft:player"]
+# Vanilla melee base damage: only applies to minecraft:player
+"minecraft:generic.attack_damage" = 1.0
+# OED global damage multiplier: only applies to minecraft:player
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269075, net.minecraft.world.entity.player.Player#m_5706_#1
+"oneenoughdamage:net/minecraft/world/entity/player/player/m_5706/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269075, net.minecraft.world.entity.player.Player#m_5706_#2
+"oneenoughdamage:net/minecraft/world/entity/player/player/m_5706/2/m" = 1.0
+
+# PolarBear - Polar Bear (Type: Living)
+[entity."minecraft:polar_bear"]
+# Vanilla melee base damage: only applies to minecraft:polar_bear
+"minecraft:generic.attack_damage" = 6.0
+# OED global damage multiplier: only applies to minecraft:polar_bear
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.animal.PolarBear#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/polar_bear/m_7327/1/m" = 1.0
+
+# Pufferfish - Pufferfish (Type: Living)
+[entity."minecraft:pufferfish"]
+# OED global damage multiplier: only applies to minecraft:pufferfish
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.animal.Pufferfish#m_29605_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/pufferfish/m_29605/1/m" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.animal.Pufferfish#m_6123_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/pufferfish/m_6123/1/m" = 1.0
+
+# Rabbit - Rabbit (Type: Living)
+[entity."minecraft:rabbit"]
+# OED global damage multiplier: only applies to minecraft:rabbit
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 8.0, DamageType: m_269333, net.minecraft.world.entity.animal.Rabbit#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/rabbit/m_7327/1/r" = 8.0
+# mode: replace (/r), default: 3.0, DamageType: m_269333, net.minecraft.world.entity.animal.Rabbit#m_7327_#2
+"oneenoughdamage:net/minecraft/world/entity/animal/rabbit/m_7327/2/r" = 3.0
+
+# Ravager - Ravager (Type: Living)
+[entity."minecraft:ravager"]
+# Vanilla melee base damage: only applies to minecraft:ravager
+"minecraft:generic.attack_damage" = 12.0
+# OED global damage multiplier: only applies to minecraft:ravager
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 6.0, DamageType: m_269333, net.minecraft.world.entity.monster.Ravager#m_33368_#1
+"oneenoughdamage:net/minecraft/world/entity/monster/ravager/m_33368/1/r" = 6.0
+
+# Shulker - Shulker (Type: Living)
+[entity."minecraft:shulker"]
+# OED global damage multiplier: only applies to minecraft:shulker
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 4.0, DamageType: m_269299, net.minecraft.world.entity.projectile.ShulkerBullet#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/shulker_bullet/m_5790/1/r" = 4.0
+
+# Skeleton - Skeleton (Type: Living)
+[entity."minecraft:skeleton"]
+# Vanilla melee base damage: only applies to minecraft:skeleton
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:skeleton
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.projectile.AbstractArrow#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/abstract_arrow/m_5790/1/m" = 1.0
+
+# Slime - Slime (Type: Living)
+[entity."minecraft:slime"]
+# Vanilla melee base damage: only applies to minecraft:slime
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:slime
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.monster.Slime#m_33637_#1
+"oneenoughdamage:net/minecraft/world/entity/monster/slime/m_33637/1/m" = 1.0
+
+# SnowGolem - Snow Golem (Type: Living)
+[entity."minecraft:snow_golem"]
+# OED global damage multiplier: only applies to minecraft:snow_golem
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269549, net.minecraft.world.entity.animal.SnowGolem#m_8107_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/snow_golem/m_8107/1/r" = 1.0
+# mode: replace (/r), default: 0.0, DamageType: m_269390, net.minecraft.world.entity.projectile.Snowball#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/snowball/m_5790/1/r" = 0.0
+
+# Stray - Stray (Type: Living)
+[entity."minecraft:stray"]
+# Vanilla melee base damage: only applies to minecraft:stray
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:stray
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.projectile.AbstractArrow#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/abstract_arrow/m_5790/1/m" = 1.0
+
+# Turtle - Turtle (Type: Living)
+[entity."minecraft:turtle"]
+# OED global damage multiplier: only applies to minecraft:turtle
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 3.4028235E38, DamageType: m_269548, net.minecraft.world.entity.animal.Turtle#m_8038_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/turtle/m_8038/1/r" = 3.4028235E38
+
+# Vex - Vex (Type: Living)
+[entity."minecraft:vex"]
+# Vanilla melee base damage: only applies to minecraft:vex
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to minecraft:vex
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269064, net.minecraft.world.entity.monster.Vex#m_8119_#1
+"oneenoughdamage:net/minecraft/world/entity/monster/vex/m_8119/1/r" = 1.0
+
+# Warden - Warden (Type: Living)
+[entity."minecraft:warden"]
+# Vanilla melee base damage: only applies to minecraft:warden
+"minecraft:generic.attack_damage" = 30.0
+# OED global damage multiplier: only applies to minecraft:warden
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 10.0, DamageType: m_269285, net.minecraft.world.entity.ai.behavior.warden.SonicBoom#m_217701_#1
+"oneenoughdamage:net/minecraft/world/entity/ai/behavior/warden/sonic_boom/m_217701/1/r" = 10.0
+
+# WaterAnimal - WaterAnimal (Type: Living)
+# mode: replace (/r), default: 2.0, DamageType: m_269063, net.minecraft.world.entity.animal.WaterAnimal#m_6229_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/water_animal/m_6229/1/r" = 2.0
+
+# Witch - Witch (Type: Living)
+[entity."minecraft:witch"]
+# Vanilla melee base damage: only applies to minecraft:witch
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:witch
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: m_269104, net.minecraft.world.entity.projectile.ThrownPotion#m_37552_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/thrown_potion/m_37552/1/r" = 1.0
+
+# WitherSkeleton - Wither Skeleton (Type: Living)
+[entity."minecraft:wither_skeleton"]
+# Vanilla melee base damage: only applies to minecraft:wither_skeleton
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:wither_skeleton
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.projectile.AbstractArrow#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/abstract_arrow/m_5790/1/m" = 1.0
+
+# WitherSkull - Wither Skull (Type: Projectile)
+# mode: replace (/r), default: 8.0, DamageType: m_269383, net.minecraft.world.entity.projectile.WitherSkull#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/wither_skull/m_5790/1/r" = 8.0
+# mode: replace (/r), default: 5.0, DamageType: m_269425, net.minecraft.world.entity.projectile.WitherSkull#m_5790_#2
+"oneenoughdamage:net/minecraft/world/entity/projectile/wither_skull/m_5790/2/r" = 5.0
+
+# Wolf - Wolf (Type: Living)
+[entity."minecraft:wolf"]
+# Vanilla melee base damage: only applies to minecraft:wolf
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to minecraft:wolf
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, net.minecraft.world.entity.animal.Wolf#m_7327_#1
+"oneenoughdamage:net/minecraft/world/entity/animal/wolf/m_7327/1/m" = 1.0
+
+# DynamicProjectile - DynamicProjectile (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269425, com.obscuria.obscureapi.api.common.DynamicProjectile#attack#1
+"oneenoughdamage:com/obscuria/obscureapi/api/common/dynamic_projectile/attack/1/m" = 1.0
+
+# FireEruptionAoe - FireEruptionAoe (Type: Projectile)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, io.redspace.ironsspellbooks.entity.spells.FireEruptionAoe#applyEffect#1
+"oneenoughdamage:io/redspace/ironsspellbooks/entity/spells/fire_eruption_aoe/apply_effect/1/m" = 1.0
+
+# IceTombEntity - IceTombEntity (Type: Entity)
+# mode: multiply (/m), default: 1.0, DamageType: unknown, io.redspace.ironsspellbooks.entity.spells.ice_tomb.IceTombEntity#lambda$die$0#1
+"oneenoughdamage:io/redspace/ironsspellbooks/entity/spells/ice_tomb/ice_tomb_entity/lambda_die_0/1/m" = 1.0
+
+# BombEntity - BombEntity (Type: Projectile)
+# mode: replace (/r), default: 1.0, DamageType: m_269390, net.mehvahdjukaar.supplementaries.common.entities.BombEntity#m_5790_#1
+"oneenoughdamage:net/mehvahdjukaar/supplementaries/common/entities/bomb_entity/m_5790/1/r" = 1.0
+
+# EntityMaid - EntityMaid (Type: Living)
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, com.github.tartaricacid.touhoulittlemaid.entity.passive.EntityMaid#doSweepHurt#1
+"oneenoughdamage:com/github/tartaricacid/touhoulittlemaid/entity/passive/entity_maid/do_sweep_hurt/1/m" = 1.0
+
+# Adherent - Adherent (信徒) (Type: Living)
+[entity."twilightforest:adherent"]
+# Vanilla melee base damage: only applies to twilightforest:adherent
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to twilightforest:adherent
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: tfdamagetypes:get_indirect_entity_damage_source, twilightforest.entity.projectile.NatureBolt#m_5790_#1
+"oneenoughdamage:twilightforest/entity/projectile/nature_bolt/m_5790/1/r" = 2.0
+
+# AlphaYeti - Alpha Yeti (雪怪首领) (Type: Living)
+[entity."twilightforest:alpha_yeti"]
+# Vanilla melee base damage: only applies to twilightforest:alpha_yeti
+"minecraft:generic.attack_damage" = 1.0
+# OED global damage multiplier: only applies to twilightforest:alpha_yeti
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 5.0, DamageType: m_269333, twilightforest.entity.boss.AlphaYeti#hitNearbyEntities#1
+"oneenoughdamage:twilightforest/entity/boss/alpha_yeti/hit_nearby_entities/1/r" = 5.0
+# mode: multiply (/m), default: 1.0, DamageType: tfdamagetypes:get_damage_source, twilightforest.entity.projectile.FallingIce#lambda$causeFallDamage$0#1
+"oneenoughdamage:twilightforest/entity/projectile/falling_ice/lambda_cause_fall_damage_0/1/m" = 1.0
+# mode: replace (/r), default: 1.0, DamageType: unknown, twilightforest.entity.projectile.IceBomb#hitNearbyEntities#1
+"oneenoughdamage:twilightforest/entity/projectile/ice_bomb/hit_nearby_entities/1/r" = 1.0
+
+# CarminiteGhastguard - Carminite Ghastguard (高塔守卫) (Type: Living)
+[entity."twilightforest:carminite_ghastguard"]
+# OED global damage multiplier: only applies to twilightforest:carminite_ghastguard
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 6.0, DamageType: m_269453, net.minecraft.world.entity.projectile.LargeFireball#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/large_fireball/m_5790/1/r" = 6.0
+
+# DeathTome - Death Tome (死灵书) (Type: Living)
+[entity."twilightforest:death_tome"]
+# Vanilla melee base damage: only applies to twilightforest:death_tome
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to twilightforest:death_tome
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 3.0, DamageType: tfdamagetypes:get_indirect_entity_damage_source, twilightforest.entity.projectile.TomeBolt#m_5790_#1
+"oneenoughdamage:twilightforest/entity/projectile/tome_bolt/m_5790/1/r" = 3.0
+
+# FireBeetle - Fire Beetle (喷火甲虫) (Type: Living)
+[entity."twilightforest:fire_beetle"]
+# Vanilla melee base damage: only applies to twilightforest:fire_beetle
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to twilightforest:fire_beetle
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: tfdamagetypes:get_entity_damage_source, twilightforest.entity.monster.FireBeetle#doBreathAttack#1
+"oneenoughdamage:twilightforest/entity/monster/fire_beetle/do_breath_attack/1/r" = 2.0
+# mode: replace (/r), default: 2.0, DamageType: tfdamagetypes:get_entity_damage_source, twilightforest.entity.monster.FireBeetle#m_7327_#1
+"oneenoughdamage:twilightforest/entity/monster/fire_beetle/m_7327/1/r" = 2.0
+
+# LoyalZombie - Loyal Zombie (忠诚的僵尸) (Type: Living)
+[entity."twilightforest:loyal_zombie"]
+# OED global damage multiplier: only applies to twilightforest:loyal_zombie
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 7.0, DamageType: m_269333, twilightforest.entity.monster.LoyalZombie#m_7327_#1
+"oneenoughdamage:twilightforest/entity/monster/loyal_zombie/m_7327/1/r" = 7.0
+
+# Minotaur - Minotaur (牛头人) (Type: Living)
+[entity."twilightforest:minotaur"]
+# Vanilla melee base damage: only applies to twilightforest:minotaur
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to twilightforest:minotaur
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: tfdamagetypes:get_entity_damage_source, twilightforest.entity.monster.Minotaur#m_7327_#1
+"oneenoughdamage:twilightforest/entity/monster/minotaur/m_7327/1/m" = 1.0
+
+# Naga - Naga (娜迦) (Type: Living)
+[entity."twilightforest:naga"]
+# Vanilla melee base damage: only applies to twilightforest:naga
+"minecraft:generic.attack_damage" = 5.0
+# OED global damage multiplier: only applies to twilightforest:naga
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 4.0, DamageType: m_269333, twilightforest.entity.boss.Naga#m_7327_#1
+"oneenoughdamage:twilightforest/entity/boss/naga/m_7327/1/r" = 4.0
+# mode: multiply (/m), default: 1.0, DamageType: m_269333, twilightforest.entity.boss.NagaSegment#collideWithEntity#1
+"oneenoughdamage:twilightforest/entity/boss/naga_segment/collide_with_entity/1/m" = 1.0
+
+# PinchBeetle - Pinch Beetle (巨钳甲虫) (Type: Living)
+[entity."twilightforest:pinch_beetle"]
+# Vanilla melee base damage: only applies to twilightforest:pinch_beetle
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to twilightforest:pinch_beetle
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: tfdamagetypes:get_entity_damage_source, twilightforest.entity.monster.PinchBeetle#m_7327_#1
+"oneenoughdamage:twilightforest/entity/monster/pinch_beetle/m_7327/1/m" = 1.0
+
+# SkeletonDruid - Skeleton Druid (骷髅德鲁伊) (Type: Living)
+[entity."twilightforest:skeleton_druid"]
+# Vanilla melee base damage: only applies to twilightforest:skeleton_druid
+"minecraft:generic.attack_damage" = 2.0
+# OED global damage multiplier: only applies to twilightforest:skeleton_druid
+"oneenoughdamage:global_damage" = 1.0
+# mode: multiply (/m), default: 1.0, DamageType: unknown, net.minecraft.world.entity.projectile.AbstractArrow#m_5790_#1
+"oneenoughdamage:net/minecraft/world/entity/projectile/abstract_arrow/m_5790/1/m" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: tfdamagetypes:get_indirect_entity_damage_source, twilightforest.entity.projectile.NatureBolt#m_5790_#1
+"oneenoughdamage:twilightforest/entity/projectile/nature_bolt/m_5790/1/r" = 2.0
+
+# SlimeBeetle - Slime Beetle (黏液甲虫) (Type: Living)
+[entity."twilightforest:slime_beetle"]
+# Vanilla melee base damage: only applies to twilightforest:slime_beetle
+"minecraft:generic.attack_damage" = 4.0
+# OED global damage multiplier: only applies to twilightforest:slime_beetle
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 4.0, DamageType: m_269390, twilightforest.entity.projectile.SlimeProjectile#m_5790_#1
+"oneenoughdamage:twilightforest/entity/projectile/slime_projectile/m_5790/1/r" = 4.0
+
+# SnowQueen - Snow Queen (冰雪女王) (Type: Living)
+[entity."twilightforest:snow_queen"]
+# Vanilla melee base damage: only applies to twilightforest:snow_queen
+"minecraft:generic.attack_damage" = 7.0
+# OED global damage multiplier: only applies to twilightforest:snow_queen
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 4.0, DamageType: tfdamagetypes:get_entity_damage_source, twilightforest.entity.boss.SnowQueen#doBreathAttack#1
+"oneenoughdamage:twilightforest/entity/boss/snow_queen/do_breath_attack/1/r" = 4.0
+
+# StableIceCore - Stable Ice Core (冰精灵) (Type: Living)
+[entity."twilightforest:stable_ice_core"]
+# Vanilla melee base damage: only applies to twilightforest:stable_ice_core
+"minecraft:generic.attack_damage" = 3.0
+# OED global damage multiplier: only applies to twilightforest:stable_ice_core
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: tfdamagetypes:get_indirect_entity_damage_source, twilightforest.entity.projectile.IceSnowball#m_5790_#1
+"oneenoughdamage:twilightforest/entity/projectile/ice_snowball/m_5790/1/r" = 2.0
+
+# UrGhast - Ur-Ghast (暮初恶魂) (Type: Living)
+[entity."twilightforest:ur_ghast"]
+# OED global damage multiplier: only applies to twilightforest:ur_ghast
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 3.0, DamageType: tfdamagetypes:get_entity_damage_source, twilightforest.entity.boss.UrGhast#doTantrumDamageEffects#1
+"oneenoughdamage:twilightforest/entity/boss/ur_ghast/do_tantrum_damage_effects/1/r" = 3.0
+# mode: replace (/r), default: 16.0, DamageType: m_269453, twilightforest.entity.projectile.UrGhastFireball#m_5790_#1
+"oneenoughdamage:twilightforest/entity/projectile/ur_ghast_fireball/m_5790/1/r" = 16.0
+
+# WinterWolf - Winter Wolf (寒冬狼) (Type: Living)
+[entity."twilightforest:winter_wolf"]
+# Vanilla melee base damage: only applies to twilightforest:winter_wolf
+"minecraft:generic.attack_damage" = 6.0
+# OED global damage multiplier: only applies to twilightforest:winter_wolf
+"oneenoughdamage:global_damage" = 1.0
+# mode: replace (/r), default: 2.0, DamageType: m_269333, twilightforest.entity.monster.WinterWolf#doBreathAttack#1
+"oneenoughdamage:twilightforest/entity/monster/winter_wolf/do_breath_attack/1/r" = 2.0
+

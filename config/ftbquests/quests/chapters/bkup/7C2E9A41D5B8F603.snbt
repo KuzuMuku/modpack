@@ -1,0 +1,307 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7C2E9A41D5B8F603"
+	group: "1932028AE2A3EB8D"
+	icon: "cataclysm:monstrous_eye"
+	id: "7C2E9A41D5B8F603"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["654A8A0E9770844D"]
+			description: ["这是一条长期挑战清单。它不会阻塞主线，但会持续检验你的构筑、地图知识和回收战利品的能力。"]
+			id: "7D08000000000001"
+			optional: true
+			tasks: [{
+				id: "7D08000000000101"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "灾厄征兆"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D08000000000001"]
+			description: ["下界合金巨兽是 Cataclysm 中最经典的下界重型首领之一。没有稳定回复和持续输出时，不要贸然开战。"]
+			id: "7D08000000000002"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "7D08000000000102"
+				type: "kill"
+				value: 1L
+			}]
+			title: "下界合金巨兽"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D08000000000001"]
+			description: ["Ignis 更偏机制战而不是单纯堆数值。面对它时，近战压迫和走位容错都要同时兼顾。"]
+			id: "7D08000000000003"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "7D08000000000103"
+				type: "kill"
+				value: 1L
+			}]
+			title: "赤焰君王"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D08000000000001"]
+			description: ["末地守卫者会把末地的容错压得很低。建议至少在主线末地阶段成型后再挑战。"]
+			id: "7D08000000000004"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "7D08000000000104"
+				type: "kill"
+				value: 1L
+			}]
+			title: "末影守卫者"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D08000000000001"]
+			description: ["深海中的利维坦是另一类极端高压战。水下移动、持续输出和脱战能力都要重新考虑。"]
+			id: "7D08000000000005"
+			optional: true
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "7D08000000000105"
+				type: "kill"
+				value: 1L
+			}]
+			title: "深渊利维坦"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D08000000000001"]
+			description: ["死海卷轴是 Aquamirae 探索的起点。它提醒你：深海远征需要完全不同于陆地的准备逻辑。"]
+			id: "7D08000000000006"
+			optional: true
+			tasks: [{
+				id: "7D08000000000106"
+				item: "aquamirae:dead_sea_scroll"
+				type: "item"
+			}]
+			title: "死海传闻"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D08000000000006"]
+			description: ["先拿到冰封钥匙或氧气设备，再去碰深海遗迹。没有水下续航时，很多海底战根本谈不上开始。"]
+			id: "7D08000000000007"
+			optional: true
+			tasks: [{
+				id: "7D08000000000107"
+				item: "aquamirae:frozen_key"
+				type: "item"
+			}]
+			title: "深海凭证"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D08000000000007"]
+			description: ["科妮莉亚船长之魂代表你已经开始正面挑战 Aquamirae 的首领内容。"]
+			id: "7D08000000000008"
+			optional: true
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "7D08000000000108"
+				type: "kill"
+				value: 1L
+			}]
+			title: "船长之魂"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D08000000000007"]
+			description: ["迷宫之母强调空间压迫与路线判断，是另一种完全不同于平原 Boss 的战斗。"]
+			id: "7D08000000000009"
+			optional: true
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				id: "7D08000000000109"
+				type: "kill"
+				value: 1L
+			}]
+			title: "迷宫之母"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D08000000000007"]
+			description: ["Maw 是纯粹的深海压迫战。没有稳定的氧气、照明和撤离方案时，不建议硬碰。"]
+			id: "7D0800000000000A"
+			optional: true
+			tasks: [{
+				entity: "aquamirae:maw"
+				id: "7D0800000000010A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "深渊巨口"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D08000000000001"]
+			description: ["墓园线更像持续不断的夜间骚扰与亡灵净化。先从血液与法杖等基础战利品开始熟悉它的节奏。"]
+			id: "7D0800000000000B"
+			optional: true
+			tasks: [{
+				id: "7D0800000000010B"
+				item: "graveyard:vial_of_blood"
+				type: "item"
+			}]
+			title: "不祥血液"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7D0800000000000B"]
+			description: ["Acolyte 和同类亡灵更适合作为墓园线的起步敌人，帮助你适应其法术和召唤压力。"]
+			id: "7D0800000000000C"
+			optional: true
+			tasks: [{
+				entity: "graveyard:acolyte"
+				id: "7D0800000000010C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "亵渎学徒"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7D0800000000000B"]
+			description: ["收割者与梦魇都是典型的高压夜袭目标。面对它们时，照明和撤退路线比盲目站撸重要得多。"]
+			id: "7D0800000000000D"
+			optional: true
+			tasks: [{
+				entity: "graveyard:reaper"
+				id: "7D0800000000010D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "收割者"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7D0800000000000B"]
+			description: ["梦魇更偏持续骚扰和追击，适合作为墓园线中期的生存检验。"]
+			id: "7D0800000000000E"
+			optional: true
+			tasks: [{
+				entity: "graveyard:nightmare"
+				id: "7D0800000000010E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "梦魇来袭"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7D0800000000000C"
+				"7D0800000000000D"
+				"7D0800000000000E"
+			]
+			description: ["猩红之心能作为墓园线的阶段收束物，说明你已经开始稳定处理这些高压亡灵事件。"]
+			id: "7D0800000000000F"
+			optional: true
+			tasks: [{
+				id: "7D0800000000010F"
+				item: "graveyard:scarlet_heart"
+				type: "item"
+			}]
+			title: "猩红之心"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7D08000000000001"]
+			description: ["大型结构不是拿来一次清完的，而是作为地图上长期存在的高风险目标。先从你最容易找到的结构开始。"]
+			id: "7D08000000000010"
+			optional: true
+			tasks: [{
+				id: "7D08000000000110"
+				structure: "dungeons_arise:coliseum"
+				type: "structure"
+			}]
+			title: "斗技场"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D08000000000010"]
+			description: ["Keep Kayra 属于更完整的大型据点式结构，适合作为中期长探索目标。"]
+			id: "7D08000000000011"
+			optional: true
+			tasks: [{
+				id: "7D08000000000111"
+				structure: "dungeons_arise:keep_kayra"
+				type: "structure"
+			}]
+			title: "凯拉要塞"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D08000000000010"]
+			description: ["Illager Fort 是典型的高压掠夺者据点，适合测试清点和分层推进能力。"]
+			id: "7D08000000000012"
+			optional: true
+			tasks: [{
+				id: "7D08000000000112"
+				structure: "dungeons_arise:illager_fort"
+				type: "structure"
+			}]
+			title: "掠夺者堡垒"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D08000000000010"]
+			description: ["不死海盗船更适合作为海上远征目标，建议和深海线一起规划补给。"]
+			id: "7D08000000000013"
+			optional: true
+			tasks: [{
+				id: "7D08000000000113"
+				structure: "dungeons_arise:undead_pirate_ship"
+				type: "structure"
+			}]
+			title: "不死海盗船"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D08000000000010"]
+			description: ["七海扩展里的胜利护卫舰是后期海战与海上遗迹巡礼的代表结构之一。"]
+			id: "7D08000000000014"
+			optional: true
+			tasks: [{
+				id: "7D08000000000114"
+				structure: "dungeons_arise_seven_seas:victory_frigate"
+				type: "structure"
+			}]
+			title: "胜利护卫舰"
+			x: 8.0d
+			y: 9.0d
+		}
+	]
+	title: "世界级猎杀与遗迹"
+}

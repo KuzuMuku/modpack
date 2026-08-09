@@ -1,0 +1,52 @@
+#Whether to log the dirt block on common setup
+logDirtBlock = true
+#A magic number
+#Range: > 0
+magicNumber = 42
+#What you want the introduction message to be for the magic number
+magicNumberIntroduction = "The magic number is... "
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]
+#增幅反应每点元素精通的伤害加成系数（公式: 1 + EM * ratio / 10000）
+#Range: 0.0 ~ 100.0
+amplifyEMBonusRatio = 2.5
+#剧变反应每点元素精通的伤害加成系数
+#Range: 0.0 ~ 100.0
+transformEMBonusRatio = 2.5
+#超载基础伤害
+#Range: 1.0 ~ 1000.0
+transformBaseOverload = 15.0
+#超导基础伤害
+#Range: 1.0 ~ 1000.0
+transformBaseSuperconduct = 8.0
+#感电基础伤害
+#Range: 1.0 ~ 1000.0
+transformBaseElectroCharged = 10.0
+#扩散基础伤害
+#Range: 1.0 ~ 1000.0
+transformBaseSwirl = 12.0
+#燃烧基础伤害(每秒)
+#Range: 1.0 ~ 1000.0
+transformBaseBurn = 4.0
+#绽放基础伤害
+#Range: 1.0 ~ 1000.0
+transformBaseBloom = 18.0
+#玩家默认元素精通值
+#Range: 0 ~ 10000
+defaultElementalMastery = 0
+#原激化持续时间(tick)
+#Range: 20 ~ 600
+quickenDuration = 100
+#草原核爆炸延迟(tick)
+#Range: 10 ~ 200
+dendroCoreFuse = 40
+#超载击飞力度
+#Range: 0.0 ~ 5.0
+overloadKnockback = 1.5
+#扩散传播范围(格)
+#Range: 1 ~ 8
+swirlRange = 4
+#感电连锁范围(格)
+#Range: 1 ~ 8
+electroChargedChainRange = 3
+

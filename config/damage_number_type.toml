@@ -1,0 +1,2947 @@
+
+[tag]
+
+	[tag."minecraft:is_lightning"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:is_lightning".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:is_lightning".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."mekanism:is_preventable_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."mekanism:is_preventable_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."mekanism:is_preventable_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:ender_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:ender_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:ender_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."mekanism:mekasuit_always_supported"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."mekanism:mekasuit_always_supported".icon]
+			item = ""
+			tex = ""
+
+		[tag."mekanism:mekasuit_always_supported".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."aether:is_cold"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."aether:is_cold".icon]
+			item = ""
+			tex = ""
+
+		[tag."aether:is_cold".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:always_hurts_ender_dragons"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:always_hurts_ender_dragons".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:always_hurts_ender_dragons".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:is_projectile"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:is_projectile".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:is_projectile".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:bypasses_enchantments"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:bypasses_enchantments".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:bypasses_enchantments".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."extrabotany:shadow_warrior_protection"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."extrabotany:shadow_warrior_protection".icon]
+			item = ""
+			tex = ""
+
+		[tag."extrabotany:shadow_warrior_protection".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."botania:ring_of_odin_immune"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."botania:ring_of_odin_immune".icon]
+			item = ""
+			tex = ""
+
+		[tag."botania:ring_of_odin_immune".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:is_fall"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:is_fall".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:is_fall".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:witch_resistant_to"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:witch_resistant_to".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:witch_resistant_to".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:bypasses_resistance"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:bypasses_resistance".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:bypasses_resistance".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:avoids_guardian_thorns"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:avoids_guardian_thorns".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:avoids_guardian_thorns".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."dummmmmmy:is_cold"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."dummmmmmy:is_cold".icon]
+			item = ""
+			tex = ""
+
+		[tag."dummmmmmy:is_cold".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:bypasses_armor"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:bypasses_armor".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:bypasses_armor".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."neoforge:is_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."neoforge:is_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."neoforge:is_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:no_knockback"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:no_knockback".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:no_knockback".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:is_freezing"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:is_freezing".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:is_freezing".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:burns_armor_stands"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:burns_armor_stands".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:burns_armor_stands".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."cataclysm:block_self_regen"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."cataclysm:block_self_regen".icon]
+			item = ""
+			tex = ""
+
+		[tag."cataclysm:block_self_regen".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."extrabotany:peace_amulet_available"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."extrabotany:peace_amulet_available".icon]
+			item = ""
+			tex = ""
+
+		[tag."extrabotany:peace_amulet_available".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:no_anger"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:no_anger".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:no_anger".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:is_drowning"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:is_drowning".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:is_drowning".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:eldritch_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:eldritch_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:eldritch_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:long_cast_ignore"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:long_cast_ignore".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:long_cast_ignore".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:lightning_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:lightning_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:lightning_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."twilightforest:breaks_lich_shields"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."twilightforest:breaks_lich_shields".icon]
+			item = ""
+			tex = ""
+
+		[tag."twilightforest:breaks_lich_shields".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:blood_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:blood_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:blood_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:always_most_significant_fall"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:always_most_significant_fall".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:always_most_significant_fall".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."bookshelf:fake_player"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."bookshelf:fake_player".icon]
+			item = ""
+			tex = ""
+
+		[tag."bookshelf:fake_player".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:ice_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:ice_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:ice_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."dummmmmmy:is_explosion"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."dummmmmmy:is_explosion".icon]
+			item = ""
+			tex = ""
+
+		[tag."dummmmmmy:is_explosion".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:bypasses_invulnerability"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:bypasses_invulnerability".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:bypasses_invulnerability".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:bypasses_shield"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:bypasses_shield".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:bypasses_shield".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:holy_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:holy_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:holy_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."tacz:bullets"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."tacz:bullets".icon]
+			item = ""
+			tex = ""
+
+		[tag."tacz:bullets".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:bypasses_cooldown"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:bypasses_cooldown".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:bypasses_cooldown".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:bypass_evasion"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:bypass_evasion".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:bypass_evasion".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:wither_immune_to"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:wither_immune_to".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:wither_immune_to".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."forge:is_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."forge:is_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."forge:is_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:nature_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:nature_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:nature_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."cataclysm:bypasses_hurt_time"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."cataclysm:bypasses_hurt_time".icon]
+			item = ""
+			tex = ""
+
+		[tag."cataclysm:bypasses_hurt_time".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:is_fire"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:is_fire".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:is_fire".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:no_impact"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:no_impact".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:no_impact".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:always_triggers_silverfish"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:always_triggers_silverfish".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:always_triggers_silverfish".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."dummmmmmy:is_thorn"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."dummmmmmy:is_thorn".icon]
+			item = ""
+			tex = ""
+
+		[tag."dummmmmmy:is_thorn".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:evocation_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:evocation_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:evocation_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:ignites_armor_stands"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:ignites_armor_stands".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:ignites_armor_stands".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:damages_helmet"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:damages_helmet".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:damages_helmet".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:is_explosion"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:is_explosion".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:is_explosion".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."dummmmmmy:is_wither"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."dummmmmmy:is_wither".icon]
+			item = ""
+			tex = ""
+
+		[tag."dummmmmmy:is_wither".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."extrabotany:maid_protection"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."extrabotany:maid_protection".icon]
+			item = ""
+			tex = ""
+
+		[tag."extrabotany:maid_protection".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."irons_spellbooks:fire_magic"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."irons_spellbooks:fire_magic".icon]
+			item = ""
+			tex = ""
+
+		[tag."irons_spellbooks:fire_magic".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."minecraft:bypasses_effects"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."minecraft:bypasses_effects".icon]
+			item = ""
+			tex = ""
+
+		[tag."minecraft:bypasses_effects".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."dummmmmmy:is_fire"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."dummmmmmy:is_fire".icon]
+			item = ""
+			tex = ""
+
+		[tag."dummmmmmy:is_fire".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+[sys]
+	randomColorForTag = false
+	randomColorForType = false
+
+[type]
+
+	[type.magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.magic.icon]
+			item = ""
+			tex = ""
+
+		[type.magic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.mob]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.mob.icon]
+			item = ""
+			tex = ""
+
+		[type.mob.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.badRespawnPoint]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.badRespawnPoint.icon]
+			item = ""
+			tex = ""
+
+		[type.badRespawnPoint.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.thorns]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.thorns.icon]
+			item = ""
+			tex = ""
+
+		[type.thorns.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.bleeding]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.bleeding.icon]
+			item = ""
+			tex = ""
+
+		[type.bleeding.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.arrow]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.arrow.icon]
+			item = ""
+			tex = ""
+
+		[type.arrow.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.matter_cannon]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.matter_cannon.icon]
+			item = ""
+			tex = ""
+
+		[type.matter_cannon.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.blood_cauldron]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.blood_cauldron.icon]
+			item = ""
+			tex = ""
+
+		[type.blood_cauldron.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.drown]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.drown.icon]
+			item = ""
+			tex = ""
+
+		[type.drown.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.aether]
+
+		[type.aether.inebriation]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.aether.inebriation.icon]
+				item = ""
+				tex = ""
+
+			[type.aether.inebriation.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.aether.incineration]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.aether.incineration.icon]
+				item = ""
+				tex = ""
+
+			[type.aether.incineration.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.aether.crush]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.aether.crush.icon]
+				item = ""
+				tex = ""
+
+			[type.aether.crush.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.aether.fire_crystal]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.aether.fire_crystal.icon]
+				item = ""
+				tex = ""
+
+			[type.aether.fire_crystal.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.aether.ice_crystal]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.aether.ice_crystal.icon]
+				item = ""
+				tex = ""
+
+			[type.aether.ice_crystal.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.aether.floating_block]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.aether.floating_block.icon]
+				item = ""
+				tex = ""
+
+			[type.aether.floating_block.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.aether.thunder_crystal]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.aether.thunder_crystal.icon]
+				item = ""
+				tex = ""
+
+			[type.aether.thunder_crystal.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.aether.cloud_crystal]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.aether.cloud_crystal.icon]
+				item = ""
+				tex = ""
+
+			[type.aether.cloud_crystal.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.tacz]
+
+		[type.tacz.bullet]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.tacz.bullet.icon]
+				item = ""
+				tex = ""
+
+			[type.tacz.bullet.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.flyIntoWall]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.flyIntoWall.icon]
+			item = ""
+			tex = ""
+
+		[type.flyIntoWall.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.freeze]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.freeze.icon]
+			item = ""
+			tex = ""
+
+		[type.freeze.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.mekanism]
+
+		[type.mekanism.laser]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.mekanism.laser.icon]
+				item = ""
+				tex = ""
+
+			[type.mekanism.laser.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.mekanism.radiation]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.mekanism.radiation.icon]
+				item = ""
+				tex = ""
+
+			[type.mekanism.radiation.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.create]
+
+		[type.create.crush]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.create.crush.icon]
+				item = ""
+				tex = ""
+
+			[type.create.crush.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.create.fan_fire]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.create.fan_fire.icon]
+				item = ""
+				tex = ""
+
+			[type.create.fan_fire.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.create.mechanical_drill]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.create.mechanical_drill.icon]
+				item = ""
+				tex = ""
+
+			[type.create.mechanical_drill.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.create.potato_cannon]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.create.potato_cannon.icon]
+				item = ""
+				tex = ""
+
+			[type.create.potato_cannon.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.create.mechanical_saw]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.create.mechanical_saw.icon]
+				item = ""
+				tex = ""
+
+			[type.create.mechanical_saw.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.create.fan_lava]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.create.fan_lava.icon]
+				item = ""
+				tex = ""
+
+			[type.create.fan_lava.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.create.run_over]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.create.run_over.icon]
+				item = ""
+				tex = ""
+
+			[type.create.run_over.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.create.cuckoo_surprise]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.create.cuckoo_surprise.icon]
+				item = ""
+				tex = ""
+
+			[type.create.cuckoo_surprise.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.create.mechanical_roller]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.create.mechanical_roller.icon]
+				item = ""
+				tex = ""
+
+			[type.create.mechanical_roller.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.fire]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.fire.icon]
+			item = ""
+			tex = ""
+
+		[type.fire.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.dragon_ice]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.dragon_ice.icon]
+			item = ""
+			tex = ""
+
+		[type.dragon_ice.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.holy_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.holy_magic.icon]
+			item = ""
+			tex = ""
+
+		[type.holy_magic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.lightning_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.lightning_magic.icon]
+			item = ""
+			tex = ""
+
+		[type.lightning_magic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.witherSkull]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.witherSkull.icon]
+			item = ""
+			tex = ""
+
+		[type.witherSkull.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.inFire]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.inFire.icon]
+			item = ""
+			tex = ""
+
+		[type.inFire.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.blood_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.blood_magic.icon]
+			item = ""
+			tex = ""
+
+		[type.blood_magic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.stalagmite]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.stalagmite.icon]
+			item = ""
+			tex = ""
+
+		[type.stalagmite.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.gorgon]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.gorgon.icon]
+			item = ""
+			tex = ""
+
+		[type.gorgon.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.thrown]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.thrown.icon]
+			item = ""
+			tex = ""
+
+		[type.thrown.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.farseer]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.farseer.icon]
+			item = ""
+			tex = ""
+
+		[type.farseer.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.sonic_boom]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.sonic_boom.icon]
+			item = ""
+			tex = ""
+
+		[type.sonic_boom.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.onFire]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.onFire.icon]
+			item = ""
+			tex = ""
+
+		[type.onFire.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.poison_cloud]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.poison_cloud.icon]
+			item = ""
+			tex = ""
+
+		[type.poison_cloud.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.dragon_breath_pool]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.dragon_breath_pool.icon]
+			item = ""
+			tex = ""
+
+		[type.dragon_breath_pool.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.boiling]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.boiling.icon]
+			item = ""
+			tex = ""
+
+		[type.boiling.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.eldritch_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.eldritch_magic.icon]
+			item = ""
+			tex = ""
+
+		[type.eldritch_magic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.supplementaries]
+
+		[type.supplementaries.slingshot]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.supplementaries.slingshot.icon]
+				item = ""
+				tex = ""
+
+			[type.supplementaries.slingshot.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.supplementaries.bamboo_spikes]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.supplementaries.bamboo_spikes.icon]
+				item = ""
+				tex = ""
+
+			[type.supplementaries.bamboo_spikes.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.supplementaries.cannonball]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.supplementaries.cannonball.icon]
+				item = ""
+				tex = ""
+
+			[type.supplementaries.cannonball.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+			[type.supplementaries.cannonball.player]
+				#Color of the damage number. [NO-VALUE] to use default color.
+				color = "[NO-VALUE]"
+				priority = 0
+
+				[type.supplementaries.cannonball.player.icon]
+					item = ""
+					tex = ""
+
+				[type.supplementaries.cannonball.player.format]
+					prepend = ""
+					format = ""
+					append = ""
+
+		[type.supplementaries.xp_extracting]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.supplementaries.xp_extracting.icon]
+				item = ""
+				tex = ""
+
+			[type.supplementaries.xp_extracting.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.twilightforest]
+
+		[type.twilightforest.slider]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.slider.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.slider.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.thorns]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.thorns.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.thorns.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.axing]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.axing.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.axing.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.ghastTear]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.ghastTear.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.ghastTear.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.clamped]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.clamped.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.clamped.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.haunt]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.haunt.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.haunt.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.spiked]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.spiked.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.spiked.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.fiery]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.fiery.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.fiery.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.reactor]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.reactor.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.reactor.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.thrownBlock]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.thrownBlock.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.thrownBlock.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.thrownAxe]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.thrownAxe.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.thrownAxe.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.lichBomb]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.lichBomb.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.lichBomb.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.expired]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.expired.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.expired.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.hydraBite]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.hydraBite.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.hydraBite.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.hydraFire]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.hydraFire.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.hydraFire.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.acid_rain]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.acid_rain.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.acid_rain.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.snowballFight]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.snowballFight.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.snowballFight.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.fireJet]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.fireJet.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.fireJet.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.lichBolt]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.lichBolt.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.lichBolt.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.chillingBreath]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.chillingBreath.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.chillingBreath.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.knightmetal]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.knightmetal.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.knightmetal.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.yeeted]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.yeeted.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.yeeted.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.ant]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.ant.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.ant.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.frozen]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.frozen.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.frozen.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.thrownPickaxe]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.thrownPickaxe.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.thrownPickaxe.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.squish]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.squish.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.squish.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.schooled]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.schooled.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.schooled.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.leafBrain]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.leafBrain.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.leafBrain.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.moonworm]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.moonworm.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.moonworm.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.scorched]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.scorched.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.scorched.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.lifedrain]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.lifedrain.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.lifedrain.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.twilightforest.lostWords]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightforest.lostWords.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightforest.lostWords.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.ice_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.ice_magic.icon]
+			item = ""
+			tex = ""
+
+		[type.ice_magic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.farmersdelight]
+
+		[type.farmersdelight.stove]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.farmersdelight.stove.icon]
+				item = ""
+				tex = ""
+
+			[type.farmersdelight.stove.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.info_damage]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.info_damage.icon]
+			item = ""
+			tex = ""
+
+		[type.info_damage.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.indirectMagic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.indirectMagic.icon]
+			item = ""
+			tex = ""
+
+		[type.indirectMagic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.freddy]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.freddy.icon]
+			item = ""
+			tex = ""
+
+		[type.freddy.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.anvil]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.anvil.icon]
+			item = ""
+			tex = ""
+
+		[type.anvil.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.heartstop]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.heartstop.icon]
+			item = ""
+			tex = ""
+
+		[type.heartstop.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.starve]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.starve.icon]
+			item = ""
+			tex = ""
+
+		[type.starve.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.fireworks]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.fireworks.icon]
+			item = ""
+			tex = ""
+
+		[type.fireworks.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.genericKill]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.genericKill.icon]
+			item = ""
+			tex = ""
+
+		[type.genericKill.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.lightningBolt]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.lightningBolt.icon]
+			item = ""
+			tex = ""
+
+		[type.lightningBolt.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.botania]
+
+		[type.botania.key_explosion]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.botania.key_explosion.icon]
+				item = ""
+				tex = ""
+
+			[type.botania.key_explosion.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.botania.relic]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.botania.relic.icon]
+				item = ""
+				tex = ""
+
+			[type.botania.relic.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.lava]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.lava.icon]
+			item = ""
+			tex = ""
+
+		[type.lava.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.fall]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.fall.icon]
+			item = ""
+			tex = ""
+
+		[type.fall.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.evocation_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.evocation_magic.icon]
+			item = ""
+			tex = ""
+
+		[type.evocation_magic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.cactus]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.cactus.icon]
+			item = ""
+			tex = ""
+
+		[type.cactus.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.cataclysm]
+
+		[type.cataclysm.shredder]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.shredder.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.shredder.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.lightning]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.lightning.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.lightning.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.abyssal_burn]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.abyssal_burn.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.abyssal_burn.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.flame_strike]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.flame_strike.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.flame_strike.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.maledictio_anima]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.maledictio_anima.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.maledictio_anima.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.emp]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.emp.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.emp.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.maledictio]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.maledictio.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.maledictio.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.penetrate]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.penetrate.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.penetrate.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.maledictio_sagitta]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.maledictio_sagitta.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.maledictio_sagitta.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.laser]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.laser.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.laser.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.maledictio_magicae]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.maledictio_magicae.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.maledictio_magicae.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.storm_bringer]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.storm_bringer.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.storm_bringer.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.deathlaser]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.deathlaser.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.deathlaser.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.cataclysm.sword_dance]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.cataclysm.sword_dance.icon]
+				item = ""
+				tex = ""
+
+			[type.cataclysm.sword_dance.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.touhou_little_maid]
+
+		[type.touhou_little_maid.danmaku]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.touhou_little_maid.danmaku.icon]
+				item = ""
+				tex = ""
+
+			[type.touhou_little_maid.danmaku.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.fallingStalactite]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.fallingStalactite.icon]
+			item = ""
+			tex = ""
+
+		[type.fallingStalactite.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.outsideBorder]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.outsideBorder.icon]
+			item = ""
+			tex = ""
+
+		[type.outsideBorder.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.ender_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.ender_magic.icon]
+			item = ""
+			tex = ""
+
+		[type.ender_magic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.fireball]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.fireball.icon]
+			item = ""
+			tex = ""
+
+		[type.fireball.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.fire_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.fire_magic.icon]
+			item = ""
+			tex = ""
+
+		[type.fire_magic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.player]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.player.icon]
+			item = ""
+			tex = ""
+
+		[type.player.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.dryout]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.dryout.icon]
+			item = ""
+			tex = ""
+
+		[type.dryout.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.cramming]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.cramming.icon]
+			item = ""
+			tex = ""
+
+		[type.cramming.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.trident]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.trident.icon]
+			item = ""
+			tex = ""
+
+		[type.trident.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.nature_magic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.nature_magic.icon]
+			item = ""
+			tex = ""
+
+		[type.nature_magic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.dragon_fire]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.dragon_fire.icon]
+			item = ""
+			tex = ""
+
+		[type.dragon_fire.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.twilightdelight]
+
+		[type.twilightdelight.thorn_rose_tea]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.twilightdelight.thorn_rose_tea.icon]
+				item = ""
+				tex = ""
+
+			[type.twilightdelight.thorn_rose_tea.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.sting]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.sting.icon]
+			item = ""
+			tex = ""
+
+		[type.sting.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.deeperdarker]
+
+		[type.deeperdarker.ring]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.deeperdarker.ring.icon]
+				item = ""
+				tex = ""
+
+			[type.deeperdarker.ring.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.deeperdarker.bite]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.deeperdarker.bite.icon]
+				item = ""
+				tex = ""
+
+			[type.deeperdarker.bite.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.fire_field]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.fire_field.icon]
+			item = ""
+			tex = ""
+
+		[type.fire_field.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.inWall]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.inWall.icon]
+			item = ""
+			tex = ""
+
+		[type.inWall.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.extrabotany]
+
+		[type.extrabotany.reverse_heal]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.extrabotany.reverse_heal.icon]
+				item = ""
+				tex = ""
+
+			[type.extrabotany.reverse_heal.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.extrabotany.jingwei]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.extrabotany.jingwei.icon]
+				item = ""
+				tex = ""
+
+			[type.extrabotany.jingwei.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.extrabotany.link]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.extrabotany.link.icon]
+				item = ""
+				tex = ""
+
+			[type.extrabotany.link.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.extrabotany.backfire]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.extrabotany.backfire.icon]
+				item = ""
+				tex = ""
+
+			[type.extrabotany.backfire.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+		[type.extrabotany.excalibur]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.extrabotany.excalibur.icon]
+				item = ""
+				tex = ""
+
+			[type.extrabotany.excalibur.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.dragonBreath]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.dragonBreath.icon]
+			item = ""
+			tex = ""
+
+		[type.dragonBreath.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.fallingBlock]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.fallingBlock.icon]
+			item = ""
+			tex = ""
+
+		[type.fallingBlock.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.generic]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.generic.icon]
+			item = ""
+			tex = ""
+
+		[type.generic.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.explosion]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.explosion.icon]
+			item = ""
+			tex = ""
+
+		[type.explosion.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+		[type.explosion.player]
+			#Color of the damage number. [NO-VALUE] to use default color.
+			color = "[NO-VALUE]"
+			priority = 0
+
+			[type.explosion.player.icon]
+				item = ""
+				tex = ""
+
+			[type.explosion.player.format]
+				prepend = ""
+				format = ""
+				append = ""
+
+	[type.hotFloor]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.hotFloor.icon]
+			item = ""
+			tex = ""
+
+		[type.hotFloor.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.outOfWorld]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.outOfWorld.icon]
+			item = ""
+			tex = ""
+
+		[type.outOfWorld.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type."True Damage"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type."True Damage".icon]
+			item = ""
+			tex = ""
+
+		[type."True Damage".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.crystallization]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.crystallization.icon]
+			item = ""
+			tex = ""
+
+		[type.crystallization.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type."Critical Damage"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type."Critical Damage".icon]
+			item = ""
+			tex = ""
+
+		[type."Critical Damage".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.dragon_lightning]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.dragon_lightning.icon]
+			item = ""
+			tex = ""
+
+		[type.dragon_lightning.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.sweetBerryBush]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.sweetBerryBush.icon]
+			item = ""
+			tex = ""
+
+		[type.sweetBerryBush.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.wither]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.wither.icon]
+			item = ""
+			tex = ""
+
+		[type.wither.format]
+			prepend = ""
+			format = ""
+			append = ""
+

@@ -11,7 +11,7 @@
 	quests: [
 		{
 			dependencies: ["1CEE0C043F4A260B"]
-			description: ["先做出背包，再考虑各种功能升级；否则这些配件没有承载主体。"]
+			description: ["空白升级，并没有作用。更高级的背包可以安装更多升级"]
 			id: "0823A4A9CDE48CFB"
 			tasks: [{
 				id: "00765F30B6E49C75"
@@ -30,7 +30,7 @@
 				item: "sophisticatedstorage:upgrade_base"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -123,6 +123,7 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
+			description: ["堆叠升级，多个升级之间是乘算的，对储罐升级的容量也有效，但一个背包能装的堆叠升级数量是有限的"]
 			id: "70CD0800FDC81DB1"
 			tasks: [{
 				id: "166578F0E8A6612C"
@@ -134,6 +135,7 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
+			description: ["堆叠升级，多个升级之间是乘算的，对储罐升级的容量也有效，但一个背包能装的堆叠升级数量是有限的"]
 			id: "7C47554F0B9D9358"
 			tasks: [{
 				id: "5166327D9182D2CA"
@@ -145,35 +147,38 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
+			description: ["堆叠升级，多个升级之间是乘算的，对储罐升级的容量也有效，但一个背包能装的堆叠升级数量是有限的"]
 			id: "4D1722B83E5C924E"
 			tasks: [{
 				id: "59B35D7137671FDC"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
+			description: ["堆叠升级，多个升级之间是乘算的，对储罐升级的容量也有效，但一个背包能装的堆叠升级数量是有限的"]
 			id: "0DF5D82AA826843E"
 			tasks: [{
 				id: "1435297449E9BF69"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
+			description: ["堆叠升级，多个升级之间是乘算的，对储罐升级的容量也有效，但一个背包能装的堆叠升级数量是有限的"]
 			id: "09C9F45304CCE080"
 			tasks: [{
 				id: "63CBF5694CB9F221"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -9.5d
 			y: -2.0d
 		}
 		{
@@ -206,7 +211,7 @@
 				item: "sophisticatedstorage:filter_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -217,7 +222,7 @@
 				item: "sophisticatedstorage:magnet_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -228,7 +233,7 @@
 				item: "sophisticatedstorage:void_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
@@ -239,7 +244,7 @@
 				item: "sophisticatedstorage:compression_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 3.0d
 		}
 		{
@@ -250,7 +255,7 @@
 				item: "sophisticatedstorage:hopper_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 4.0d
 		}
 		{
@@ -261,7 +266,7 @@
 				item: "sophisticatedstorage:smelting_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -272,7 +277,7 @@
 				item: "sophisticatedstorage:smoking_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -283,7 +288,7 @@
 				item: "sophisticatedstorage:blasting_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 2.0d
 		}
 		{
@@ -294,7 +299,7 @@
 				item: "sophisticatedstorage:crafting_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 3.0d
 		}
 		{
@@ -305,77 +310,73 @@
 				item: "sophisticatedstorage:stonecutter_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7E534877419CC904"]
+			description: [""]
 			id: "41C2BBB8460CC5E2"
 			tasks: [{
 				id: "4BE99481F2CFE51C"
 				item: "sophisticatedstorage:basic_tier_upgrade"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["5FB52B96CEA9B33C"]
-			id: "79BFAD7432C6C267"
-			tasks: [{
-				id: "043121026CA9C4F2"
-				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5FB52B96CEA9B33C"]
+			dependencies: ["7E534877419CC904"]
+			description: [
+				"高级容器可以装更多物品和更多升级。"
+				""
+				"你可以直接做铁升级，也可以从铜的版本升级一次，用8个铜的代价省4个铁。"
+			]
 			id: "70961F8A64282B47"
 			tasks: [{
 				id: "475140F23EB719E0"
-				item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
+				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["5FB52B96CEA9B33C"]
+			dependencies: ["7E534877419CC904"]
 			id: "4C0F5784713F9933"
 			tasks: [{
 				id: "55B9C0E300988140"
 				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["5FB52B96CEA9B33C"]
+			dependencies: ["7E534877419CC904"]
 			id: "7B2F250F7740E8D9"
 			tasks: [{
 				id: "30B460C5BC133D20"
 				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["5FB52B96CEA9B33C"]
+			dependencies: ["7E534877419CC904"]
 			id: "6F14FBCA861F82BE"
 			tasks: [{
 				id: "3FC52CEED9E9BD36"
 				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7C6519897916B7B5"]
+			description: ["合成终端。推荐加四个钻石直接做这个，EMI点加号可以直接用网络内的物品放进工作台，不需要你手动拿出来。"]
 			id: "3A0E654FF41274C2"
 			tasks: [{
 				id: "3BD06AC4C0261F0F"
@@ -387,6 +388,7 @@
 		}
 		{
 			dependencies: ["7C6519897916B7B5"]
+			description: ["Tom网络的核心。最简单的用法是在上面贴一个终端，然后紧挨着控制器放一大堆紧挨在一起的箱子或桶。"]
 			id: "4C311F240147C48A"
 			tasks: [{
 				id: "64BB34D264FF9E03"
@@ -397,7 +399,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1E01000000000010"]
+			dependencies: ["1E01000000000008"]
 			description: [
 				"背包和仓储不是后勤小事，它们会直接决定你一次远征能带回多少东西。"
 				"如果你总是半路满包、回家找不到材料，先做这一章。左侧解决随身携带，中间解决统一检索，右侧解决固定仓储。"
@@ -416,20 +418,52 @@
 		}
 		{
 			dependencies: ["308A0F02BAB71CB9"]
-			description: ["最基础的储物桶就能把散乱箱子先收住。前期不用一步到位，先把常用矿物、食物和战利品分区放好。"]
-			id: "7E534877419CC904"
-			tasks: [{
-				id: "38D74452DB219928"
-				item: {
-					Count: 1
-					id: "sophisticatedstorage:barrel"
-					tag: {
-						woodType: "oak"
-					}
+			description: [
+				"来自精妙存储的箱子和桶，由于材质过多，请自行打勾标记完成"
+				""
+				"推荐新手直接使用Tom的存储控制器来统一管理，精妙存储的控制器不能直接终端访问，使用方法较复杂。"
+			]
+			icon: {
+				Count: 1
+				id: "sophisticatedstorage:chest"
+				tag: {
+					woodType: "oak"
 				}
-				type: "item"
-			}]
-			x: 2.0d
+			}
+			id: "7E534877419CC904"
+			tasks: [
+				{
+					id: "38D74452DB219928"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:barrel"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E802DD30A3DA182"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:chest"
+						tag: {
+							woodType: "oak"
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2C57E0B570EE630C"
+					title: "我做好了！"
+					type: "checkmark"
+				}
+			]
+			title: "精妙存储"
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -462,6 +496,171 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["1CEE0C043F4A260B"]
+			description: [
+				"高级背包可以装更多物品和更多升级。"
+				""
+				"你可以直接做铁背包，也可以从铜的版本升级一次，用8个铜的代价省4个铁。"
+			]
+			id: "5275D1FCF7CAB67D"
+			tasks: [{
+				id: "2EE3C46E4777EA61"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:iron_backpack"
+					tag: {
+						inventorySlots: 54
+						upgradeSlots: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1CEE0C043F4A260B"]
+			id: "0ED8829997C73CA0"
+			tasks: [{
+				id: "18F0BC26B5C4A095"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:gold_backpack"
+					tag: {
+						inventorySlots: 81
+						upgradeSlots: 3
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1CEE0C043F4A260B"]
+			id: "0E121385BC2C1069"
+			tasks: [{
+				id: "45BE988DF88EB70A"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:diamond_backpack"
+					tag: {
+						inventorySlots: 108
+						upgradeSlots: 5
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1CEE0C043F4A260B"]
+			id: "21080D1B116EFDD5"
+			tasks: [{
+				id: "1F173AE153632F91"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:netherite_backpack"
+					tag: {
+						borderColor: 6434330
+						clothColor: 13394234
+						inventorySlots: 120
+						upgradeSlots: 7
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "6FB37662DA082625"
+			tasks: [{
+				id: "1078CA92409E8D97"
+				item: "sophisticatedstorage:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "4A2EC78EDEC67BD0"
+			tasks: [{
+				id: "2278197B60E7C493"
+				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "26B0F8B88630AD83"
+			tasks: [{
+				id: "64C8419E359C23F8"
+				item: "sophisticatedstorage:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "333F8A0474967EE6"
+			tasks: [{
+				id: "11B9AACFEF570DB1"
+				item: "sophisticatedstorage:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "7EC61C2A86D55755"
+			tasks: [{
+				id: "7A2347FA47579CF4"
+				item: "sophisticatedstorage:stack_upgrade_tier_4"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "34306C4E3EB9D467"
+			tasks: [{
+				id: "2A42C5A16C966855"
+				item: "sophisticatedstorage:stack_upgrade_tier_5"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3A0E654FF41274C2"
+				"4C311F240147C48A"
+			]
+			description: [
+				"统一管理所有物品已经很方便了，如果能自动控制设备进行合成的话…"
+				""
+				"提示：这是科技线内容 ，且入门门槛偏高，请自行抉择哦。"
+			]
+			id: "0A7ED207BC8F6A4B"
+			tasks: [{
+				id: "5F274FB863A338ED"
+				item: "ae2cs:purified_certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "再进一些…"
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	title: "合成与存储"

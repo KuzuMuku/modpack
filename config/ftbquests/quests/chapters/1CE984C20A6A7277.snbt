@@ -10,10 +10,12 @@
 	quests: [
 		{
 			description: [
-				"§6第一次进包，先看这里。§r"
-				"这不是一张“把所有模组列出来”的任务书。你要做的是从主世界站稳脚跟，一步步去下界、暮色森林、天境、幽冥异界，最后走向末地。每换一个维度，怪物都会明显更狠，所以真正的进度不是你跑了多远，而是你有没有准备好下一次远征。"
-				"本包最特别的成长方式是器官改造。你可以靠探索和魔法打出材料，也可以在基地里用科技线加工材料；无论哪条路，最后都要把资源变成更稳定的伤害、回复、机动和生存能力。"
-				"开局不要急着翻完所有章节。先做一个能回来的小营地：床、熔炉、箱子、盾牌和一身基础装备。有了这个底盘，再决定你想当远征法师、武器猎人，还是宅家工程师。"
+				"你要做的是从主世界站稳脚跟，一步步去下界、暮色森林、天境、幽冥异界，最后走向末地。每换一个维度，怪物都会明显更狠，所以真正的进度不是你跑了多远，而是你有没有准备好下一次远征。"
+				""
+				"本包最特别的成长方式是器官改造。你可以靠&5探索和魔法打出材料&r，也可以&b在基地里用科技线加工材料&r；无论哪条路，最后都要把资源变成&e更稳定的伤害、回复、机动和生存能力&r。"
+				""
+				"开局不要急着翻完所有章节。先做一个能回来的小营地：床、熔炉、箱子、盾牌和一身基础装备。之后再决定你想当远征法师、武器猎人，还是宅家工程师。"
+				""
 				"§a如果不知道下一步做什么，就沿着这章往右走。任务书会在合适的时候把支线放出来。§r"
 			]
 			id: "1E01000000000000"
@@ -22,20 +24,25 @@
 				title: "整合包总入口"
 				type: "checkmark"
 			}]
-			x: -1.5d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["1E01000000000000"]
-			description: ["砍伐第一段原木（Oak Log），开始在这个世界生存。使用方法是用手或斧头砍树，获得原木后可以制作木板、工具和建筑材料。做出来后可以制作基础工具和建立营地。来源是主世界的基础资源。"]
+			description: ["用手砍伐第一段原木，开始在这个世界生存。获得原木后首先制作&6木镐，挖掘石头&r，然后可再制作工具和建筑材料等。"]
 			id: "08A1D0EA3836F913"
+			rewards: [{
+				id: "51B73311B0C60C57"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			tasks: [{
 				id: "3467CDB0DE7E27EE"
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
 			title: "砍下第一棵树"
-			x: 0.5d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -47,13 +54,13 @@
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			title: "工作台"
-			x: 2.5d
+			title: "第一次升级"
+			x: -1.0d
 			y: -0.5d
 		}
 		{
-			dependencies: ["477ED1638D1C788A"]
-			description: ["熔炉能把原矿烧成金属，也是木炭、食物和后续工业的起点。 "]
+			dependencies: ["6E4FF48869FFFAC5"]
+			description: ["挖掘8个石头可制作熔炉。它能把原矿烧成金属，也是木炭、食物和后续工业的起点。 "]
 			id: "0F4862A6CD6EA6B5"
 			tasks: [{
 				id: "7390359326E5BCCC"
@@ -61,12 +68,15 @@
 				type: "item"
 			}]
 			title: "点燃熔炉"
-			x: 4.5d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
-			dependencies: ["0F4862A6CD6EA6B5"]
-			description: ["铁（Iron Ingot）是早期工具、防具和水桶的基础材料。使用方法是将铁矿石在熔炉中烧制得到铁锭，再制作铁制工具和装备。做出来后可以大幅提升生存能力和采矿效率。来源是主世界地下矿石。"]
+			dependencies: [
+				"6AD96023E32EFC27"
+				"68C79B61E3EA1A8F"
+			]
+			description: ["不管怎样，你应该获得了铁锭。可以先制作打火石，桶等物品，再制作铁制工具和装备。做出来后可以大幅提升生存能力和采矿效率。"]
 			id: "1E01000000000001"
 			tasks: [{
 				count: 3L
@@ -74,7 +84,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			title: "冶炼铁锭"
+			title: "铁锭"
 			x: 6.5d
 			y: -0.5d
 		}
@@ -94,8 +104,8 @@
 				type: "item"
 			}]
 			title: "铁镐"
-			x: 8.5d
-			y: -1.5d
+			x: 9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -113,15 +123,20 @@
 				type: "item"
 			}]
 			title: "盾牌"
-			x: 8.5d
-			y: 0.5d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"1E01000000000002"
 				"1E01000000000003"
+				"68C79B61E3EA1A8F"
 			]
-			description: ["钻石工具可以挖掘黑曜石，并支撑后续的附魔与探索。"]
+			description: [
+				"钻石工具可以挖掘黑曜石，并支撑后续的附魔与探索。"
+				""
+				"挖掘钻石需要铁工具，你也可以去开宝箱找。"
+			]
 			id: "1E01000000000004"
 			tasks: [{
 				id: "1E01000000000104"
@@ -129,7 +144,7 @@
 				type: "item"
 			}]
 			title: "钻石"
-			x: 10.5d
+			x: 12.5d
 			y: -0.5d
 		}
 		{
@@ -148,7 +163,7 @@
 				type: "item"
 			}]
 			title: "钻石镐"
-			x: 12.5d
+			x: 14.5d
 			y: -0.5d
 		}
 		{
@@ -161,12 +176,16 @@
 				type: "item"
 			}]
 			title: "附魔台"
-			x: 14.5d
+			x: 16.5d
 			y: -0.5d
 		}
 		{
-			dependencies: ["1E01000000000006"]
-			description: ["先做一只箱子，把矿物、食物和战利品集中起来。远征前最怕的不是缺资源，而是找不到资源。 "]
+			dependencies: ["1E01000000000009"]
+			description: [
+				"先做一只箱子，把矿物、食物和战利品集中起来。"
+				""
+				"前往\"合成与存储\"支线查看如何做更大的箱子，如何把箱子连接到一起等"
+			]
 			id: "1E01000000000008"
 			tasks: [{
 				id: "1E01000000000108"
@@ -174,12 +193,12 @@
 				type: "item"
 			}]
 			title: "简易仓储"
-			x: 14.5d
-			y: 1.5d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0F4862A6CD6EA6B5"]
-			description: ["放下一张床，围绕床、熔炉和箱子建立第一个补给点。之后探索地牢、村庄和矿洞都会轻松很多。 "]
+			description: ["放下一张床，右键即可设置重生点。围绕床、熔炉和箱子建立第一个补给点。之后探索地牢、村庄和矿洞都会轻松很多。 "]
 			id: "1E01000000000009"
 			tasks: [{
 				id: "1E01000000000109"
@@ -187,11 +206,11 @@
 				type: "item"
 			}]
 			title: "建立补给营地"
-			x: 6.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["1E01000000000009"]
+			dependencies: ["0F4862A6CD6EA6B5"]
 			description: [
 				"§6现在先把家变成真正的补给点。§r"
 				"床负责复活，箱子负责整理，熔炉负责处理矿物，盾牌负责让你少死几次。再补一套铁装，你就有了第一次外出探索的底气。"
@@ -205,8 +224,8 @@
 				title: "现在可以做什么"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 3.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1E0100000000000B"]
@@ -223,8 +242,8 @@
 				title: "选择你的第一条发展线"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 5.0d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -241,15 +260,18 @@
 				title: "早期资源怎么拿"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 8.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
 			description: [
 				"§6前期别想着凑套装，先解决最痛的三个问题。§r"
+				""
 				"打怪慢，就找一个主战器官；经常残血或暴毙，就找一个回复、减伤或保命器官；跑图和下矿太折磨，就找一个机动、视野或资源器官。"
+				""
 				"近战玩家可以先看村庄、掠夺者、沼泽和雪原；缺回复或缺跑图手感，就留意海洋、丛林和村庄；喜欢长期下洞挖矿，繁茂洞穴会更实用。"
+				""
 				"§a判断一个器官值不值得做，不看名字帅不帅，只看它能不能让你少死、少跑尸、少回家。§r"
 			]
 			id: "1E0100000000000D"
@@ -260,7 +282,7 @@
 				type: "checkmark"
 			}]
 			x: 6.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1E01000000000006"]
@@ -280,7 +302,7 @@
 				type: "item"
 			}]
 			title: "冒险补给：解锁下界"
-			x: 16.5d
+			x: 18.5d
 			y: -0.5d
 		}
 		{
@@ -293,8 +315,8 @@
 				title: "查看图鉴：开局来源"
 				type: "checkmark"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1E0100000000000A"]
@@ -310,8 +332,8 @@
 				title: "按群系入门：主世界器官探索图"
 				type: "checkmark"
 			}]
-			x: 10.5d
-			y: 5.0d
+			x: 6.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1E01000000000020"]
@@ -351,7 +373,7 @@
 				}
 			]
 			title: "聚落与前哨带"
-			x: 8.5d
+			x: 9.0d
 			y: 6.5d
 		}
 		{
@@ -377,7 +399,7 @@
 				}
 			]
 			title: "沙漠与旱地"
-			x: 11.0d
+			x: 11.5d
 			y: 6.5d
 		}
 		{
@@ -403,7 +425,7 @@
 				}
 			]
 			title: "沼泽与红树林"
-			x: 13.5d
+			x: 14.0d
 			y: 6.5d
 		}
 		{
@@ -439,7 +461,7 @@
 				}
 			]
 			title: "海洋与远航线"
-			x: 16.0d
+			x: 16.5d
 			y: 6.5d
 		}
 		{
@@ -475,7 +497,7 @@
 				}
 			]
 			title: "雪原与冰海"
-			x: 18.5d
+			x: 19.0d
 			y: 6.5d
 		}
 		{
@@ -501,7 +523,7 @@
 				}
 			]
 			title: "丛林与竹林"
-			x: 21.0d
+			x: 21.5d
 			y: 6.5d
 		}
 		{
@@ -520,11 +542,11 @@
 				type: "biome"
 			}]
 			title: "繁茂洞穴"
-			x: 23.5d
+			x: 24.0d
 			y: 6.5d
 		}
 		{
-			dependencies: ["1E01000000000004"]
+			dependencies: ["1E01000000000007"]
 			description: [
 				"钻石阶段以后，主世界已经不再只是原版过渡区。"
 				"这时你可以正式开始规划：下界推进、暮色前准备、主基地仓储、早期魔法线路、以及一套属于自己的前期器官配置。"
@@ -537,8 +559,120 @@
 				title: "进入下界前的整理"
 				type: "checkmark"
 			}]
-			x: 14.5d
-			y: 3.0d
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["477ED1638D1C788A"]
+			description: [
+				"使用工作台制作木镐，挖掘3个石头后即可制作石镐。"
+				"&8之后就可以把木镐扔掉了"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6E4FF48869FFFAC5"
+			tasks: [
+				{
+					id: "2B015B4E448C910D"
+					item: {
+						Count: 1
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0F12B8D03A622D3A"
+					item: { Count: 3, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0F4862A6CD6EA6B5"]
+			description: ["铁最广泛最基础的来源就是挖矿。挥动你的石镐吧，如果运气不好可能会挖很久，可以看看另一边。"]
+			id: "6AD96023E32EFC27"
+			tasks: [
+				{
+					id: "2803F55EE5E46891"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "36AF59A5976A549C"
+					item: "minecraft:deepslate_iron_ore"
+					type: "item"
+				}
+				{
+					id: "2FEF60CE7CDEFE1F"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			title: "挖掘铁矿"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0F4862A6CD6EA6B5"]
+			dependency_requirement: "one_completed"
+			description: [
+				"玩整合包当然不能只让你挖矿。实际上，世界中的结构密度允许你完全不挖矿来获得必要的资源。"
+				""
+				"你可以到处逛逛，并寻找本任务中这种&6带有金边的宝箱/桶&r，里面通常会有一些有用的东西。"
+				""
+				"这种宝箱&a每个玩家都可获得一份奖励&r。如果你是多人游戏，记得喊你的朋友来&a再开一次&r。"
+			]
+			icon: "lootr:lootr_chest"
+			id: "68C79B61E3EA1A8F"
+			tasks: [
+				{
+					id: "1573DCECFE5A0C3D"
+					observe_type: 0
+					timer: 0L
+					to_observe: "lootr:lootr_chest"
+					type: "observation"
+				}
+				{
+					id: "226068A9F35B8BC8"
+					observe_type: 0
+					timer: 0L
+					to_observe: "lootr:lootr_barrel"
+					type: "observation"
+				}
+				{
+					id: "4EAEDCA6E3AC9ABA"
+					observe_type: 5
+					timer: 0L
+					to_observe: "lootr:lootr_minecart"
+					type: "observation"
+				}
+				{
+					id: "30B970BF90D2B3DB"
+					item: "lootr:lootr_chest"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00B2DEAA8A0DD444"
+					item: "lootr:lootr_barrel"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "寻找宝箱"
+			x: 4.5d
+			y: 0.5d
 		}
 	]
 	title: "欢迎来到世界"

@@ -12,10 +12,13 @@
 		{
 			dependencies: ["1E01000000000010"]
 			description: [
-				"AE2 不是早期必做，但当箱子开始乱、材料开始多、机器开始互相要零件时，它会非常值得投入。"
-				"第一次学 AE2，只抓一条线：先让充能器工作，再用陨石罗盘找陨石，拿到压印模具后做压印器，最后把磁盘仓和终端接成一个能用的 ME 网络。"
+				"AE2 不是必做，但当箱子开始乱、材料开始多、机器开始互相要零件时，它会非常值得投入。"
+				""
+				"如果你是第一次玩 AE2，先抓一条线：先找陨石，拿到石英和模具。然后找方法供电，让充能器工作，做压印器来压印处理器，最后制作元件，驱动器和终端，接成一个能用的 ME 网络。"
+				""
 				"不要一开始就追完整自动化。先让所有东西能被一个终端看见，你的基地整理压力就会立刻下降。"
-				"等你已经习惯用终端取放物品，再去碰接口、样板供应器、分子组装器和无线终端。那时它们才会像升级，而不是噪音。"
+				""
+				"等你已经习惯用终端取放物品，再去碰接口、样板供应器、分子组装器和无线终端，进一步组装自动化系统。"
 			]
 			id: "5702000000000000"
 			tasks: [{
@@ -23,18 +26,15 @@
 				title: "路线导读"
 				type: "checkmark"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"23627E658125872D"
-				"5702000000000000"
-			]
+			dependencies: ["5702000000000000"]
 			description: [
-				"AE2 的第一个外出目标是陨石。没有压印模具，很多处理器都会卡住。"
-				"陨石罗盘不是装饰品，而是帮你把“我该去哪里找 AE2 材料”变成一个明确方向。"
-				"找到陨石后先把模具带回家，不要在外面边探索边临时加工。AE2 前期最怕材料散在背包里。"
+				"AE2 第一个目标是陨石。AE2设定为外星科技，关键的材料和模具都要从陨石获得。"
+				""
+				"找到陨石后先把模具带回家，不要在外面边探索边临时加工，AE2 前期最怕材料散在背包里。"
 			]
 			id: "4A5AF0FDE37A1740"
 			tasks: [{
@@ -42,24 +42,20 @@
 				item: "ae2:meteorite_compass"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5702000000000000"]
-			description: [
-				"充能器是 AE2 最基础的开机机器。"
-				"你可以把它理解成一句话：从这台机器开始，原版矿物和材料正式被接到 ME 体系里。"
-				"如果你还没打算一口气学完 AE2，就先把这台和后面的压印器弄懂，已经能跨过最难的入门门槛。"
-			]
+			dependencies: ["100C39957991A397"]
+			description: ["充能器是 AE2 最基础的开机机器。提供供电后"]
 			id: "23627E658125872D"
 			tasks: [{
 				id: "7B0050EF87D72EDA"
 				item: "ae2:charger"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4A5AF0FDE37A1740"]
@@ -91,7 +87,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -167,19 +163,19 @@
 		}
 		{
 			dependencies: ["23627E658125872D"]
-			description: ["充能赛特斯石英是从普通石英资源走向 AE2 自有材料链的第一步。"]
+			description: ["含有能量的水晶。"]
 			id: "60147B43F07C6315"
 			tasks: [{
 				id: "67866A760B102943"
 				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["60147B43F07C6315"]
-			description: ["Fluix 水晶是 AE2 最常见的基础材料之一。做到这里后，控制器、终端和大量网络方块才会真正开始展开。"]
+			description: ["Fluix 水晶是 AE2 最常见的基础材料之一。做到这里后，ae有用的功能元件才真正可以制作。"]
 			id: "43BCC41537FBB338"
 			tasks: [{
 				id: "17D04679A2AD34FD"
@@ -194,7 +190,15 @@
 				"43BCC41537FBB338"
 				"146BD566FCF9657E"
 			]
-			description: ["ME 控制器意味着你的网络开始从零散机器迈向真正成体系的 ME 主网。"]
+			description: [
+				"ME 控制器只是提供频道的工具，每个面提供32个频道，但粗线才能接32个，细线只能接8个频道。"
+				""
+				"一般每个设备占用一个频道，后面设备多起来再了解频道也不迟。"
+				""
+				"推荐制作智能线缆，可以看见当前线缆的频道占用量。"
+				""
+				"没有控制器的线缆网络只有8个频道。"
+			]
 			id: "4DCEEB4AAFA95D40"
 			shape: "gear"
 			size: 2.0d
@@ -221,11 +225,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"264CC7C4D0BC8D81"
-				"69D18AF60BC20182"
-				"1FBDECEA7A93552F"
-			]
+			dependencies: ["1FBDECEA7A93552F"]
 			id: "044145E6CA397C6F"
 			shape: "gear"
 			size: 1.5d
@@ -245,7 +245,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["5702000000000000"]
+			dependencies: ["044145E6CA397C6F"]
 			description: ["接口和样板供应器是自动化的真正起点。前者负责把网络配方送出去，后者负责把配方交给具体机器。"]
 			id: "264CC7C4D0BC8D81"
 			tasks: [
@@ -260,11 +260,11 @@
 					type: "item"
 				}
 			]
-			x: 15.5d
+			x: 14.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["5702000000000000"]
+			dependencies: ["044145E6CA397C6F"]
 			description: ["分子组装器是最基础的 AE2 自动合成执行端。没有它，网络虽然知道配方，但不会真正把东西做出来。"]
 			id: "69D18AF60BC20182"
 			tasks: [{
@@ -272,7 +272,7 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 12.5d
 			y: -4.0d
 		}
 		{
@@ -300,45 +300,34 @@
 		{
 			dependencies: ["75DEB89C19AEB222"]
 			id: "792C4CF4E8D0B0C9"
-			tasks: [{
-				id: "03AB5C520789B684"
-				item: "ae2:1k_crafting_storage"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "03AB5C520789B684"
+					item: "ae2:1k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "76FD804107A1AA64"
+					item: "ae2:4k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "5B35118490264212"
+					item: "ae2:16k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "7CEAC35345959274"
+					item: "ae2:64k_crafting_storage"
+					type: "item"
+				}
+				{
+					id: "0477909035304AFE"
+					item: "ae2:256k_crafting_storage"
+					type: "item"
+				}
+			]
 			x: 19.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["792C4CF4E8D0B0C9"]
-			id: "62CDC6D19AE39DD1"
-			tasks: [{
-				id: "4D1CECDE020EF805"
-				item: "ae2:4k_crafting_storage"
-				type: "item"
-			}]
-			x: 21.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["62CDC6D19AE39DD1"]
-			id: "038E33D9DF64615D"
-			tasks: [{
-				id: "4D584DCDDA92F84C"
-				item: "ae2:16k_crafting_storage"
-				type: "item"
-			}]
-			x: 23.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["038E33D9DF64615D"]
-			id: "5DA034964864838E"
-			tasks: [{
-				id: "128F2D383E6CF019"
-				item: "ae2:64k_crafting_storage"
-				type: "item"
-			}]
-			x: 25.5d
 			y: -2.0d
 		}
 		{
@@ -445,60 +434,39 @@
 		{
 			dependencies: ["31B7CC86C87EA21F"]
 			id: "7A2DBCBDD6F6D58C"
-			tasks: [{
-				id: "4F5946DE34783066"
-				item: "extendedae_plus:4x_crafting_accelerator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4F5946DE34783066"
+					item: "extendedae_plus:4x_crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "5B478F2E9B0683F0"
+					item: "extendedae_plus:16x_crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "715ECAD369CA96EB"
+					item: "extendedae_plus:64x_crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "7AF07049C8D60C5F"
+					item: "extendedae_plus:256x_crafting_accelerator"
+					type: "item"
+				}
+				{
+					id: "580A0F4504B747F8"
+					item: "extendedae_plus:1024x_crafting_accelerator"
+					type: "item"
+				}
+			]
 			x: 19.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["7A2DBCBDD6F6D58C"]
-			id: "5E1628802F184DEB"
-			tasks: [{
-				id: "072A7DFBC9664869"
-				item: "extendedae_plus:16x_crafting_accelerator"
-				type: "item"
-			}]
-			x: 21.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5E1628802F184DEB"]
-			id: "4D927EDBD0B7917D"
-			tasks: [{
-				id: "63CD55B14D3CC04D"
-				item: "extendedae_plus:64x_crafting_accelerator"
-				type: "item"
-			}]
-			x: 23.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4D927EDBD0B7917D"]
-			id: "02D8B4F158AE2EB6"
-			tasks: [{
-				id: "798BAE7BB6FE999F"
-				item: "extendedae_plus:256x_crafting_accelerator"
-				type: "item"
-			}]
-			x: 25.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["02D8B4F158AE2EB6"]
-			id: "008197C28CB19E04"
-			tasks: [{
-				id: "315D960698C19988"
-				item: "extendedae_plus:1024x_crafting_accelerator"
-				type: "item"
-			}]
-			x: 27.5d
-			y: -4.0d
-		}
-		{
 			dependencies: ["43BCC41537FBB338"]
+			description: ["最基础的线缆"]
 			id: "6BED8CC9FB311115"
 			tasks: [{
 				id: "194B88BBEEFFF72D"
@@ -510,6 +478,7 @@
 		}
 		{
 			dependencies: ["6BED8CC9FB311115"]
+			description: ["与玻璃线缆没有区别。也许唯一的用途是做成智能线缆和粗线"]
 			id: "2A746FF7FE2F6C7A"
 			tasks: [{
 				id: "7BB3CCC0F54CB537"
@@ -521,6 +490,7 @@
 		}
 		{
 			dependencies: ["2A746FF7FE2F6C7A"]
+			description: ["会显示当前占用频道数的线缆。"]
 			id: "61F7DB87DE8B2A73"
 			tasks: [{
 				id: "07439354F1881FFF"
@@ -532,6 +502,7 @@
 		}
 		{
 			dependencies: ["0B4873951926F6EA"]
+			description: ["四种基础电路板"]
 			id: "371B245EF71A33C8"
 			tasks: [
 				{
@@ -560,6 +531,7 @@
 		}
 		{
 			dependencies: ["371B245EF71A33C8"]
+			description: ["三种处理器。你会发现后期还有更简单的配方，但目前必须用压印器做。"]
 			id: "146BD566FCF9657E"
 			tasks: [
 				{
@@ -582,15 +554,16 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4DCEEB4AAFA95D40"]
+			dependencies: ["0B81B90A3828C22E"]
+			description: ["它可以接收其他mod的能量为me网络供能。本整合包中的create(new age)和mekanism能源都支持。"]
 			id: "100C39957991A397"
 			tasks: [{
 				id: "1DD799FCBF4A1590"
 				item: "ae2:energy_acceptor"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.0d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7C6521F90E8B7BAA"]
@@ -617,6 +590,7 @@
 		}
 		{
 			dependencies: ["2A746FF7FE2F6C7A"]
+			description: ["粗线，可以传输32频道，但是不能贴上元件了"]
 			id: "035D05E51D011E18"
 			tasks: [{
 				id: "081FFCC6B84A431D"
@@ -640,6 +614,11 @@
 		}
 		{
 			dependencies: ["4DCEEB4AAFA95D40"]
+			description: [
+				"ae的大容量存储系统，一般都具有种类和数量双重限制。"
+				""
+				"你也可以用存储总线接入外部存储，比如精妙存储的控制器。但注意一般的外部存储都会相对降低TPS，尤其不推荐使用Tom存储。"
+			]
 			id: "583A1D9033859A79"
 			tasks: [{
 				id: "602BDA614AB00B5A"
@@ -781,7 +760,7 @@
 					type: "item"
 				}
 			]
-			x: 15.5d
+			x: 14.5d
 			y: -6.0d
 		}
 		{
@@ -792,11 +771,12 @@
 				item: "expatternprovider:ex_molecular_assembler"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 12.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0B4873951926F6EA"]
+			description: ["具有四个页面的扩展压印器，可以同时进行四个处理。推荐把四个模板放在这个机器，单独用一个普通压印器来把电路板压成处理器。"]
 			id: "2E27F754BD707EEA"
 			tasks: [{
 				id: "3ECC93E0C6EF6B21"
@@ -808,17 +788,19 @@
 		}
 		{
 			dependencies: ["23627E658125872D"]
+			description: ["可同时充能四个物品"]
 			id: "595CA90969095603"
 			tasks: [{
 				id: "47B92A7B33772CA5"
 				item: "expatternprovider:ex_charger"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.0d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["61F7DB87DE8B2A73"]
+			description: ["粗线，不能贴元件，会显示占用频道"]
 			id: "634E5F4AA17C15DB"
 			tasks: [{
 				id: "0C33B60C57C66A91"
@@ -836,7 +818,7 @@
 				item: "expatternprovider:wireless_hub"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 11.5d
 			y: 10.0d
 		}
 		{
@@ -855,8 +837,46 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 9.5d
 			y: 10.0d
+		}
+		{
+			dependencies: ["100C39957991A397"]
+			description: ["如果你实在不想玩其他科技mod，也可以做这个燃烧可燃物发电为你的网络供能，但中后期功率可能不太够"]
+			id: "08F22D4B72D312CA"
+			tasks: [{
+				id: "7B1E63E5F3AFE9A5"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A5AF0FDE37A1740"]
+			description: ["从陨石里可以见到赛特斯石英芽，等他们长成簇之后挖下来即可获得赛特斯石英。"]
+			id: "0B81B90A3828C22E"
+			tasks: [{
+				id: "531D36CF50B756CB"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BED8CC9FB311115"]
+			description: ["除了用于制作之外，它还被用于隔离线缆。接在线缆之间时，线缆之间视为没有逻辑连接，只会传递电力。"]
+			id: "3B2CE1B288BE0D97"
+			tasks: [{
+				count: 2L
+				id: "776AB3C726B85ED5"
+				item: { Count: 2, id: "ae2:quartz_fiber" }
+				type: "item"
+			}]
+			title: "隔离连接"
+			x: 7.5d
+			y: 4.0d
 		}
 	]
 	title: "自动化生产"
