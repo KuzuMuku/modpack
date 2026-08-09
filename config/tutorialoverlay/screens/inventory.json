@@ -1,0 +1,328 @@
+{
+  "id": "inventory_first_open",
+  "title": "首次打开物品栏",
+  "screen": "net.minecraft.client.gui.screens.inventory.InventoryScreen",
+  "screen_match": "exact",
+  "duration": 44.0,
+  "steps": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "title": "物品栏主体",
+      "text": "这里是你的主物品栏。上半部分用于查看人物、护甲和 2x2 合成，下半部分是随身背包与快捷栏；先养成把常用物品放在下排的习惯",
+      "target": {
+        "relative_to": "gui",
+        "x": {
+          "type": "px",
+          "value": 0,
+          "offset": 0
+        },
+        "y": {
+          "type": "px",
+          "value": 0,
+          "offset": 0
+        },
+        "width": {
+          "type": "px",
+          "value": 176,
+          "offset": 0
+        },
+        "height": {
+          "type": "px",
+          "value": 166,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "title": "FTB 队伍按钮",
+      "text": "左上角这个多人图标是 FTB 队伍入口。联机时可以在这里创建或加入队伍，部分任务、共享进度和队友协作都会和队伍系统关联；单人先知道位置就够了",
+      "target": {
+        "relative_to": "screen",
+        "x": {
+          "type": "px",
+          "value": 0,
+          "offset": 0
+        },
+        "y": {
+          "type": "px",
+          "value": 0,
+          "offset": 0
+        },
+        "width": {
+          "type": "px",
+          "value": 18,
+          "offset": 0
+        },
+        "height": {
+          "type": "px",
+          "value": 18,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "title": "FTB 任务按钮",
+      "text": "旁边这本书是 FTB 任务入口。大多数整合包的主线、奖励和阶段目标都在这里；不知道下一步做什么时，优先打开任务书确认当前目标",
+      "target": {
+        "relative_to": "screen",
+        "x": {
+          "type": "px",
+          "value": 18,
+          "offset": 0
+        },
+        "y": {
+          "type": "px",
+          "value": 0,
+          "offset": 0
+        },
+        "width": {
+          "type": "px",
+          "value": 18,
+          "offset": 0
+        },
+        "height": {
+          "type": "px",
+          "value": 18,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "start": 12.0,
+      "end": 16.0,
+      "title": "EMI 检索面板",
+      "text": "右侧这整块是 EMI。它会显示物品列表、分类和页码，后面你可以用它查配方、找用途、搜索关键字；这次先记住它是查资料的主入口",
+      "target": {
+        "relative_to": "screen",
+        "x": {
+          "type": "percent",
+          "value": 1.0,
+          "offset": -122
+        },
+        "y": {
+          "type": "px",
+          "value": 0,
+          "offset": 0
+        },
+        "width": {
+          "type": "px",
+          "value": 122,
+          "offset": 0
+        },
+        "height": {
+          "type": "percent",
+          "value": 1.0,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "start": 16.0,
+      "end": 20.0,
+      "title": "EMI 搜索框",
+      "text": "底部这个输入框是 EMI 搜索框。想找某个物品时，直接输入中文或拼音即可快速筛选；当右侧物品太多时，这是最好用的入口",
+      "target": {
+        "relative_to": "screen",
+        "x": {
+          "type": "percent",
+          "value": 0.5,
+          "offset": -82
+        },
+        "y": {
+          "type": "percent",
+          "value": 1.0,
+          "offset": -22
+        },
+        "width": {
+          "type": "px",
+          "value": 164,
+          "offset": 0
+        },
+        "height": {
+          "type": "px",
+          "value": 20,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "start": 20.0,
+      "end": 24.0,
+      "title": "EMI设置",
+      "text": "左下角带 EMI 字样的按钮是EMI设置，右边按钮是配方树，可快速查看物品合成总需求材料量",
+      "target": {
+        "relative_to": "screen",
+        "x": {
+          "type": "px",
+          "value": 0,
+          "offset": 0
+        },
+        "y": {
+          "type": "percent",
+          "value": 1.0,
+          "offset": -24
+        },
+        "width": {
+          "type": "px",
+          "value": 48,
+          "offset": 0
+        },
+        "height": {
+          "type": "px",
+          "value": 24,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "start": 24.0,
+      "end": 28.0,
+      "title": "按键",
+      "text": "把鼠标移到任意位置的物品上，按住“书签键”(默认A)即可加入书签。按“查看配方(默认R)”键会告诉你这个物品怎么做，按“查看用途(默认U)”键会告诉你它能做成什么或能用在哪",
+      "target": {
+        "relative_to": "screen",
+        "x": {
+          "type": "percent",
+          "value": 0.0,
+          "offset": 0
+        },
+        "y": {
+          "type": "px",
+          "value": 20,
+          "offset": 0
+        },
+        "width": {
+          "type": "px",
+          "value": 122,
+          "offset": 0
+        },
+        "height": {
+          "type": "percent",
+          "value": 1.0,
+          "offset": -92
+        }
+      }
+    },
+    {
+      "start": 28.0,
+      "end": 32.0,
+      "title": "最近浏览",
+      "text": "虚线以下是最近浏览区，查看某物品的配方后会在这里临时显示，方便快速查看",
+      "target": {
+        "relative_to": "screen",
+        "x": {
+          "type": "px",
+          "value": 0.0,
+          "offset": 0
+        },
+        "y": {
+          "type": "percent",
+          "value": 1.0,
+          "offset": -70
+        },
+        "width": {
+          "type": "px",
+          "value": 122,
+          "offset": 0
+        },
+        "height": {
+          "type": "px",
+          "value": 48,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "start": 32.0,
+      "end": 36.0,
+      "title": "垃圾桶槽位",
+      "text": "这个位置用于丢弃不想要的物品。把物品放进去会暂存，放入任意物品(包括同类物品)覆盖就会删除被覆盖的物品，别把任务物品或贵重装备误删",
+      "target": {
+        "relative_to": "gui",
+        "x": {
+          "type": "px",
+          "value": 150,
+          "offset": 0
+        },
+        "y": {
+          "type": "px",
+          "value": 163,
+          "offset": 0
+        },
+        "width": {
+          "type": "px",
+          "value": 19,
+          "offset": 0
+        },
+        "height": {
+          "type": "px",
+          "value": 19,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "start": 36.0,
+      "end": 40.0,
+      "title": "天堂饰品栏按钮",
+      "text": "这个按钮会打开天堂饰品栏。只有能放进对应栏位的特殊饰品才会在里面生效；拿到写着Aether一类的装备时，记得先来这里检查能不能穿戴",
+      "target": {
+        "relative_to": "gui",
+        "x": {
+          "type": "px",
+          "value": 28,
+          "offset": 0
+        },
+        "y": {
+          "type": "px",
+          "value": 68,
+          "offset": 0
+        },
+        "width": {
+          "type": "px",
+          "value": 10,
+          "offset": 0
+        },
+        "height": {
+          "type": "px",
+          "value": 10,
+          "offset": 0
+        }
+      }
+    },
+    {
+      "start": 40.0,
+      "end": 44.0,
+      "title": "普通饰品栏按钮",
+      "text": "这个按钮会打开普通饰品栏。戒指、项链、法术书之类写着可以放在饰品栏的装备，要在这里穿戴",
+      "target": {
+        "relative_to": "gui",
+        "x": {
+          "type": "px",
+          "value": 28,
+          "offset": 0
+        },
+        "y": {
+          "type": "px",
+          "value": 10,
+          "offset": 0
+        },
+        "width": {
+          "type": "px",
+          "value": 10,
+          "offset": 0
+        },
+        "height": {
+          "type": "px",
+          "value": 10,
+          "offset": 0
+        }
+      }
+    }
+  ]
+}

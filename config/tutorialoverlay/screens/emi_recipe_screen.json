@@ -1,0 +1,100 @@
+{
+  "id": "emi_recipe_screen_intro",
+  "title": "EMI 配方界面",
+  "screen": "dev.emi.emi.screen.RecipeScreen",
+  "screen_match": "exact",
+  "duration": 28.0,
+  "steps": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "title": "顶部分类标签",
+      "text": "最上面这一排标签表示你正在查看的配方分类或相关页面。点击不同图标可以在合成、机器、加工台或其他来源之间切换；当一个物品有多种获取方式时，这里非常重要。",
+      "target": {
+        "relative_to": "screen",
+        "x": { "type": "percent", "value": 0.5, "offset": -72 },
+        "y": { "type": "px", "value": 12, "offset": 0 },
+        "width": { "type": "px", "value": 144, "offset": 0 },
+        "height": { "type": "px", "value": 26, "offset": 0 }
+      }
+    },
+    {
+      "start": 4.0,
+      "end": 8.0,
+      "title": "分类翻页按钮",
+      "text": "顶部左右两侧的箭头用于切换这一排标签的前后页。当配方类别很多、单行放不下时，就用这里继续翻；如果你知道某个物品能在多台机器里处理，记得多翻几页确认。",
+      "target": {
+        "relative_to": "screen",
+        "x": { "type": "percent", "value": 0.5, "offset": -88 },
+        "y": { "type": "px", "value": 19, "offset": 0 },
+        "width": { "type": "px", "value": 176, "offset": 0 },
+        "height": { "type": "px", "value": 12, "offset": 0 }
+      }
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "title": "当前页面标题",
+      "text": "这里显示当前正在看的配方类型名称，靠这里快速确认自己正在看哪种工艺。点击此处可以浏览本整合包中的所有配方表",
+      "target": {
+        "relative_to": "screen",
+        "x": { "type": "percent", "value": 0.5, "offset": -84 },
+        "y": { "type": "px", "value": 42, "offset": 0 },
+        "width": { "type": "px", "value": 168, "offset": 0 },
+        "height": { "type": "px", "value": 12, "offset": 0 }
+      }
+    },
+    {
+      "start": 12.0,
+      "end": 16.0,
+      "title": "配方页码",
+      "text": "下面这一行显示当前页数和总页数。一个物品往往不止一条配方或不止一种用途；如果这里不是“共 1 页”，就要用滚轮或两侧箭头翻完，避免漏掉更便宜或更早期的做法。",
+      "target": {
+        "relative_to": "screen",
+        "x": { "type": "percent", "value": 0.5, "offset": -84 },
+        "y": { "type": "px", "value": 56, "offset": 0 },
+        "width": { "type": "px", "value": 168, "offset": 0 },
+        "height": { "type": "px", "value": 12, "offset": 0 }
+      }
+    },
+    {
+      "start": 16.0,
+      "end": 20.0,
+      "title": "中央配方展示区",
+      "text": "中间的大框是配方主体。左边是输入材料，右边是产物，中间箭头表示处理方向；看配方时先确认每种材料的数量、摆放方式和是否有空格要求，再决定要不要立刻去做。",
+      "target": {
+        "relative_to": "screen",
+        "x": { "type": "percent", "value": 0.5, "offset": -84 },
+        "y": { "type": "px", "value": 70, "offset": 0 },
+        "width": { "type": "px", "value": 168, "offset": 0 },
+        "height": { "type": "px", "value": 64, "offset": 0 }
+      }
+    },
+    {
+      "start": 20.0,
+      "end": 24.0,
+      "title": "右侧附加操作",
+      "text": "右边这一列分别是设置默认配方，查看配方树和自动填充原料。设置默认配方后，配方树里会进一步显示出它的原料，否则会到它为止。打开合适的工作站之后，点击加号即可自动填充原料",
+      "target": {
+        "relative_to": "screen",
+        "x": { "type": "percent", "value": 0.5, "offset": 60 },
+        "y": { "type": "px", "value": 72, "offset": 0 },
+        "width": { "type": "px", "value": 20, "offset": 0 },
+        "height": { "type": "px", "value": 64, "offset": 0 }
+      }
+    },
+    {
+      "start": 24.0,
+      "end": 28.0,
+      "title": "可用工作站",
+      "text": "最下面这一排图标会显示出适用于这个配方的工作站，方便你快速寻找需要用哪类机器完成这个配方。",
+      "target": {
+        "relative_to": "screen",
+        "x": { "type": "percent", "value": 0.5, "offset": -84 },
+        "y": { "type": "percent", "value": 1.0, "offset": -58 },
+        "width": { "type": "px", "value": 168, "offset": 0 },
+        "height": { "type": "px", "value": 18, "offset": 0 }
+      }
+    }
+  ]
+}
