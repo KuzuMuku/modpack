@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "5E86423458DC7B3E"
-	group: "634674170BA7361A"
+	group: "20AEB0F73A64FBCF"
 	icon: "kubejs:andesite_alloy_heart"
 	id: "5E86423458DC7B3E"
-	order_index: 0
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -107,14 +107,14 @@
 			id: "0EFD7B21C53CEC64"
 			tasks: [{
 				id: "441170F4C912C178"
-				title: "体系内辅助"
+				title: "体系内辅助：辅助器官负责联动、触发、回流和特殊机制。前期不用急着看，等你已经有几件同源器官后再来补。做出来后可以增强器官之间的协同效果。来源是器官系统的辅助方向。"
 				type: "checkmark"
 			}]
 			x: 8.0d
 			y: -6.0d
 		}
 		{
-			description: ["蓄压爆发与机械采掘起点。"]
+			description: ["蓄压爆发与机械采掘起点。这个器官来自 Create T1 工业系统，使用方法是安装到器官槽中，可以提高应力上限和近战爆发能力。做出来后适合工业路线玩家早期战斗强化。来源是 Create 工业模组。"]
 			id: "44FBDB1D95A302FC"
 			shape: "gear"
 			size: 1.5d
@@ -143,7 +143,7 @@
 		}
 		{
 			dependencies: ["44FBDB1D95A302FC"]
-			description: ["消耗应力打出高压近战重拳。"]
+			description: ["活塞冲拳（Piston Punch）消耗应力打出高压近战重拳。使用方法是装备在近战器官槽中，攻击时消耗应力造成高伤害。做出来后适合近战玩家在中期战斗中使用。来源是 Create T1 器官系统。"]
 			id: "6C90ECACD511840F"
 			subtitle: "活塞冲拳"
 			tasks: [{
@@ -156,7 +156,7 @@
 		}
 		{
 			dependencies: ["44FBDB1D95A302FC"]
-			description: ["受击时放出应力，反砸周围敌人。"]
+			description: ["动力锤击（Power Hammer）受击时放出应力，反砸周围敌人。使用方法是装备后被攻击时自动释放应力伤害周围敌人。做出来后适合在被围攻时提供反击能力。来源是 Create T1 器官系统。"]
 			id: "7D090DF5C97CBD14"
 			subtitle: "动力锤击"
 			tasks: [{
@@ -169,7 +169,7 @@
 		}
 		{
 			dependencies: ["44FBDB1D95A302FC"]
-			description: ["消耗应力冲锋，并把目标撞开。"]
+			description: ["弹射撞角（Spring Ram）消耗应力冲锋，并把目标撞开。使用方法是装备后可以主动冲锋攻击，造成伤害并击退目标。做出来后适合近战玩家快速接近或击退敌人。来源是 Create T1 器官系统。"]
 			id: "68B405737EF2E65C"
 			subtitle: "弹射撞角"
 			tasks: [{
@@ -182,7 +182,7 @@
 		}
 		{
 			dependencies: ["44FBDB1D95A302FC"]
-			description: ["持续烧应力，维持贴身切割。"]
+			description: ["传动链锯（Drive Chainsaw）持续烧应力，维持贴身切割。使用方法是装备后持续消耗应力对近距离敌人造成持续伤害。做出来后适合贴身持续输出的战斗风格。来源是 Create T1 器官系统。"]
 			id: "2F00E3A60A032661"
 			subtitle: "传动链锯"
 			tasks: [{
@@ -195,7 +195,7 @@
 		}
 		{
 			dependencies: ["44FBDB1D95A302FC"]
-			description: ["消耗应力，快速粉碎前方矿块。"]
+			description: ["应力镐（Stress Pickaxe）消耗应力，快速粉碎前方矿块。使用方法是装备后挖矿时消耗应力快速破坏方块。做出来后适合工业玩家快速采矿。来源是 Create T1 器官系统。"]
 			id: "2BE860B1F6345698"
 			subtitle: "应力镐"
 			tasks: [{
@@ -260,7 +260,7 @@
 		}
 		{
 			dependencies: ["44FBDB1D95A302FC"]
-			description: ["提高应力上限，并把攻击挖矿转成蓄压。"]
+			description: ["微型水车（Micro Water Wheel）提高应力上限，并把攻击挖矿转成蓄压。使用方法是安装后提高最大应力值，并将部分行动转化为应力积累。做出来后适合工业玩家长期活动。来源是 Create 工业系统。"]
 			id: "078F6EFD981D62FD"
 			subtitle: "增压传动轴"
 			tasks: [{
@@ -272,7 +272,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["应力释放与重压输出。"]
+			description: ["微型风车（Micro Windmill）应力释放与重压输出。使用方法是安装后帮助应力管理，提供重压输出能力。做出来后适合需要应力循环的玩家。来源是 Create 工业系统。"]
 			id: "2993E23D8E3F5A86"
 			shape: "gear"
 			size: 1.5d
@@ -626,7 +626,7 @@
 			y: 18.0d
 		}
 		{
-			description: ["高阶能量、护盾与复制。"]
+			description: ["高频稳相耳蜗（High-Frequency Stabilized Cochlea）提供高阶能量、护盾与复制功能。使用方法是装备后提高能量上限和护盾能力，并支持复制机制。做出来后适合终局玩家的高阶配置。来源是高级器官系统。"]
 			id: "4835080A8C3B403A"
 			shape: "gear"
 			size: 1.5d
@@ -836,7 +836,7 @@
 			y: 26.0d
 		}
 		{
-			description: ["耐热、磨血与火土法斗。"]
+			description: ["等离子膜肺（Plasma Membrane Lung）提供耐热、磨血与火土法斗能力。使用方法是装备后提高火焰抗性和持续战斗能力。做出来后适合在高温和火焰环境中活动的玩家。来源是高级器官系统。"]
 			id: "201130663134DCF7"
 			shape: "gear"
 			size: 1.5d
@@ -984,7 +984,7 @@
 			y: 31.0d
 		}
 		{
-			description: ["前排缠斗与自然法坦。"]
+			description: ["日蚀冠脑（Solar Eclipse Crown Brain）提供前排缠斗与自然法坦能力。使用方法是装备后提高近战抗性和自然魔法坦度。做出来后适合坦克和近战玩家。来源是高级器官系统。"]
 			id: "47928566A7447479"
 			shape: "gear"
 			size: 1.5d
@@ -1132,7 +1132,7 @@
 			y: 37.0d
 		}
 		{
-			description: ["低光生存与孢种增殖。"]
+			description: ["兰荧法芽肺（Lan Ying Spore Bud Lung）提供低光生存与孢种增殖能力。使用方法是装备后在低光环境中提高生存能力，并支持孢种繁殖。做出来后适合在暗处和特殊环境活动的玩家。来源是高级器官系统。"]
 			id: "393A611CD94D8553"
 			shape: "gear"
 			size: 1.5d
@@ -1290,7 +1290,7 @@
 			y: 43.0d
 		}
 		{
-			description: ["低速压制与冰法反打。"]
+			description: ["亮苞浆囊（Bright Pod Sac）提供低速压制与冰法反打能力。使用方法是装备后降低移动速度但提高冰系反打伤害。做出来后适合冰系法师和控制型玩家。来源是高级器官系统。"]
 			id: "3F8D317E8989E87E"
 			shape: "gear"
 			size: 1.5d
@@ -1448,7 +1448,7 @@
 			y: 48.0d
 		}
 		{
-			description: ["污染扩散与湿地锁人。"]
+			description: ["雪盲虹膜（Snow Blind Iris）提供污染扩散与湿地锁人能力。使用方法是装备后在湿地环境中提高控制能力，并支持污染扩散。做出来后适合在特殊地形战斗的玩家。来源是高级器官系统。"]
 			id: "56EDE6428EE0C9CB"
 			shape: "gear"
 			size: 1.5d
@@ -1606,7 +1606,7 @@
 			y: 53.0d
 		}
 		{
-			description: ["水域机动与潮压控场。"]
+			description: ["史莱姆牵丝臂（Slime Silk Arm）提供水域机动与潮压控场能力。使用方法是装备后在水域提高移动能力，并支持潮压控制。做出来后适合水域探索和战斗的玩家。来源是高级器官系统。"]
 			id: "6A3C208C6B221583"
 			shape: "gear"
 			size: 1.5d
@@ -1874,7 +1874,7 @@
 			y: 63.0d
 		}
 		{
-			description: ["袭击节奏与战利回收。"]
+			description: ["海流脾囊（Ocean Current Spleen Sac）提供袭击节奏与战利回收能力。使用方法是装备后提高攻击节奏，并增强战利品回收效率。做出来后适合快速战斗和资源收集的玩家。来源是高级器官系统。"]
 			id: "292655E70F568BFD"
 			shape: "gear"
 			size: 1.5d
@@ -2097,7 +2097,7 @@
 			y: 71.0d
 		}
 		{
-			description: ["祝福补给与秩序站场。"]
+			description: ["暗箭喉囊（Dark Arrow Throat Sac）提供祝福补给与秩序站场能力。使用方法是装备后提高回复能力，并支持稳定站场。做出来后适合辅助和持续战斗的玩家。来源是高级器官系统。"]
 			id: "15CB56E83865A3D6"
 			shape: "gear"
 			size: 1.5d
@@ -2305,7 +2305,7 @@
 			y: 80.0d
 		}
 		{
-			description: ["折跃追击与空间法斗。"]
+			description: ["职业肝囊（Professional Liver Sac）提供折跃追击与空间法斗能力。使用方法是装备后提高快速移动和空间法术能力。做出来后适合高机动性玩家。来源是高级器官系统。"]
 			id: "5E52D1066FBB40BA"
 			shape: "gear"
 			size: 1.5d
@@ -2573,7 +2573,7 @@
 			y: 90.0d
 		}
 		{
-			description: ["高热献祭与爆裂输出。"]
+			description: ["末影肺叶（Ender Lung Leaf）提供高热献祭与爆裂输出能力。使用方法是装备后在高热环境中提高爆发伤害。做出来后适合终局挑战的玩家。来源是高级器官系统。"]
 			id: "6370FDF4350425DB"
 			shape: "gear"
 			size: 1.5d
@@ -2991,7 +2991,7 @@
 			y: 104.0d
 		}
 		{
-			description: ["感知压制与黑暗标记。"]
+			description: ["要塞骨钥（Fortress Bone Key）提供感知压制与黑暗标记能力。使用方法是装备后提高感知能力，并支持黑暗标记机制。做出来后适合在要塞和黑暗区域活动的玩家。来源是高级器官系统。"]
 			id: "698D63F817284D59"
 			shape: "gear"
 			size: 1.5d
@@ -3319,5 +3319,5 @@
 			y: 117.0d
 		}
 	]
-	title: "器官总览"
+	title: "器官词典"
 }

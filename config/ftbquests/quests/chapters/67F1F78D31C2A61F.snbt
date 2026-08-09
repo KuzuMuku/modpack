@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "67F1F78D31C2A61F"
 	group: "38C5EA8637E52202"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "farmersdelight:skillet"
@@ -16,7 +17,7 @@
 	quests: [
 		{
 			dependencies: ["1E01000000000010"]
-			description: ["帆布是农夫乐事中多种旅行与露营物品的基础材料。"]
+			description: ["帆布（Canvas）是农夫乐事（Farmer's Delight）的基础材料，用纺织机将棉花加工制成。做出来后可以制作露营装备、旅行用品和各种野外生存物品。使用方法是先种植棉花，收获后在纺织机中加工成帆布。来源是农夫乐事的纺织系统。"]
 			id: "2A07000000000001"
 			optional: true
 			tasks: [{
@@ -30,7 +31,7 @@
 		}
 		{
 			dependencies: ["1E01000000000010"]
-			description: ["烹饪锅可一次处理多种食材，是建立野外厨房的核心。"]
+			description: ["烹饪锅（Cooking Pot）可以在篝火或炉灶上使用，同时处理多种食材。放入食材后点燃下面的火源，即可烹制复杂的料理。做出来后可以制作蜂蜜火腿、南瓜宴席等高级食物，大幅提升远征时的续航能力。来源是农夫乐事的烹饪系统。"]
 			id: "2A07000000000002"
 			optional: true
 			tasks: [{
@@ -44,7 +45,7 @@
 		}
 		{
 			dependencies: ["1E01000000000010"]
-			description: ["煎锅可在篝火或炉灶上烹制食物，也可作为近战工具。"]
+			description: ["煎锅（Skillet）可以放在篝火或炉灶上烹制简单食物，也可以作为近战武器使用。右键点击篝火放置煎锅，然后添加食材即可烹饪。做出来后适合早期烹饪和简单战斗，是露营时的多功能工具。来源是农夫乐事的基础烹饪工具。"]
 			id: "2A07000000000003"
 			optional: true
 			tasks: [{

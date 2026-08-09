@@ -3,9 +3,10 @@
 	default_quest_shape: ""
 	filename: "3F7B3E8FA114371F"
 	group: "634674170BA7361A"
+	hide_quest_until_deps_visible: true
 	icon: "create:cogwheel"
 	id: "3F7B3E8FA114371F"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,8 +23,8 @@
 				title: "路线导读"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 2.5d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5788967FDC7A21DC"]
@@ -53,7 +54,7 @@
 		}
 		{
 			dependencies: ["1DEF6A0040BC9BE3"]
-			description: ["安山外壳说明第一批机器骨架已经齐了。下一步不是堆机器，而是先让动力能稳定传过去。"]
+			description: ["安山外壳说明第一批机器骨架已经齐了。下一步不是堆机器，而是先让动力能稳定传过去。 "]
 			id: "5788967FDC7A21DC"
 			shape: "gear"
 			size: 2.0d
@@ -79,7 +80,7 @@
 		}
 		{
 			dependencies: ["717FC5B29020E001"]
-			description: ["轴和皮带连接器是最基础的直线传力手段。不会拉轴和挂皮带，就还没真正进入 Create。"]
+			description: ["轴和皮带连接器是最基础的直线传力手段。不会拉轴和挂皮带，就还没真正进入 Create。 "]
 			id: "162CA9E2D1247D1A"
 			tasks: [
 				{
@@ -98,7 +99,7 @@
 		}
 		{
 			dependencies: ["717FC5B29020E001"]
-			description: ["大小齿轮解决的是变速、转向和空间布局问题。它们决定你的机器能不能塞进基地里。"]
+			description: ["大小齿轮解决的是变速、转向和空间布局问题。它们决定你的机器能不能塞进基地里。 "]
 			id: "5710A5A839E703AC"
 			tasks: [
 				{
@@ -117,7 +118,7 @@
 		}
 		{
 			dependencies: ["5788967FDC7A21DC"]
-			description: ["先学会发电，而不是急着堆机器。Create 的第一层门槛不是配方，而是你能不能持续产出应力。"]
+			description: ["先学会发电，而不是急着堆机器。Create 的第一层门槛不是配方，而是你能不能持续产出应力。 "]
 			id: "39574ED74844904D"
 			tasks: [{
 				id: "74E2CB0E0466DF33"
@@ -153,7 +154,7 @@
 		}
 		{
 			dependencies: ["39574ED74844904D"]
-			description: ["大型水车适合作为第一个真正的主动力源，为成片机器或早期工厂供能。"]
+			description: ["大型水车适合作为第一个真正的主动力源，为成片机器或早期工厂供能。 "]
 			id: "7DBF2E87B1425940"
 			tasks: [{
 				id: "6010608325C2FE8C"
@@ -165,7 +166,7 @@
 		}
 		{
 			dependencies: ["51EF488CD3534A83"]
-			description: ["磨石和粉碎轮把原矿与原料加工自动化，是资源翻倍和后续配方的基础。"]
+			description: ["磨石和粉碎轮把原矿与原料加工自动化，是资源翻倍和后续配方的基础。 "]
 			id: "4A2C37451719E949"
 			tasks: [
 				{
@@ -203,7 +204,7 @@
 		}
 		{
 			dependencies: ["7E00E19D347F207B"]
-			description: ["机械钻、锯和部署器是 Create 真正开始“替你动手”的标志。先学会它们，你的工厂才有手脚。"]
+			description: ["机械钻、锯和部署器是 Create 真正开始“替你动手”的标志。先学会它们，你的工厂才有手脚。 "]
 			id: "6ED1589BB3C3C854"
 			tasks: [
 				{
@@ -265,7 +266,7 @@
 		}
 		{
 			dependencies: ["7E00E19D347F207B"]
-			description: ["收割、犁地和铺路说明你的机械已经开始接管农业和地形处理，而不只是车间内的小活。"]
+			description: ["收割、犁地和铺路说明你的机械已经开始接管农业和地形处理，而不只是车间内的小活。 "]
 			id: "4BE27BFE6A5CD7F4"
 			tasks: [
 				{
@@ -301,7 +302,7 @@
 		}
 		{
 			dependencies: ["717FC5B29020E001"]
-			description: ["漏斗和隧道解决的是‘东西往哪分、怎么分’。很多新手卡住，其实不是做不出机器，而是不会分流。"]
+			description: ["漏斗和隧道解决的是‘东西往哪分、怎么分’。很多新手卡住，其实不是做不出机器，而是不会分流。 "]
 			id: "02894FB9DF48F40D"
 			tasks: [
 				{
@@ -320,7 +321,7 @@
 		}
 		{
 			dependencies: ["5788967FDC7A21DC"]
-			description: ["铜外壳代表你开始接触流体和更完整的中期装置。后面的燃油、锅炉、灌装都会依赖这一层。"]
+			description: ["铜外壳代表你开始接触流体和更完整的中期装置。后面的燃油、锅炉、灌装都会依赖这一层。 "]
 			id: "477CABAEE7473A9A"
 			shape: "gear"
 			size: 2.0d
@@ -334,7 +335,7 @@
 		}
 		{
 			dependencies: ["5788967FDC7A21DC"]
-			description: ["扳手不是可有可无的小工具，而是你调整朝向、拆装机器和快速试错的核心交互器。"]
+			description: ["扳手不是可有可无的小工具，而是你调整朝向、拆装机器和快速试错的核心交互器。 "]
 			id: "4DBD235122621FAB"
 			tasks: [{
 				id: "7DEBA9831C5E5728"
@@ -393,7 +394,7 @@
 		}
 		{
 			dependencies: ["477CABAEE7473A9A"]
-			description: ["抽油机孔位是你把地下油田转成可持续资源的起点。"]
+			description: ["抽油机孔位是你把地下油田转成可持续资源的起点。 "]
 			id: "51ECD3C27E464EAC"
 			tasks: [{
 				id: "30F80444EE1BF030"
@@ -405,7 +406,7 @@
 		}
 		{
 			dependencies: ["477CABAEE7473A9A"]
-			description: ["软管滑轮是流体世界的万能抽取器。会用它之后，熔岩、油、水和各种化工液都能接管。"]
+			description: ["软管滑轮是流体世界的万能抽取器。会用它之后，熔岩、油、水和各种化工液都能接管。 "]
 			id: "7F8F5C2A742F972B"
 			tasks: [{
 				id: "0A3C3B1F71C0EA42"
@@ -417,7 +418,7 @@
 		}
 		{
 			dependencies: ["477CABAEE7473A9A"]
-			description: ["注液器让你能把流体精确灌到物品上，是大量中后期工艺的关键中间环节。"]
+			description: ["注液器让你能把流体精确灌到物品上，是大量中后期工艺的关键中间环节。 "]
 			id: "511D7A40ACBD21CD"
 			tasks: [{
 				id: "74DFF0D5463A3887"
@@ -429,7 +430,7 @@
 		}
 		{
 			dependencies: ["51ECD3C27E464EAC"]
-			description: ["抽油机曲柄和泵头到位后，才算真正把地下油田变成可持续资源。"]
+			description: ["抽油机曲柄和泵头到位后，才算真正把地下油田变成可持续资源。 "]
 			id: "70C7C1DBD26449E2"
 			tasks: [
 				{
@@ -448,7 +449,7 @@
 		}
 		{
 			dependencies: ["70C7C1DBD26449E2"]
-			description: ["先拿到一桶原油，确认你的油线已经跑通，而不是只把多方块摆出来。"]
+			description: ["先拿到一桶原油，确认你的油线已经跑通，而不是只把多方块摆出来。 "]
 			id: "283CBD76426BD600"
 			tasks: [{
 				amount: 1000L
@@ -461,7 +462,7 @@
 		}
 		{
 			dependencies: ["477CABAEE7473A9A"]
-			description: ["流体罐是所有油线、蒸汽线和化工线的缓冲核心。没有缓冲，机器就只会一抽一停。"]
+			description: ["流体罐是所有油线、蒸汽线和化工线的缓冲核心。没有缓冲，机器就只会一抽一停。 "]
 			id: "00A177004FF28205"
 			tasks: [{
 				id: "6CD15378043ADBF8"
@@ -525,7 +526,7 @@
 				"283CBD76426BD600"
 				"00A177004FF28205"
 			]
-			description: ["柴油线的重点不是一种特定燃料，而是学会把原油拆分、储存，再按用途送回动力系统。"]
+			description: ["柴油线的重点不是一种特定燃料，而是学会把原油拆分、储存，再按用途送回动力系统。 "]
 			id: "6DB80FA9E642393E"
 			tasks: [{
 				id: "04E74E180701933B"
@@ -537,7 +538,7 @@
 		}
 		{
 			dependencies: ["00A177004FF28205"]
-			description: ["锅炉和蒸汽机是另一条动力路线。它更重建设，但上限高，适合做成真正的机房。"]
+			description: ["锅炉和蒸汽机是另一条动力路线。它更重建设，但上限高，适合做成真正的机房。 "]
 			id: "5E4F6B111C9DF1A5"
 			tasks: [{
 				id: "489EA9C2696DB51E"
@@ -549,7 +550,7 @@
 		}
 		{
 			dependencies: ["5E4F6B111C9DF1A5"]
-			description: ["蒸汽机说明你已经把热源、供水和动力输出接成了闭环。"]
+			description: ["蒸汽机说明你已经把热源、供水和动力输出接成了闭环。 "]
 			id: "3C39E7C0BEF5C1B7"
 			tasks: [{
 				id: "4C67BF46A7912D06"
@@ -561,7 +562,7 @@
 		}
 		{
 			dependencies: ["00A177004FF28205"]
-			description: ["烈焰人燃烧室是锅炉和高温搅拌的关键热源，很多中期工艺都会要求你稳定喂它。"]
+			description: ["烈焰人燃烧室是锅炉和高温搅拌的关键热源，很多中期工艺都会要求你稳定喂它。 "]
 			id: "2DB9BC62BE83AA0B"
 			tasks: [{
 				id: "3BCD223861FAD281"
@@ -596,7 +597,7 @@
 		}
 		{
 			dependencies: ["14A7655D25625BC9"]
-			description: ["机械臂更适合做复杂分拣和多目标投递。它不是最早该学的，但一旦会用，产线可读性会提升很多。"]
+			description: ["机械臂更适合做复杂分拣和多目标投递。它不是最早该学的，但一旦会用，产线可读性会提升很多。 "]
 			id: "71D5D1E5DF5692B8"
 			tasks: [{
 				id: "286B6E67A53C662C"

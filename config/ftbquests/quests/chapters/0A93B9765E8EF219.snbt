@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "0A93B9765E8EF219"
 	group: "1932028AE2A3EB8D"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:end_stone"
 	id: "0A93B9765E8EF219"
 	order_index: 5
@@ -10,7 +11,7 @@
 	quests: [
 		{
 			dependencies: ["1B02000000000001"]
-			description: ["要塞中的末地传送门会通向终末之龙的巢穴。"]
+			description: ["要塞中的末地传送门可以通向终末之龙的巢穴（末地维度）。进入要塞后找到传送门房间，用末影之眼修复传送门框架，即可激活传送门进入末地。做出来后可以挑战原版终局首领末影龙，并获得鞘翅等终局装备。来源是原版要塞结构。"]
 			id: "692BB383B4AA44FF"
 			tasks: [{
 				dimension: "minecraft:the_end"

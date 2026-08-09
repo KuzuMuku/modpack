@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0440E986906C9EFC"
-	group: "6AEED075A264200B"
+	group: "20AEB0F73A64FBCF"
 	icon: {
 		Count: 1
 		id: "tacz:modern_kinetic_gun"
@@ -1755,5 +1755,5 @@
 			y: 13.5d
 		}
 	]
-	title: "全动化火力"
+	title: "枪械词典"
 }

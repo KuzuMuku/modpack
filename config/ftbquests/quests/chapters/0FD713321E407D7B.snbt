@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "0FD713321E407D7B"
 	group: "634674170BA7361A"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "mekanism:basic_energy_cube"
@@ -16,7 +17,7 @@
 		}
 	}
 	id: "0FD713321E407D7B"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -181,7 +182,7 @@
 		}
 		{
 			dependencies: ["19EAFC89520260D2"]
-			description: ["原子合金是高阶电路和高阶机器反复消耗的关键层。这里往往标志着你该开始认真做供电和批量化了。"]
+			description: ["原子合金是高阶电路和高阶机器反复消耗的关键层。这里往往标志着你该开始认真做供电和批量化了。 "]
 			id: "4B6635D59401EBF2"
 			tasks: [{
 				id: "79120616B671F98F"
@@ -305,7 +306,7 @@
 		}
 		{
 			dependencies: ["6C79FE1BEF609803"]
-			description: ["黄饼铀和铀锭是核线真正开始前的资源确认。先把矿源和处理流程跑通。"]
+			description: ["黄饼铀和铀锭是核线真正开始前的资源确认。先把矿源和处理流程跑通。 "]
 			id: "6FB0926651A52DA1"
 			tasks: [{
 				id: "5CF96BC665134813"
@@ -397,7 +398,7 @@
 		}
 		{
 			dependencies: ["5BE22359954280E5"]
-			description: ["裂变反应堆结构件意味着你已经不只是做材料，而是在准备真正的多方块设施。"]
+			description: ["裂变反应堆结构件意味着你已经不只是做材料，而是在准备真正的多方块设施。 "]
 			id: "17BDF0A12E9CB5EE"
 			tasks: [
 				{
@@ -865,7 +866,7 @@
 		}
 		{
 			dependencies: ["43336D11E1ED98B5"]
-			description: ["电解分离机负责把核聚变链条所需的轻元素真正拆出来。"]
+			description: ["电解分离机负责把核聚变链条所需的轻元素真正拆出来。 "]
 			id: "191403DB36A29F24"
 			tasks: [{
 				id: "27781684E9ADD9DE"
@@ -877,7 +878,7 @@
 		}
 		{
 			dependencies: ["448249D3842234B7"]
-			description: ["这里开始进入核裂变燃料链。酸、氧化物和六氟化物都意味着流程会明显拉长。"]
+			description: ["这里开始进入核裂变燃料链。酸、氧化物和六氟化物都意味着流程会明显拉长。 "]
 			id: "50F727CA7340EA98"
 			tasks: [{
 				id: "1E786D6ECED646D1"

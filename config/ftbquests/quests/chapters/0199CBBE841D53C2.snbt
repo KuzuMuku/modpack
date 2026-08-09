@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "0199CBBE841D53C2"
 	group: "6B135ADAEF98CFDF"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		id: "botania:lexicon"
@@ -191,7 +192,7 @@
 		}
 		{
 			dependencies: ["22E03F663048FDED"]
-			description: ["魔力钢是 Botania 第一种会被大量重复消耗的中间材料。建议尽早准备一套顺手的灌注流程。"]
+			description: ["魔力钢是 Botania 第一种会被大量重复消耗的中间材料。建议尽早准备一套顺手的灌注流程。 "]
 			id: "4617796903CF9BE8"
 			tasks: [{
 				id: "5DAF2E7FDE1847D4"
@@ -230,7 +231,7 @@
 		}
 		{
 			dependencies: ["53975F7F0F432275"]
-			description: ["魔力发射器是 `产魔` 和 `存魔` 之间的桥梁。很多新手有花也有池子，却不会传魔，问题通常就卡在这里。"]
+			description: ["魔力发射器是 `产魔` 和 `存魔` 之间的桥梁。很多新手有花也有池子，却不会传魔，问题通常就卡在这里。 "]
 			id: "1761A61BEED14385"
 			tasks: [{
 				id: "4D388A9AED6B76D8"
@@ -375,7 +376,7 @@
 		}
 		{
 			dependencies: ["717CC8E5A8538403"]
-			description: ["这组内容不要求一种固定答案，重点是你已经开始用花系主动设计产魔逻辑。"]
+			description: ["这组内容不要求一种固定答案，重点是你已经开始用花系主动设计产魔逻辑。 "]
 			id: "3E1D709A18401868"
 			shape: "hexagon"
 			size: 1.5d

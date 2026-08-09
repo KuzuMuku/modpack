@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "07B9A615A86267F1"
 	group: "6B135ADAEF98CFDF"
+	hide_quest_until_deps_visible: true
 	icon: "irons_spellbooks:artificer_cane"
 	id: "07B9A615A86267F1"
 	order_index: 2

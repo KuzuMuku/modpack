@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "6FD8B00902A991B7"
 	group: "6B135ADAEF98CFDF"
+	hide_quest_until_deps_visible: true
 	icon: "ars_nouveau:novice_spell_book"
 	id: "6FD8B00902A991B7"
 	order_index: 0
@@ -388,7 +389,6 @@
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			title: "旋叶精灵"
 			x: 16.0d
 			y: 5.0d
 		}
@@ -404,7 +404,6 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			title: "Drygmy"
 			x: 18.0d
 			y: 5.0d
 		}
@@ -420,7 +419,6 @@
 				item: "ars_nouveau:wilden_tribute"
 				type: "item"
 			}]
-			title: "Wilden Tribute"
 			x: 18.0d
 			y: 3.0d
 		}
@@ -439,7 +437,6 @@
 				item: "ars_nouveau:archmage_spell_book"
 				type: "item"
 			}]
-			title: "大法师之书"
 			x: 20.0d
 			y: 3.0d
 		}

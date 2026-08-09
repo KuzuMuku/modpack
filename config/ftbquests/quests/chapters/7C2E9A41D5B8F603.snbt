@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "7C2E9A41D5B8F603"
 	group: "1932028AE2A3EB8D"
+	hide_quest_until_deps_visible: true
 	icon: "cataclysm:monstrous_eye"
 	id: "7C2E9A41D5B8F603"
 	order_index: 7

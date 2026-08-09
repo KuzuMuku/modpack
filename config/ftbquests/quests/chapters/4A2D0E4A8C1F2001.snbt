@@ -1,0 +1,86 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4A2D0E4A8C1F2001"
+	group: "6AEED075A264200B"
+	icon: "minecraft:diamond_sword"
+	id: "4A2D0E4A8C1F2001"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E01000000000010"]
+			description: [
+				"这一页补齐 `武备词典` 里还没收进去的成品武器、弓、弩、盾和特殊兵器。"
+				"保持和前面一样的阅读方式：一把武器一个格子，想查哪把就点哪把。"
+			]
+			id: "4A2D0E4A8C1F2100"
+			tasks: [{ id: "4A2D0E4A8C1F2101", title: "武备补遗怎么读", type: "checkmark" }]
+			x: -2.0d
+			y: 0.0d
+		}
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["原版木剑，真正的零阶过渡武器。"], id: "4A2D0E4A8C1F2102", tasks: [{ id: "4A2D0E4A8C1F2103", item: "minecraft:wooden_sword", type: "item" }], title: "木剑", x: 0.0d, y: 0.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["原版石剑，前期最实在的便宜近战。"], id: "4A2D0E4A8C1F2104", tasks: [{ id: "4A2D0E4A8C1F2105", item: "minecraft:stone_sword", type: "item" }], title: "石剑", x: 2.0d, y: 0.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["原版铁剑，主世界早期最标准的战斗底线。"], id: "4A2D0E4A8C1F2106", tasks: [{ id: "4A2D0E4A8C1F2107", item: "minecraft:iron_sword", type: "item" }], title: "铁剑", x: 4.0d, y: 0.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["原版钻石剑，前中期经典升级。"], id: "4A2D0E4A8C1F2108", tasks: [{ id: "4A2D0E4A8C1F2109", item: "minecraft:diamond_sword", type: "item" }], title: "钻石剑", x: 6.0d, y: 0.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["原版金剑，更多是功能和过渡收藏。"], id: "4A2D0E4A8C1F210A", tasks: [{ id: "4A2D0E4A8C1F210B", item: "minecraft:golden_sword", type: "item" }], title: "金剑", x: 8.0d, y: 0.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["原版下界合金剑，原版终局主武器之一。"], id: "4A2D0E4A8C1F210C", tasks: [{ id: "4A2D0E4A8C1F210D", item: "minecraft:netherite_sword", type: "item" }], title: "下界合金剑", x: 10.0d, y: 0.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["原版弓，所有远程体系的起点。"], id: "4A2D0E4A8C1F210E", tasks: [{ id: "4A2D0E4A8C1F210F", item: "minecraft:bow", type: "item" }], title: "原版弓", x: 12.0d, y: 0.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["原版弩，偏工具化和战术化的远程选择。"], id: "4A2D0E4A8C1F2110", tasks: [{ id: "4A2D0E4A8C1F2111", item: "minecraft:crossbow", type: "item" }], title: "原版弩", x: 14.0d, y: 0.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["原版盾牌，最普遍也最可靠的保命副手。"], id: "4A2D0E4A8C1F2112", tasks: [{ id: "4A2D0E4A8C1F2113", item: "minecraft:shield", type: "item" }], title: "原版盾牌", x: 16.0d, y: 0.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["原版三叉戟，海线与附魔联动价值都很高。"], id: "4A2D0E4A8C1F2114", tasks: [{ id: "4A2D0E4A8C1F2115", item: "minecraft:trident", type: "item" }], title: "三叉戟", x: 18.0d, y: 0.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["AE2 赛特斯石英剑。"], id: "4A2D0E4A8C1F2116", tasks: [{ id: "4A2D0E4A8C1F2117", item: "ae2:certus_quartz_sword", type: "item" }], title: "赛特斯石英剑", x: 0.0d, y: 2.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["AE2 下界石英剑。"], id: "4A2D0E4A8C1F2118", tasks: [{ id: "4A2D0E4A8C1F2119", item: "ae2:nether_quartz_sword", type: "item" }], title: "下界石英剑", x: 2.0d, y: 2.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["AE2 福鲁伊克斯剑。"], id: "4A2D0E4A8C1F211A", tasks: [{ id: "4A2D0E4A8C1F211B", item: "ae2:fluix_sword", type: "item" }], title: "福鲁伊克斯剑", x: 4.0d, y: 2.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["AE2CS 末影结晶剑。"], id: "4A2D0E4A8C1F211C", tasks: [{ id: "4A2D0E4A8C1F211D", item: "ae2cs:ender_crystal_sword", type: "item" }], title: "末影结晶剑", x: 6.0d, y: 2.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["AE2CS 陨星结晶剑。"], id: "4A2D0E4A8C1F211E", tasks: [{ id: "4A2D0E4A8C1F211F", item: "ae2cs:meteor_crystal_sword", type: "item" }], title: "陨星结晶剑", x: 8.0d, y: 2.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["AE2CS 共鸣结晶剑。"], id: "4A2D0E4A8C1F2120", tasks: [{ id: "4A2D0E4A8C1F2121", item: "ae2cs:resonating_crystal_sword", type: "item" }], title: "共鸣结晶剑", x: 10.0d, y: 2.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["天境天空根剑，空岛近战起点。"], id: "4A2D0E4A8C1F2122", tasks: [{ id: "4A2D0E4A8C1F2123", item: "aether:skyroot_sword", type: "item" }], title: "天空根剑", x: 12.0d, y: 2.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["天境圣石剑。"], id: "4A2D0E4A8C1F2124", tasks: [{ id: "4A2D0E4A8C1F2125", item: "aether:holystone_sword", type: "item" }], title: "圣石剑", x: 14.0d, y: 2.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["天境紫晶剑。"], id: "4A2D0E4A8C1F2126", tasks: [{ id: "4A2D0E4A8C1F2127", item: "aether:zanite_sword", type: "item" }], title: "紫晶剑", x: 16.0d, y: 2.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["天境重力剑。"], id: "4A2D0E4A8C1F2128", tasks: [{ id: "4A2D0E4A8C1F2129", item: "aether:gravitite_sword", type: "item" }], title: "重力剑", x: 18.0d, y: 2.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["天境神圣剑。"], id: "4A2D0E4A8C1F212A", tasks: [{ id: "4A2D0E4A8C1F212B", item: "aether:holy_sword", type: "item" }], title: "神圣剑", x: 0.0d, y: 4.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["天境雷电剑。"], id: "4A2D0E4A8C1F212C", tasks: [{ id: "4A2D0E4A8C1F212D", item: "aether:lightning_sword", type: "item" }], title: "雷电剑", x: 2.0d, y: 4.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["天境烈焰剑。"], id: "4A2D0E4A8C1F212E", tasks: [{ id: "4A2D0E4A8C1F212F", item: "aether:flaming_sword", type: "item" }], title: "烈焰剑", x: 4.0d, y: 4.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["天境糖杖剑，偏趣味和收藏。"], id: "4A2D0E4A8C1F2130", tasks: [{ id: "4A2D0E4A8C1F2131", item: "aether:candy_cane_sword", type: "item" }], title: "糖杖剑", x: 6.0d, y: 4.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["凤凰之弓，天境远征代表奖励之一。"], id: "4A2D0E4A8C1F2132", tasks: [{ id: "4A2D0E4A8C1F2133", item: "aether:phoenix_bow", type: "item" }], title: "凤凰之弓", x: 8.0d, y: 4.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["海线战利短剑。"], id: "4A2D0E4A8C1F2134", tasks: [{ id: "4A2D0E4A8C1F2135", item: "alexsmobs:skelewag_sword", type: "item" }], title: "骷髅船员剑", x: 10.0d, y: 4.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["寒海可怖之剑。"], id: "4A2D0E4A8C1F2136", tasks: [{ id: "4A2D0E4A8C1F2137", item: "aquamirae:terrible_sword", type: "item" }], title: "可怖之剑", x: 12.0d, y: 4.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["暮色联动料理支线武器。"], id: "4A2D0E4A8C1F2138", tasks: [{ id: "4A2D0E4A8C1F2139", item: "twilightdelight:teardrop_sword", type: "item" }], title: "泪滴剑", x: 14.0d, y: 4.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["Ars 的附魔师之剑。"], id: "4A2D0E4A8C1F213A", tasks: [{ id: "4A2D0E4A8C1F213B", item: "ars_nouveau:enchanters_sword", type: "item" }], title: "附魔师之剑", x: 16.0d, y: 4.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["Ars 的附魔师之盾。"], id: "4A2D0E4A8C1F213C", tasks: [{ id: "4A2D0E4A8C1F213D", item: "ars_nouveau:enchanters_shield", type: "item" }], title: "附魔师之盾", x: 18.0d, y: 4.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["Botania 装饰盾。"], id: "4A2D0E4A8C1F213E", tasks: [{ id: "4A2D0E4A8C1F213F", item: "botania:cosmetic_lusitanic_shield", type: "item" }], title: "装饰盾", x: 0.0d, y: 6.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["ExtraBotany 魔钢盾。"], id: "4A2D0E4A8C1F2140", tasks: [{ id: "4A2D0E4A8C1F2141", item: "extrabotany:manasteel_shield", type: "item" }], title: "魔钢盾", x: 2.0d, y: 6.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["ExtraBotany 源质盾。"], id: "4A2D0E4A8C1F2142", tasks: [{ id: "4A2D0E4A8C1F2143", item: "extrabotany:elementium_shield", type: "item" }], title: "源质盾", x: 4.0d, y: 6.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["ExtraBotany 泰拉盾。"], id: "4A2D0E4A8C1F2144", tasks: [{ id: "4A2D0E4A8C1F2145", item: "extrabotany:terrasteel_shield", type: "item" }], title: "泰拉盾", x: 6.0d, y: 6.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["ExtraBotany 阿喀琉斯之盾。"], id: "4A2D0E4A8C1F2146", tasks: [{ id: "4A2D0E4A8C1F2147", item: "extrabotany:achilles_shield", type: "item" }], title: "阿喀琉斯之盾", x: 8.0d, y: 6.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["ExtraBotany 王者圣剑。"], id: "4A2D0E4A8C1F2148", tasks: [{ id: "4A2D0E4A8C1F2149", item: "extrabotany:excalibur", type: "item" }], title: "王者圣剑", x: 10.0d, y: 6.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["灾厄黑钢剑。"], id: "4A2D0E4A8C1F214A", tasks: [{ id: "4A2D0E4A8C1F214B", item: "cataclysm:black_steel_sword", type: "item" }], title: "黑钢剑", x: 12.0d, y: 6.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["灾厄诅咒弓。"], id: "4A2D0E4A8C1F214C", tasks: [{ id: "4A2D0E4A8C1F214D", item: "cataclysm:cursed_bow", type: "item" }], title: "诅咒弓", x: 14.0d, y: 6.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["灾厄蔚蓝海盾。"], id: "4A2D0E4A8C1F214E", tasks: [{ id: "4A2D0E4A8C1F214F", item: "cataclysm:azure_sea_shield", type: "item" }], title: "蔚蓝海盾", x: 16.0d, y: 6.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["幽匿共鸣剑。"], id: "4A2D0E4A8C1F2150", tasks: [{ id: "4A2D0E4A8C1F2151", item: "deeperdarker:resonarium_sword", type: "item" }], title: "共鸣剑", x: 18.0d, y: 6.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["监守者之剑。"], id: "4A2D0E4A8C1F2152", tasks: [{ id: "4A2D0E4A8C1F2153", item: "deeperdarker:warden_sword", type: "item" }], title: "监守者之剑", x: 0.0d, y: 8.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["纸板剑，Create 风格趣味兵器。"], id: "4A2D0E4A8C1F2154", tasks: [{ id: "4A2D0E4A8C1F2155", item: "create:cardboard_sword", type: "item" }], title: "纸板剑", x: 2.0d, y: 8.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["Iron's 自动装填弩。"], id: "4A2D0E4A8C1F2156", tasks: [{ id: "4A2D0E4A8C1F2157", item: "irons_spellbooks:autoloader_crossbow", type: "item" }], title: "自动装填弩", x: 4.0d, y: 8.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["青铜盾。"], id: "4A2D0E4A8C1F2158", tasks: [{ id: "4A2D0E4A8C1F2159", item: "mekanismtools:bronze_shield", type: "item" }], title: "青铜盾", x: 6.0d, y: 8.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["锇盾。"], id: "4A2D0E4A8C1F215A", tasks: [{ id: "4A2D0E4A8C1F215B", item: "mekanismtools:osmium_shield", type: "item" }], title: "锇盾", x: 8.0d, y: 8.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["钢盾。"], id: "4A2D0E4A8C1F215C", tasks: [{ id: "4A2D0E4A8C1F215D", item: "mekanismtools:steel_shield", type: "item" }], title: "钢盾", x: 10.0d, y: 8.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["青金石盾。"], id: "4A2D0E4A8C1F215E", tasks: [{ id: "4A2D0E4A8C1F215F", item: "mekanismtools:lapis_lazuli_shield", type: "item" }], title: "青金石盾", x: 12.0d, y: 8.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["强化萤石盾。"], id: "4A2D0E4A8C1F2160", tasks: [{ id: "4A2D0E4A8C1F2161", item: "mekanismtools:refined_glowstone_shield", type: "item" }], title: "强化萤石盾", x: 14.0d, y: 8.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["强化黑曜石盾。"], id: "4A2D0E4A8C1F2162", tasks: [{ id: "4A2D0E4A8C1F2163", item: "mekanismtools:refined_obsidian_shield", type: "item" }], title: "强化黑曜石盾", x: 16.0d, y: 8.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["冰火铜剑。"], id: "4A2D0E4A8C1F2164", tasks: [{ id: "4A2D0E4A8C1F2165", item: "iceandfire:copper_sword", type: "item" }], title: "铜剑", x: 18.0d, y: 8.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["冰火银剑。"], id: "4A2D0E4A8C1F2166", tasks: [{ id: "4A2D0E4A8C1F2167", item: "iceandfire:silver_sword", type: "item" }], title: "银剑", x: 0.0d, y: 10.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["冰火狮鹫剑。"], id: "4A2D0E4A8C1F2168", tasks: [{ id: "4A2D0E4A8C1F2169", item: "iceandfire:hippogryph_sword", type: "item" }], title: "狮鹫剑", x: 2.0d, y: 10.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["冰火幽灵剑。"], id: "4A2D0E4A8C1F216A", tasks: [{ id: "4A2D0E4A8C1F216B", item: "iceandfire:ghost_sword", type: "item" }], title: "幽灵剑", x: 4.0d, y: 10.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["冰火恐惧剑。"], id: "4A2D0E4A8C1F216C", tasks: [{ id: "4A2D0E4A8C1F216D", item: "iceandfire:dread_sword", type: "item" }], title: "恐惧剑", x: 6.0d, y: 10.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["冰火恐惧骑士剑。"], id: "4A2D0E4A8C1F216E", tasks: [{ id: "4A2D0E4A8C1F216F", item: "iceandfire:dread_knight_sword", type: "item" }], title: "恐惧骑士剑", x: 8.0d, y: 10.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["冰火恐惧女王剑。"], id: "4A2D0E4A8C1F2170", tasks: [{ id: "4A2D0E4A8C1F2171", item: "iceandfire:dread_queen_sword", type: "item" }], title: "恐惧女王剑", x: 10.0d, y: 10.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["沙漠蚁群剑。"], id: "4A2D0E4A8C1F2172", tasks: [{ id: "4A2D0E4A8C1F2173", item: "iceandfire:myrmex_desert_sword", type: "item" }], title: "沙漠蚁群剑", x: 12.0d, y: 10.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["丛林蚁群剑。"], id: "4A2D0E4A8C1F2174", tasks: [{ id: "4A2D0E4A8C1F2175", item: "iceandfire:myrmex_jungle_sword", type: "item" }], title: "丛林蚁群剑", x: 14.0d, y: 10.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["潮汐三叉戟，冰火海线代表兵器。"], id: "4A2D0E4A8C1F2176", tasks: [{ id: "4A2D0E4A8C1F2177", item: "iceandfire:tide_trident", type: "item" }], title: "潮汐三叉戟", x: 16.0d, y: 10.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["暮色骑士盾。"], id: "4A2D0E4A8C1F2178", tasks: [{ id: "4A2D0E4A8C1F2179", item: "twilightforest:knightmetal_shield", type: "item" }], title: "骑士盾", x: 18.0d, y: 10.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["暮色要塞盾。"], id: "4A2D0E4A8C1F217A", tasks: [{ id: "4A2D0E4A8C1F217B", item: "twilightforest:stronghold_shield", type: "item" }], title: "要塞盾", x: 0.0d, y: 12.0d }
+		{ dependencies: ["4A2D0E4A8C1F2100"], optional: true, description: ["暮色玻璃剑，偏趣味和收藏。"], id: "4A2D0E4A8C1F217C", tasks: [{ id: "4A2D0E4A8C1F217D", item: "twilightforest:glass_sword", type: "item" }], title: "玻璃剑", x: 2.0d, y: 12.0d }
+	]
+	title: "武备补遗"
+}

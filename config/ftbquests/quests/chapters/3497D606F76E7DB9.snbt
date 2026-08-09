@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "3497D606F76E7DB9"
 	group: "1932028AE2A3EB8D"
+	hide_quest_until_deps_visible: true
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	id: "3497D606F76E7DB9"
 	order_index: 2
@@ -27,7 +28,7 @@
 		}
 		{
 			dependencies: ["654A8A0E9770844D"]
-			description: ["暮色的首领必须按进度推进；魔法地图会指向下一座结构。"]
+			description: ["暮色的首领必须按进度推进；魔法地图会指向下一座结构。 "]
 			id: "79638352D286827D"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
@@ -90,7 +91,7 @@
 		}
 		{
 			dependencies: ["00B02923074F69AE"]
-			description: ["九头蛇是暮色中期的大型 Boss。击败它后，后续高阶区域会继续开放。"]
+			description: ["九头蛇是暮色中期的大型 Boss。击败它后，后续高阶区域会继续开放。 "]
 			id: "493BF3DC21914799"
 			tasks: [{
 				entity: "twilightforest:hydra"
@@ -104,7 +105,7 @@
 		}
 		{
 			dependencies: ["2FC46B442848878E"]
-			description: ["雪怪洞窟位于寒冷区域，建议先解决食物和护甲问题，再深入挑战 Alpha Yeti。"]
+			description: ["雪怪洞窟位于寒冷区域，建议先解决食物和护甲问题，再深入挑战 Alpha Yeti。 "]
 			id: "46DA6E5F1DBC5736"
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
@@ -118,7 +119,7 @@
 		}
 		{
 			dependencies: ["2D05000000000001"]
-			description: ["恶魂塔是暮色的一次高空战。垂直移动能力、远程手段和场地控制都很重要。"]
+			description: ["恶魂塔是暮色的一次高空战。垂直移动能力、远程手段和场地控制都很重要。 "]
 			id: "2FC46B442848878E"
 			tasks: [{
 				entity: "twilightforest:ur_ghast"
@@ -132,7 +133,7 @@
 		}
 		{
 			dependencies: ["7E23B05915EDDC53"]
-			description: ["高地巨人本身不是最终节点，但它证明你已经接近暮色末段的高危区域。"]
+			description: ["高地巨人本身不是最终节点，但它证明你已经接近暮色末段的高危区域。 "]
 			id: "5D34252C7B004BC2"
 			tasks: [{
 				entity: "twilightforest:giant_miner"
@@ -146,7 +147,7 @@
 		}
 		{
 			dependencies: ["2D05000000000002"]
-			description: ["巨魔洞穴能提供进入最终高原前的重要材料。注意这里的地形与怪物都更危险。"]
+			description: ["巨魔洞穴能提供进入最终高原前的重要材料。注意这里的地形与怪物都更危险。 "]
 			id: "7E23B05915EDDC53"
 			tasks: [{
 				entity: "twilightforest:troll"
@@ -181,7 +182,7 @@
 		}
 		{
 			dependencies: ["0F4862A6CD6EA6B5"]
-			description: ["暮色森林传送门需要水、植物、泥土和钻石。"]
+			description: ["暮色森林传送门需要水、植物（花）、泥土和钻石。使用方法是在草地中央搭建2x2的泥土框架，放入花和水，然后投掷钻石激活传送门。做出来后可以进入暮色维度开始探索。来源是暮色森林（Twilight Forest）的传送系统。"]
 			id: "1D05000000000001"
 			tasks: [{
 				id: "1D05000000000101"
@@ -220,7 +221,7 @@
 		}
 		{
 			dependencies: ["493BF3DC21914799"]
-			description: ["幻灵骑士通常出现在地下墓地。先清理小怪和地形，再处理首领本体。"]
+			description: ["幻灵骑士通常出现在地下墓地。先清理小怪和地形，再处理首领本体。 "]
 			id: "2D05000000000001"
 			tasks: [{
 				entity: "twilightforest:knight_phantom"
@@ -234,7 +235,7 @@
 		}
 		{
 			dependencies: ["46DA6E5F1DBC5736"]
-			description: ["冰雪女王是雪原区域的最终验证。她会大量制造冰晶与投射物，远程和机动都很关键。"]
+			description: ["冰雪女王是雪原区域的最终验证。她会大量制造冰晶与投射物，远程和机动都很关键。 "]
 			id: "2D05000000000002"
 			tasks: [{
 				entity: "twilightforest:snow_queen"

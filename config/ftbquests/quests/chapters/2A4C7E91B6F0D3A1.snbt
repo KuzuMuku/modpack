@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "2A4C7E91B6F0D3A1"
 	group: "38C5EA8637E52202"
+	hide_quest_until_deps_visible: true
 	icon: "twilightdelight:hydra_burger"
 	id: "2A4C7E91B6F0D3A1"
 	order_index: 2

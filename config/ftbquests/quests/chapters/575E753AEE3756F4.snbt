@@ -3,9 +3,10 @@
 	default_quest_shape: ""
 	filename: "575E753AEE3756F4"
 	group: "634674170BA7361A"
+	hide_quest_until_deps_visible: true
 	icon: "ae2:controller"
 	id: "575E753AEE3756F4"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,8 +23,8 @@
 				title: "路线导读"
 				type: "checkmark"
 			}]
-			x: -4.5d
-			y: -2.0d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -813,8 +814,8 @@
 				item: "expatternprovider:ex_charger"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["61F7DB87DE8B2A73"]

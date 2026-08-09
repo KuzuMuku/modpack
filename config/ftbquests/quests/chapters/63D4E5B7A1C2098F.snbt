@@ -3,9 +3,10 @@
 	default_quest_shape: ""
 	filename: "63D4E5B7A1C2098F"
 	group: "6AEED075A264200B"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:lantern"
 	id: "63D4E5B7A1C2098F"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

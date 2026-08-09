@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "085693054EAA2514"
 	group: "1932028AE2A3EB8D"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:netherrack"
 	id: "085693054EAA2514"
 	order_index: 1
@@ -238,7 +239,7 @@
 		}
 		{
 			dependencies: ["0F4862A6CD6EA6B5"]
-			description: ["黑曜石是搭建下界传送门的基础材料。"]
+			description: ["黑曜石是搭建下界传送门框架的基础材料。用十块黑曜石搭建传送门框架后，可以用打火石点燃进入下界。做出来后可以开启通往下界的传送门，是进入炼狱维度的必备条件。来源是下界传送门的基础材料。"]
 			id: "1B01000000000001"
 			tasks: [{
 				id: "1B01000000000101"
@@ -251,7 +252,7 @@
 		}
 		{
 			dependencies: ["1B01000000000001"]
-			description: ["点燃传送门，然后准备进入下界。"]
+			description: ["打火石与钢铁（燧石与打火石）用于点燃下界传送门。用它右键点击传送门框架的底部方块，即可激活传送门。做出来后可以开启进入下界的通道，是探索炼狱维度的关键工具。来源是原版基础工具。"]
 			id: "1B01000000000002"
 			tasks: [{
 				id: "1B01000000000102"

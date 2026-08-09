@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "35F4A2D7D2511198"
 	group: "38C5EA8637E52202"
+	hide_quest_until_deps_visible: true
 	icon: "touhou_little_maid:maid_spawn_egg"
 	id: "35F4A2D7D2511198"
 	order_index: 0
@@ -63,34 +64,6 @@
 			title: "女仆行囊"
 			x: 4.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["1E01000000000010"]
-			description: ["制作一个便携背包，用来收纳探索途中取得的物资。"]
-			id: "2B07000000000004"
-			optional: true
-			tasks: [{
-				id: "2B07000000000104"
-				item: "sophisticatedbackpacks:backpack"
-				type: "item"
-			}]
-			title: "便携背包"
-			x: 2.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2B07000000000004"]
-			description: ["为背包制作任意基础升级组件，随后可按自己的习惯扩展功能。"]
-			id: "2B07000000000005"
-			optional: true
-			tasks: [{
-				id: "2B07000000000105"
-				item: "sophisticatedbackpacks:upgrade_base"
-				type: "item"
-			}]
-			title: "背包升级"
-			x: 4.0d
-			y: 3.0d
 		}
 	]
 	title: "旅行伙伴"

@@ -3,9 +3,10 @@
 	default_quest_shape: ""
 	filename: "5E864576B8DC7B3E"
 	group: "634674170BA7361A"
+	hide_quest_until_deps_visible: true
 	icon: "toms_storage:ts.storage_terminal"
 	id: "09808611602ED099"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -381,18 +382,7 @@
 				item: "toms_storage:ts.crafting_terminal"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7C6519897916B7B5"]
-			id: "71F84ECB2547757D"
-			tasks: [{
-				id: "1329CFFC73B8106B"
-				item: "toms_storage:ts.inventory_cable"
-				type: "item"
-			}]
-			x: -1.0d
+			x: -0.5d
 			y: 4.0d
 		}
 		{
@@ -403,7 +393,7 @@
 				item: "toms_storage:ts.inventory_connector"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 4.0d
 		}
 		{

@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "5E6D9083C91EC191"
 	group: "1932028AE2A3EB8D"
+	hide_quest_until_deps_visible: true
 	icon: "deeperdarker:blooming_sculk_stone"
 	id: "5E6D9083C91EC191"
 	order_index: 4
@@ -10,7 +11,7 @@
 	quests: [
 		{
 			dependencies: ["6C04000000000006"]
-			description: ["幽冥之地的入口位于深暗之域的远古城市之后。"]
+			description: ["幽冥之地（Otherside）的入口位于深暗之域（Deep Dark）的远古城市（Ancient City）之后。使用方法是先找到远古城市，击败监守者（Warden）获得深渊之心（Heart of the Deep），然后在远古城市中心激活传送门。做出来后可以进入幽匿维度。来源是深暗之域的终极挑战。"]
 			id: "04CD52C48C5A638A"
 			tasks: [{
 				biome: "minecraft:deep_dark"
@@ -297,7 +298,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["70DC91383CD27B4A"]
+			dependencies: ["1D13C054D7256E13"]
 			description: ["进入幽冥后，图鉴里最值得优先看的就是“幽匿器官”。如果你此前缺控制、感知或潜行能力，这一组会明显改变你的战斗方式。"]
 			id: "3E06000000000006"
 			optional: true
@@ -306,7 +307,7 @@
 				title: "查看图鉴：幽匿器官"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 2.0d
 			y: 2.0d
 		}
 	]

@@ -1,8 +1,8 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "1ED459A7CABF7F11"
-	group: "6AEED075A264200B"
+	group: "20AEB0F73A64FBCF"
 	icon: {
 		Count: 1
 		id: "tetra:modular_double"
@@ -18,6 +18,14 @@
 		}
 	}
 	id: "1ED459A7CABF7F11"
+	images: [{
+		height: 31.9d
+		image: "kubejs:item/ftbq_mod_themed_sheet"
+		rotation: 0.0d
+		width: 42.53333333333333d
+		x: 28.28903714913399d
+		y: 5.861989821090795d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -33,11 +41,11 @@
 			optional: true
 			tasks: [{
 				id: "1D03000000000100"
-				title: "如何使用近战与弓词典"
+				title: "如何使用该词典"
 				type: "checkmark"
 			}]
-			x: -8.0d
-			y: 0.0d
+			x: 16.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -49,13 +57,15 @@
 			]
 			id: "1D03000000000001"
 			optional: true
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1D03000000000101"
-				title: "近战总览"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: -2.0d
+			title: "近战类"
+			x: 17.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -67,480 +77,24 @@
 			]
 			id: "1D03000000000002"
 			optional: true
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "1D03000000000102"
-				title: "弓总览"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1E01000000000001"]
-			description: [
-				"§6Tetra 的重点是改造，不是合成一把固定成品。§r"
-				"先把手边的剑、镐、斧放进工作台，看看它们能换什么部件。你会慢慢发现，同一把武器可以为了攻速、伤害、耐久或手感走不同方向。"
-				"前期先把常用工具改顺手，中期再学修理、磨砺和全息球，后期才去遗迹找高级工坊。"
-				"如果你刚接触 Tetra，不要急着抄毕业模板。先把一把主武器养明白。"
-			]
-			id: "1D02000000000000"
-			optional: true
-			tasks: [{
-				id: "1D02000000000100"
-				title: "路线导读"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1E01000000000001"]
-			description: [
-				"Tetra 不是“做一把成品武器”就结束的模组，而是“先做底子，再不断改造”的武器工坊。"
-				"第一步先摆下基础工作台。之后你会围绕它拆装部件、观察可改槽位、比较不同材料的手感，慢慢把一件武器打磨成适合自己的版本。"
-			]
-			id: "1D01000000000001"
-			tasks: [{
-				id: "1D01000000000101"
-				item: "tetra:basic_workbench"
-				type: "item"
-			}]
-			title: "基础工作台"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1D01000000000001"]
-			description: [
-				"最开始先拿原版木剑、石镐、斧头这类你本来就会做的东西练手。"
-				"Tetra 很多工具都不是从零开始硬做，而是把原版物品放进工作台里升级。对新手来说，这样最容易理解，也最省前期材料。"
-				"所以第一目标不是立刻追模块化毕业武器，而是先学会把手边常用工具改得更顺手。"
-			]
-			id: "1D02000000000001"
-			optional: true
-			tasks: [{
-				id: "1D02000000000101"
-				title: "先从原版工具改起"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1D01000000000001"]
-			description: [
-				"锻造锤是 Tetra 真正开始运作的关键工具。"
-				"有了它，你才能拆下武器原本的部件、换上新材料、查看不同模组位的改装方向。"
-				"如果你以前只会直接合成武器，这一步就是从“做装备”过渡到“调装备”的分水岭。"
-			]
-			id: "1D01000000000002"
-			tasks: [{
-				id: "1D01000000000102"
-				item: "tetra:hammer_base"
-				type: "item"
-			}]
-			title: "锻造锤"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1D01000000000002"]
-			description: [
-				"锤阶决定你能改什么。"
-				"新手最重要的节奏就是一路把锤子从低阶往上推：石锤解决最初级改造，铁锤开始稳定进入工作台循环，黑石锤才能承接更多中期模块，后面更高阶锤则与遗迹和高级工坊挂钩。"
-				"如果某个改造做不了，先别怀疑自己缺了隐藏配方，先看看是不是锤阶还不够。"
-			]
-			id: "1D02000000000002"
-			optional: true
-			tasks: [{
-				id: "1D02000000000102"
-				title: "先理解锤阶"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1D01000000000002"]
-			description: [
-				"石锤是你第一次真正体会 Tetra 进阶工艺的门槛。"
-				"它不是毕业工具，但会告诉你一个很关键的概念：锤子本身也是要被一路升级的主工具。"
-			]
-			id: "1D02000000000003"
-			optional: true
-			tasks: [{
-				id: "1D02000000000103"
-				title: "目标：石锤"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1D02000000000003"]
-			description: [
-				"铁锤是前中期最重要的一次跨越。"
-				"做到这一步后，你会明显感觉到能动的模块和材料突然多起来，很多“原来灰着”的方案开始亮了。"
-			]
-			id: "1D02000000000004"
-			optional: true
-			tasks: [{
-				id: "1D02000000000104"
-				title: "目标：铁锤"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1D02000000000004"]
-			description: [
-				"黑石锤标志着你已经能认真碰 Tetra 中期内容。"
-				"如果你想继续往更高阶材料、遗迹模块和高级工坊走，这一阶通常是很重要的过渡。"
-			]
-			id: "1D02000000000005"
-			optional: true
-			tasks: [{
-				id: "1D02000000000105"
-				title: "目标：黑石锤"
-				type: "checkmark"
-			}]
-			x: 8.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["1D01000000000002"]
-			description: [
-				"全息投影是 Tetra 最重要的读图工具。"
-				"它会告诉你一件装备还能往哪些方向强化、每条强化缺什么材料、哪些升级需要特殊遗迹或工作台。"
-				"新手玩 Tetra 时最容易犯的错，就是只看伤害数值，不看升级树；这个方块就是专门帮你避免这种情况的。"
-			]
-			id: "1D01000000000003"
-			tasks: [{
-				id: "1D01000000000103"
-				item: "tetra:holo"
-				type: "item"
-			}]
-			title: "全息投影"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1D01000000000003"]
-			description: [
-				"学会看全息球，比盲目改装重要得多。"
-				"你要特别留意四件事：还有哪些槽位能开、某个升级要什么材料、完整性够不够、旁边有没有提示需要遗迹或特殊工坊。"
-				"只要把这四点看熟，新手就不会再有“为什么别人的 Tetra 很强，我的只能加一点点伤害”的困惑。"
-			]
-			id: "1D02000000000006"
-			optional: true
-			tasks: [{
-				id: "1D02000000000106"
-				title: "学会看全息球"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1D01000000000002"]
-			description: [
-				"先从模块化剑开始最合适，因为它结构直观、成本不算夸张，适合练手。"
-				"做到这一步后，不要急着追求最终毕业词条，先试着换一两种材料，体会攻速、耐久、伤害和附加效果之间的取舍。"
-				"Tetra 的乐趣就在这里：不是一把更强的剑，而是一把更像你自己打法的剑。"
-			]
-			id: "1D01000000000004"
-			tasks: [{
-				id: "1D01000000000104"
-				item: "tetra:modular_sword"
-				type: "item"
-			}]
-			title: "模块化剑"
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1D01000000000001"]
-			description: [
-				"模块化单手工具是 Tetra 对原版镐、斧、铲的一条总路线。"
-				"如果你更在意采集效率、挖矿体验和综合工具手感，而不是先做武器，这一支非常适合先推进。"
-			]
-			id: "1D02000000000007"
-			tasks: [{
-				id: "1D02000000000107"
-				item: "tetra:modular_single"
-				type: "item"
-			}]
-			title: "模块化工具"
-			x: 2.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1D02000000000007"]
-			description: [
-				"Tetra 新手最容易感受到提升的，不是极限武器，而是镐子和斧头。"
-				"因为你每天都在挖、砍、修、拆。优先把一把主力工具改到顺手，收益往往比硬做一把还不熟悉的奇怪武器更高。"
-			]
-			id: "1D02000000000008"
-			optional: true
-			tasks: [{
-				id: "1D02000000000108"
-				title: "先养一把主力工具"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1D01000000000004"]
-			description: [
-				"双手武器意味着你开始从“日常清怪”转向“围绕强敌和 Boss 调武器”。"
-				"这类武器通常更重、更慢，但爆发更高，也更依赖你对前摇、站位和攻击节奏的掌握。"
-				"如果你已经发现单手剑打高压战不够过瘾，这一步就是 Tetra 给你的第一条明确分流。"
-			]
-			id: "1D01000000000005"
-			tasks: [{
-				id: "1D01000000000105"
-				item: "tetra:modular_double"
-				type: "item"
-			}]
-			title: "重武器路线"
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1D01000000000004"]
-			description: [
-				"模块化盾牌很适合不想放弃原版格挡节奏的新手。"
-				"如果你主线阶段经常被远程、突进怪或高压近战打得难受，先把一面顺手的盾养起来，往往比一味追伤害舒服。"
-			]
-			id: "1D02000000000009"
-			tasks: [{
-				id: "1D02000000000109"
-				item: "tetra:modular_shield"
-				type: "item"
-			}]
-			title: "防守路线"
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1D01000000000004"]
-			description: [
-				"模块化弓适合想把 Tetra 接到远程构筑的玩家。"
-				"如果你已经在玩枪、弓或法师副手，这一支可以作为补充；但纯新手开荒时，它通常没有近战工具和主力工具那么优先。"
-			]
-			id: "1D0200000000000A"
-			tasks: [{
-				id: "1D0200000000010A"
-				item: {
-					Count: 1
-					id: "tetra:modular_bow"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "远程路线"
-			x: 6.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1D01000000000004"]
-			description: [
-				"Tetra 有一个很重要但容易被忽略的点：修理。"
-				"模块化物品不是坏了就丢，而是在工作台里用对应模块材料轮流修。不同模块还会轮换进修理序列，所以你要开始记住一把武器到底是用什么做的。"
-				"会修，才配长期养。"
-			]
-			id: "1D0200000000000B"
-			optional: true
-			tasks: [{
-				id: "1D0200000000010B"
-				title: "先学会修理"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1D01000000000004"]
-			description: [
-				"磨砺 `Hone` 是 Tetra 真正把一把武器养起来的方式之一。"
-				"简单理解，就是先把武器用出熟练度，再在工作台里继续打磨某些属性或某个改进。新手阶段不用强求极限数值，但一定要知道“武器会越用越能继续养”。"
-			]
-			id: "1D0200000000000C"
-			optional: true
-			tasks: [{
-				id: "1D0200000000010C"
-				title: "理解磨砺系统"
-				type: "checkmark"
-			}]
-			x: 8.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1D0200000000000C"]
-			description: [
-				"真正的新手友好打法，是先养一把顺手的主力武器，然后只围绕它做 1 到 2 个明确目标。"
-				"例如单手剑就优先补攻速和稳定手感，双手武器就优先补重击收益，盾牌就优先补容错。不要同时追太多花哨词条，不然材料会被摊薄。"
-			]
-			id: "1D0200000000000D"
-			optional: true
-			tasks: [{
-				id: "1D0200000000010D"
-				title: "一次只养一把主武器"
-				type: "checkmark"
-			}]
-			x: 10.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"1D01000000000003"
-				"1D01000000000005"
-			]
-			description: [
-				"锻造工作台代表你不再只是做临时改装，而是真的开始经营一间武器工坊。"
-				"从这里开始，很多更深的模组位、材料路线和高级改造才会逐步打开。"
-				"做到这一步后，Tetra 的正确玩法就不再是“照着配方做一个”，而是“拿一把顺手武器，持续迭代到整条主线都够用”。"
-			]
-			id: "1D01000000000006"
-			tasks: [{
-				id: "1D01000000000106"
-				item: "tetra:forged_workbench"
-				type: "item"
-			}]
-			title: "真正的工坊"
-			x: 6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["1D01000000000006"]
-			description: [
-				"从锻造工坊开始，很多更高级的模块都不再只靠主世界常规材料解决。"
-				"你会需要去遗迹、拆旧结构、找特殊零件、甚至回头重做锤子。也就是说，这里是 Tetra 从“改装工具”转向“考古工坊”的节点。"
-			]
-			id: "1D0200000000000E"
-			optional: true
-			tasks: [{
-				id: "1D0200000000010E"
-				title: "中期开始看遗迹"
-				type: "checkmark"
-			}]
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1D01000000000003"]
-			description: [
-				"晶洞是 Tetra 中期非常值得留意的资源点。"
-				"深板岩区域里带微光的矿块有可能藏着晶洞，拿回工作台敲开后能出更优质的宝石。"
-				"如果你已经开始认真养武器，这类宝石的收益会比普通宝石明显更高。"
-			]
-			id: "1D0200000000000F"
-			tasks: [{
-				id: "1D0200000000010F"
-				item: "tetra:geode"
-				type: "item"
-			}]
-			title: "寻找晶洞"
-			x: 8.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1D0200000000000F"]
-			description: [
-				"高品质宝石是插槽玩法真正开始的节点。"
-				"它们能给武器和工具带来更明显的加成，所以晶洞不是可有可无的小彩蛋，而是你中期强化的一条正式路线。"
-			]
-			id: "1D02000000000010"
-			tasks: [
-				{
-					id: "1D02000000000110"
-					item: "tetra:pristine_lapis"
-					type: "item"
-				}
-				{
-					id: "1D02000000000111"
-					item: "tetra:pristine_diamond"
-					type: "item"
-				}
-			]
-			title: "高品质宝石"
-			x: 10.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1D01000000000003"]
-			description: [
-				"全息球后续还能修复扫描功能。"
-				"近距离扫描能帮你更好地确认遗迹方向，放在地上再用锤子敲击，则能做更远程的区块扫描。对第一次找古代遗迹的新手来说，这套功能非常重要。"
-			]
-			id: "1D02000000000011"
-			optional: true
-			tasks: [{
-				id: "1D02000000000112"
-				title: "修复扫描功能"
-				type: "checkmark"
-			}]
-			x: 10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1D02000000000011"]
-			description: [
-				"古代遗迹通常生成在寒冷或山地深处。"
-				"如果你在地底深层活动时看到奇怪的旧工坊、残骸或大型构件，不要只当成普通地牢，它们很可能就是 Tetra 真正的中后期入口。"
-			]
-			id: "1D02000000000012"
-			optional: true
-			tasks: [{
-				id: "1D02000000000113"
-				title: "寻找古代遗迹"
-				type: "checkmark"
-			}]
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1D02000000000012"]
-			description: [
-				"平面稳定器是遗迹里很值得带回来的高级零件。"
-				"它代表 Tetra 已经开始从常规改装走向真正的遗迹技术线，能服务于更强的弓、腰带或其他高级改造。"
-			]
-			id: "1D02000000000013"
-			tasks: [{
-				id: "1D02000000000114"
-				item: "tetra:planar_stabilizer"
-				type: "item"
-			}]
-			title: "平面稳定器"
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1D02000000000013"]
-			description: [
-				"Tetra 到后面会越来越像“长期投资一两把装备”的模组。"
-				"所以最适合新手的终极建议反而很简单：不要贪多，选一把近战主武器、一把主力工具，再视情况补一面盾或一把弓。把材料和时间集中投入，手感会比摊开养四五把装备好得多。"
-			]
-			id: "1D02000000000014"
-			optional: true
-			tasks: [{
-				id: "1D02000000000115"
-				title: "Tetra 的养成思路"
-				type: "checkmark"
-			}]
-			x: 16.0d
-			y: 0.0d
+			title: "远程类"
+			x: 33.75d
+			y: -7.5d
 		}
 		{
 			dependencies: ["51BEFF9F47A8879D"]
 			description: [
-				"`T2 成品近战`。龙骨剑是冰火线路里最明确的近战阶段跃迁。"
-				"做法不复杂，但前提很硬：你得先能猎到龙、拿到龙骨。之后还能继续分成火、冰、雷三种属性龙骨剑。"
-				"如果你不想慢慢养 Tetra，而是更想做一把一眼就强很多的成品武器，龙骨剑非常值得。"
+				"龙骨剑是冰火线路里最容易拿到的武器之一"
+				"推荐跑图寻找&6龙的裸骨架&r，空手右键即可拆卸获得&6龙骨&r。之后前往&6下界堡垒&r击杀凋灵骷髅即可获得&6凋灵之骨"
+				"&r"
+				"如果你不想组装 Tetra，而是更想做一把一眼就强很多的成品武器，龙骨剑非常值得。"
+				"&e有同材质斧头可选"
 			]
 			id: "1D03000000000003"
 			tasks: [{
@@ -554,17 +108,12 @@
 				}
 				type: "item"
 			}]
-			title: "龙骨剑"
-			x: 12.0d
-			y: 2.0d
+			x: 22.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["51BEFF9F47A8879D"]
-			description: [
-				"`T2 成品近战`。龙炎骨血剑是在龙骨剑基础上进一步灌入龙属性的版本。"
-				"做它的前提仍然是你能稳定碰龙，所以别把它当作普通工作台武器。"
-				"如果你已经开始刷龙材料，这类属性龙骨剑很适合作为中期成品近战。"
-			]
+			description: ["需要杀掉一条&c火龙&r获取龙血，适合用于克制冰龙，作为下一步刷龙的跳板。"]
 			id: "1D03000000000009"
 			tasks: [{
 				id: "1D03000000000109"
@@ -577,15 +126,15 @@
 				}
 				type: "item"
 			}]
-			title: "龙炎骨血剑"
-			x: 20.0d
-			y: 2.0d
+			x: 24.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["51BEFF9F47A8879D"]
 			description: [
-				"`T2 成品近战`。龙霜骨血剑和火属性版同级，只是路线偏向冰龙。"
-				"如果你更早能稳定猎冰龙，就优先把这把落地。"
+				"需要杀一条&b冰龙&r获取龙血"
+				"用于克制火龙，是下一步刷龙的跳板。"
+				"&6\"击中时冰冻目标\"是相当有用的强控手段，推荐制作&r"
 			]
 			id: "1D0300000000000A"
 			tasks: [{
@@ -599,15 +148,14 @@
 				}
 				type: "item"
 			}]
-			title: "龙霜骨血剑"
-			x: 22.0d
-			y: 2.0d
+			x: 25.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["51BEFF9F47A8879D"]
 			description: [
-				"`T2-T3 成品近战`。龙霆骨血剑对应的是雷龙路线。"
-				"能做它时，说明你已经开始认真碰冰火后段内容。"
+				"需要杀掉一条电龙获取龙血"
+				"雷属性龙骨剑可&6同时克制冰火属性的龙&r，攻击时会召唤雷击，会&c击毁掉落物&r，会触发雷电转换(指猪变猪灵那类转换)"
 			]
 			id: "1D0300000000000B"
 			tasks: [{
@@ -621,16 +169,15 @@
 				}
 				type: "item"
 			}]
-			title: "龙霆骨血剑"
 			x: 24.0d
-			y: 2.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["213943C658A17A49"]
 			description: [
-				"`T3-T4 成品近战`。龙钢剑属于冰火终局近战。"
-				"它不是普通工作台攒材料，而是要先走完整条龙锻炉与龙钢锭工艺线。"
-				"如果你已经在冰火章节里做出龙钢锭，这把剑就是最该优先考虑落地成武器的产物之一。"
+				"需要按冰火任务线制作&c龙炎锻炉&r，并驯服/囚禁一条&c火龙&r"
+				"伤害耐久均很高，是冰火线毕业武器之一"
+				"&e有同材质斧头可选"
 			]
 			id: "1D03000000000004"
 			tasks: [{
@@ -644,16 +191,15 @@
 				}
 				type: "item"
 			}]
-			title: "火龙钢剑"
-			x: 14.0d
-			y: 2.0d
+			x: 31.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["213943C658A17A49"]
 			description: [
-				"`T3-T4 成品近战`。冰龙钢剑和火龙钢剑同级，只是前置换成冰系龙血。"
-				"如果你更早稳定猎冰龙，就先做这把，不必死盯火系分支。"
-				"龙钢剑真正的门槛都在龙锻炉和龙血，不在工作台本身。"
+				"需要按冰火任务线制作&b龙霜锻炉&r(可探索&1悚陵&r获得部分方块)，并驯服/囚禁一条&b冰龙&r"
+				"伤害耐久均很高，\"&6击中时冰冻目标&r\"是相当有用的强控手段，推荐制作"
+				"&e有同材质斧头可选"
 			]
 			id: "1D03000000000007"
 			tasks: [{
@@ -667,16 +213,15 @@
 				}
 				type: "item"
 			}]
-			title: "冰龙钢剑"
-			x: 16.0d
-			y: 2.0d
+			x: 31.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["213943C658A17A49"]
 			description: [
-				"`T3-T4 成品近战`。雷龙钢剑对应的是更后期的雷龙路线，属于冰火终盘武器。"
-				"如果你已经能稳定处理雷龙与雷龙血，这把剑完全值得作为毕业近战候选。"
-				"它不是给前中期硬冲的，是给后期把高危狩猎兑现成强武器的。"
+				"需要按冰火任务线制作&5龙霆锻炉&r，并驯服/囚禁一条&5电龙&r"
+				"伤害耐久均很高，不会像龙骨血剑一样召唤闪电破坏掉落物，但推荐程度仍不如龙霜钢高。"
+				"&e有同材质斧头可选"
 			]
 			id: "1D03000000000008"
 			tasks: [{
@@ -690,9 +235,8 @@
 				}
 				type: "item"
 			}]
-			title: "雷龙钢剑"
-			x: 18.0d
-			y: 2.0d
+			x: 31.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["51BEFF9F47A8879D"]
@@ -713,9 +257,8 @@
 				}
 				type: "item"
 			}]
-			title: "龙骨弓"
-			x: 12.0d
-			y: 4.0d
+			x: 37.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6C04000000000006"]
@@ -736,16 +279,12 @@
 				}
 				type: "item"
 			}]
-			title: "凤凰之弓"
-			x: 14.0d
-			y: 4.0d
+			x: 37.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
-			description: [
-				"`T1-T2 暮色近战`。铁木剑是暮色森林最早能稳定拿到的成品剑之一。"
-				"如果你刚开暮色，还没有更高级的模组近战，这把可以直接拿来过渡。"
-			]
+			description: ["搜索宝箱或挖掘树根处的活根合成。自带附魔"]
 			id: "1D0300000000000C"
 			tasks: [{
 				id: "1D0300000000010C"
@@ -758,15 +297,14 @@
 				}
 				type: "item"
 			}]
-			title: "铁木剑"
-			x: 20.0d
-			y: -4.0d
+			x: 19.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
 			description: [
-				"`T1-T2 暮色近战`。钢叶剑是比铁木更进一层的暮色过渡剑。"
-				"如果你已经开始稳定探索暮色结构，它会是很自然的一把升级武器。"
+				"搜索巨树迷宫或牛头人等宝箱获得钢叶来合成"
+				"自带附魔"
 			]
 			id: "1D0300000000000D"
 			tasks: [{
@@ -780,15 +318,14 @@
 				}
 				type: "item"
 			}]
-			title: "钢叶剑"
-			x: 22.0d
-			y: -4.0d
+			x: 20.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
 			description: [
-				"`T2 暮色近战`。骑士剑对有护甲的目标更有威胁，打精英怪和一些高压敌人更舒服。"
-				"它的意义不只是面板，而是你开始深入暮色进度。"
+				"由骑士金属锭和木棍合成，或从幻影骑士宝箱获得"
+				"当目标拥有护甲值时，会造成2点额外伤害"
 			]
 			id: "1D0300000000000E"
 			tasks: [{
@@ -802,15 +339,14 @@
 				}
 				type: "item"
 			}]
-			title: "骑士剑"
-			x: 24.0d
-			y: -4.0d
+			x: 21.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
 			description: [
-				"`T2 暮色近战`。炽铁剑自带灼烧思路，适合持续补伤。"
-				"如果你喜欢稳定磨血而不是只看一刀面板，这把很好用。"
+				"击杀暮初恶魂/九头蛇后可合成"
+				"点燃命中目标，持续15秒"
 			]
 			id: "1D0300000000000F"
 			tasks: [{
@@ -824,15 +360,14 @@
 				}
 				type: "item"
 			}]
-			title: "炽铁剑"
-			x: 26.0d
-			y: -4.0d
+			x: 22.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
 			description: [
-				"`T2 暮色近战`。寒冰剑更偏控制和功能性，适合配合走位与连击。"
-				"如果你已经打到暮色更深层内容，它值得专门留一把。"
+				"击杀雪怪首领可合成"
+				"击中后给予目标冻结效果，约等于缓慢"
 			]
 			id: "1D03000000000010"
 			tasks: [{
@@ -846,15 +381,14 @@
 				}
 				type: "item"
 			}]
-			title: "寒冰剑"
-			x: 28.0d
-			y: -4.0d
+			x: 20.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
 			description: [
-				"`T2-T3 暮色近战`。巨人剑更像高面板、风格强烈的特化武器。"
-				"适合已经能处理巨人结构和暮色后段探索的玩家。"
+				"击杀巨人掉落"
+				"伤害高范围大，但速度很慢"
 			]
 			id: "1D03000000000011"
 			tasks: [{
@@ -868,9 +402,8 @@
 				}
 				type: "item"
 			}]
-			title: "巨人剑"
-			x: 30.0d
-			y: -4.0d
+			x: 21.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -890,8 +423,7 @@
 				}
 				type: "item"
 			}]
-			title: "末影弓"
-			x: 20.0d
+			x: 36.0d
 			y: 4.0d
 		}
 		{
@@ -912,9 +444,8 @@
 				}
 				type: "item"
 			}]
-			title: "寒冰弓"
-			x: 22.0d
-			y: 4.0d
+			x: 36.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -934,9 +465,8 @@
 				}
 				type: "item"
 			}]
-			title: "追踪弓"
-			x: 24.0d
-			y: 4.0d
+			x: 37.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -956,9 +486,8 @@
 				}
 				type: "item"
 			}]
-			title: "三发弓"
-			x: 26.0d
-			y: 4.0d
+			x: 38.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -978,9 +507,8 @@
 				}
 				type: "item"
 			}]
-			title: "巫师之剑"
-			x: 20.0d
-			y: -6.0d
+			x: 11.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -994,9 +522,8 @@
 				item: "ars_nouveau:spell_bow"
 				type: "item"
 			}]
-			title: "巫师之弓"
-			x: 22.0d
-			y: -6.0d
+			x: 12.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -1010,16 +537,12 @@
 				item: "ars_nouveau:spell_crossbow"
 				type: "item"
 			}]
-			title: "巫师之弩"
-			x: 24.0d
-			y: -6.0d
+			x: 13.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
-			description: [
-				"`植物魔法近战`。魔钢剑是 Botania 最基础的正式近战成品。"
-				"如果你刚进植物魔法，又想先拿到一把比原版更像模组武器的剑，这把最适合起步。"
-			]
+			description: ["普通武器，能吸收玩家的魔力修复自身"]
 			id: "1D03000000000019"
 			tasks: [{
 				id: "1D03000000000119"
@@ -1032,9 +555,8 @@
 				}
 				type: "item"
 			}]
-			title: "魔钢剑"
-			x: 20.0d
-			y: 6.0d
+			x: 19.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -1054,9 +576,8 @@
 				}
 				type: "item"
 			}]
-			title: "活木弓"
-			x: 22.0d
-			y: 6.0d
+			x: 34.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -1076,15 +597,15 @@
 				}
 				type: "item"
 			}]
-			title: "水晶弓"
-			x: 24.0d
-			y: 6.0d
+			x: 35.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
 			description: [
-				"`植物魔法近战`。源质钢剑接在精灵门后，是 Botania 中期成品剑。"
-				"如果你已经打通精灵门素材线，这把就是很自然的下一把剑。"
+				"打开精灵门后可合成，能吸收玩家的魔力修复自身"
+				"受到攻击时概率召唤5点伤害的小精灵反击敌人，搭配其他源质钢装备能提高概率"
+				"注意刷盖亚时小怪掉的破损源质钢剑可能会抽干你的魔力。"
 			]
 			id: "1D0300000000001C"
 			tasks: [{
@@ -1098,15 +619,15 @@
 				}
 				type: "item"
 			}]
-			title: "源质钢剑"
-			x: 26.0d
-			y: 6.0d
+			x: 20.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
 			description: [
-				"`植物魔法高阶近战`。泰拉之刃是整包里辨识度极高的一把经典武器。"
-				"它的难点在于你能不能稳定推进泰拉钢，而不是单纯配方材料数量。"
+				"需要使用泰拉凝聚板和半池魔力合成泰拉钢"
+				"泰拉之刃是整包里辨识度极高的一把经典武器，能吸收玩家的魔力修复自身"
+				"伤害足够，有一定远程能力。挥动时会发射一道8伤害的魔力射线"
 			]
 			id: "1D0300000000001D"
 			tasks: [{
@@ -1120,16 +641,12 @@
 				}
 				type: "item"
 			}]
-			title: "泰拉之刃"
-			x: 28.0d
-			y: 6.0d
+			x: 22.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
-			description: [
-				"`植物魔法特化近战`。灵魂匕首更偏功能型近战，不是无脑拿来平砍的主武器。"
-				"如果你喜欢特殊玩法而不是单纯看伤害，它很值得单独了解。"
-			]
+			description: ["对末影人造成20点伤害，耐久不高"]
 			id: "1D0300000000001E"
 			tasks: [{
 				id: "1D0300000000011E"
@@ -1142,16 +659,12 @@
 				}
 				type: "item"
 			}]
-			title: "灵魂匕首"
-			x: 30.0d
-			y: 6.0d
+			x: 19.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
-			description: [
-				"`植物魔法高阶近战`。召星者是 Botania 后段的特殊剑，更偏高阶法武路线。"
-				"如果你已经打到泰拉钢和更高层的植物魔法内容，这把可以重点看。"
-			]
+			description: ["使用泰拉之刃制作，能吸收玩家的魔力修复自身，在目标头顶召唤5点伤害的星星"]
 			id: "1D0300000000001F"
 			tasks: [{
 				id: "1D0300000000011F"
@@ -1164,16 +677,12 @@
 				}
 				type: "item"
 			}]
-			title: "召星者"
-			x: 32.0d
-			y: 6.0d
+			x: 22.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
-			description: [
-				"`植物魔法高阶近战`。召雷者和召星者同属后段特殊剑，更偏终盘收藏和构筑。"
-				"如果你已经把 Botania 打深，这把值得纳入武器词典目标。"
-			]
+			description: ["需要使用泰拉之刃制作，闪电会损坏掉落物，可用于转化苦力怕，不推荐日常使用"]
 			id: "1D03000000000020"
 			tasks: [{
 				id: "1D03000000000120"
@@ -1186,15 +695,14 @@
 				}
 				type: "item"
 			}]
-			title: "召雷者"
-			x: 34.0d
-			y: 6.0d
+			x: 21.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
 			description: [
-				"`新生魔艺高阶近战`。王者圣剑是 ExtraBotany 里辨识度最高的成品剑之一。"
-				"它不适合太早追，前提是你已经把 Botania 和 ExtraBotany 关键材料线都打通。"
+				"击杀盖亚3等额外植物学的boss后可合成。能吸收玩家的魔力修复自身"
+				"挥动时会发射9点伤害的射线，会追踪敌人"
 			]
 			id: "1D03000000000021"
 			tasks: [{
@@ -1208,9 +716,8 @@
 				}
 				type: "item"
 			}]
-			title: "王者圣剑"
-			x: 20.0d
-			y: 8.0d
+			x: 25.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -1224,25 +731,8 @@
 				item: "extrabotany:failnaught"
 				type: "item"
 			}]
-			title: "百中弓"
-			x: 22.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["1E01000000000001"]
-			description: [
-				"`新生魔艺高阶近战`。冰结傀儡是 ExtraBotany 的特殊武器之一，更偏后期玩具和高阶构筑。"
-				"如果你已经推进到 ExtraBotany 深层材料，就可以把它列进候选。"
-			]
-			id: "1D03000000000023"
-			tasks: [{
-				id: "1D03000000000123"
-				item: "extrabotany:zadkiel"
-				type: "item"
-			}]
-			title: "冰结傀儡"
-			x: 24.0d
-			y: 8.0d
+			x: 38.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["654A8A0E9770844D"]
@@ -1256,15 +746,15 @@
 				item: "mekanism:electric_bow"
 				type: "item"
 			}]
-			title: "电动弓"
-			x: 26.0d
-			y: 8.0d
+			x: 36.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["654A8A0E9770844D"]
 			description: [
-				"`Mekanism 早期近战`。青铜剑是工业线起步后最早能替代原版铁剑的一把成品剑。"
-				"如果你前期就先推工业，这把可以直接拿来跑主世界。"
+				"用锡灌注铜制作青铜后可制作。"
+				"&8谁会用这个…&r"
+				"&e有同材质斧头/镐尖斧可选"
 			]
 			id: "1D03000000000025"
 			tasks: [{
@@ -1278,15 +768,15 @@
 				}
 				type: "item"
 			}]
-			title: "青铜剑"
-			x: 28.0d
-			y: 8.0d
+			x: 19.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["654A8A0E9770844D"]
 			description: [
-				"`Mekanism 过渡近战`。锇剑和锇套一样，属于非常标准的工业过渡武器。"
-				"它不一定是终局，但经常是你第一把真正像样的工业剑。"
+				"烧制锇矿即可制作"
+				"锇剑和锇套一样为下界合金级，硬度高伤害高，只是耐久偏低，经常是你第一把像样的工业剑。"
+				"&e有同材质斧头/镐尖斧可选"
 			]
 			id: "1D03000000000026"
 			tasks: [{
@@ -1300,15 +790,16 @@
 				}
 				type: "item"
 			}]
-			title: "锇剑"
-			x: 30.0d
-			y: 8.0d
+			x: 22.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["654A8A0E9770844D"]
 			description: [
-				"`Mekanism 中期近战`。钢剑适合已经把工业前期跑顺、想要更扎实主力剑的时候。"
-				"如果你不走魔法或冒险线，这把会很自然。"
+				"可炼钢之后制作。"
+				"钢剑适合已经把工业前期跑顺、想要更扎实主力剑的时候。"
+				"感觉不如直接做锇剑"
+				"&e有同材质斧头/镐尖斧可选"
 			]
 			id: "1D03000000000027"
 			tasks: [{
@@ -1322,15 +813,14 @@
 				}
 				type: "item"
 			}]
-			title: "钢剑"
-			x: 32.0d
-			y: 8.0d
+			x: 20.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["654A8A0E9770844D"]
 			description: [
-				"`Mekanism 中期近战`。青金石剑更像特化路线武器，不是最主流的伤害剑。"
-				"如果你在这一系材料线上正好顺手，可以做来体验；否则优先级一般。"
+				"至少是把剑，使用的时候也许会把怪物附魔。"
+				"&e有同材质斧头/镐尖斧可选"
 			]
 			id: "1D03000000000028"
 			tasks: [{
@@ -1344,15 +834,15 @@
 				}
 				type: "item"
 			}]
-			title: "青金石剑"
-			x: 34.0d
-			y: 8.0d
+			x: 17.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7A2E31B1E217A5FB"]
 			description: [
-				"`Mekanism 高阶近战`。强化萤石剑更偏轻快与风格化，适合机动型玩家。"
-				"如果你连护甲都在走精炼萤石路线，这把就能直接配套。"
+				"锇压缩机制作。"
+				"&8谁会用这个…&r"
+				"&e有同材质斧头/镐尖斧可选"
 			]
 			id: "1D03000000000029"
 			tasks: [{
@@ -1366,15 +856,15 @@
 				}
 				type: "item"
 			}]
-			title: "强化萤石剑"
-			x: 36.0d
-			y: 8.0d
+			x: 19.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7A2E31B1E217A5FB"]
 			description: [
-				"`Mekanism 高阶近战`。强化黑曜石剑更偏硬派和稳重，是很直观的高阶工业近战。"
-				"如果你本来就在走精炼黑曜石防具，这把可以顺手作为配套主剑。"
+				"需要锇压缩机和强化黑曜石制作。"
+				"工业线简单武器数值最高的一把。后面就都是用电的武器了"
+				"&e有同材质斧头/镐尖斧可选"
 			]
 			id: "1D0300000000002A"
 			tasks: [{
@@ -1388,10 +878,1284 @@
 				}
 				type: "item"
 			}]
-			title: "强化黑曜石剑"
+			x: 24.5d
+			y: -1.5d
+		}
+		{
+			description: ["原版木剑，推荐先做木镐挖石头。"]
+			id: "4A2D0E4A8C1F2102"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2103"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -5.5d
+		}
+		{
+			description: ["原版石剑，至少比木头强。"]
+			id: "4A2D0E4A8C1F2104"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2105"
+				item: {
+					Count: 1
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.0d
+		}
+		{
+			description: ["原版铁剑，主世界早期最标准的武器。"]
+			id: "4A2D0E4A8C1F2106"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2107"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: -5.5d
+		}
+		{
+			description: ["原版钻石剑，经典武器。"]
+			id: "4A2D0E4A8C1F2108"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2109"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: -5.5d
+		}
+		{
+			description: ["原版金剑，除了拿给皇帝狩猎外，附魔它有&6更高概率获得优质附魔&r，可用于获取附魔书。"]
+			id: "4A2D0E4A8C1F210A"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F210B"
+				item: {
+					Count: 1
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.0d
+		}
+		{
+			description: [
+				"前往地狱12层附近挖掘远古残骸可制作下界合金，锻造模板从宝箱里获得"
+				"不推荐把下界合金浪费在这上。"
+			]
+			id: "4A2D0E4A8C1F210C"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F210D"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: -5.5d
+		}
+		{
+			description: ["原版弓，所有远程体系的起点。"]
+			id: "4A2D0E4A8C1F210E"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F210F"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 34.0d
+			y: -5.0d
+		}
+		{
+			description: ["原版弩，偏工具化和战术化的远程选择。"]
+			id: "4A2D0E4A8C1F2110"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2111"
+				item: {
+					Count: 1
+					id: "minecraft:crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 34.0d
+			y: -6.0d
+		}
+		{
+			description: ["原版盾牌，最普遍也最可靠的保命副手。"]
+			id: "4A2D0E4A8C1F2112"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2113"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 43.5d
+			y: -5.5d
+		}
+		{
+			description: ["原版三叉戟，海线与附魔联动价值都很高。"]
+			id: "4A2D0E4A8C1F2114"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2115"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 35.5d
+			y: -5.5d
+		}
+		{
+			description: ["AE2 赛特斯石英剑。"]
+			id: "4A2D0E4A8C1F2116"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2117"
+				item: {
+					Count: 1
+					id: "ae2:certus_quartz_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.0d
+		}
+		{
+			description: ["AE2 下界石英剑。"]
+			id: "4A2D0E4A8C1F2118"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2119"
+				item: {
+					Count: 1
+					id: "ae2:nether_quartz_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"AE2 福鲁伊克斯剑，自带抢夺1，有比没有强。"
+				"自行附魔抢夺2,3的效果与其他武器相同，&6不会叠加&r"
+			]
+			id: "4A2D0E4A8C1F211A"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F211B"
+				item: {
+					Count: 1
+					id: "ae2:fluix_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			description: ["合成获得，绑定无线接入点后可把击杀掉落物直接送进me网络，无视接入点信号范围"]
+			id: "4A2D0E4A8C1F211C"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F211D"
+				item: {
+					Count: 1
+					id: "ae2cs:ender_crystal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.0d
+		}
+		{
+			description: ["合成获得，为下界合金级，只是耐久和伤害比较高  "]
+			id: "4A2D0E4A8C1F211E"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F211F"
+				item: {
+					Count: 1
+					id: "ae2cs:meteor_crystal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -3.0d
+		}
+		{
+			description: ["合成获得，自带附魔，下界合金级，同时可以把掉落物传送进me网络。"]
+			id: "4A2D0E4A8C1F2120"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2121"
+				item: {
+					Count: 1
+					id: "ae2cs:resonating_crystal_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: -3.5d
+		}
+		{
+			description: ["合成获得，会自然恢复耐久\\n&e有同材质斧头可选"]
+			id: "4A2D0E4A8C1F2122"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2123"
+				item: {
+					Count: 1
+					id: "aether:skyroot_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			description: ["合成获得，使用时概率掉落神能晶片\\n&e有同材质斧头可选"]
+			id: "4A2D0E4A8C1F2124"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2125"
+				item: {
+					Count: 1
+					id: "aether:holystone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"挖掘矿物制作"
+				"6-14点伤害，耐久度越低伤害越高"
+				"&e有同材质斧头可选"
+			]
+			id: "4A2D0E4A8C1F2126"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2127"
+				item: {
+					Count: 1
+					id: "aether:zanite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.0d
+		}
+		{
+			description: [
+				"挖掘重力晶矿制作"
+				"可以让目标&6飞起来&r，可用于灵活破解部分地牢怪物"
+				"&e有同材质斧头可选(斧头没有特殊能力)"
+			]
+			id: "4A2D0E4A8C1F2128"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2129"
+				item: {
+					Count: 1
+					id: "aether:gravitite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 20.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"来自白银地牢普通奖励箱和boss奖励箱"
+				"对亡灵伤害+8点"
+			]
+			id: "4A2D0E4A8C1F212A"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F212B"
+				item: {
+					Count: 1
+					id: "aether:holy_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"来自白银地牢普通奖励箱和boss奖励箱"
+				"击中时召唤雷电，&c会破坏掉落物&r，会触发雷电转换(指猪变猪灵那类转换)"
+			]
+			id: "4A2D0E4A8C1F212C"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F212D"
+				item: {
+					Count: 1
+					id: "aether:lightning_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			description: ["来自青铜地牢boss奖励箱, 击中时点燃目标"]
+			id: "4A2D0E4A8C1F212E"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F212F"
+				item: {
+					Count: 1
+					id: "aether:flaming_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			description: ["破坏天境的彩蛋礼物盒获取，基本是玩具"]
+			id: "4A2D0E4A8C1F2130"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2131"
+				item: {
+					Count: 1
+					id: "aether:candy_cane_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			description: ["海线战利短剑。"]
+			id: "4A2D0E4A8C1F2134"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2135"
+				item: {
+					Count: 1
+					id: "alexsmobs:skelewag_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 14.5d
+		}
+		{
+			description: ["寒海可怖之剑。"]
+			id: "4A2D0E4A8C1F2136"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2137"
+				item: {
+					Count: 1
+					id: "aquamirae:terrible_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 12.5d
+		}
+		{
+			description: ["暮色料理支线武器，也许是胡椒做的。"]
+			id: "4A2D0E4A8C1F2138"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2139"
+				item: {
+					Count: 1
+					id: "twilightdelight:teardrop_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 4.0d
+		}
+		{
+			description: ["Ars 的附魔师之盾。"]
+			id: "4A2D0E4A8C1F213C"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F213D"
+				item: {
+					Count: 1
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -9.0d
+		}
+		{
+			description: ["魔力钢制作，只是盾牌"]
+			id: "4A2D0E4A8C1F2140"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2141"
+				item: {
+					Count: 1
+					id: "extrabotany:manasteel_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 43.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"开启精灵门后可制作"
+				"阻挡攻击会点燃敌人"
+			]
+			id: "4A2D0E4A8C1F2142"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2143"
+				item: {
+					Count: 1
+					id: "extrabotany:elementium_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: 0.5d
+		}
+		{
+			description: [
+				"可聚合泰拉钢后制作"
+				"格挡时反弹部分伤害给攻击者"
+			]
+			id: "4A2D0E4A8C1F2144"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2145"
+				item: {
+					Count: 1
+					id: "extrabotany:terrasteel_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 45.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"击杀盖亚3后可以制作"
+				"会反弹伤害，同时召唤小精灵。主手攻击每次命中会提供1颗黄心，最多10颗"
+				"达到6颗黄心时可以潜行+右键激活剑模式，伤害15点，并持续消耗黄心"
+			]
+			id: "4A2D0E4A8C1F2146"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2147"
+				item: {
+					Count: 1
+					id: "extrabotany:achilles_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 46.0d
+			y: 0.5d
+		}
+		{
+			description: ["灾厄黑钢剑。"]
+			id: "4A2D0E4A8C1F214A"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F214B"
+				item: {
+					Count: 1
+					id: "cataclysm:black_steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			description: ["灾厄诅咒弓。"]
+			id: "4A2D0E4A8C1F214C"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F214D"
+				item: "cataclysm:cursed_bow"
+				type: "item"
+			}]
 			x: 38.0d
+			y: 10.5d
+		}
+		{
+			description: [
+				"刷卫城附近的怪物获得泪宝石后可合成"
+				"在怪物攻击前一刻恰好举盾会触发弹反，击退对方，给予对方2秒的缓慢II效果，同时给予玩家2秒的力量II"
+			]
+			id: "4A2D0E4A8C1F214E"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F214F"
+				item: {
+					Count: 1
+					id: "cataclysm:azure_sea_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: 10.5d
+		}
+		{
+			description: [
+				"击杀维度内幽魂并合成获得。没有特殊效果"
+				"&e有同材质斧头可选"
+			]
+			id: "4A2D0E4A8C1F2150"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2151"
+				item: {
+					Count: 1
+					id: "deeperdarker:resonarium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 16.5d
+		}
+		{
+			description: [
+				"击杀监守类生物，合成获得。没有特殊效果。"
+				"&e有同材质斧头可选"
+			]
+			id: "4A2D0E4A8C1F2152"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2153"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 16.5d
+		}
+		{
+			description: ["纸板剑,伤害为0,适合用来和你的朋友游玩揍击派对"]
+			id: "4A2D0E4A8C1F2154"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2155"
+				item: "create:cardboard_sword"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			description: ["Iron's 自动装填弩。"]
+			id: "4A2D0E4A8C1F2156"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2157"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:autoloader_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: -6.0d
+		}
+		{
+			description: ["青铜盾。"]
+			id: "4A2D0E4A8C1F2158"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2159"
+				item: {
+					Count: 1
+					id: "mekanismtools:bronze_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.0d
+			y: -1.5d
+		}
+		{
+			description: ["锇盾。"]
+			id: "4A2D0E4A8C1F215A"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F215B"
+				item: {
+					Count: 1
+					id: "mekanismtools:osmium_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: -2.0d
+		}
+		{
+			description: ["钢盾。"]
+			id: "4A2D0E4A8C1F215C"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F215D"
+				item: {
+					Count: 1
+					id: "mekanismtools:steel_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.5d
+			y: -1.0d
+		}
+		{
+			description: ["青金石盾。"]
+			id: "4A2D0E4A8C1F215E"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F215F"
+				item: {
+					Count: 1
+					id: "mekanismtools:lapis_lazuli_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 43.5d
+			y: -1.0d
+		}
+		{
+			description: ["强化萤石盾。"]
+			id: "4A2D0E4A8C1F2160"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2161"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_glowstone_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 43.5d
+			y: -2.0d
+		}
+		{
+			description: ["强化黑曜石盾。"]
+			id: "4A2D0E4A8C1F2162"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2163"
+				item: {
+					Count: 1
+					id: "mekanismtools:refined_obsidian_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 45.0d
+			y: -1.5d
+		}
+		{
+			description: ["可直接合成\\n&e有同材质斧头可选"]
+			id: "4A2D0E4A8C1F2164"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2165"
+				item: {
+					Count: 1
+					id: "iceandfire:copper_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			description: ["可直接合成\\n&e有同材质斧头可选"]
+			id: "4A2D0E4A8C1F2166"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2167"
+				item: {
+					Count: 1
+					id: "iceandfire:silver_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 8.5d
+		}
+		{
+			description: ["用击杀狮鹫获得的掉落物合成"]
+			id: "4A2D0E4A8C1F2168"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2169"
+				item: {
+					Count: 1
+					id: "iceandfire:hippogryph_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
 			y: 8.0d
 		}
+		{
+			description: [
+				"使用幽灵的低概率掉落物合成。"
+				"伤害耐久都很高，还具有一定远程能力，但投掷物伤害为5点，不能完全远程使用"
+			]
+			id: "4A2D0E4A8C1F216A"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F216B"
+				item: {
+					Count: 1
+					id: "iceandfire:ghost_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 27.0d
+			y: 8.5d
+		}
+		{
+			description: ["击杀悚陵附近的怪物掉落"]
+			id: "4A2D0E4A8C1F216C"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F216D"
+				item: {
+					Count: 1
+					id: "iceandfire:dread_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.5d
+		}
+		{
+			description: ["击杀悚怖尸骑概率掉落，没有特殊效果，只是伤害很高"]
+			id: "4A2D0E4A8C1F216E"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F216F"
+				item: {
+					Count: 1
+					id: "iceandfire:dread_knight_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 28.5d
+			y: 8.5d
+		}
+		{
+			description: ["击杀低概率生成的悚怖尸巫低概率掉落, 右键发射冰魂髑髅追踪攻击附近实体，伤害仅为6点"]
+			id: "4A2D0E4A8C1F2170"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2171"
+				item: {
+					Count: 1
+					id: "iceandfire:lich_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 34.0d
+			y: 8.5d
+		}
+		{
+			description: ["潮汐三叉戟，冰火海线代表兵器。"]
+			id: "4A2D0E4A8C1F2176"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2177"
+				item: {
+					Count: 1
+					id: "iceandfire:tide_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 38.5d
+			y: 8.5d
+		}
+		{
+			description: ["暮色骑士盾。"]
+			id: "4A2D0E4A8C1F2178"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F2179"
+				item: {
+					Count: 1
+					id: "twilightforest:knightmetal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 44.0d
+			y: 4.5d
+		}
+		{
+			description: [
+				"搜索宝箱获得"
+				"只有一点耐久，但是有40点伤害"
+				"&8只要有办法附上&3无法破坏&8…&r"
+			]
+			id: "4A2D0E4A8C1F217C"
+			optional: true
+			tasks: [{
+				id: "4A2D0E4A8C1F217D"
+				item: {
+					Count: 1
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 30.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"来自青铜地牢普通奖励箱和boss奖励箱"
+				"具有相当长的攻击距离"
+			]
+			id: "5CCA844042BB0A83"
+			tasks: [{
+				id: "0CCCB31C658EA1DB"
+				item: {
+					Count: 1
+					id: "aether:valkyrie_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 6.0d
+		}
+		{
+			id: "65C5D3DC927C7DFE"
+			tasks: [{
+				id: "7AA203D9307FB55A"
+				item: "aether:enchanted_dart_shooter"
+				type: "item"
+			}]
+			x: 35.0d
+			y: 7.0d
+		}
+		{
+			id: "71ED2D79AECA4C48"
+			tasks: [{
+				id: "13E0606B6093102A"
+				item: "aether:poison_dart_shooter"
+				type: "item"
+			}]
+			x: 35.0d
+			y: 6.0d
+		}
+		{
+			id: "2516DE7A615221E0"
+			tasks: [{
+				id: "20F6BA3D0EF4F9BA"
+				item: "aether:golden_dart_shooter"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 6.5d
+		}
+		{
+			description: [
+				"来自黄金地牢boss奖励箱"
+				"满蓄力击中时回复自己1点血量"
+			]
+			id: "64309319939DA62C"
+			tasks: [{
+				id: "283E51D65972F9C5"
+				item: {
+					Count: 1
+					id: "aether:vampire_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 7.0d
+		}
+		{
+			id: "186A1D90DA958435"
+			tasks: [{
+				id: "35AE97C31DBC212E"
+				item: {
+					Count: 1
+					id: "aether:cloud_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 36.0d
+			y: 6.5d
+		}
+		{
+			id: "3D205A93BA500C32"
+			tasks: [{
+				id: "37A1712B1094ADE9"
+				item: {
+					Count: 1
+					id: "aether:hammer_of_kingbdogz"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"来自黄金地牢boss奖励箱"
+				"对猪类生物造成22点伤害。"
+				"&8这有什么用?&r"
+			]
+			id: "4D16C54BD6D99DDA"
+			tasks: [{
+				id: "08B17816232629E8"
+				item: {
+					Count: 1
+					id: "aether:pig_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			description: ["动力合成获得，能提升主手&6任意武器&r的攻击距离"]
+			id: "7484CF1A2A05EB6A"
+			tasks: [{
+				id: "782BD73431F36E2F"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			description: ["发射各种蔬菜砸向敌人。也许是玩具"]
+			id: "4FD7770A5846E175"
+			tasks: [{
+				id: "29E8A6088FB89CE5"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 34.5d
+			y: 2.5d
+		}
+		{
+			description: ["泼洒燃油之类的液体到敌人身上，也许是玩具"]
+			id: "1B135D17BE06BF6F"
+			tasks: [{
+				id: "5E9FE45A75F51288"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:chemical_sprayer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 35.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"合成获得，使用时需要消耗氢气"
+				"用较高的射速射击每发10点的火焰射弹，&6会受无敌帧影响&r，&6对火焰免疫的生物无效&r，&6水下无法使用&r"
+				"模式不影响射弹伤害，点燃模式会&6点燃方块&r，加热模式会将方块&6烧制&r，变成其他方块或掉落物"
+			]
+			id: "1BC9F48ABFB9275F"
+			tasks: [{
+				id: "2B9DCEF165487852"
+				item: "mekanism:flamethrower"
+				type: "item"
+			}]
+			x: 39.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"需要原子合金和强化黑曜石制作"
+				"不仅是好用的工具，伤害也相当高，充电后为21点伤害。可惜不能附魔"
+			]
+			id: "27740001AE6CB9BB"
+			tasks: [{
+				id: "0D801372290A58F2"
+				item: "mekanism:atomic_disassembler"
+				type: "item"
+			}]
+			x: 29.0d
+			y: -1.5d
+		}
+		{
+			id: "1053CFA5C9DDA3C3"
+			tasks: [{
+				id: "2A35B330B3A78DAF"
+				item: {
+					Count: 1
+					id: "deeperdarker:sonorous_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 40.0d
+			y: 16.5d
+		}
+		{
+			description: ["击杀牛头人掉落。"]
+			id: "570493972A923D79"
+			tasks: [{
+				id: "28B2300F7601EB70"
+				item: {
+					Count: 1
+					id: "twilightforest:gold_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			description: ["击杀米诺陶boss后掉落。没什么特殊效果"]
+			id: "1FB1D55F400394FC"
+			tasks: [{
+				id: "6E18A743E9D664CB"
+				item: {
+					Count: 1
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 5.0d
+		}
 	]
-	title: "工匠"
+	title: "武器总览"
 }
