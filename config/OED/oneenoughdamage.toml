@@ -12,7 +12,7 @@
 # When false, rescan the classpath on every startup and rewrite the damage point cache.
 # 默认值：false
 # Default: false
-readCache = false
+readCache = true
 
 # debugMode
 # 启用用于开发和调试的 TOML 热调整逻辑。

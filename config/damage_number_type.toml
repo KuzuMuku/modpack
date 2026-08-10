@@ -659,6 +659,20 @@
 			format = ""
 			append = ""
 
+	[tag."aquamirae:is_shipbreaker"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."aquamirae:is_shipbreaker".icon]
+			item = ""
+			tex = ""
+
+		[tag."aquamirae:is_shipbreaker".format]
+			prepend = ""
+			format = ""
+			append = ""
+
 	[tag."irons_spellbooks:evocation_magic"]
 		#Color of the damage number. [NO-VALUE] to use default color.
 		color = "[NO-VALUE]"
@@ -781,6 +795,20 @@
 			tex = ""
 
 		[tag."dummmmmmy:is_fire".format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[tag."kaleidoscope_cookery:satiated_shield_weakness"]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[tag."kaleidoscope_cookery:satiated_shield_weakness".icon]
+			item = ""
+			tex = ""
+
+		[tag."kaleidoscope_cookery:satiated_shield_weakness".format]
 			prepend = ""
 			format = ""
 			append = ""
@@ -1243,6 +1271,20 @@
 			tex = ""
 
 		[type.fire.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.dusk_trap]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.dusk_trap.icon]
+			item = ""
+			tex = ""
+
+		[type.dusk_trap.format]
 			prepend = ""
 			format = ""
 			append = ""
@@ -2007,6 +2049,20 @@
 			format = ""
 			append = ""
 
+	[type.shipbreaker]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.shipbreaker.icon]
+			item = ""
+			tex = ""
+
+		[type.shipbreaker.format]
+			prepend = ""
+			format = ""
+			append = ""
+
 	[type.farmersdelight]
 
 		[type.farmersdelight.stove]
@@ -2203,6 +2259,20 @@
 			tex = ""
 
 		[type.fall.format]
+			prepend = ""
+			format = ""
+			append = ""
+
+	[type.dorcel]
+		#Color of the damage number. [NO-VALUE] to use default color.
+		color = "[NO-VALUE]"
+		priority = 0
+
+		[type.dorcel.icon]
+			item = ""
+			tex = ""
+
+		[type.dorcel.format]
 			prepend = ""
 			format = ""
 			append = ""

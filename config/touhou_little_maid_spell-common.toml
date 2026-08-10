@@ -37,17 +37,11 @@
 	#Range: 1 ~ 100
 	farAttackInterval = 5
 	#
-	#法术黑名单，女仆不会施放这些法术
-	#Spell blacklist, maids will not cast these spells
+	#铁魔法法术黑名单，女仆不会施放这些法术
+	#Iron's Spells blacklist; maids will not cast these spells
 	#示例: ["irons_spellbooks:spectral_hammer", "irons_spellbooks:firecracker"]
 	#Example: ["irons_spellbooks:spectral_hammer", "irons_spellbooks:firecracker"]
 	spellBlacklist = ["irons_spellbooks:spectral_hammer"]
-	#
-	#是否自动设置女仆与玩家结盟 (默认: true)
-	#Whether to automatically set alliance between maids and players
-	#结盟后，女仆与玩家将被加入同一队伍，禁止友军伤害
-	#When allied, maids and players will be in the same team with friendly fire disabled
-	autoAllianceEnabled = true
 
 #饰品系统相关配置
 #Bauble system configurations
@@ -92,6 +86,11 @@
 		#Double Heart Chain damage share ratio
 		#Range: 0.1 ~ 0.9
 		doubleHeartChainShareRatio = 0.5
+		#双心链生效距离 (默认: 32.0)
+		#女仆与主人距离超过此值(方块)时，伤害不再分摊给主人
+		#Double Heart Chain effective distance (blocks)
+		#Range: 4.0 ~ 128.0
+		doubleHeartChainMaxDistance = 32.0
 
 	#功能相关饰品配置
 	#Utility-related bauble configurations
@@ -175,11 +174,6 @@
 		#Fragrant Ingenuity random beneficial effect blacklist
 		#默认值与梦云水晶黑名单相同
 		fragrantIngenuityEffectBlacklist = ["irons_spellbooks:ascension", "irons_spellbooks:burning_dash", "irons_spellbooks:antigravity", "irons_spellbooks:volt_strike", "traveloptics:aqua_missiles_hover", "traveloptics:meteor_storm", "traveloptics:aerial_collapse", "traveloptics:aerial_collapse_helper", "soulsweapons:chungus_tonic_effect", "goety:fire_trail", "goety:charged", "goety:rampage", "goety:shadow_walk", "goety:fiery_aura", "goety:frosty_aura", "minecraft:invisibility", "irons_spellbooks:true_invisibility"]
-		#
-		#
-		#春花-返识别治疗/增益法术的关键词
-		#Spring Bloom Return support spell keywords
-		springBloomReturnSupportSpellKeywords = ["heal", "healing", "cure", "cleanse", "regen", "regeneration", "ward", "shield", "barrier", "protect", "protection", "bless", "support", "recovery", "restore", "renew", "vigor", "aura", "buff", "haste", "fortify", "mend"]
 
 	#触发机制相关饰品配置
 	#Trigger mechanism bauble configurations
@@ -295,4 +289,8 @@
 	#仅在 allowMobSpawnsInRetreat=true 时生效
 	#Whether to allow hostile mob spawns in The Retreat (default: false)
 	allowHostileMobSpawnsInRetreat = false
+	#未引用且无结构/配额/恢复状态的归隐维度元数据保留天数（0=禁用自动清理）
+	#Retention days for unreferenced empty retreat metadata (0 disables cleanup)
+	#Range: 0 ~ 36500
+	retreatRecordRetentionDays = 0
 

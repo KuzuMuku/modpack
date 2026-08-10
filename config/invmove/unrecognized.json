@@ -11,14 +11,9 @@
     "dev.emi.emi.screen.RecipeScreen": true,
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
     "com.glodblock.github.extendedae.client.gui.GuiWirelessHub": true,
-    "xaero.common.gui.GuiWaypoints": true,
-    "net.p3pp3rf1y.sophisticatedstorage.client.gui.StorageScreen": true,
-    "com.tom.storagemod.gui.StorageTerminalScreen": true,
-    "appeng.client.gui.implementations.VibrationChamberScreen": true,
-    "com.glodblock.github.extendedae.client.gui.GuiExInscriber": true,
-    "appeng.client.gui.me.networktool.NetworkStatusScreen": true,
-    "appeng.client.gui.me.items.CraftingTermScreen": true,
-    "appeng.client.gui.implementations.StorageBusScreen": true
+    "com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen": true,
+    "com.aetherteam.aether.client.gui.screen.perks.MoaSkinsScreen": true,
+    "cn.kuzuanpa.organsurgery.client.screen.SurgeryTableScreen": true
   },
   "hideBackground": {
     "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
@@ -30,12 +25,8 @@
     "dev.emi.emi.screen.RecipeScreen": true,
     "top.theillusivec4.curios.client.gui.CuriosScreenV2": true,
     "com.glodblock.github.extendedae.client.gui.GuiWirelessHub": true,
-    "net.p3pp3rf1y.sophisticatedstorage.client.gui.StorageScreen": true,
-    "com.tom.storagemod.gui.StorageTerminalScreen": true,
-    "appeng.client.gui.implementations.VibrationChamberScreen": true,
-    "com.glodblock.github.extendedae.client.gui.GuiExInscriber": true,
-    "appeng.client.gui.me.networktool.NetworkStatusScreen": true,
-    "appeng.client.gui.me.items.CraftingTermScreen": true,
-    "appeng.client.gui.implementations.StorageBusScreen": true
+    "com.aetherteam.aether.client.gui.screen.inventory.AccessoriesScreen": true,
+    "com.aetherteam.aether.client.gui.screen.perks.MoaSkinsScreen": true,
+    "cn.kuzuanpa.organsurgery.client.screen.SurgeryTableScreen": true
   }
 }
