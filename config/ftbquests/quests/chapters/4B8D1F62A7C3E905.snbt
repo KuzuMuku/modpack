@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4B8D1F62A7C3E905"
+	group: "38C5EA8637E52202"
+	icon: "tacz:gun_smith_table"
+	id: "4B8D1F62A7C3E905"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1E01000000000001"]
+			description: ["TACZ 的所有基础枪械都要从枪匠台开始。先做出工作台，再考虑枪型、弹药和战斗距离。"]
+			id: "2D07000000000001"
+			optional: true
+			tasks: [{
+				id: "2D07000000000101"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			title: "枪匠台"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D07000000000001"]
+			description: ["先做出任意一把枪。TACZ 的枪械都算在同一个基础物品类型里，所以这一步只要求你真正开始用枪作战。"]
+			id: "2D07000000000002"
+			optional: true
+			tasks: [{
+				id: "2D07000000000102"
+				item: "tacz:modern_kinetic_gun"
+				type: "item"
+			}]
+			title: "第一把枪"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D07000000000001"]
+			description: ["9mm 是最适合入门的手枪弹。先学会自己生产弹药，枪械路线才不会沦为一次性玩具。"]
+			id: "2D07000000000003"
+			optional: true
+			tasks: [{
+				count: 50L
+				id: "2D07000000000103"
+				item: "tacz:9mm"
+				type: "item"
+			}]
+			title: "手枪弹药"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2D07000000000001"]
+			description: ["5.56 更适合中距离和较稳定的连发武器。它代表你开始从‘能开枪’走向‘有成体系的枪械流派’。"]
+			id: "2D07000000000004"
+			optional: true
+			tasks: [{
+				count: 40L
+				id: "2D07000000000104"
+				item: "tacz:556x45"
+				type: "item"
+			}]
+			title: "步枪弹药"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D07000000000001"]
+			description: ["7.62 系列更偏重打击感和单发威力，适合你想尝试更硬派的突击或半自动路线。"]
+			id: "2D07000000000005"
+			optional: true
+			tasks: [{
+				count: 40L
+				id: "2D07000000000105"
+				item: "tacz:762x39"
+				type: "item"
+			}]
+			title: "重火力弹药"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2D07000000000002"
+				"2D07000000000003"
+			]
+			description: ["先立一个靶子，再尝试瞄准、压枪和换弹节奏。枪械的上限在于手感，而不只在于材料成本。"]
+			id: "2D07000000000006"
+			optional: true
+			tasks: [{
+				id: "2D07000000000106"
+				item: "tacz:target"
+				type: "item"
+			}]
+			title: "靶场准备"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "枪火试验场"
+}
