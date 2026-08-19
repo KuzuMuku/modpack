@@ -1084,7 +1084,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["AE2 下界石英剑。"]
+			description: ["AE2 的富克斯下界石英剑，伤害一般但材料好攒，适合做过渡近战武器或收集。"]
 			id: "21C637BC6AE83ED1"
 			optional: true
 			tasks: [{
@@ -1335,7 +1335,7 @@
 			y: 7.0d
 		}
 		{
-			description: ["海线战利短剑。"]
+			description: ["Aquamirae 海线战利品短剑，偏快速近战，适合海洋远征时使用。"]
 			id: "4A64EFB02BD02B70"
 			optional: true
 			tasks: [{
@@ -1353,7 +1353,7 @@
 			y: 14.5d
 		}
 		{
-			description: ["寒海可怖之剑。"]
+			description: ["Aquamirae 的寒海可怖之剑，与可怖套同源，近战伤害可观，适合深海与遗憾场景配装。"]
 			id: "10B3801F8DE12FAD"
 			optional: true
 			tasks: [{
@@ -1369,24 +1369,6 @@
 			}]
 			x: 15.0d
 			y: 12.5d
-		}
-		{
-			description: ["暮色料理支线武器，也许是胡椒做的。"]
-			id: "27C0BB1F7CF5F667"
-			optional: true
-			tasks: [{
-				id: "79AA2D0C34EEBDAB"
-				item: {
-					Count: 1
-					id: "twilightdelight:teardrop_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 23.0d
-			y: 4.0d
 		}
 		{
 			description: ["Ars 的附魔师之盾。"]
@@ -1489,7 +1471,7 @@
 			y: 0.5d
 		}
 		{
-			description: ["灾厄黑钢剑。"]
+			description: ["灾厄黑钢剑是 Cataclysm 的中期近战武器，用灾厄黑钢打造，伤害稳定，适合作为进入下界与灾厄遗迹前的过渡主武器。"]
 			id: "5B709CF2B723ADC8"
 			optional: true
 			tasks: [{
@@ -1507,7 +1489,7 @@
 			y: 10.5d
 		}
 		{
-			description: ["灾厄诅咒弓。"]
+			description: ["灾厄诅咒弓是 Cataclysm 的远程武器，带特殊诅咒效果，适合远程压制与打高威胁目标。"]
 			id: "2FE6582E4BB22141"
 			optional: true
 			tasks: [{
@@ -1594,7 +1576,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["自动装填弩。"]
+			description: ["自动装填弩是 Iron's Spells 的自动上弦弩，省去手动拉弦，适合连续远程输出。"]
 			id: "677D4D02D94EEEF2"
 			optional: true
 			tasks: [{
@@ -1612,7 +1594,7 @@
 			y: -6.0d
 		}
 		{
-			description: ["青铜盾。"]
+			description: ["青铜盾是 Mekanism Tools 提供的盾牌，耐久与格挡稳定，适合作为前中期的防御装备。"]
 			id: "01B84BAECB42ABE7"
 			optional: true
 			tasks: [{
@@ -1630,7 +1612,7 @@
 			y: -1.5d
 		}
 		{
-			description: ["锇盾。"]
+			description: ["锇盾用锇锭打造，是 Mekanism 早期到中期的实用盾牌。"]
 			id: "40F1BFD63C8588CC"
 			optional: true
 			tasks: [{
@@ -1648,7 +1630,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["钢盾。"]
+			description: ["钢盾用钢锭打造，比锇盾更耐用，是进入中期的常规盾牌。"]
 			id: "2CEFCD877599D003"
 			optional: true
 			tasks: [{
@@ -1666,7 +1648,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["青金石盾。"]
+			description: ["青金石盾是 Mekanism Tools 赋予青金石特性的盾牌，适合收集或过渡。"]
 			id: "0243159D5F86CA05"
 			optional: true
 			tasks: [{
@@ -1684,7 +1666,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["强化萤石盾。"]
+			description: ["强化萤石盾用强化萤石打造，防御与耐久更稳，适合中后期。"]
 			id: "05242320BDB273AA"
 			optional: true
 			tasks: [{
@@ -1702,7 +1684,7 @@
 			y: -2.0d
 		}
 		{
-			description: ["强化黑曜石盾。"]
+			description: ["用强化黑曜石打造的盾，耐久与格挡更高，适合中后期近战。"]
 			id: "49BAF726F7FBB4D6"
 			optional: true
 			tasks: [{
@@ -1867,7 +1849,7 @@
 			y: 8.5d
 		}
 		{
-			description: ["暮色骑士盾。"]
+			description: ["暮色骑士盾由骑士金属打造，耐久与格挡稳定，适合暮色前期到中期使用。"]
 			id: "1A08B84C7B8C3CD9"
 			optional: true
 			tasks: [{
@@ -1927,6 +1909,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["附魔吹箭器是天境的远程弹射武器，用附魔标枪提供稳定中距离输出。"]
 			id: "65C5D3DC927C7DFE"
 			tasks: [{
 				id: "7AA203D9307FB55A"
@@ -1937,6 +1920,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["毒吹箭器发射毒标枪，可给敌人施加中毒状态，适合风筝与压制。"]
 			id: "71ED2D79AECA4C48"
 			tasks: [{
 				id: "13E0606B6093102A"
@@ -1947,6 +1931,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["金吹箭器是天境的基础远程弹射武器，准头稳定，适合前期过渡。"]
 			id: "2516DE7A615221E0"
 			tasks: [{
 				id: "20F6BA3D0EF4F9BA"
@@ -1977,6 +1962,7 @@
 			y: 7.0d
 		}
 		{
+			description: ["云杖是天境的辅助法杖，能生成云朵供跳跃或作为临时立足点，空岛探索很实用。"]
 			id: "186A1D90DA958435"
 			tasks: [{
 				id: "35AE97C31DBC212E"
@@ -1993,6 +1979,7 @@
 			y: 6.5d
 		}
 		{
+			description: ["王者之锤是高伤害的重型武器，动作慢但单发威力大，适合打硬目标或爆发近战。"]
 			id: "3D205A93BA500C32"
 			tasks: [{
 				id: "37A1712B1094ADE9"
@@ -2108,6 +2095,7 @@
 			y: -1.5d
 		}
 		{
+			description: ["幽匿法杖是 Deeper and Darker 的远程法杖，附带幽匿能量效果，适合深暗与幽冥场景。"]
 			id: "1053CFA5C9DDA3C3"
 			tasks: [{
 				id: "2A35B330B3A78DAF"
@@ -2124,7 +2112,7 @@
 			y: 16.5d
 		}
 		{
-			description: ["击杀牛头人掉落。"]
+			description: ["这把武器由暮色牛头人区域掉落，属于暮色中段的近战战利品，拿到即算完成该区域的收集节点。"]
 			id: "570493972A923D79"
 			tasks: [{
 				id: "28B2300F7601EB70"

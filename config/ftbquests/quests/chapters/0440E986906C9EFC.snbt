@@ -1298,6 +1298,7 @@
 				"0B28B4792D37D94A"
 				"4ABC40D249B1DBF4"
 			]
+			description: ["手枪常见的 9mm 弹，低伤害、穿甲一般，胜在便宜好攒，适合近距离应急。"]
 			hide_dependency_lines: true
 			id: "2AD44820749D508B"
 			tasks: [{
@@ -1320,6 +1321,7 @@
 				"0B28B4792D37D94A"
 				"4ABC40D249B1DBF4"
 			]
+			description: [".45 ACP 是传统大威力手枪弹，伤害比 9mm 高，射程和穿甲有限，适合手枪近战。"]
 			hide_dependency_lines: true
 			id: "10B950B4238226A3"
 			tasks: [{
@@ -1339,6 +1341,7 @@
 		}
 		{
 			dependencies: ["4ABC40D249B1DBF4"]
+			description: ["4.6×30mm 是冲锋枪/PDW 的小口径高速弹，弹匣容量大，近距离压制力强，远程衰减明显。"]
 			hide_dependency_lines: true
 			id: "10CE3B3DED29ED1A"
 			tasks: [{
@@ -1358,6 +1361,7 @@
 		}
 		{
 			dependencies: ["0B28B4792D37D94A"]
+			description: [".50 AE 是很罕见的手枪大威力弹，伤害高、散布大，适合近距离打硬目标。"]
 			hide_dependency_lines: true
 			id: "238D7E26C84853A2"
 			tasks: [{
@@ -1377,6 +1381,7 @@
 		}
 		{
 			dependencies: ["0B28B4792D37D94A"]
+			description: [".357 Magnum 是经典左轮/手枪弹，威力比 9mm 更足，适合中近距离输出。"]
 			hide_dependency_lines: true
 			id: "3A96C0D11A6CE98F"
 			tasks: [{
@@ -1396,6 +1401,7 @@
 		}
 		{
 			dependencies: ["0B28B4792D37D94A"]
+			description: [".500  马格南 是极强的短管武器弹，单发伤害高，弹药数量少、后坐力大，适合应急爆发。"]
 			hide_dependency_lines: true
 			id: "21E01C7ED7A274B9"
 			tasks: [{
@@ -1415,6 +1421,7 @@
 		}
 		{
 			dependencies: ["01ADD7C301E0A595"]
+			description: ["冲锋枪以 9mm、.45 ACP 等手枪弹和 4.6×30mm 为主，射速快、便于近距离扫射，适合窄空间清怪。"]
 			id: "4ABC40D249B1DBF4"
 			tasks: [{
 				id: "6062AB5C6FFA5FA5"
@@ -1426,6 +1433,7 @@
 		}
 		{
 			dependencies: ["01ADD7C301E0A595"]
+			description: ["手枪是最便宜、最好上手的枪械起点，用 9mm、.45 ACP 等手枪弹，适合当应急副武器，解锁后会打开后续弹种。"]
 			id: "0B28B4792D37D94A"
 			tasks: [{
 				id: "490AD58EF80C7267"
@@ -1437,6 +1445,7 @@
 		}
 		{
 			dependencies: ["01ADD7C301E0A595"]
+			description: ["霰弹枪发射 12 号霰弹，一次打出多枚弹丸，近距伤害可观但穿甲很低，适合贴脸清怪。"]
 			id: "546828CCA5F0B4B8"
 			tasks: [{
 				id: "1DE97965332A7A58"
@@ -1448,6 +1457,7 @@
 		}
 		{
 			dependencies: ["01ADD7C301E0A595"]
+			description: ["步枪是最通用的主武器，覆盖 5.56、7.62、.308 等中间威力弹，伤害与射程平衡，适合中距离作战。"]
 			id: "6ADCF8889D658BD9"
 			tasks: [{
 				id: "260ABD97499F7BB7"
@@ -1628,6 +1638,7 @@
 		}
 		{
 			dependencies: ["01ADD7C301E0A595"]
+			description: ["机枪以弹链或大弹匣持续压制为主，适合守点和应对集群，弹药消耗快，需要稳定的补给线。"]
 			id: "748AF03F46C76C5E"
 			tasks: [{
 				id: "178DDEB3AD5EE431"
@@ -1639,6 +1650,7 @@
 		}
 		{
 			dependencies: ["01ADD7C301E0A595"]
+			description: ["精确射击步枪是介于步枪与狙击之间的更精准型号，打中距离高价值目标，通常配更大口径弹。"]
 			id: "5B05F33F66646C3A"
 			tasks: [{
 				id: "6C34D95C389A14A2"
@@ -1650,6 +1662,7 @@
 		}
 		{
 			dependencies: ["01ADD7C301E0A595"]
+			description: ["狙击枪专打远距离，用 .338、.50 BMG 等大口径弹，伤害高、穿甲强，适合先手压制或清除精英目标。"]
 			id: "1E8E529D98F38082"
 			tasks: [{
 				id: "29C51C09F1694045"
@@ -1664,6 +1677,7 @@
 				"0B28B4792D37D94A"
 				"1E8E529D98F38082"
 			]
+			description: [".30-06 是老式大口径步枪弹，伤害高、穿甲不错，适合中远距离步枪与狙击用途。"]
 			hide_dependency_lines: true
 			id: "7572BC6772A7F56E"
 			tasks: [{
@@ -1683,6 +1697,7 @@
 		}
 		{
 			dependencies: ["01ADD7C301E0A595"]
+			description: ["爆炸武器包括榴弹发射器和火箭筒，适合清理密集敌群或硬化目标。使用前确认安全距离，爆炸会误伤自己。"]
 			id: "40C935E8E89749CF"
 			tasks: [{
 				id: "7AD8594D1DEEC139"

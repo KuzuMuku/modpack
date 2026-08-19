@@ -108,6 +108,7 @@
 		}
 		{
 			dependencies: ["2880C0A60DA2DA14"]
+			description: ["1k 存储元件决定 ME 存储单元能装多少物品，是数字化仓库的最小容量档，适合前期入门。"]
 			id: "737EABA97A22BE87"
 			tasks: [{
 				id: "05B2BF06BE27AE39"
@@ -119,6 +120,7 @@
 		}
 		{
 			dependencies: ["737EABA97A22BE87"]
+			description: ["4k 存储元件比 1k 容量更大，适合物品开始变多时升级。"]
 			id: "5757D1E5E7880CA7"
 			tasks: [{
 				id: "16E938B3A4078B90"
@@ -130,6 +132,7 @@
 		}
 		{
 			dependencies: ["5757D1E5E7880CA7"]
+			description: ["16k 存储元件进一步扩容，是中后期仓库的常规选择。"]
 			id: "68CC5DCBB8B360A3"
 			tasks: [{
 				id: "320A6B2762E96B80"
@@ -141,6 +144,7 @@
 		}
 		{
 			dependencies: ["68CC5DCBB8B360A3"]
+			description: ["64k 存储元件用于大仓库存大量物品，是后期扩容层。"]
 			id: "492877D636ED0A0D"
 			tasks: [{
 				id: "02371D44EA1507E4"
@@ -152,6 +156,7 @@
 		}
 		{
 			dependencies: ["492877D636ED0A0D"]
+			description: ["256k 存储元件是终局容量元件，适合海量、多类型存储。"]
 			id: "065327067CB1CDA3"
 			tasks: [{
 				id: "61775BB9DC283612"
@@ -226,6 +231,7 @@
 		}
 		{
 			dependencies: ["1FBDECEA7A93552F"]
+			description: ["成形核心与湮灭核心是一对：成形核用来放置、输出物品，湮灭核用来破坏并收集世界中的方块，许多装置都需要它们。"]
 			id: "044145E6CA397C6F"
 			shape: "gear"
 			size: 1.5d
@@ -277,6 +283,7 @@
 		}
 		{
 			dependencies: ["21E249892415E899"]
+			description: ["合成单元是 ME 自动合成的基本积木，多用几个能增加同时处理的合成任务。"]
 			id: "75DEB89C19AEB222"
 			tasks: [{
 				id: "26B85A992C9D270C"
@@ -288,6 +295,7 @@
 		}
 		{
 			dependencies: ["75DEB89C19AEB222"]
+			description: ["合成加速器加快合成单元处理速度，加速器越多，自动合成越快。"]
 			id: "31B7CC86C87EA21F"
 			tasks: [{
 				id: "542C42D254F0C290"
@@ -299,6 +307,7 @@
 		}
 		{
 			dependencies: ["75DEB89C19AEB222"]
+			description: ["合成存储为合成单元提供临时的中间产物空间，容量从 1k 到 256k，越大越能支撑复杂流水线。"]
 			id: "792C4CF4E8D0B0C9"
 			tasks: [
 				{
@@ -332,6 +341,7 @@
 		}
 		{
 			dependencies: ["044145E6CA397C6F"]
+			description: ["空白样板用来录制一条自动合成配方，是 ME 自动化的核心载体。"]
 			id: "21E249892415E899"
 			tasks: [{
 				id: "73F8C851729E7664"
@@ -343,6 +353,7 @@
 		}
 		{
 			dependencies: ["7C6521F90E8B7BAA"]
+			description: ["终端是访问 ME 网络的界面，接上后右键打开即可查看、取放和搜索全部存储。"]
 			id: "5652572A7784A424"
 			tasks: [{
 				id: "11AEA7343AA7C370"
@@ -354,6 +365,7 @@
 		}
 		{
 			dependencies: ["5652572A7784A424"]
+			description: ["合成终端在普通终端基础上加入合成入口，直接在窗口管理自动合成任务。"]
 			id: "75CB4AB6C75CF9EB"
 			tasks: [{
 				id: "426553FEF7A71678"
@@ -365,6 +377,7 @@
 		}
 		{
 			dependencies: ["5652572A7784A424"]
+			description: ["样板编码终端专门用来录入自动合成样板，比逐格手填更快更省事。"]
 			id: "0D9DC98E7981B363"
 			tasks: [{
 				id: "48199D756FC63A13"
@@ -376,6 +389,7 @@
 		}
 		{
 			dependencies: ["7C6521F90E8B7BAA"]
+			description: ["无线接收器是无线终端与网络的桥接件，把它接到网络一端。"]
 			id: "04638E85EC18D1A0"
 			tasks: [{
 				id: "1219E754A7346362"
@@ -387,6 +401,7 @@
 		}
 		{
 			dependencies: ["0ED2397AFD8CFB99"]
+			description: ["无线终端配合无线访问点，可在基地外远程访问 ME 网络，远征不用再跑回去取材料。"]
 			id: "00506FDCF4FBE836"
 			tasks: [{
 				id: "2846A477D21F57FF"
@@ -404,6 +419,7 @@
 		}
 		{
 			dependencies: ["04638E85EC18D1A0"]
+			description: ["无线访问点负责接收无线终端信号，是无线网络的接入端。"]
 			id: "0ED2397AFD8CFB99"
 			tasks: [{
 				id: "7FBF30547DC97E9F"
@@ -415,6 +431,7 @@
 		}
 		{
 			dependencies: ["737EABA97A22BE87"]
+			description: ["存品单元外壳与存液单元外壳把存储元件装成可用的存储单元，网络要按需搭配物品与流体单元。"]
 			id: "0D34A067C12A7509"
 			tasks: [
 				{
@@ -433,6 +450,7 @@
 		}
 		{
 			dependencies: ["31B7CC86C87EA21F"]
+			description: ["扩展加速器是对 AE2 合成加速器的强化版，从 4 倍到 1024 倍，适合大规模自动合成。"]
 			id: "7A2DBCBDD6F6D58C"
 			tasks: [
 				{
@@ -466,7 +484,7 @@
 		}
 		{
 			dependencies: ["43BCC41537FBB338"]
-			description: ["最基础的线缆"]
+			description: ["最基础的线缆，用富克斯玻璃电缆连通 ME 网络，是搭建存储网的第一步，右键连接各路设备。"]
 			id: "6BED8CC9FB311115"
 			tasks: [{
 				id: "194B88BBEEFFF72D"
@@ -567,6 +585,7 @@
 		}
 		{
 			dependencies: ["7C6521F90E8B7BAA"]
+			description: ["存储总线把外部容器接入网络，输入总线自动抽入，输出总线自动送出，是 ME 与外界交换物品的接口。"]
 			id: "63971C8A991D7E09"
 			tasks: [
 				{
@@ -642,6 +661,7 @@
 		}
 		{
 			dependencies: ["7C6521F90E8B7BAA"]
+			description: ["存储监视器实时查看物品，转换监视器支持就地转换，样板访问终端用来远程管理自动合成样板。"]
 			id: "737CD058BAE77449"
 			tasks: [
 				{
@@ -707,6 +727,7 @@
 		}
 		{
 			dependencies: ["34E09C8802CD986D"]
+			description: ["通用无线终端把多种无线终端合为一体，一套设备即可远程管理存储与合成。"]
 			id: "6A9E988289CAABB3"
 			tasks: [{
 				id: "04A25D15F26F1866"
@@ -724,6 +745,7 @@
 		}
 		{
 			dependencies: ["00506FDCF4FBE836"]
+			description: ["ME 建造工具能快速铺设、替换线缆与方块，多方块结构也能用配套工具一键摆放，后期铺设很省事。"]
 			id: "468FF095073B1AF2"
 			tasks: [
 				{
@@ -747,6 +769,7 @@
 		}
 		{
 			dependencies: ["264CC7C4D0BC8D81"]
+			description: ["扩展样板供应器与扩展接口是改进版，支持更多样板通道，适合大规模自动化产线。"]
 			id: "3F2A620FCBD54BD4"
 			tasks: [
 				{
@@ -765,6 +788,7 @@
 		}
 		{
 			dependencies: ["69D18AF60BC20182"]
+			description: ["扩展分子装配机批量执行样板合成，比普通装配机更适合高产量自动线。"]
 			id: "2B32CA3FC1018554"
 			tasks: [{
 				id: "0CD19E6D46F84F9C"
@@ -812,6 +836,7 @@
 		}
 		{
 			dependencies: ["61F7DB87DE8B2A73"]
+			description: ["无线集线器集中管理多个无线访问点，扩大远程访问的覆盖。"]
 			id: "4FF8DCFF4C65B81B"
 			tasks: [{
 				id: "6C1DB0C1100DEB21"
@@ -823,6 +848,7 @@
 		}
 		{
 			dependencies: ["61F7DB87DE8B2A73"]
+			description: ["量子环与量子链路把相距很远的两个 ME 网络桥接成同一个网络，用于跨基地、跨维度访问。"]
 			id: "7775E3FD3C3B035E"
 			tasks: [
 				{

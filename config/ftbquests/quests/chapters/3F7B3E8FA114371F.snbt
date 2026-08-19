@@ -347,6 +347,7 @@
 		}
 		{
 			dependencies: ["4DBD235122621FAB"]
+			description: ["外壳链齿轮是 Create Connected 的传动件，能把动力沿链条传到远处或转角，方便给不便直连的位置送动力。"]
 			id: "26D8C567D9D85204"
 			tasks: [{
 				id: "2B40FFE9151D3820"
@@ -358,6 +359,7 @@
 		}
 		{
 			dependencies: ["4DBD235122621FAB"]
+			description: ["平行齿轮箱把一路动力分成多路或改变转速，正、竖版本覆盖不同安装方向，是布局转向常用件。"]
 			id: "5151E35152328A0F"
 			tasks: [
 				{
@@ -376,6 +378,7 @@
 		}
 		{
 			dependencies: ["4DBD235122621FAB"]
+			description: ["六向齿轮箱可向多个方向输出动力，适合做分叉枢纽，让一台动力源带动大片机器。"]
 			id: "54D612E9F4C22CBA"
 			tasks: [
 				{
@@ -474,6 +477,7 @@
 		}
 		{
 			dependencies: ["6DB80FA9E642393E"]
+			description: ["汽油由原油分馏等得到，用于大型柴油机，是 Create 柴油线的液体燃料。"]
 			id: "242C382E3F585063"
 			tasks: [{
 				amount: 1000L
@@ -486,6 +490,7 @@
 		}
 		{
 			dependencies: ["6DB80FA9E642393E"]
+			description: ["柴油是柴油机的主要燃料，从原油加工获得，动力输出稳定，适合持续驱动机械。"]
 			id: "4C6F6891DD8AF2CE"
 			tasks: [{
 				amount: 1000L
@@ -501,6 +506,7 @@
 				"242C382E3F585063"
 				"4C6F6891DD8AF2CE"
 			]
+			description: ["大型柴油机用汽油或柴油驱动，能提供高额旋转动力，是中期工业化的重要动力源。"]
 			id: "7915A411F50E472A"
 			tasks: [{
 				id: "5CA4C60356F5DA2D"
@@ -512,6 +518,7 @@
 		}
 		{
 			dependencies: ["7915A411F50E472A"]
+			description: ["巨型柴油机是柴油线的终极动力机，输出极高，适合带动整片工厂，但燃料消耗也大。"]
 			id: "0798C30775E45E5A"
 			tasks: [{
 				id: "44AB75598A5A71DA"
@@ -586,6 +593,7 @@
 		}
 		{
 			dependencies: ["14A7655D25625BC9"]
+			description: ["动能电池把多余动能储存起来并在需要时放出，能平滑水车、风车等间歇动力，稳定生产线。"]
 			id: "6757E05965FB33BF"
 			tasks: [{
 				id: "536EFECC2EB2F6F5"
@@ -609,6 +617,7 @@
 		}
 		{
 			dependencies: ["0997DA7CF8ADFBEB"]
+			description: ["基础充能器把旋转动能转换成电能，是 Create 向电力过渡的核心设备。"]
 			id: "04B409697FC756CC"
 			tasks: [{
 				id: "2E13AADCADC17D8C"
@@ -620,6 +629,7 @@
 		}
 		{
 			dependencies: ["5788967FDC7A21DC"]
+			description: ["碳刷是发电机与马达的基础部件，用来传导电流，是电动机和充能器的共用材料。"]
 			id: "0997DA7CF8ADFBEB"
 			shape: "gear"
 			size: 2.0d
@@ -633,6 +643,7 @@
 		}
 		{
 			dependencies: ["04B409697FC756CC"]
+			description: ["高级充能器效率更高，能给更大电网供电，在中级电力线中作核心。"]
 			id: "52D650AC698AA892"
 			tasks: [{
 				id: "0CF9B4E4BF18A2B2"
@@ -644,6 +655,7 @@
 		}
 		{
 			dependencies: ["52D650AC698AA892"]
+			description: ["强化充能器支持更高电压与更大容量，适合后期电力网络。"]
 			id: "4625A1570DEDB612"
 			tasks: [{
 				id: "576DC0FC27C57577"
@@ -655,6 +667,7 @@
 		}
 		{
 			dependencies: ["0997DA7CF8ADFBEB"]
+			description: ["基础马达把电能转回旋转动力，让电力也能驱动机械，是电力与传动的桥梁。"]
 			id: "7861BE0D6D6FC21C"
 			tasks: [{
 				id: "41ED17717933922F"
@@ -666,6 +679,7 @@
 		}
 		{
 			dependencies: ["7861BE0D6D6FC21C"]
+			description: ["高级马达转速与功率更高，适合给重型机械直接供动力。"]
 			id: "53D7878BF6119CAC"
 			tasks: [{
 				id: "01DF3B9B66CCE750"
@@ -677,6 +691,7 @@
 		}
 		{
 			dependencies: ["53D7878BF6119CAC"]
+			description: ["强化马达是电力马达的顶级型号，输出强且稳定，适合终局大工厂。"]
 			id: "4A9BB40775E4DF4E"
 			tasks: [{
 				id: "75DC2E02449B9595"
@@ -688,6 +703,7 @@
 		}
 		{
 			dependencies: ["39574ED74844904D"]
+			description: ["基础太阳能加热板利用阳光供热，能驱动热力过程或补充蒸汽、燃油产线。"]
 			id: "30905B7220247FC2"
 			tasks: [{
 				id: "35458D2552C7B484"
@@ -699,6 +715,7 @@
 		}
 		{
 			dependencies: ["0997DA7CF8ADFBEB"]
+			description: ["磁铁矿块是电动机与电磁元件的材料来源，挖取磁铁矿石后合成。"]
 			id: "51AA267031EC96CD"
 			tasks: [{
 				id: "2757F1858DCAC313"
@@ -710,6 +727,7 @@
 		}
 		{
 			dependencies: ["0997DA7CF8ADFBEB"]
+			description: ["发电机线圈是马达、发电机的核心绕组材料，由导线与磁芯制成。"]
 			id: "569484F514A923E6"
 			tasks: [{
 				id: "5F9DD9518E07689B"
@@ -721,6 +739,7 @@
 		}
 		{
 			dependencies: ["0997DA7CF8ADFBEB"]
+			description: ["电线连接器负责把电能接到机器上，是电力网络的管线件。"]
 			id: "7C9ADD0C8ADD774D"
 			tasks: [{
 				id: "60AAAD4FE7542016"
@@ -732,6 +751,7 @@
 		}
 		{
 			dependencies: ["51AA267031EC96CD"]
+			description: ["红石磁铁用于电机与磁力相关机构，配合线圈把电能转成动能。"]
 			id: "6190BABE65103295"
 			tasks: [{
 				id: "61C910EA9C237CE4"

@@ -220,6 +220,7 @@
 		}
 		{
 			dependencies: ["5108BF43EC769CC8"]
+			description: ["泰拉钢锭是 Botania 中后期的核心材料。用魔力池配合活木、龙石等配方合成，能做泰拉钢工具与护甲，也是精灵线和盖亚战的前置门槛。"]
 			id: "6A9DAB9EF35681CB"
 			tasks: [{
 				id: "1F3EA0E222D85452"
@@ -261,6 +262,7 @@
 		}
 		{
 			dependencies: ["157233AC87E987F6"]
+			description: ["这是精灵锭任务线：同时拿到精灵锭与精灵尘，正式进入精灵（妖精）阶段。精灵锭是后期装备和装置的基础材料，需要用精灵传送门处理配方凑齐。"]
 			id: "2DF07E196B8BF430"
 			tasks: [
 				{
@@ -279,6 +281,7 @@
 		}
 		{
 			dependencies: ["157233AC87E987F6"]
+			description: ["龙石是把钻石和魔力结合的中间材料，通常出现在精灵线之后的合成链，用于制作更高级装备与装置。"]
 			id: "0F7BEFB45359C1DA"
 			tasks: [{
 				id: "2481BA21AF59B884"
@@ -290,6 +293,7 @@
 		}
 		{
 			dependencies: ["2DF07E196B8BF430"]
+			description: ["盖亚尖塔用来搭建召唤盖亚守卫的场地。把尖塔按要求摆好并接入魔力，再用生命精华激活，才能开启后期 Boss 战。"]
 			id: "75A6A837A50FA8C2"
 			tasks: [{
 				id: "79DC74D4F76CE0B6"
@@ -301,6 +305,7 @@
 		}
 		{
 			dependencies: ["75A6A837A50FA8C2"]
+			description: ["生命精华是击杀盖亚守卫后掉落的半成品材料，也是制作盖亚锭与高阶饰品的关键，别在整理战利品时随手丢掉。"]
 			id: "53D9BC0D96109FC9"
 			tasks: [{
 				id: "37D1B397982D4DA8"
@@ -312,6 +317,7 @@
 		}
 		{
 			dependencies: ["53D9BC0D96109FC9"]
+			description: ["盖亚锭由生命精华加工而来，是 Botania 后期最强的材料之一，用于制作盖亚装备与高阶装置。"]
 			id: "349B835D6454D0E2"
 			tasks: [{
 				id: "6CD75111DC31C431"
@@ -323,6 +329,7 @@
 		}
 		{
 			dependencies: ["53D9BC0D96109FC9"]
+			description: ["山铜锭来自 ExtraBotany 的高阶材料线，通常需要击败盖亚守卫或高度合成获得，用于做强装备与拓展饰品。"]
 			id: "47EF000B35BD3CAB"
 			tasks: [{
 				id: "1EC738F4A9705D86"
@@ -337,6 +344,7 @@
 				"157233AC87E987F6"
 				"4AE744F1650152AE"
 			]
+			description: ["精灵解锁版的植物图鉴会补充后期精灵与盖亚内容的条目。拿到后在背包右键翻阅，能查到对应配方与机制。"]
 			id: "78FB5926763160F0"
 			tasks: [{
 				id: "297C3B6DE7E982B9"
@@ -354,6 +362,7 @@
 		}
 		{
 			dependencies: ["53975F7F0F432275"]
+			description: ["植物图鉴是 Botania 的核心说明书。合成后右键翻开，几乎所有花的用法、配方和装置说明都能在里面找到。"]
 			id: "4AE744F1650152AE"
 			tasks: [{
 				id: "6F2B2056EEF5811D"
@@ -365,6 +374,7 @@
 		}
 		{
 			dependencies: ["46C7CF4C076321D7"]
+			description: ["魔力板是便携的魔力容器，前期用来装魔力、作合成载体，也能把魔力带离魔力池。"]
 			id: "5DFB8D87BFE8A30D"
 			tasks: [{
 				id: "33E49DE3576A5B39"
@@ -390,6 +400,7 @@
 		}
 		{
 			dependencies: ["3E1D709A18401868"]
+			description: ["熵花专吃 TNT 爆炸产生的魔力，是后期高风险产魔方案。摆放并引发爆炸即可，但要保护好周围建筑。"]
 			id: "3FE0E1FD55FD4A89"
 			tasks: [{
 				id: "72B3C05C9637FE2B"
@@ -401,6 +412,7 @@
 		}
 		{
 			dependencies: ["1761A61BEED14385"]
+			description: ["魔力粉是最基础的加工材料，由花瓣和红石等合成，是几乎所有 Botania 装置与高级配方的起点。"]
 			id: "717CC8E5A8538403"
 			tasks: [{
 				id: "69FC7A7A797EEDE3"
@@ -412,6 +424,7 @@
 		}
 		{
 			dependencies: ["5072249D14741011"]
+			description: ["火烛花靠燃烧燃料和可燃物产魔，是最早也最稳定供电的产魔花。给它投掷煤炭或木炭即可开始产魔。"]
 			id: "16EBDDFEB9061994"
 			tasks: [{
 				id: "7F8F494AF8EB7F98"
@@ -423,6 +436,7 @@
 		}
 		{
 			dependencies: ["3E1D709A18401868"]
+			description: ["大胃花消耗食物来产魔，食物越多越高级，产魔效率越好，适合拥有稳定食物来源的中后期基地。"]
 			id: "643E2643377C089D"
 			tasks: [{
 				id: "215B6F54E3F839F7"
@@ -434,6 +448,7 @@
 		}
 		{
 			dependencies: ["3E1D709A18401868"]
+			description: ["食泥花以污泥等副产物为食稳定产魔，适合配合生物农场形成可持续的魔力来源。"]
 			id: "58902069B51ADC0F"
 			tasks: [{
 				id: "57314AF593878833"
@@ -445,6 +460,7 @@
 		}
 		{
 			dependencies: ["3E1D709A18401868"]
+			description: ["漏斗花会自动把附近掉落物吸入指向的容器，是省心的物品收集装置。注意它只吸收朝向它的掉落物。"]
 			id: "798AA1211E80FC02"
 			tasks: [{
 				id: "4F2565FC5BE7876C"
@@ -456,6 +472,7 @@
 		}
 		{
 			dependencies: ["3E1D709A18401868"]
+			description: ["生命之花是一台自运行的细胞自动机装置，用泥块搭对几何就能持续产魔，是后期无燃料产魔方案。"]
 			id: "11D93FC0B30BE105"
 			tasks: [{
 				id: "5A409CFBF5224122"
@@ -467,6 +484,7 @@
 		}
 		{
 			dependencies: ["3E1D709A18401868"]
+			description: ["美人刺是防御型花，会主动伤害靠近的敌对生物，适合放在基地或魔力装置周围当警戒防线。"]
 			id: "5E4D3482D11E740B"
 			tasks: [{
 				id: "2AFCE493BB56AECA"
@@ -478,6 +496,7 @@
 		}
 		{
 			dependencies: ["22E03F663048FDED"]
+			description: ["火花是 Botania 的魔力传输核心，放在魔力池或物品上就能连成网络。先给主池装一个，再给需要魔力的机器各装一个。"]
 			id: "7675D70A010B0ECC"
 			tasks: [{
 				id: "37E9B608B1581DDC"

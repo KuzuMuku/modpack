@@ -143,6 +143,7 @@
 				"5BE22359954280E5"
 				"4B6635D59401EBF2"
 			]
+			description: ["终极控制电路是 Mekanism 后期合成的主线材料，几乎所有高级机器与能量模块都要用，是电路链的最后一级。"]
 			id: "5E3EB7067D1F1160"
 			tasks: [{
 				id: "3828D3562C14A971"
@@ -197,6 +198,7 @@
 				"5E3EB7067D1F1160"
 				"3DEFBE7DFD285B24"
 			]
+			description: ["绝对控制电路是 Mekanism Extras 在终极电路之上的升级层，用于更高阶机器与发电组件，需先拿到对应新合金。"]
 			id: "30822B8C7B811EDA"
 			tasks: [{
 				id: "21EFEAD078B6B9D0"
@@ -211,6 +213,7 @@
 				"30822B8C7B811EDA"
 				"459EF1600BB3FD53"
 			]
+			description: ["至高控制电路在绝对层之上继续升级，是 Mekanism Extras 后期合成的重要门槛。"]
 			id: "38B89D8E3916DF5B"
 			tasks: [{
 				id: "27C3D49E8B5D230C"
@@ -225,6 +228,7 @@
 				"66B05E05105D7CC0"
 				"38B89D8E3916DF5B"
 			]
+			description: ["宇宙控制电路接近 Mekanism Extras 的最高层电路，用于顶级机器与终局能源组件。"]
 			id: "79D14AFA3CBE8F93"
 			tasks: [{
 				id: "3A15D037DEADC656"
@@ -239,6 +243,7 @@
 				"79D14AFA3CBE8F93"
 				"6D857B88407A3B3A"
 			]
+			description: ["无限控制电路是 Mekanism Extras 的顶级电路，代表本线材料处理与能源的最终等级。"]
 			id: "29D5987C885D954D"
 			tasks: [{
 				id: "35B0CA3BC5860619"
@@ -253,6 +258,7 @@
 				"4B6635D59401EBF2"
 				"064B8F6F746CB73F"
 			]
+			description: ["光辉合金是 Mekanism Extras 引入的首个高级合金，用于把基础电路升级到绝对层。"]
 			id: "3DEFBE7DFD285B24"
 			tasks: [{
 				id: "67CE3A3F950801CF"
@@ -267,6 +273,7 @@
 				"78C390451096DA91"
 				"3DEFBE7DFD285B24"
 			]
+			description: ["热核合金用于把电路升级到至高层，通常需要热核材料和更复杂的加工链。"]
 			id: "459EF1600BB3FD53"
 			tasks: [{
 				id: "2CA930239893E033"
@@ -281,6 +288,7 @@
 				"32D9D45C97F746A7"
 				"459EF1600BB3FD53"
 			]
+			description: ["闪耀合金在热核合金之上，对应宇宙层材料，需要更强的生产链。"]
 			id: "66B05E05105D7CC0"
 			tasks: [{
 				id: "46F496386CC452F1"
@@ -295,6 +303,7 @@
 				"288A4E3540196AB3"
 				"66B05E05105D7CC0"
 			]
+			description: ["光谱合金是 Mekanism Extras 的顶级合金，对应无限层材料，也是后期装备与机器的重要基础。"]
 			id: "6D857B88407A3B3A"
 			tasks: [{
 				id: "0CC18BFD3CFD3527"
@@ -318,6 +327,7 @@
 		}
 		{
 			dependencies: ["6FB0926651A52DA1"]
+			description: ["光辉富集材料是新合金的中间产物，由特定原料与基础富集材料加工得到。"]
 			id: "064B8F6F746CB73F"
 			tasks: [{
 				id: "1336238949072A0F"
@@ -332,6 +342,7 @@
 				"064B8F6F746CB73F"
 				"70BC5A9F9FB25CCB"
 			]
+			description: ["热核富集材料是热核合金的前置中间物，常见于稀有矿石与副产的精炼。"]
 			id: "78C390451096DA91"
 			tasks: [{
 				id: "28549E002C0DB4AC"
@@ -346,6 +357,7 @@
 				"78C390451096DA91"
 				"24616B138488B1E0"
 			]
+			description: ["闪耀富集材料用于闪耀合金，属高阶加工产物。"]
 			id: "32D9D45C97F746A7"
 			tasks: [{
 				id: "33501643DF4488D7"
@@ -357,6 +369,7 @@
 		}
 		{
 			dependencies: ["32D9D45C97F746A7"]
+			description: ["光谱富集材料是光谱合金的前置材料，加工链已进入终局资源阶段。"]
 			id: "288A4E3540196AB3"
 			tasks: [{
 				id: "317006E47B768093"
@@ -368,6 +381,7 @@
 		}
 		{
 			dependencies: ["497CBCC7AE9FA4CA"]
+			description: ["反物质颗粒是 Mekanism 后期的高级材料，由裂变、聚变链产出，用于合成顶级装备与能源组件。"]
 			id: "24616B138488B1E0"
 			tasks: [{
 				id: "5C724B003AE5FE03"
@@ -432,6 +446,7 @@
 		}
 		{
 			dependencies: ["50F727CA7340EA98"]
+			description: ["过热钠是被加热后的钠流体，用于裂变反应堆与发电链，把热量转化为可用能量，是后期核能的重要中间物。"]
 			id: "70BC5A9F9FB25CCB"
 			tasks: [{
 				amount: 1000L
@@ -444,6 +459,7 @@
 		}
 		{
 			dependencies: ["5C2331EB0EE5534C"]
+			description: ["铀锭由铀矿精炼而来，是核能链的基础燃料材料，可进一步加工成六氟化铀等。"]
 			id: "6C79FE1BEF609803"
 			tasks: [{
 				id: "76471E4E8A41B9AF"
@@ -455,6 +471,7 @@
 		}
 		{
 			dependencies: ["658B031245D02795"]
+			description: ["高密度聚乙烯板是后期塑料与反应链的合成材料，用于中子活化等高级机器与结构。"]
 			id: "54187BEFE25C8978"
 			tasks: [{
 				id: "4174D7349A232834"
@@ -466,6 +483,7 @@
 		}
 		{
 			dependencies: ["68F6943726FC7D05"]
+			description: ["钋颗粒用于太阳能中子活化后的进一步加工，是聚变燃料与裂变链的一部分。"]
 			id: "0936FEE891E4559D"
 			tasks: [{
 				id: "1FB5D75FBD5FB59A"
@@ -477,6 +495,7 @@
 		}
 		{
 			dependencies: ["3EBE9866A947C222"]
+			description: ["钚颗粒来自六氟化铀加工后的同位素离心阶段，用于核燃料与反物质链。"]
 			id: "3BF22474C7C31BE8"
 			tasks: [{
 				id: "56951D22A9571A58"
@@ -491,6 +510,7 @@
 				"54187BEFE25C8978"
 				"1993B891D99B983A"
 			]
+			description: ["太阳能中子活化机在白天用中子轰击锂等材料，是聚变链的重要机器，要露天并保证能看到天空。"]
 			id: "68F6943726FC7D05"
 			tasks: [{
 				id: "59B525222E9F267C"
@@ -502,6 +522,7 @@
 		}
 		{
 			dependencies: ["5EDDDE25A9909A74"]
+			description: ["同位素离心机分离不同同位素，用于把六氟化铀转成钚等后期燃料，是核能链核心设备。"]
 			id: "3EBE9866A947C222"
 			tasks: [{
 				id: "47EB662063E0C39F"
@@ -516,6 +537,7 @@
 				"448249D3842234B7"
 				"59E1CBB06E625C8C"
 			]
+			description: ["六氟化铀是铀精炼到燃料的中间流体，进入离心机后继续分离。"]
 			id: "5EDDDE25A9909A74"
 			tasks: [{
 				amount: 1000L
@@ -528,6 +550,7 @@
 		}
 		{
 			dependencies: ["6FB0926651A52DA1"]
+			description: ["氧化铀由铀锭或铀尘与氧气反应获得，是核能链的第一阶段流体。"]
 			id: "448249D3842234B7"
 			tasks: [{
 				amount: 1000L
@@ -540,6 +563,7 @@
 		}
 		{
 			dependencies: ["276D83A083F5A40E"]
+			description: ["氢氟酸是加工铀与后续燃料的强酸流体，需要先建起硫酸和氟来源。"]
 			id: "59E1CBB06E625C8C"
 			tasks: [{
 				amount: 1000L
@@ -552,6 +576,7 @@
 		}
 		{
 			dependencies: ["7166672283901EF8"]
+			description: ["硫酸是矿石处理与化学加工的基础酸，几乎所有化学链的起点。"]
 			id: "276D83A083F5A40E"
 			tasks: [{
 				amount: 1000L
@@ -564,6 +589,7 @@
 		}
 		{
 			dependencies: ["3BC610E5DAC4DA6F"]
+			description: ["二氧化硫由硫粉氧化得到，再进一步氧化成三氧化硫，用于制酸。"]
 			id: "705DAB908C4E01C1"
 			tasks: [{
 				amount: 1000L
@@ -576,6 +602,7 @@
 		}
 		{
 			dependencies: ["705DAB908C4E01C1"]
+			description: ["三氧化硫是制硫酸的关键前体，与氢或水结合即可得到硫酸。"]
 			id: "7166672283901EF8"
 			tasks: [{
 				amount: 1000L
@@ -588,6 +615,7 @@
 		}
 		{
 			dependencies: ["0F02000000000000"]
+			description: ["硫粉来自粉碎磺酸盐或硫矿石等，是 Mekanism 化工链和火药配方的入口。"]
 			id: "5E5E7C337A49FA05"
 			tasks: [{
 				id: "4283AD54CCA04DC1"
@@ -599,6 +627,7 @@
 		}
 		{
 			dependencies: ["5E5E7C337A49FA05"]
+			description: ["化学氧化机把固体或液体转成气体流体，是化工链第一台核心机器。"]
 			id: "3BC610E5DAC4DA6F"
 			tasks: [{
 				id: "5D7644D71F20A222"
@@ -610,6 +639,7 @@
 		}
 		{
 			dependencies: ["23E29EF9B9E34A97"]
+			description: ["底物是高密度聚乙烯与反应链的中间物，用于制造高级板材。"]
 			id: "658B031245D02795"
 			tasks: [{
 				id: "67B25B6103D60161"
@@ -624,6 +654,7 @@
 				"65BE314E991E5F69"
 				"7AED923FE0ED98CA"
 			]
+			description: ["加压反应室用生物质、氢与气体合成底物和乙烯，是聚乙烯与生物燃料链核心机器。"]
 			id: "23E29EF9B9E34A97"
 			tasks: [{
 				id: "31266F1B363DA015"
@@ -635,6 +666,7 @@
 		}
 		{
 			dependencies: ["4E4E315C79E4FA1A"]
+			description: ["生物燃料由磨碎机把植物、有机物粉碎得到，可发电或作为化工原料。"]
 			id: "65BE314E991E5F69"
 			tasks: [{
 				id: "7BA7E41D7339FAA1"
@@ -646,6 +678,7 @@
 		}
 		{
 			dependencies: ["23E29EF9B9E34A97"]
+			description: ["乙烯由加压反应室产生，可进入气体燃烧发电机发电，也可制成聚乙烯。"]
 			id: "79FAE8FFB3E2FD1C"
 			tasks: [{
 				amount: 1000L
@@ -658,6 +691,7 @@
 		}
 		{
 			dependencies: ["79FAE8FFB3E2FD1C"]
+			description: ["气体燃烧发电机燃烧乙烯等气体发电，是化工链的中期稳定电源。"]
 			id: "3E1B50492D810377"
 			tasks: [{
 				id: "6C86003FA5754FB1"
@@ -669,6 +703,7 @@
 		}
 		{
 			dependencies: ["0F02000000000000"]
+			description: ["铀矿是核能链的起点原料，主要生成在主世界，挖回后用化学处理精炼。"]
 			id: "5C2331EB0EE5534C"
 			tasks: [{
 				id: "72676712CE44B677"
@@ -683,6 +718,7 @@
 				"5BE22359954280E5"
 				"5E1F38057FC6CA0A"
 			]
+			description: ["化学注入室用化学品处理矿物颗粒，产出高纯化产物，是多倍处理线的进阶段。"]
 			id: "6489596C290FAAB8"
 			tasks: [{
 				id: "246F771DDD05A440"
@@ -697,6 +733,7 @@
 				"0003BAADADEA750C"
 				"7AED923FE0ED98CA"
 			]
+			description: ["净化室把富矿渣与氧气转成更高纯度产物，是多倍矿物处理线的核心一环。"]
 			id: "5E1F38057FC6CA0A"
 			tasks: [{
 				id: "56FEA2C59ED2DCC8"
@@ -708,6 +745,7 @@
 		}
 		{
 			dependencies: ["2EA0CFBC0379A309"]
+			description: ["富集室把基础矿粉精炼成更纯的富集产物，是 Mekanism 矿物处理的起步机器。"]
 			id: "7AED923FE0ED98CA"
 			tasks: [{
 				id: "0C88CF1694822099"
@@ -719,6 +757,7 @@
 		}
 		{
 			dependencies: ["0003BAADADEA750C"]
+			description: ["热蒸发塔由控制器与外壳拼接而成，利用热量把溶液浓缩成锂等产物。按控制器要求搭够高度的外壳并保证热量供应。"]
 			id: "45CCB200628F555B"
 			tasks: [
 				{
@@ -740,6 +779,7 @@
 				"0936FEE891E4559D"
 				"5E3EB7067D1F1160"
 			]
+			description: ["聚变反应堆由控制器与框架搭建，是本线终局的发电结构，用氘、氚与聚变燃料启动，产出海量能量。"]
 			id: "6144144F2D611078"
 			tasks: [
 				{
@@ -761,6 +801,7 @@
 				"55E56CC9964E0BC9"
 				"6144144F2D611078"
 			]
+			description: ["空腔是聚变反应堆的燃料腔，注入聚变燃料后成为点火媒介，是聚变启动的关键。"]
 			id: "24163DAFBF0979C5"
 			tasks: [{
 				id: "502FBD3BBFE19BC9"
@@ -789,6 +830,7 @@
 				"0A8E0745C67E5227"
 				"631AC6C658C7E07C"
 			]
+			description: ["聚变燃料由氘、氚混合而成，是聚变反应堆的点火燃料。"]
 			id: "55E56CC9964E0BC9"
 			tasks: [{
 				amount: 1000L
@@ -801,6 +843,7 @@
 		}
 		{
 			dependencies: ["0F02000000000000"]
+			description: ["粉碎机把矿物与物品粉碎成基础粉料，是多数加工链的第一台机器。"]
 			id: "4E4E315C79E4FA1A"
 			tasks: [{
 				id: "11A42CFF13A3DF5D"
@@ -812,6 +855,7 @@
 		}
 		{
 			dependencies: ["45CCB200628F555B"]
+			description: ["液态锂是热蒸发塔的产出物，经中子活化后得到氚。"]
 			id: "1993B891D99B983A"
 			tasks: [{
 				amount: 1000L
@@ -824,6 +868,7 @@
 		}
 		{
 			dependencies: ["68F6943726FC7D05"]
+			description: ["氚由锂在中子活化下生成，和氘一起配成聚变燃料。"]
 			id: "0A8E0745C67E5227"
 			tasks: [{
 				amount: 1000L
@@ -836,6 +881,7 @@
 		}
 		{
 			dependencies: ["191403DB36A29F24"]
+			description: ["氘由水电解或离心取得，是聚变链的基本氢同位素。"]
 			id: "631AC6C658C7E07C"
 			tasks: [{
 				amount: 1000L
@@ -848,6 +894,7 @@
 		}
 		{
 			dependencies: ["0F02000000000000"]
+			description: ["电动泵抽取液体与流体资源，过滤升级则让机器只接收指定气体或流体，组合起来是管网自动化必备。"]
 			id: "43336D11E1ED98B5"
 			tasks: [
 				{
@@ -890,6 +937,7 @@
 		}
 		{
 			dependencies: ["5BE22359954280E5"]
+			description: ["感应外壳与感应端口用于搭建大容量感应能量库结构，把基地的电集中存储。"]
 			id: "49A078E32A7583B7"
 			tasks: [
 				{
@@ -908,6 +956,7 @@
 		}
 		{
 			dependencies: ["1993B891D99B983A"]
+			description: ["锂粉是热蒸发塔产出后进一步加工的固体中间产物。"]
 			id: "7FE060F2F4938B38"
 			tasks: [{
 				id: "5F1E1F984C1E6E77"
@@ -922,6 +971,7 @@
 				"49A078E32A7583B7"
 				"7FE060F2F4938B38"
 			]
+			description: ["感应端口是感应能量库的进出接口，存入和提出能量都接在端口上。"]
 			id: "4BA760F79900532D"
 			tasks: [{
 				id: "1DB073D50B7FBC9F"
