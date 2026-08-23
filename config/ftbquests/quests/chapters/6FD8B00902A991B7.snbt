@@ -24,8 +24,8 @@
 				title: "路线导读"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1E01000000000001"]
@@ -42,7 +42,7 @@
 			}]
 			title: "新手法术书"
 			x: 0.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6F01000000000001"]
@@ -59,8 +59,8 @@
 				title: "先看懂法术结构"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6F01000000000001"]
@@ -77,7 +77,7 @@
 			}]
 			title: "抄写台"
 			x: 2.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6F01000000000002"]
@@ -127,7 +127,7 @@
 				type: "item"
 			}]
 			title: "魔源罐"
-			x: 2.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -144,8 +144,8 @@
 				title: "开始理解供魔"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -294,7 +294,7 @@
 				type: "item"
 			}]
 			title: "农耕供魔"
-			x: 14.0d
+			x: 12.0d
 			y: 1.0d
 		}
 		{
@@ -310,7 +310,7 @@
 				type: "item"
 			}]
 			title: "生命供魔"
-			x: 16.0d
+			x: 14.0d
 			y: 1.0d
 		}
 		{
@@ -389,7 +389,7 @@
 				item: "ars_nouveau:whirlisprig_charm"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 10.0d
 			y: 5.0d
 		}
 		{
@@ -404,7 +404,7 @@
 				item: "ars_nouveau:drygmy_charm"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 8.0d
 			y: 5.0d
 		}
 		{
@@ -453,8 +453,8 @@
 				title: "把 Ars 当工具箱而不是单技能"
 				type: "checkmark"
 			}]
-			x: 10.0d
-			y: -1.0d
+			x: 8.0d
+			y: -2.0d
 		}
 	]
 	title: "学徒魔法"

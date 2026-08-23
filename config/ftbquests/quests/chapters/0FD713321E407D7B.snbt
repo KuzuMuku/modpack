@@ -34,8 +34,8 @@
 				title: "路线导读"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0F02000000000000"]
@@ -842,7 +842,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["0F02000000000000"]
+			dependencies: ["2EA0CFBC0379A309"]
 			description: ["粉碎机把矿物与物品粉碎成基础粉料，是多数加工链的第一台机器。"]
 			id: "4E4E315C79E4FA1A"
 			tasks: [{
@@ -889,11 +889,11 @@
 				id: "57DB2B48D343C2AB"
 				type: "fluid"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["0F02000000000000"]
+			dependencies: ["0D37EF84099A25A6"]
 			description: ["电动泵抽取液体与流体资源，过滤升级则让机器只接收指定气体或流体，组合起来是管网自动化必备。"]
 			id: "43336D11E1ED98B5"
 			tasks: [
@@ -908,7 +908,7 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
+			x: 8.0d
 			y: 10.0d
 		}
 		{
@@ -920,7 +920,7 @@
 				item: "mekanism:electrolytic_separator"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 10.0d
 			y: 10.0d
 		}
 		{
