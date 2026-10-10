@@ -11,7 +11,7 @@
 	quests: [
 		{
 			dependencies: ["6C04000000000006"]
-			description: ["幽冥之地（Otherside）的入口位于深暗之域（Deep Dark）的远古城市（Ancient City）之后。使用方法是先找到远古城市，击败监守者（Warden）获得深渊之心（Heart of the Deep），然后在远古城市中心激活传送门。做出来后可以进入幽匿维度。来源是深暗之域的终极挑战。"]
+			description: ["幽冥之地的入口位于深暗之域的远古城市。先找到远古城市，击败监守者获得深渊之心，然后在远古城市中心传送门右键即可激活。"]
 			id: "04CD52C48C5A638A"
 			tasks: [{
 				biome: "minecraft:deep_dark"

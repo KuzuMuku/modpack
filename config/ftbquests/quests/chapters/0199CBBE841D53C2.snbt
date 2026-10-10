@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "0199CBBE841D53C2"
-	group: "6B135ADAEF98CFDF"
+	group: "634674170BA7361A"
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
@@ -12,11 +12,14 @@
 		}
 	}
 	id: "0199CBBE841D53C2"
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1E01000000000010"]
+			dependencies: [
+				"1E01000000000010"
+				"6F2B0A13ED4CB0BE"
+			]
 			description: [
 				"Botania 看起来像种花，实际更像一套自然魔法工厂。"
 				"你一开始只需要盯住一件事：让魔力从花里产生出来，能被发射器送进魔力池，再用这些魔力做下一批材料。"
@@ -29,34 +32,11 @@
 				title: "路线导读"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 0.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1901000000000000"]
-			description: [
-				"先收集几种常见花瓣。花瓣本身不强，但它们会把你带到聚花盆和第一批功能花。"
-				"这条线前期不追求爆发战力，更多是在给家里添一套会慢慢产出材料和功能的魔法基础设施。"
-				"如果你喜欢把基地做成“越放越会自己运转”的样子，Botania 会很适合你。"
-			]
-			id: "6F2B0A13ED4CB0BE"
-			tasks: [{
-				id: "210FFD646081142E"
-				item: {
-					Count: 1
-					id: "ftbfiltersystem:smart_filter"
-					tag: {
-						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(botania:petals)"
-					}
-				}
-				title: "Any #botania:petals"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6F2B0A13ED4CB0BE"]
 			description: [
 				"聚花盆是 Botania 的第一张真正工作台。"
 				"后面大量基础花、功能花和开局关键节点都要从这里做出来。"

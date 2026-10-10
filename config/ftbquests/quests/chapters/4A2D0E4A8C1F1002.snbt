@@ -2,11 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "4A2D0E4A8C1F1002"
-	group: "6AEED075A264200B"
+	group: "634674170BA7361A"
 	hide_quest_until_deps_visible: true
 	icon: "tacz:gun_smith_table"
 	id: "4A2D0E4A8C1F1002"
-	order_index: 1
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{

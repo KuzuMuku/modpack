@@ -18,7 +18,7 @@
 	quests: [
 		{
 			dependencies: ["654A8A0E9770844D"]
-			description: ["图鉴（Bestiary）是冰火传说（Ice and Fire）的起点，使用方法是收集手稿（Manuscript）并放入图鉴阅读，可以解锁更多龙和生物的资料。做出来后可以了解龙的习性、弱点和相关装备制作方法。来源是冰火传说的基础工具。"]
+			description: ["图鉴是冰火传说的起点，收集手稿并放入图鉴，可以解锁更多龙和生物的资料。可以了解各种生物的习性、弱点和相关装备制作方法。"]
 			id: "68ABF276654F56E9"
 			tasks: [{
 				id: "5EF87BC6E9DBEC40"
@@ -43,7 +43,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["51BEFF9F47A8879D"]
+			dependencies: [
+				"51BEFF9F47A8879D"
+				"581835B667D8690F"
+			]
 			description: ["火龙更偏正面压制和范围火焰。没有远程牵制和掩体时，不建议硬冲。 "]
 			id: "77634DB735F0E623"
 			tasks: [{
@@ -57,7 +60,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["51BEFF9F47A8879D"]
+			dependencies: [
+				"51BEFF9F47A8879D"
+				"581835B667D8690F"
+			]
 			description: ["冰龙会把减速和地形干扰一起叠上来，通常比单纯硬拼更考验处理节奏。 "]
 			id: "371793BBE2E2D2C1"
 			tasks: [{
@@ -71,8 +77,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["51BEFF9F47A8879D"]
-			description: ["雷龙爆发更凶，适合留到装备和回复都更稳之后再打。 "]
+			dependencies: [
+				"51BEFF9F47A8879D"
+				"581835B667D8690F"
+			]
+			description: ["电龙伤害更高一些，适合留到装备和回复都更稳之后再打。 "]
 			id: "316F13109BA5486E"
 			tasks: [{
 				entity: "iceandfire:lightning_dragon"
@@ -80,12 +89,12 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "雷霆飞龙"
+			title: "电龙"
 			x: 4.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["3B03000000000001"]
+			dependency_requirement: "one_completed"
 			description: ["先把龙锻炉外壳搭出来，后面再逐步补上核心和对应龙血。 "]
 			id: "581835B667D8690F"
 			tasks: [{
@@ -94,8 +103,8 @@
 				type: "item"
 			}]
 			title: "龙锻炉砖块"
-			x: 8.0d
-			y: -2.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["581835B667D8690F"]
@@ -156,56 +165,17 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["77634DB735F0E623"]
-			description: ["龙血（Dragon Blood）是对应属性龙锻炉的关键燃料。使用方法是将龙血放入龙锻炉的燃料槽中，为锻炉提供能量。做出来后可以启动龙锻炉制作龙钢材料和装备。来源是击败对应龙后获得的掉落物。"]
-			id: "3B03000000000001"
-			tasks: [{
-				id: "3B03000000000101"
-				item: "iceandfire:fire_dragon_blood"
-				type: "item"
-			}]
-			title: "烈焰龙血"
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["371793BBE2E2D2C1"]
-			description: ["冰霜龙血可驱动对应龙锻炉，也代表你已经能稳定处理第二类龙系威胁。 "]
-			id: "1F03000000000001"
-			tasks: [{
-				id: "1F03000000000101"
-				item: "iceandfire:ice_dragon_blood"
-				type: "item"
-			}]
-			title: "冰霜龙血"
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["316F13109BA5486E"]
-			description: ["雷霆龙血是雷系龙锻炉的关键材料，也象征你已经跨过高压空战门槛。 "]
-			id: "1F03000000000002"
-			tasks: [{
-				id: "1F03000000000102"
-				item: "iceandfire:lightning_dragon_blood"
-				type: "item"
-			}]
-			title: "雷霆龙血"
-			x: 6.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["2B03000000000001"]
-			description: ["狮鹫是可靠的陆空伙伴；孵化的卵代表你已成功建立伙伴关系。 "]
+			description: ["狮鹫是可靠的陆空伙伴，不过感觉丛林里的翼蚺更方便获取一点。"]
 			id: "1F03000000000003"
 			tasks: [{
 				id: "1F03000000000103"
 				item: "iceandfire:hippogryph_egg"
 				type: "item"
 			}]
-			title: "狮鹫伙伴"
-			x: -0.5d
-			y: 3.5d
+			title: "狮鹫"
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2B03000000000001"]
@@ -218,11 +188,11 @@
 			}]
 			title: "瓶中精灵"
 			x: -0.5d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5F03000000000001"]
-			description: ["独眼巨人压迫感很强，但机制相对直接，适合作为高危地表精英的起步目标。 "]
+			description: ["食人妖守护着一群羊群，他的伤害很高，还有吞下玩家的秒杀技能，建议避免近战。你可以射瞎他的眼睛来&a取得很大的优势&r，但是这样击败他&6不会掉落特殊战利品&r。&l"]
 			id: "2F03000000000001"
 			tasks: [{
 				entity: "iceandfire:cyclops"
@@ -236,21 +206,36 @@
 		}
 		{
 			dependencies: ["5F03000000000001"]
-			description: ["蛇发女妖更强调规避视线和处理石化风险，属于不能硬看硬拼的敌人。 "]
+			description: ["蛇发女妖会在视线接触瞬间石化你，基本是秒杀，可以通过末影人同款的避免视线接触方法来击杀，或者直接戴上眼罩。"]
 			id: "2F03000000000002"
-			tasks: [{
-				entity: "iceandfire:gorgon"
-				id: "2F03000000000102"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "iceandfire:gorgon"
+					id: "2F03000000000102"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "174BA411CBC9B0E9"
+					item: {
+						Count: 1
+						id: "iceandfire:blindfold"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "蛇发女妖"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["2F03000000000002"]
-			description: ["把女妖之首带回来，说明你已经把这条危险机制线真正打通。 "]
+			description: ["一次性用品，可以石化任意生物。注意别不小心把你自己的龙石化了"]
 			id: "2F03000000000003"
 			tasks: [{
 				id: "2F03000000000103"
@@ -269,7 +254,7 @@
 		}
 		{
 			dependencies: ["5F03000000000001"]
-			description: ["海蛇是典型的高波动海战目标，建议在有船只、远程和回收手段时再碰。 "]
+			description: ["海蛇是典型的高机动海战目标，建议使用远程手段或在岸边等他搁浅再击杀。"]
 			id: "2F03000000000004"
 			tasks: [{
 				entity: "iceandfire:sea_serpent"
@@ -278,12 +263,12 @@
 				value: 1L
 			}]
 			title: "海蛇"
-			x: 4.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["5F03000000000001"]
-			description: ["海妖会用歌声把你拉出安全状态，先保证耳边的危险不会直接变成处决。 "]
+			description: ["塞壬会用歌声强控你，甚至会把你拉下载具和坐骑，等控制结束后要及时稳住脚跟，可以选择上岸击杀。 "]
 			id: "2F03000000000005"
 			tasks: [{
 				entity: "iceandfire:siren"
@@ -292,11 +277,11 @@
 				value: 1L
 			}]
 			title: "海妖之歌"
-			x: 6.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["2F03000000000005"]
+			dependencies: ["2F03000000000004"]
 			description: ["潮汐三叉戟属于海线的代表性战利品，拿到它说明你已能稳定处理海妖威胁。 "]
 			id: "2F03000000000006"
 			tasks: [{
@@ -316,7 +301,7 @@
 		}
 		{
 			dependencies: ["5F03000000000001"]
-			description: ["死亡蠕虫经常出现在沙漠高压环境里，先确保机动和补给都足够。 "]
+			description: ["死亡蠕虫经常出现在沙漠，会没入沙子中&4使得玩家无法攻击到它们&r，可以通过铺设非沙质地板来避免这点。但他们本身仍有很高的速度，灵活的机动和不低的伤害，很难缠。&8对得起\"死亡\"蠕虫这个名字&r"]
 			id: "3F03000000000001"
 			tasks: [{
 				entity: "iceandfire:deathworm"
@@ -326,11 +311,11 @@
 			}]
 			title: "死亡蠕虫"
 			x: 4.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5F03000000000001"]
-			description: ["巨魔更像地下线的材料与战斗节点，记得结合矿洞探索一起推进。 "]
+			description: ["地下随机刷新的大型怪物。击杀可以获得他手上的武器"]
 			id: "3F03000000000002"
 			tasks: [{
 				entity: "iceandfire:troll"
@@ -338,13 +323,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "洞穴巨魔"
-			x: 6.0d
+			title: "食人妖"
+			x: 4.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5F03000000000001"]
-			description: ["九头蛇血厚且持续压迫强，建议在进入更高强度世界前把它当成中后期战斗考核。 "]
+			description: ["九头蛇有极强的&a恢复&r效果，可以通过点燃它等方式来抑制。"]
 			id: "3F03000000000003"
 			tasks: [{
 				entity: "iceandfire:hydra"
@@ -353,12 +338,12 @@
 				value: 1L
 			}]
 			title: "九头蛇"
-			x: 8.0d
+			x: 6.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["5F03000000000001"]
-			description: ["河畔怪鸟会把开阔地带变得很烦，优先用远程或地形处理它们。 "]
+			description: ["铜羽泽鹗会快速射出大量&6青铜鹗羽&r，相当烦人，可以用远程或举盾来处理它们。 "]
 			id: "3F03000000000004"
 			tasks: [{
 				entity: "iceandfire:stymphalian_bird"
@@ -366,54 +351,70 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "河畔怪鸟"
-			x: 10.0d
+			title: "铜羽泽鹗"
+			x: 8.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["2B03000000000001"]
-			description: ["鸡蛇（Cockatrice）可以被驯养，使用腐坏的鸡蛋（Rotten Egg）作为繁殖和收集的起点。使用方法是将腐坏鸡蛋放在地上，鸡蛇会被吸引并可以驯养。做出来后可以获得鸡蛇伙伴和相关战利品。来源是冰火传说的生态内容。"]
+			description: ["鸡蛇可以被驯养。普通鸡下的蛋有很小概率变成坏鸡蛋，右键扔出后有概率孵出鸡蛇。"]
 			id: "4F03000000000001"
 			tasks: [{
 				id: "4F03000000000101"
 				item: "iceandfire:rotten_egg"
 				type: "item"
 			}]
-			title: "鸡蛇之卵"
-			x: 2.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["4F03000000000001"]
-			description: ["鸡蛇本身就带有麻烦的控制能力，先学会安全孵化，再考虑正面处理。 "]
-			id: "4F03000000000002"
-			tasks: [{
-				entity: "iceandfire:cockatrice"
-				id: "4F03000000000102"
-				type: "kill"
-				value: 1L
-			}]
-			title: "鸡蛇"
-			x: 4.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["2B03000000000001"]
-			description: ["羽蛇兼具机动与驯养价值，适合作为丛林线的特色目标。 "]
-			id: "4F03000000000003"
-			tasks: [{
-				entity: "iceandfire:amphithere"
-				id: "4F03000000000103"
-				type: "kill"
-				value: 1L
-			}]
-			title: "丛林羽蛇"
-			x: 1.0d
-			y: 6.5d
+			title: "烂鸡蛋"
+			x: -0.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5F03000000000001"]
-			description: ["海马更偏伙伴和骑乘收集，不是最危险，但很适合作为海线扩展节点。 "]
+			description: ["鸡蛇会发射凋零射线，带有麻烦的&c减速和凋零&r效果，可以戴上蛇发女妖同款的眼罩来避免受到凋零射线影响。不过戴上后鸡蛇还会直接近战啄你，伤害也不低，需要注意。"]
+			icon: "minecraft:spawner"
+			id: "4F03000000000002"
+			tasks: [
+				{
+					entity: "iceandfire:cockatrice"
+					id: "4F03000000000102"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "11C3C9F00E589CF5"
+					item: {
+						Count: 1
+						id: "iceandfire:blindfold"
+						tag: {
+							Damage: 0
+						}
+					}
+					match_nbt: false
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "鸡蛇"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B03000000000001"]
+			description: ["翼蚺有相当高的机动速度，可以驯养，适合作为丛林线的特色目标。 骑在它上面经受住几轮撕咬即可驯服。"]
+			id: "4F03000000000003"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_amphithere"
+				criterion: ""
+				id: "71D19658D3ECE56A"
+				type: "advancement"
+			}]
+			title: "翼蚺"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F03000000000001"]
+			description: ["海马可以补充部分缺少的鳞片，更多是观赏作用。"]
 			id: "4F03000000000004"
 			tasks: [{
 				entity: "iceandfire:hippocampus"
@@ -422,8 +423,8 @@
 				value: 1L
 			}]
 			title: "海马"
-			x: 6.0d
-			y: 8.0d
+			x: 4.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["2B03000000000001"]

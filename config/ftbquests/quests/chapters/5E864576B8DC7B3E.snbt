@@ -3,15 +3,14 @@
 	default_quest_shape: ""
 	filename: "5E864576B8DC7B3E"
 	group: "634674170BA7361A"
-	hide_quest_until_deps_visible: true
 	icon: "toms_storage:ts.storage_terminal"
 	id: "09808611602ED099"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["1CEE0C043F4A260B"]
-			description: ["空白升级，并没有作用。更高级的背包可以安装更多升级"]
+			description: ["先做出背包，再考虑各种功能升级；否则这些配件没有承载主体。"]
 			id: "0823A4A9CDE48CFB"
 			tasks: [{
 				id: "00765F30B6E49C75"
@@ -30,12 +29,11 @@
 				item: "sophisticatedstorage:upgrade_base"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: ["拾取升级让背包自动吸入角色附近掉落的物品，简化捡拾。"]
 			id: "1717E616800E2340"
 			tasks: [{
 				id: "18436D9BE92EBEB3"
@@ -47,7 +45,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: ["过滤升级让背包或箱子只吸收指定的物品，避免混入杂物。"]
 			id: "2E4CF7B75F95B0A9"
 			tasks: [{
 				id: "1FA385D8F7850D8C"
@@ -59,7 +56,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: ["磁铁升级扩大拾取范围，自动吸走附近掉落物，扫图更省事。"]
 			id: "55EAD541CEAA8224"
 			tasks: [{
 				id: "6ACBFA7445CDD452"
@@ -71,7 +67,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: ["喂食升级会自动消耗背包里的食物补充饥饿值，远征续航神器。"]
 			id: "42E59E07E11466A2"
 			tasks: [{
 				id: "6B0247726AC9C258"
@@ -83,7 +78,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: ["熔炼升级让背包带炉子功能，边收边烧，矿与食物不用来回带回家。"]
 			id: "5DCD87CB0039A19A"
 			tasks: [{
 				id: "470F0E1E91351DEF"
@@ -95,7 +89,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: ["烟熏升级在背包内处理熟食类配方，出门补给更灵活。"]
 			id: "4329517158E5C800"
 			tasks: [{
 				id: "0229D043D40EE56D"
@@ -107,7 +100,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: ["高炉升级在背包内处理矿物熔炼，适合长时间远征时收集金属。"]
 			id: "788FD9C7923D146D"
 			tasks: [{
 				id: "663C490B61F140C8"
@@ -119,7 +111,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: ["切石升级让背包内可直接按切石配方加工方块，建房省材料。"]
 			id: "329492B05EFE9CAD"
 			tasks: [{
 				id: "6CDA707F23C1CF04"
@@ -131,11 +122,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: [
-				"堆叠升级，提高单格容量上限，也会提高'储罐升级'的容量"
-				""
-				"多个升级之间是乘算的，但一个背包中可安装的堆叠升级数量有限（取决于背包等级可装1-3个）"
-			]
 			id: "70CD0800FDC81DB1"
 			tasks: [{
 				id: "166578F0E8A6612C"
@@ -147,11 +133,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: [
-				"堆叠升级，提高单格容量上限，也会提高'储罐升级'的容量"
-				""
-				"多个升级之间是乘算的，但一个背包中可安装的堆叠升级数量有限（取决于背包等级可装1-3个）"
-			]
 			id: "7C47554F0B9D9358"
 			tasks: [{
 				id: "5166327D9182D2CA"
@@ -163,31 +144,32 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: [
-				"堆叠升级，提高单格容量上限，也会提高'储罐升级'的容量"
-				""
-				"多个升级之间是乘算的，但一个背包中可安装的堆叠升级数量有限（取决于背包等级可装1-3个）"
-			]
 			id: "4D1722B83E5C924E"
 			tasks: [{
 				id: "59B35D7137671FDC"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: [
-				"堆叠升级，提高单格容量上限，也会提高'储罐升级'的容量"
-				""
-				"多个升级之间是乘算的，但一个背包中可安装的堆叠升级数量有限（取决于背包等级可装1-3个）"
-			]
 			id: "0DF5D82AA826843E"
 			tasks: [{
 				id: "1435297449E9BF69"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0823A4A9CDE48CFB"]
+			id: "09C9F45304CCE080"
+			tasks: [{
+				id: "63CBF5694CB9F221"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 				type: "item"
 			}]
 			x: -8.0d
@@ -195,23 +177,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: [
-				"堆叠升级，提高单格容量上限，也会提高'储罐升级'的容量"
-				""
-				"多个升级之间是乘算的，但一个背包中可安装的堆叠升级数量有限（取决于背包等级可装1-3个）"
-			]
-			id: "09C9F45304CCE080"
-			tasks: [{
-				id: "63CBF5694CB9F221"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["0823A4A9CDE48CFB"]
-			description: ["合成升级让背包内置合成界面，路上也能随时手搓。"]
 			id: "72FE4498D6187D0A"
 			tasks: [{
 				id: "6C690E69D212ADC1"
@@ -223,7 +188,6 @@
 		}
 		{
 			dependencies: ["0823A4A9CDE48CFB"]
-			description: ["工具切换升级让背包按需快速换工具，挖矿与战斗切换更顺。"]
 			id: "1FED5E243A5199A9"
 			tasks: [{
 				id: "0493558DC0AD58AB"
@@ -235,191 +199,182 @@
 		}
 		{
 			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["过滤升级让储物容器只收指定物品，适合分类仓储。"]
 			id: "53FB1CF0E46F0DAE"
 			tasks: [{
 				id: "7C614C9AA106D9DF"
 				item: "sophisticatedstorage:filter_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["磁铁升级让储物容器自动吸收附近掉落物，整理仓库省心。"]
 			id: "22E5247F65AFE7CB"
 			tasks: [{
 				id: "6631939F1998E1A7"
 				item: "sophisticatedstorage:magnet_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["虚空升级会让容器自动销毁指定或超额物品，防止仓库被垃圾塞满。"]
 			id: "4816629C4D213119"
 			tasks: [{
 				id: "2BEA31BCC5C85770"
 				item: "sophisticatedstorage:void_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["压缩升级让容器自动把可压缩的物品压成块，节省大量空间。"]
 			id: "4BC662EAFD9088AD"
 			tasks: [{
 				id: "1D21BCC4E4D52B1E"
 				item: "sophisticatedstorage:compression_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["漏斗升级让容器自动搬运物品进出，是简易自动化入口。"]
 			id: "3E046F9454AF7FB2"
 			tasks: [{
 				id: "639F6732FBA5A934"
 				item: "sophisticatedstorage:hopper_upgrade"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["熔炼升级让储物容器能烧炼物品，告别手动搬运到炉子。"]
 			id: "714B7E8E6225D83B"
 			tasks: [{
 				id: "00CF5592B1F053E1"
 				item: "sophisticatedstorage:smelting_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["烟熏升级让储物容器处理熟食配方，补给更灵活。"]
 			id: "738380BA254F0DB6"
 			tasks: [{
 				id: "5C02297E5D69D5C3"
 				item: "sophisticatedstorage:smoking_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["高炉升级让储物容器处理矿物熔炼，仓储与生产结合。"]
 			id: "729494854CC7F94F"
 			tasks: [{
 				id: "2B0B431F3B77301D"
 				item: "sophisticatedstorage:blasting_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["合成升级让储物容器提供合成界面，取料与制作一体。"]
 			id: "6DEEE0F06BD319AC"
 			tasks: [{
 				id: "097635210FA851D6"
 				item: "sophisticatedstorage:crafting_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["切石升级让储物容器内可直接加工方块，适合建筑基地。"]
 			id: "24321F46B54E16BF"
 			tasks: [{
 				id: "67AECFE6F20F8A7E"
 				item: "sophisticatedstorage:stonecutter_upgrade"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7E534877419CC904"]
-			description: ["基础升级把容器容量提升到基础档位，是升级链的第一步。"]
 			id: "41C2BBB8460CC5E2"
 			tasks: [{
 				id: "4BE99481F2CFE51C"
 				item: "sophisticatedstorage:basic_tier_upgrade"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["7E534877419CC904"]
-			description: [
-				"高级容器可以装更多物品和更多升级。"
-				""
-				"你可以直接做铁升级，也可以从铜的版本升级一次，用8个铜的代价省4个铁。"
-			]
+			dependencies: ["5FB52B96CEA9B33C"]
+			id: "79BFAD7432C6C267"
+			tasks: [{
+				id: "043121026CA9C4F2"
+				item: "sophisticatedstorage:basic_to_copper_tier_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5FB52B96CEA9B33C"]
 			id: "70961F8A64282B47"
 			tasks: [{
 				id: "475140F23EB719E0"
-				item: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+				item: "sophisticatedstorage:copper_to_iron_tier_upgrade"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -3.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["7E534877419CC904"]
-			description: ["铁到金升级把容器从铁档升到金档，容量与升级槽同步提高。"]
+			dependencies: ["5FB52B96CEA9B33C"]
 			id: "4C0F5784713F9933"
 			tasks: [{
 				id: "55B9C0E300988140"
 				item: "sophisticatedstorage:iron_to_gold_tier_upgrade"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["7E534877419CC904"]
-			description: ["金到钻石升级把容器升到钻石档，是中期的大容量提升。"]
+			dependencies: ["5FB52B96CEA9B33C"]
 			id: "7B2F250F7740E8D9"
 			tasks: [{
 				id: "30B460C5BC133D20"
 				item: "sophisticatedstorage:gold_to_diamond_tier_upgrade"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["7E534877419CC904"]
-			description: ["钻石到下界合金升级把容器升到最高档，容量与耐久封顶。"]
+			dependencies: ["5FB52B96CEA9B33C"]
 			id: "6F14FBCA861F82BE"
 			tasks: [{
 				id: "3FC52CEED9E9BD36"
 				item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -6.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7C6519897916B7B5"]
-			description: ["合成终端。推荐加四个钻石直接做这个，EMI点加号可以直接用网络内的物品放进工作台，不需要你手动拿出来。"]
 			id: "3A0E654FF41274C2"
 			tasks: [{
 				id: "3BD06AC4C0261F0F"
@@ -431,7 +386,6 @@
 		}
 		{
 			dependencies: ["7C6519897916B7B5"]
-			description: ["Tom网络的核心。最简单的用法是在上面贴一个终端，然后紧挨着控制器放一大堆紧挨在一起的箱子或桶。"]
 			id: "4C311F240147C48A"
 			tasks: [{
 				id: "64BB34D264FF9E03"
@@ -442,14 +396,11 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1E01000000000008"]
+			dependencies: ["1E01000000000010"]
 			description: [
-				"背包和仓储不是后勤小事，它们会直接决定你一次远征能带回多少东西"
-				"如果你总是半路满包、回家找不到材料，先做这一章"
-				""
-				"左侧解决随身携带，中间解决统一检索，右侧解决仓储容量"
-				""
-				"前期最推荐先做一个背包和一个固定储物区；等箱子开始变多，再接 Tom's Storage 或AE2"
+				"背包和仓储不是后勤小事，它们会直接决定你一次远征能带回多少东西。"
+				"如果你总是半路满包、回家找不到材料，先做这一章。左侧解决随身携带，中间解决统一检索，右侧解决固定仓储。"
+				"前期最推荐先做一个背包和一个固定储物区；等箱子开始变多，再接 Tom's Storage 或更高阶仓储。"
 			]
 			id: "308A0F02BAB71CB9"
 			shape: "gear"
@@ -464,52 +415,20 @@
 		}
 		{
 			dependencies: ["308A0F02BAB71CB9"]
-			description: [
-				"来自精妙存储的箱子和桶，由于材质过多，请自行打勾标记完成"
-				""
-				"推荐新手直接使用Tom的存储控制器来统一管理，精妙存储的控制器不能直接终端访问，使用方法较复杂。"
-			]
-			icon: {
-				Count: 1
-				id: "sophisticatedstorage:chest"
-				tag: {
-					woodType: "oak"
-				}
-			}
+			description: ["最基础的储物桶就能把散乱箱子先收住。前期不用一步到位，先把常用矿物、食物和战利品分区放好。"]
 			id: "7E534877419CC904"
-			tasks: [
-				{
-					id: "38D74452DB219928"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:barrel"
-						tag: {
-							woodType: "oak"
-						}
+			tasks: [{
+				id: "38D74452DB219928"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:barrel"
+					tag: {
+						woodType: "oak"
 					}
-					optional_task: true
-					type: "item"
 				}
-				{
-					id: "1E802DD30A3DA182"
-					item: {
-						Count: 1
-						id: "sophisticatedstorage:chest"
-						tag: {
-							woodType: "oak"
-						}
-					}
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2C57E0B570EE630C"
-					title: "我做好了！"
-					type: "checkmark"
-				}
-			]
-			title: "精妙存储"
-			x: 2.5d
+				type: "item"
+			}]
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -542,191 +461,6 @@
 			}]
 			x: 0.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["1CEE0C043F4A260B"]
-			description: [
-				"高级背包可以装更多物品和更多升级。"
-				""
-				"你可以直接做铁背包，也可以从铜的版本升级一次，用8个铜的代价省4个铁。"
-			]
-			id: "5275D1FCF7CAB67D"
-			tasks: [{
-				id: "2EE3C46E4777EA61"
-				item: {
-					Count: 1
-					id: "sophisticatedbackpacks:iron_backpack"
-					tag: {
-						inventorySlots: 54
-						upgradeSlots: 2
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1CEE0C043F4A260B"]
-			description: ["金背包有更多格子和升级槽，是背包容量的中期提升。"]
-			id: "0ED8829997C73CA0"
-			tasks: [{
-				id: "18F0BC26B5C4A095"
-				item: {
-					Count: 1
-					id: "sophisticatedbackpacks:gold_backpack"
-					tag: {
-						inventorySlots: 81
-						upgradeSlots: 3
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["1CEE0C043F4A260B"]
-			description: ["钻石背包格子更多、升级槽更强，适合长期远征。"]
-			id: "0E121385BC2C1069"
-			tasks: [{
-				id: "45BE988DF88EB70A"
-				item: {
-					Count: 1
-					id: "sophisticatedbackpacks:diamond_backpack"
-					tag: {
-						inventorySlots: 108
-						upgradeSlots: 5
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["1CEE0C043F4A260B"]
-			description: ["下界合金背包是最高档背包，容量与耐久都封顶，是最耐用的随身仓库。"]
-			id: "21080D1B116EFDD5"
-			tasks: [{
-				id: "1F173AE153632F91"
-				item: {
-					Count: 1
-					id: "sophisticatedbackpacks:netherite_backpack"
-					tag: {
-						borderColor: 6434330
-						clothColor: 13394234
-						inventorySlots: 120
-						upgradeSlots: 7
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["堆叠升级一档让单个槽位能装更多同种物品，节省空间最直接。"]
-			id: "6FB37662DA082625"
-			tasks: [{
-				id: "1078CA92409E8D97"
-				item: "sophisticatedstorage:stack_upgrade_tier_1"
-				type: "item"
-			}]
-			x: 4.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["堆叠升级一档增强版继续提高单格容量，进一步压缩空间。"]
-			id: "4A2EC78EDEC67BD0"
-			tasks: [{
-				id: "2278197B60E7C493"
-				item: "sophisticatedstorage:stack_upgrade_tier_1_plus"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["堆叠升级二档让单格容量显著增加，适合大量同类物品。"]
-			id: "26B0F8B88630AD83"
-			tasks: [{
-				id: "64C8419E359C23F8"
-				item: "sophisticatedstorage:stack_upgrade_tier_2"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["堆叠升级三档继续放大单格容量，是中后期仓储关键。"]
-			id: "333F8A0474967EE6"
-			tasks: [{
-				id: "11B9AACFEF570DB1"
-				item: "sophisticatedstorage:stack_upgrade_tier_3"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["堆叠升级四档面向后期大仓库，单格容量更高。"]
-			id: "7EC61C2A86D55755"
-			tasks: [{
-				id: "7A2347FA47579CF4"
-				item: "sophisticatedstorage:stack_upgrade_tier_4"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5FB52B96CEA9B33C"]
-			description: ["堆叠升级五档是最高档堆叠强化，单格容量最大，终局仓储必备。"]
-			id: "34306C4E3EB9D467"
-			tasks: [{
-				id: "2A42C5A16C966855"
-				item: "sophisticatedstorage:stack_upgrade_tier_5"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"3A0E654FF41274C2"
-				"4C311F240147C48A"
-			]
-			description: [
-				"统一管理所有物品已经很方便了，如果能自动控制设备进行合成的话…"
-				""
-				"查看ae2任务线制作统一仓库管理和自动合成。"
-				"提示：这是科技线内容 ，且入门门槛偏高，请自行抉择哦。"
-			]
-			id: "0A7ED207BC8F6A4B"
-			tasks: [{
-				id: "5F274FB863A338ED"
-				item: "ae2cs:purified_certus_quartz_crystal"
-				type: "item"
-			}]
-			title: "再进一些…"
-			x: 0.0d
-			y: 6.0d
-		}
-		{
-			id: "619BB357419CE0CB"
-			tasks: [{
-				id: "14D2BBEC0954354E"
-				item: "sophisticatedbackpacks:tank_upgrade"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 0.0d
 		}
 	]
 	title: "合成与存储"

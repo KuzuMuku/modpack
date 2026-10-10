@@ -6,7 +6,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "ars_nouveau:novice_spell_book"
 	id: "6FD8B00902A991B7"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{

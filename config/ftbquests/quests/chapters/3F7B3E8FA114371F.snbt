@@ -6,7 +6,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "create:cogwheel"
 	id: "3F7B3E8FA114371F"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

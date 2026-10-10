@@ -6,7 +6,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "ae2:controller"
 	id: "575E753AEE3756F4"
-	order_index: 1
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
