@@ -6,9 +6,9 @@
 
 ## 许可
 
-本整合包采用 `CC BY-NC 4.0` 协议。
+本整合包采用 `CC BY-NC-SA 4.0` 协议。
 
-许可链接：`https://creativecommons.org/licenses/by-nc/4.0/`
+许可链接：`https://creativecommons.org/licenses/by-nc-sa/4.0/`
 
 ## 构建
 
