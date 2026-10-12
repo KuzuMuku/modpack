@@ -622,7 +622,7 @@
 				{
 					count: 3L
 					id: "0F12B8D03A622D3A"
-					item: { Count: 3, id: "minecraft:cobblestone" }
+					item: "minecraft:cobblestone"
 					type: "item"
 				}
 			]
@@ -782,5 +782,5 @@
 			y: -7.0d
 		}
 	]
-	title: "主世界"
+	title: "欢迎来到世界"
 }

@@ -1305,7 +1305,7 @@
 				count: 60L
 				id: "51B92393FB3CA88B"
 				item: {
-					Count: 60
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:9mm"
@@ -1328,7 +1328,7 @@
 				count: 60L
 				id: "52C9EB27EFD428C9"
 				item: {
-					Count: 60
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:45acp"
@@ -1348,7 +1348,7 @@
 				count: 60L
 				id: "33BD5DD8EFA65DC2"
 				item: {
-					Count: 60
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:46x30"
@@ -1368,7 +1368,7 @@
 				count: 48L
 				id: "16D037044917D195"
 				item: {
-					Count: 48
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:50ae"
@@ -1388,7 +1388,7 @@
 				count: 48L
 				id: "49100338AC3ED54E"
 				item: {
-					Count: 48
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:357mag"
@@ -1408,7 +1408,7 @@
 				count: 42L
 				id: "1105F7FFDDC6EFF7"
 				item: {
-					Count: 42
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:500mag"
@@ -1476,7 +1476,7 @@
 				count: 36L
 				id: "3A99D5E133CFD6F3"
 				item: {
-					Count: 36
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:12g"
@@ -1499,7 +1499,7 @@
 				count: 60L
 				id: "776BD4CD177923C2"
 				item: {
-					Count: 60
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:556x45"
@@ -1522,7 +1522,7 @@
 				count: 48L
 				id: "37487A66D2FCB86A"
 				item: {
-					Count: 48
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:308"
@@ -1545,7 +1545,7 @@
 				count: 60L
 				id: "5C26A0F3ACE4877D"
 				item: {
-					Count: 60
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:762x39"
@@ -1565,7 +1565,7 @@
 				count: 60L
 				id: "0E917E66172B57B3"
 				item: {
-					Count: 60
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:58x42"
@@ -1585,7 +1585,7 @@
 				count: 36L
 				id: "68DF0996167CC235"
 				item: {
-					Count: 36
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:792x57"
@@ -1605,7 +1605,7 @@
 				count: 48L
 				id: "5EC04F8C89997B72"
 				item: {
-					Count: 48
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:45_70"
@@ -1625,7 +1625,7 @@
 				count: 30L
 				id: "20889D2748A6665A"
 				item: {
-					Count: 30
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:338"
@@ -1684,7 +1684,7 @@
 				count: 36L
 				id: "5CE24DE69EC83599"
 				item: {
-					Count: 36
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:30_06"
@@ -1719,7 +1719,7 @@
 				count: 30L
 				id: "302134D1C31E2176"
 				item: {
-					Count: 30
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:50bmg"
@@ -1739,7 +1739,7 @@
 				count: 6L
 				id: "20B66B32769CF97F"
 				item: {
-					Count: 6
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:40mm"
@@ -1759,7 +1759,7 @@
 				count: 2L
 				id: "1E0FE3A41705488F"
 				item: {
-					Count: 2
+					Count: 1
 					id: "tacz:ammo"
 					tag: {
 						AmmoId: "tacz:rpg_rocket"

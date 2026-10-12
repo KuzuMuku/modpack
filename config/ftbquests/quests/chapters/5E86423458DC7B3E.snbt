@@ -3,7 +3,13 @@
 	default_quest_shape: ""
 	filename: "5E86423458DC7B3E"
 	group: "20AEB0F73A64FBCF"
-	icon: "kubejs:andesite_alloy_heart"
+	icon: {
+		Count: 1
+		id: "organapi:organ_item"
+		tag: {
+			OrganId: "createt1:andesite_alloy_heart"
+		}
+	}
 	id: "5E86423458DC7B3E"
 	order_index: 2
 	quest_links: [ ]
@@ -148,7 +154,13 @@
 			subtitle: "活塞冲拳"
 			tasks: [{
 				id: "6A3B687D77B9738F"
-				item: "kubejs:piston_punch"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt1:piston_punch"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -161,7 +173,13 @@
 			subtitle: "动力锤击"
 			tasks: [{
 				id: "056B930BDE1C55EF"
-				item: "kubejs:power_hammer"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt1:power_hammer"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -174,7 +192,13 @@
 			subtitle: "弹射撞角"
 			tasks: [{
 				id: "09C2BBC3687BE6A4"
-				item: "kubejs:spring_ram"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt1:spring_ram"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -187,7 +211,13 @@
 			subtitle: "传动链锯"
 			tasks: [{
 				id: "217BC22AF23AFE59"
-				item: "kubejs:drive_chainsaw"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt1:drive_chainsaw"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -200,7 +230,13 @@
 			subtitle: "应力镐"
 			tasks: [{
 				id: "3F82E4901D392E95"
-				item: "kubejs:stress_pick"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt1:stress_pick"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -213,7 +249,13 @@
 			subtitle: "粉碎齿轮"
 			tasks: [{
 				id: "661343E7DDCB6B1B"
-				item: "kubejs:crushing_gears"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt1:crushing_gears"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -226,7 +268,13 @@
 			subtitle: "安山飞轮心脏"
 			tasks: [{
 				id: "5A80EB5030FCA0FF"
-				item: "kubejs:andesite_alloy_heart"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt1:andesite_alloy_heart"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -239,7 +287,13 @@
 			subtitle: "微型水车"
 			tasks: [{
 				id: "76EE1BA24DF160F4"
-				item: "kubejs:micro_waterwheel"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt1:micro_waterwheel"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -252,7 +306,13 @@
 			subtitle: "微型风车"
 			tasks: [{
 				id: "5E881437A2C754B5"
-				item: "kubejs:micro_windmill"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt1:micro_windmill"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -265,7 +325,13 @@
 			subtitle: "增压传动轴"
 			tasks: [{
 				id: "5CE2BCAED860EDA8"
-				item: "kubejs:torque_driveshaft"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt1:torque_driveshaft"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -306,7 +372,13 @@
 			subtitle: "黄铜打桩拳"
 			tasks: [{
 				id: "3F49E2DD3974D56C"
-				item: "kubejs:brass_pile_driver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt2:brass_pile_driver"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -319,7 +391,13 @@
 			subtitle: "棘轮破城肩"
 			tasks: [{
 				id: "0884AA7B720A6E4E"
-				item: "kubejs:ratchet_breach_shoulder"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt2:ratchet_breach_shoulder"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -332,7 +410,13 @@
 			subtitle: "增压锻炉肺"
 			tasks: [{
 				id: "20923F8170DEB581"
-				item: "kubejs:overpressure_forge_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt2:overpressure_forge_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -345,7 +429,13 @@
 			subtitle: "润滑回流腺"
 			tasks: [{
 				id: "4E998D4E8E346F49"
-				item: "kubejs:lubrication_reflux_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt2:lubrication_reflux_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -358,7 +448,13 @@
 			subtitle: "螺旋掘进钻"
 			tasks: [{
 				id: "065BEC5BC530FB97"
-				item: "kubejs:spiral_tunnel_drill"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt2:spiral_tunnel_drill"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -371,7 +467,13 @@
 			subtitle: "黄铜增压心室"
 			tasks: [{
 				id: "41AF3EA1A1186C5E"
-				item: "kubejs:brass_pressure_ventricle"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt2:brass_pressure_ventricle"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -384,7 +486,13 @@
 			subtitle: "配重飞轮囊"
 			tasks: [{
 				id: "449CCE1298D06D13"
-				item: "kubejs:weighted_flywheel_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt2:weighted_flywheel_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -397,7 +505,13 @@
 			subtitle: "黄铜离合脊"
 			tasks: [{
 				id: "09414D57D3991974"
-				item: "kubejs:brass_clutch_spine"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt2:brass_clutch_spine"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -410,7 +524,13 @@
 			subtitle: "节拍校准耳蜗"
 			tasks: [{
 				id: "1A5F2CECB9C64907"
-				item: "kubejs:tempo_calibration_cochlea"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt2:tempo_calibration_cochlea"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -423,7 +543,13 @@
 			subtitle: "配压黄铜膜"
 			tasks: [{
 				id: "4CD89A186795388F"
-				item: "kubejs:pressure_balance_brass_membrane"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "createt2:pressure_balance_brass_membrane"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -463,7 +589,13 @@
 			subtitle: "热刃臂"
 			tasks: [{
 				id: "020B60145FA191C8"
-				item: "kubejs:heat_blade_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:heat_blade_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -475,7 +607,13 @@
 			subtitle: "磁轨拳峰"
 			tasks: [{
 				id: "373F5531F42B2AF9"
-				item: "kubejs:magnet_rail_fist"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:magnet_rail_fist"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -487,7 +625,13 @@
 			subtitle: "过热散流肩"
 			tasks: [{
 				id: "733E5D54167A6990"
-				item: "kubejs:overheat_diffusion_shoulder"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:overheat_diffusion_shoulder"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -499,7 +643,13 @@
 			subtitle: "校准透镜眼"
 			tasks: [{
 				id: "2147E8EAE31A033B"
-				item: "kubejs:calibration_lens_eye"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:calibration_lens_eye"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -511,7 +661,13 @@
 			subtitle: "气体回流囊"
 			tasks: [{
 				id: "1E6AF85DB4FC1B2E"
-				item: "kubejs:gas_reflux_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:gas_reflux_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -523,7 +679,13 @@
 			subtitle: "精馏滤胆"
 			tasks: [{
 				id: "2C9652AE70F7E420"
-				item: "kubejs:distillation_filter_bladder"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:distillation_filter_bladder"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -535,7 +697,13 @@
 			subtitle: "裂解矿囊"
 			tasks: [{
 				id: "2C4FF2E873CB5709"
-				item: "kubejs:cracking_mine_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:cracking_mine_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -547,7 +715,13 @@
 			subtitle: "精炼回收腺"
 			tasks: [{
 				id: "2CE760E4165D1A9A"
-				item: "kubejs:refining_recovery_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:refining_recovery_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -559,7 +733,13 @@
 			subtitle: "工业能核"
 			tasks: [{
 				id: "4D6FD4D16B888D25"
-				item: "kubejs:industrial_energy_core"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:industrial_energy_core"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -571,7 +751,13 @@
 			subtitle: "热泵循环肺"
 			tasks: [{
 				id: "7703A306214EE6F8"
-				item: "kubejs:heat_pump_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:heat_pump_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -583,7 +769,13 @@
 			subtitle: "高频稳相耳蜗"
 			tasks: [{
 				id: "6983FED9807E8530"
-				item: "kubejs:high_frequency_phase_cochlea"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:high_frequency_phase_cochlea"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -595,7 +787,13 @@
 			subtitle: "导热骨板"
 			tasks: [{
 				id: "67B794E21A604861"
-				item: "kubejs:heat_conductive_boneplate"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:heat_conductive_boneplate"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -607,7 +805,13 @@
 			subtitle: "电容节律腺"
 			tasks: [{
 				id: "7F71750F7D0A5E51"
-				item: "kubejs:capacitor_rhythm_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:capacitor_rhythm_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -619,7 +823,13 @@
 			subtitle: "磁轨腿栓"
 			tasks: [{
 				id: "6E2BD0FE59FCA2C3"
-				item: "kubejs:magnet_rail_leg_bolt"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt1:magnet_rail_leg_bolt"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -660,7 +870,13 @@
 			subtitle: "相位切断臂"
 			tasks: [{
 				id: "119AFB4B57B5623A"
-				item: "kubejs:phase_cut_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:phase_cut_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -673,7 +889,13 @@
 			subtitle: "偏折棱肩"
 			tasks: [{
 				id: "7F6059A2135F36A2"
-				item: "kubejs:deflection_prism_shoulder"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:deflection_prism_shoulder"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -686,7 +908,13 @@
 			subtitle: "矢量锁定眼"
 			tasks: [{
 				id: "0480F99BFC1CD8F9"
-				item: "kubejs:vector_lock_eye"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:vector_lock_eye"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -699,7 +927,13 @@
 			subtitle: "光矛抛射腱"
 			tasks: [{
 				id: "2ADE56F56735390C"
-				item: "kubejs:light_spear_tendon"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:light_spear_tendon"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -712,7 +946,13 @@
 			subtitle: "棱镜演算脑"
 			tasks: [{
 				id: "270DECF1A7B14702"
-				item: "kubejs:prism_compute_brain"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:prism_compute_brain"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -725,7 +965,13 @@
 			subtitle: "纳米回充巢"
 			tasks: [{
 				id: "06382F800220333B"
-				item: "kubejs:nano_recharge_nest"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:nano_recharge_nest"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -738,7 +984,13 @@
 			subtitle: "纳米复制腺"
 			tasks: [{
 				id: "1E6CA8629C5C1815"
-				item: "kubejs:nano_copy_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:nano_copy_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -751,7 +1003,13 @@
 			subtitle: "零损采样爪"
 			tasks: [{
 				id: "0C51210166B0C8B8"
-				item: "kubejs:zero_loss_sampler_claw"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:zero_loss_sampler_claw"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -764,7 +1022,13 @@
 			subtitle: "量子护盾核"
 			tasks: [{
 				id: "056E13E5963E3830"
-				item: "kubejs:quantum_shield_core"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:quantum_shield_core"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -777,7 +1041,13 @@
 			subtitle: "等离子膜肺"
 			tasks: [{
 				id: "32511FD1695F9175"
-				item: "kubejs:plasma_membrane_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:plasma_membrane_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -790,7 +1060,13 @@
 			subtitle: "过载稳相脊"
 			tasks: [{
 				id: "572DF4F29E8A2781"
-				item: "kubejs:overload_phase_spine"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:overload_phase_spine"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -803,7 +1079,13 @@
 			subtitle: "护盾编织膜"
 			tasks: [{
 				id: "4D8B4851A40076D1"
-				item: "kubejs:shield_weave_membrane"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:shield_weave_membrane"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -816,7 +1098,13 @@
 			subtitle: "纳米修复网"
 			tasks: [{
 				id: "71D8151278393888"
-				item: "kubejs:nano_repair_mesh"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:nano_repair_mesh"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -829,7 +1117,13 @@
 			subtitle: "采能步进足"
 			tasks: [{
 				id: "75C9A49867788F67"
-				item: "kubejs:energy_harvest_step_foot"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "mekanismt2:energy_harvest_step_foot"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -869,7 +1163,13 @@
 			subtitle: "风蚀臂束"
 			tasks: [{
 				id: "04E55F43EB8D6D70"
-				item: "kubejs:wind_erosion_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanilladesert:wind_erosion_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -881,7 +1181,13 @@
 			subtitle: "枯沙虹膜"
 			tasks: [{
 				id: "135835C712A7CFBD"
-				item: "kubejs:drysand_iris"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanilladesert:drysand_iris"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -893,7 +1199,13 @@
 			subtitle: "耐旱肝囊"
 			tasks: [{
 				id: "6D03099EBDF41CD1"
-				item: "kubejs:drought_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanilladesert:drought_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -905,7 +1217,13 @@
 			subtitle: "热浪肺叶"
 			tasks: [{
 				id: "33FB792C3305AAA1"
-				item: "kubejs:heatwave_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanilladesert:heatwave_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -917,7 +1235,13 @@
 			subtitle: "日蚀冠脑"
 			tasks: [{
 				id: "608672068A57F6E6"
-				item: "kubejs:eclipse_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanilladesert:eclipse_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -929,7 +1253,13 @@
 			subtitle: "流砂脾囊"
 			tasks: [{
 				id: "689758CC6701836E"
-				item: "kubejs:quicksand_spleen"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanilladesert:quicksand_spleen"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -941,7 +1271,13 @@
 			subtitle: "神殿拾荒手"
 			tasks: [{
 				id: "2FB7E578837EB593"
-				item: "kubejs:temple_scavenger_hand"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanilladesert:temple_scavenger_hand"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -953,7 +1289,13 @@
 			subtitle: "烈阳心室"
 			tasks: [{
 				id: "4A747AD445829C50"
-				item: "kubejs:sun_ventricle"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanilladesert:sun_ventricle"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -965,7 +1307,13 @@
 			subtitle: "砂岩胸板"
 			tasks: [{
 				id: "29E6A2AB67EBCF7E"
-				item: "kubejs:sandstone_breastplate"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanilladesert:sandstone_breastplate"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -977,7 +1325,13 @@
 			subtitle: "仙棘跟腱"
 			tasks: [{
 				id: "271268BBD1B3DADB"
-				item: "kubejs:cactus_tendon"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanilladesert:cactus_tendon"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1017,7 +1371,13 @@
 			subtitle: "绞藤臂束"
 			tasks: [{
 				id: "181A107776C73190"
-				item: "kubejs:stranglevine_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillajungle:stranglevine_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -1029,7 +1389,13 @@
 			subtitle: "捕蝇花咽囊"
 			tasks: [{
 				id: "4E0E9AFAA696F804"
-				item: "kubejs:flytrap_throat_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillajungle:flytrap_throat_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -1041,7 +1407,13 @@
 			subtitle: "雨林蓄水囊"
 			tasks: [{
 				id: "585615C99E5E87CE"
-				item: "kubejs:rainforest_water_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillajungle:rainforest_water_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1053,7 +1425,13 @@
 			subtitle: "兰荧法芽肺"
 			tasks: [{
 				id: "78194C81070942E3"
-				item: "kubejs:orchid_spellbud_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillajungle:orchid_spellbud_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1065,7 +1443,13 @@
 			subtitle: "孢网冠脑"
 			tasks: [{
 				id: "3AC912A7E67F07B7"
-				item: "kubejs:sporeweb_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillajungle:sporeweb_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1077,7 +1461,13 @@
 			subtitle: "可可髓回蓝肝"
 			tasks: [{
 				id: "7A41252422E6C322"
-				item: "kubejs:cocoa_marow_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillajungle:cocoa_marow_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -1089,7 +1479,13 @@
 			subtitle: "板根心室"
 			tasks: [{
 				id: "476C44C57D1B7B35"
-				item: "kubejs:buttress_ventricle"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillajungle:buttress_ventricle"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1101,7 +1497,13 @@
 			subtitle: "青苔树皮甲"
 			tasks: [{
 				id: "445F1A5E761410DA"
-				item: "kubejs:mossbark_carapace"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillajungle:mossbark_carapace"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1113,7 +1515,13 @@
 			subtitle: "神庙苔石脊"
 			tasks: [{
 				id: "7F3000F213710206"
-				item: "kubejs:temple_moss_spine"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillajungle:temple_moss_spine"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1125,7 +1533,13 @@
 			subtitle: "豹纹伏地腿腱"
 			tasks: [{
 				id: "2A5FBFC8181F8F52"
-				item: "kubejs:jaguar_crouch_tendon"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillajungle:jaguar_crouch_tendon"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1166,7 +1580,13 @@
 			subtitle: "垂根束臂"
 			tasks: [{
 				id: "07F528CD506A202A"
-				item: "kubejs:hangingroot_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillalushcaves:hangingroot_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -1179,7 +1599,13 @@
 			subtitle: "孢光肺叶"
 			tasks: [{
 				id: "703DFD38F4249CF6"
-				item: "kubejs:sporeglow_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillalushcaves:sporeglow_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1192,7 +1618,13 @@
 			subtitle: "亮苞浆囊"
 			tasks: [{
 				id: "23A4B1D5BFE50870"
-				item: "kubejs:brightpod_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillalushcaves:brightpod_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1205,7 +1637,13 @@
 			subtitle: "幽苔冠脑"
 			tasks: [{
 				id: "1C46136A2EF584B6"
-				item: "kubejs:gloommoss_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillalushcaves:gloommoss_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1218,7 +1656,13 @@
 			subtitle: "洞苔回春肝"
 			tasks: [{
 				id: "642EBC447D5C39B4"
-				item: "kubejs:mossheal_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillalushcaves:mossheal_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -1231,7 +1675,13 @@
 			subtitle: "孢床脾囊"
 			tasks: [{
 				id: "7D8B3D4A7E68CB17"
-				item: "kubejs:sporebed_spleen"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillalushcaves:sporebed_spleen"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -1244,7 +1694,13 @@
 			subtitle: "苔光心核"
 			tasks: [{
 				id: "7C6A2958F7F13425"
-				item: "kubejs:mossglow_core"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillalushcaves:mossglow_core"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1257,7 +1713,13 @@
 			subtitle: "钙脉胸骨"
 			tasks: [{
 				id: "25030D5A8F4CA41A"
-				item: "kubejs:calcite_breastbone"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillalushcaves:calcite_breastbone"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1270,7 +1732,13 @@
 			subtitle: "孢芽腺团"
 			tasks: [{
 				id: "0EFF38766539E932"
-				item: "kubejs:sporebud_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillalushcaves:sporebud_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1283,7 +1751,13 @@
 			subtitle: "菌丝足垫"
 			tasks: [{
 				id: "270C6870BBAD5C04"
-				item: "kubejs:mycelium_sole"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillalushcaves:mycelium_sole"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1324,7 +1798,13 @@
 			subtitle: "冰碴臂束"
 			tasks: [{
 				id: "59AE1486E756CA31"
-				item: "kubejs:icechip_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasnow:icechip_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -1337,7 +1817,13 @@
 			subtitle: "雪盲虹膜"
 			tasks: [{
 				id: "244D0E9002FD9E58"
-				item: "kubejs:snowblind_iris"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasnow:snowblind_iris"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -1350,7 +1836,13 @@
 			subtitle: "白桦髓肝"
 			tasks: [{
 				id: "77FAA479AC0644E4"
-				item: "kubejs:birchmarrow_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasnow:birchmarrow_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1363,7 +1855,13 @@
 			subtitle: "冰晶肺叶"
 			tasks: [{
 				id: "0E4F10A58056C392"
-				item: "kubejs:icecrystal_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasnow:icecrystal_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1376,7 +1874,13 @@
 			subtitle: "寒光冠脑"
 			tasks: [{
 				id: "5FCE267E66CBA23E"
-				item: "kubejs:frostlight_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasnow:frostlight_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1389,7 +1893,13 @@
 			subtitle: "雪藏脾囊"
 			tasks: [{
 				id: "7E4565C84546FE22"
-				item: "kubejs:snowhide_spleen"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasnow:snowhide_spleen"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -1402,7 +1912,13 @@
 			subtitle: "冻裂髓鞘"
 			tasks: [{
 				id: "2D8969EF43A849CC"
-				item: "kubejs:freezebreak_sheath"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasnow:freezebreak_sheath"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -1415,7 +1931,13 @@
 			subtitle: "霜封心室"
 			tasks: [{
 				id: "60F5904F0CEF34A2"
-				item: "kubejs:frostseal_ventricle"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasnow:frostseal_ventricle"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1428,7 +1950,13 @@
 			subtitle: "冻土胸甲膜"
 			tasks: [{
 				id: "5CB99452C95290DD"
-				item: "kubejs:frozensoil_chest_membrane"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasnow:frozensoil_chest_membrane"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1441,7 +1969,13 @@
 			subtitle: "霜蹄腿腱"
 			tasks: [{
 				id: "0745815F5A478536"
-				item: "kubejs:frosthoof_tendon"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasnow:frosthoof_tendon"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1482,7 +2016,13 @@
 			subtitle: "史莱姆牵丝臂"
 			tasks: [{
 				id: "086F64D14EC42B0A"
-				item: "kubejs:slime_thread_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaswamp:slime_thread_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -1495,7 +2035,13 @@
 			subtitle: "毒囊花喉"
 			tasks: [{
 				id: "609C050B57D8C6AD"
-				item: "kubejs:poison_bloom_throat"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaswamp:poison_bloom_throat"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -1508,7 +2054,13 @@
 			subtitle: "腐苔滤肝"
 			tasks: [{
 				id: "1F90D2FD42172998"
-				item: "kubejs:rotmoss_filter_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaswamp:rotmoss_filter_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1521,7 +2073,13 @@
 			subtitle: "孢浆沼肺"
 			tasks: [{
 				id: "4C4E0CD19976288D"
-				item: "kubejs:sporebog_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaswamp:sporebog_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1534,7 +2092,13 @@
 			subtitle: "巫沼冠脑"
 			tasks: [{
 				id: "190E0DB4439D1CCE"
-				item: "kubejs:witchbog_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaswamp:witchbog_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1547,7 +2111,13 @@
 			subtitle: "泥潭蓄腐囊"
 			tasks: [{
 				id: "199F4B1C765268CC"
-				item: "kubejs:bog_rot_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaswamp:bog_rot_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -1560,7 +2130,13 @@
 			subtitle: "黏液回蓝脾"
 			tasks: [{
 				id: "34444AA3E3B093F5"
-				item: "kubejs:slime_mana_spleen"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaswamp:slime_mana_spleen"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -1573,7 +2149,13 @@
 			subtitle: "淤泥毒心"
 			tasks: [{
 				id: "72CF7D0ABA5740BC"
-				item: "kubejs:silt_poison_heart"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaswamp:silt_poison_heart"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1586,7 +2168,13 @@
 			subtitle: "黏膜护壳"
 			tasks: [{
 				id: "6BD41B67B331CDB4"
-				item: "kubejs:slime_shell"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaswamp:slime_shell"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1599,7 +2187,13 @@
 			subtitle: "蛙蹼潜行腿"
 			tasks: [{
 				id: "06EAE538F41B5469"
-				item: "kubejs:frogfin_sneak_leg"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaswamp:frogfin_sneak_leg"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1637,24 +2231,17 @@
 			description: ["常驻攻击 +1；近战命中给目标 4 秒减速；潮湿状态命中造成半径 3 格推涌，不产海压。"]
 			id: "4E024CF5CBC4E4BA"
 			subtitle: "逆流臂束"
-			tasks: [
-				{
-					id: "187E434163B71421"
-					item: "kubejs:countercurrent_arm"
-					type: "item"
-				}
-				{
-					id: "37C48BD15C46FD40"
-					item: {
-						Count: 1
-						id: "organapi:organ_item"
-						tag: {
-							OrganId: "mekanismt2:deflection_prism_shoulder"
-						}
+			tasks: [{
+				id: "187E434163B71421"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:countercurrent_arm"
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			x: -8.0d
 			y: 56.0d
 		}
@@ -1664,7 +2251,13 @@
 			subtitle: "珊刺拳峰"
 			tasks: [{
 				id: "61A2E0E8D3281DE6"
-				item: "kubejs:coralspike_fist"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:coralspike_fist"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -1676,7 +2269,13 @@
 			subtitle: "潮声叉腕"
 			tasks: [{
 				id: "28370501F80B50D7"
-				item: "kubejs:tidesound_fork_wrist"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:tidesound_fork_wrist"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -1688,7 +2287,13 @@
 			subtitle: "海镜虹膜"
 			tasks: [{
 				id: "7C9427B92071B04A"
-				item: "kubejs:seamirror_iris"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:seamirror_iris"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -1700,7 +2305,13 @@
 			subtitle: "泡浪喉囊"
 			tasks: [{
 				id: "5127F4492F5FCBE0"
-				item: "kubejs:bubblewave_throat"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:bubblewave_throat"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -1712,7 +2323,13 @@
 			subtitle: "海神殿折光眼"
 			tasks: [{
 				id: "17CC607B5C8BFAF4"
-				item: "kubejs:monument_refraction_eye"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:monument_refraction_eye"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -1724,7 +2341,13 @@
 			subtitle: "盐鳃肺叶"
 			tasks: [{
 				id: "40F23C89A1AF5E41"
-				item: "kubejs:saltgill_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:saltgill_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1736,7 +2359,13 @@
 			subtitle: "深海肝囊"
 			tasks: [{
 				id: "22243012693B23CF"
-				item: "kubejs:deepsea_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:deepsea_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1748,7 +2377,13 @@
 			subtitle: "潮压冠脑"
 			tasks: [{
 				id: "66DAF520867B339D"
-				item: "kubejs:tidepressure_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:tidepressure_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1760,7 +2395,13 @@
 			subtitle: "海流脾囊"
 			tasks: [{
 				id: "3381C41F03CC6A9B"
-				item: "kubejs:seacurrent_spleen"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:seacurrent_spleen"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -1772,7 +2413,13 @@
 			subtitle: "浮沫肾囊"
 			tasks: [{
 				id: "36D8FE094BD88E33"
-				item: "kubejs:foam_kidney"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:foam_kidney"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -1784,7 +2431,13 @@
 			subtitle: "深潮拾荒手"
 			tasks: [{
 				id: "69F181FC08563286"
-				item: "kubejs:deeptide_scavenger_hand"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:deeptide_scavenger_hand"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -1796,7 +2449,13 @@
 			subtitle: "潮汐心室"
 			tasks: [{
 				id: "130622E179C85BE8"
-				item: "kubejs:tidal_ventricle"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:tidal_ventricle"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1808,7 +2467,13 @@
 			subtitle: "珊瑚骨板"
 			tasks: [{
 				id: "2C8102238E0D74F7"
-				item: "kubejs:coral_boneplate"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:coral_boneplate"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1820,7 +2485,13 @@
 			subtitle: "湿鳃颊囊"
 			tasks: [{
 				id: "13247AFBD57F2A31"
-				item: "kubejs:wetgill_jowl"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:wetgill_jowl"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1832,7 +2503,13 @@
 			subtitle: "远航脚蹼"
 			tasks: [{
 				id: "41E2A2372422CE14"
-				item: "kubejs:farvoyage_flipper"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:farvoyage_flipper"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1844,7 +2521,13 @@
 			subtitle: "海藻脊髓"
 			tasks: [{
 				id: "3336C7C8B652D8EE"
-				item: "kubejs:kelp_spinal_cord"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:kelp_spinal_cord"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1856,7 +2539,13 @@
 			subtitle: "贝鸣耳蜗"
 			tasks: [{
 				id: "10627E0A7626F028"
-				item: "kubejs:shellbell_cochlea"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:shellbell_cochlea"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1868,7 +2557,13 @@
 			subtitle: "潮涌腿鳍"
 			tasks: [{
 				id: "42ABFA5CEFA6E590"
-				item: "kubejs:tidefin_leg"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:tidefin_leg"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1880,7 +2575,13 @@
 			subtitle: "珊潮尾椎"
 			tasks: [{
 				id: "2A1BA79EEED52775"
-				item: "kubejs:coraltide_tail"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaocean:coraltide_tail"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -1921,7 +2622,13 @@
 			subtitle: "斥候臂束"
 			tasks: [{
 				id: "209D01DECB41B314"
-				item: "kubejs:skirmish_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:skirmish_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -1934,7 +2641,13 @@
 			subtitle: "旗刺肩甲"
 			tasks: [{
 				id: "007E24DC08936EF8"
-				item: "kubejs:banner_spike_shoulder"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:banner_spike_shoulder"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -1947,7 +2660,13 @@
 			subtitle: "侦掠虹膜"
 			tasks: [{
 				id: "717C751D4B3A5AA3"
-				item: "kubejs:scout_iris"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:scout_iris"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -1960,7 +2679,13 @@
 			subtitle: "暗箭喉囊"
 			tasks: [{
 				id: "4A0DAEE36C14D60C"
-				item: "kubejs:dark_arrow_throat"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:dark_arrow_throat"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -1973,7 +2698,13 @@
 			subtitle: "绿宝肝囊"
 			tasks: [{
 				id: "7FA110A216CE192F"
-				item: "kubejs:emerald_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:emerald_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1986,7 +2717,13 @@
 			subtitle: "号角冠脑"
 			tasks: [{
 				id: "7C4778D48BE579D4"
-				item: "kubejs:horn_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:horn_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -1999,7 +2736,13 @@
 			subtitle: "战利脾囊"
 			tasks: [{
 				id: "6D388D5392468476"
-				item: "kubejs:loot_spleen"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:loot_spleen"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2012,7 +2755,13 @@
 			subtitle: "流亡肾鞘"
 			tasks: [{
 				id: "478D5EEC80A84E3D"
-				item: "kubejs:exile_kidneysheath"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:exile_kidneysheath"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2025,7 +2774,13 @@
 			subtitle: "袭击拾荒手"
 			tasks: [{
 				id: "66D6BD52647AE9F5"
-				item: "kubejs:raid_scavenger_hand"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:raid_scavenger_hand"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2038,7 +2793,13 @@
 			subtitle: "劫掠心室"
 			tasks: [{
 				id: "69D96CCCB51F3210"
-				item: "kubejs:raider_ventricle"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:raider_ventricle"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2051,7 +2812,13 @@
 			subtitle: "旗帜脊轮"
 			tasks: [{
 				id: "6862D4EDCA81DFBD"
-				item: "kubejs:banner_spinewheel"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:banner_spinewheel"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2064,7 +2831,13 @@
 			subtitle: "前哨胸甲"
 			tasks: [{
 				id: "5D3F5917A1050D5B"
-				item: "kubejs:outpost_chestplate"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:outpost_chestplate"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2077,7 +2850,13 @@
 			subtitle: "破阵腺团"
 			tasks: [{
 				id: "15668DEB2775CAFA"
-				item: "kubejs:breach_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:breach_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2090,7 +2869,13 @@
 			subtitle: "战鼓耳蜗"
 			tasks: [{
 				id: "78193422A2657A2A"
-				item: "kubejs:war_drum_cochlea"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:war_drum_cochlea"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2103,7 +2888,13 @@
 			subtitle: "夜袭足腱"
 			tasks: [{
 				id: "2E2412229532735A"
-				item: "kubejs:nightraid_tendon"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillapillager:nightraid_tendon"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2143,7 +2934,13 @@
 			subtitle: "铁傀肩甲"
 			tasks: [{
 				id: "2C61F0FCB5865235"
-				item: "kubejs:iron_guard_shoulder"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:iron_guard_shoulder"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -2155,7 +2952,13 @@
 			subtitle: "村纹虹膜"
 			tasks: [{
 				id: "5A546B5B17AEB6E1"
-				item: "kubejs:village_iris"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:village_iris"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -2167,7 +2970,13 @@
 			subtitle: "职业肝囊"
 			tasks: [{
 				id: "42A8D683FEC4FB51"
-				item: "kubejs:profession_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:profession_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2179,7 +2988,13 @@
 			subtitle: "声望冠脑"
 			tasks: [{
 				id: "0A0735ABA25EF48B"
-				item: "kubejs:prestige_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:prestige_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2191,7 +3006,13 @@
 			subtitle: "账册肺叶"
 			tasks: [{
 				id: "7B950FC1F6C67656"
-				item: "kubejs:ledger_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:ledger_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2203,7 +3024,13 @@
 			subtitle: "牧田脾囊"
 			tasks: [{
 				id: "38782AF7387445E3"
-				item: "kubejs:field_spleen"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:field_spleen"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2215,7 +3042,13 @@
 			subtitle: "修补回流腺"
 			tasks: [{
 				id: "671BD93E6AFB0B5E"
-				item: "kubejs:repair_reflux_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:repair_reflux_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2227,7 +3060,13 @@
 			subtitle: "交易拾荒手"
 			tasks: [{
 				id: "128D5651984B36CA"
-				item: "kubejs:trade_scavenger_hand"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:trade_scavenger_hand"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2239,7 +3078,13 @@
 			subtitle: "钟鸣心室"
 			tasks: [{
 				id: "6F44EF1134CFA5B8"
-				item: "kubejs:bell_ventricle"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:bell_ventricle"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2251,7 +3096,13 @@
 			subtitle: "交易脊轮"
 			tasks: [{
 				id: "3F7CEFDF041B65A0"
-				item: "kubejs:trade_spinewheel"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:trade_spinewheel"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2263,7 +3114,13 @@
 			subtitle: "秩序胸骨"
 			tasks: [{
 				id: "2933602562FF4D1D"
-				item: "kubejs:order_sternum"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:order_sternum"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2275,7 +3132,13 @@
 			subtitle: "灯塔肾鞘"
 			tasks: [{
 				id: "6F90C884CB93E1B2"
-				item: "kubejs:beacon_kidneysheath"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:beacon_kidneysheath"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2287,7 +3150,13 @@
 			subtitle: "哨铃耳蜗"
 			tasks: [{
 				id: "732AA0A24F66D906"
-				item: "kubejs:watchbell_cochlea"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:watchbell_cochlea"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2299,7 +3168,13 @@
 			subtitle: "供奉腺团"
 			tasks: [{
 				id: "73311A756F8828C9"
-				item: "kubejs:offering_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:offering_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2311,7 +3186,13 @@
 			subtitle: "赶路腿板"
 			tasks: [{
 				id: "339D7E1871CA9066"
-				item: "kubejs:travel_legplate"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillavillage:travel_legplate"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2351,7 +3232,13 @@
 			subtitle: "折影臂束"
 			tasks: [{
 				id: "6FB8A46840809332"
-				item: "kubejs:shadowfold_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:shadowfold_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -2363,7 +3250,13 @@
 			subtitle: "折门拳峰"
 			tasks: [{
 				id: "018A2F5C29EA239E"
-				item: "kubejs:foldgate_fist"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:foldgate_fist"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -2375,7 +3268,13 @@
 			subtitle: "末界肩甲"
 			tasks: [{
 				id: "25E22746E5709660"
-				item: "kubejs:endbound_shoulderplate"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:endbound_shoulderplate"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -2387,7 +3286,13 @@
 			subtitle: "影喉囊"
 			tasks: [{
 				id: "1C4DE7764196B877"
-				item: "kubejs:shadow_throat_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:shadow_throat_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -2399,7 +3304,13 @@
 			subtitle: "末纹虹膜"
 			tasks: [{
 				id: "438552D18FB3DBCE"
-				item: "kubejs:endpattern_iris"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:endpattern_iris"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -2411,7 +3322,13 @@
 			subtitle: "龙息肝囊"
 			tasks: [{
 				id: "1830899582B6B5B2"
-				item: "kubejs:dragonbreath_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:dragonbreath_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2423,7 +3340,13 @@
 			subtitle: "末影肺叶"
 			tasks: [{
 				id: "0079B20B298E1809"
-				item: "kubejs:ender_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:ender_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2435,7 +3358,13 @@
 			subtitle: "门缝冠脑"
 			tasks: [{
 				id: "052205A02576187A"
-				item: "kubejs:gategap_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:gategap_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2447,7 +3376,13 @@
 			subtitle: "末影疣肝"
 			tasks: [{
 				id: "767E3BD5AB9EE95A"
-				item: "kubejs:enderwart_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:enderwart_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2459,7 +3394,13 @@
 			subtitle: "潜影脾囊"
 			tasks: [{
 				id: "5A4977CD77B95740"
-				item: "kubejs:shulker_spleen"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:shulker_spleen"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2471,7 +3412,13 @@
 			subtitle: "末石回流腺"
 			tasks: [{
 				id: "05B73C43481E127B"
-				item: "kubejs:endstone_reflux_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:endstone_reflux_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2483,7 +3430,13 @@
 			subtitle: "末尘脾膜"
 			tasks: [{
 				id: "2220F6225676B468"
-				item: "kubejs:enddust_spleen_membrane"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:enddust_spleen_membrane"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2495,7 +3448,13 @@
 			subtitle: "虚空心室"
 			tasks: [{
 				id: "0A73B22DE9BE45E7"
-				item: "kubejs:void_ventricle"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:void_ventricle"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2507,7 +3466,13 @@
 			subtitle: "折返脊炉"
 			tasks: [{
 				id: "66C4E77571F4CCA5"
-				item: "kubejs:return_spine_furnace"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:return_spine_furnace"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2519,7 +3484,13 @@
 			subtitle: "紫珀胸甲膜"
 			tasks: [{
 				id: "09814B4C3548A5F8"
-				item: "kubejs:purpur_chest_membrane"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:purpur_chest_membrane"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2531,7 +3502,13 @@
 			subtitle: "末门囊肺"
 			tasks: [{
 				id: "0050330F2836AA6E"
-				item: "kubejs:endgate_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:endgate_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2543,7 +3520,13 @@
 			subtitle: "虚渊肾鞘"
 			tasks: [{
 				id: "050DC30F1CB625B6"
-				item: "kubejs:voidabyss_kidneysheath"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:voidabyss_kidneysheath"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2555,7 +3538,13 @@
 			subtitle: "末跃腿腱"
 			tasks: [{
 				id: "537ED7D215F09B3B"
-				item: "kubejs:endleap_tendon"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:endleap_tendon"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2567,7 +3556,13 @@
 			subtitle: "翼折肩环"
 			tasks: [{
 				id: "30897F1AE7716B81"
-				item: "kubejs:wingfold_shoulder_ring"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:wingfold_shoulder_ring"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2579,7 +3574,13 @@
 			subtitle: "门隙尾椎"
 			tasks: [{
 				id: "7AF839CE4DE07406"
-				item: "kubejs:gategap_tailbone"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillaend:gategap_tailbone"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2620,7 +3621,13 @@
 			subtitle: "烈焰臂束"
 			tasks: [{
 				id: "20A4E63C5AB77E2C"
-				item: "kubejs:blazefire_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:blazefire_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -2633,7 +3640,13 @@
 			subtitle: "献火拳峰"
 			tasks: [{
 				id: "67F861C9B7C9EE25"
-				item: "kubejs:sacrifice_fire_fist"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:sacrifice_fire_fist"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -2646,7 +3659,13 @@
 			subtitle: "烈狱肩甲"
 			tasks: [{
 				id: "143A18A495C70E80"
-				item: "kubejs:inferno_shoulderplate"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:inferno_shoulderplate"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -2659,7 +3678,13 @@
 			subtitle: "灼喉囊"
 			tasks: [{
 				id: "53776BFAB86AB787"
-				item: "kubejs:scorch_throat_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:scorch_throat_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -2672,7 +3697,13 @@
 			subtitle: "灰烬虹膜"
 			tasks: [{
 				id: "75C76508D7E28B27"
-				item: "kubejs:ash_iris"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:ash_iris"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -2685,7 +3716,13 @@
 			subtitle: "黑焰喉管"
 			tasks: [{
 				id: "601B00F996A931FE"
-				item: "kubejs:blackflame_throat_pipe"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:blackflame_throat_pipe"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -2698,7 +3735,13 @@
 			subtitle: "余烬肝囊"
 			tasks: [{
 				id: "4D193BC8CA095031"
-				item: "kubejs:ember_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:ember_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2711,7 +3754,13 @@
 			subtitle: "灵焰肺叶"
 			tasks: [{
 				id: "0715AC28DE70DE1B"
-				item: "kubejs:spiritflame_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:spiritflame_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2724,7 +3773,13 @@
 			subtitle: "过载冠脑"
 			tasks: [{
 				id: "02C8E3CDA629BCDC"
-				item: "kubejs:overload_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:overload_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2737,7 +3792,13 @@
 			subtitle: "下界疣肝"
 			tasks: [{
 				id: "39AB8087F675E1F2"
-				item: "kubejs:netherwart_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:netherwart_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2750,7 +3811,13 @@
 			subtitle: "猪灵契约肝"
 			tasks: [{
 				id: "7E19CF28451526AF"
-				item: "kubejs:piglin_contract_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:piglin_contract_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2763,7 +3830,13 @@
 			subtitle: "灰谷囊肺"
 			tasks: [{
 				id: "2B9C4AE33CA57417"
-				item: "kubejs:ashvale_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:ashvale_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -2776,7 +3849,13 @@
 			subtitle: "灰烬脾囊"
 			tasks: [{
 				id: "6A79EE807F807BFF"
-				item: "kubejs:ash_spleen"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:ash_spleen"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2789,7 +3868,13 @@
 			subtitle: "熔渣回流腺"
 			tasks: [{
 				id: "6A5E65AD789E683A"
-				item: "kubejs:slag_reflux_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:slag_reflux_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2802,7 +3887,13 @@
 			subtitle: "黑石脾膜"
 			tasks: [{
 				id: "0DA73555D6BEA4E0"
-				item: "kubejs:blackstone_spleen_membrane"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:blackstone_spleen_membrane"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2815,7 +3906,13 @@
 			subtitle: "要塞骨钥"
 			tasks: [{
 				id: "2D32CA5523AEEA62"
-				item: "kubejs:fortress_bone_key"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:fortress_bone_key"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2828,7 +3925,13 @@
 			subtitle: "古残拾取手"
 			tasks: [{
 				id: "321951FBD7EF65D7"
-				item: "kubejs:ancient_relic_hand"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:ancient_relic_hand"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2841,7 +3944,13 @@
 			subtitle: "灼金回收爪"
 			tasks: [{
 				id: "0987B75C065561F8"
-				item: "kubejs:gilded_recovery_claw"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:gilded_recovery_claw"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -2854,7 +3963,13 @@
 			subtitle: "地狱心炉"
 			tasks: [{
 				id: "1A0B879BFBAA0A87"
-				item: "kubejs:infernal_hearth"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:infernal_hearth"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2867,7 +3982,13 @@
 			subtitle: "献血脊炉"
 			tasks: [{
 				id: "461BB82CD2125C65"
-				item: "kubejs:sacrifice_spine_furnace"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:sacrifice_spine_furnace"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2880,7 +4001,13 @@
 			subtitle: "黑曜胸腔"
 			tasks: [{
 				id: "3F2C4B10728A19CF"
-				item: "kubejs:obsidian_chest_cavity"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:obsidian_chest_cavity"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2893,7 +4020,13 @@
 			subtitle: "灵魂沙囊肺"
 			tasks: [{
 				id: "79A66F2B256CD6B9"
-				item: "kubejs:soulsand_lung_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:soulsand_lung_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2906,7 +4039,13 @@
 			subtitle: "炉渣肾鞘"
 			tasks: [{
 				id: "75A89BE9B4F7F217"
-				item: "kubejs:furnaceslag_kidneysheath"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:furnaceslag_kidneysheath"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2919,7 +4058,13 @@
 			subtitle: "熔岩跟腱"
 			tasks: [{
 				id: "5F1F54386B21CC7D"
-				item: "kubejs:lava_tendon"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:lava_tendon"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2932,7 +4077,13 @@
 			subtitle: "烈行脚踝"
 			tasks: [{
 				id: "4DBF6C46A7A6ED80"
-				item: "kubejs:emberstride_ankle"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:emberstride_ankle"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2945,7 +4096,13 @@
 			subtitle: "狱火尾椎"
 			tasks: [{
 				id: "0A9C759530469B3D"
-				item: "kubejs:hellfire_tailbone"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:hellfire_tailbone"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2958,7 +4115,13 @@
 			subtitle: "炉火膝环"
 			tasks: [{
 				id: "1A35DBDD39D03094"
-				item: "kubejs:furnace_kneering"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:furnace_kneering"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2971,7 +4134,13 @@
 			subtitle: "堡垒蹄锁"
 			tasks: [{
 				id: "3BD01C920648D381"
-				item: "kubejs:bastion_hoof_lock"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:bastion_hoof_lock"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2984,7 +4153,13 @@
 			subtitle: "熔拳副心"
 			tasks: [{
 				id: "4FF0C63EE8282BC6"
-				item: "kubejs:smeltfist_subcore"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:smeltfist_subcore"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -2997,7 +4172,13 @@
 			subtitle: "灾厄熔核"
 			tasks: [{
 				id: "04A5F893D40A152B"
-				item: "kubejs:cataclysm_magma_core"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillanether:cataclysm_magma_core"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3037,7 +4218,13 @@
 			subtitle: "潜脉臂束"
 			tasks: [{
 				id: "3E54E4FDA9389273"
-				item: "kubejs:latentwave_arm"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:latentwave_arm"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -3049,7 +4236,13 @@
 			subtitle: "传导叉结"
 			tasks: [{
 				id: "4A49CF41B91648AE"
-				item: "kubejs:conduction_fork_joint"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:conduction_fork_joint"
+					}
+				}
 				type: "item"
 			}]
 			x: -8.0d
@@ -3061,7 +4254,13 @@
 			subtitle: "暗视虹膜"
 			tasks: [{
 				id: "2D9BCBFA4A5C0CD2"
-				item: "kubejs:darkvision_iris"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:darkvision_iris"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -3073,7 +4272,13 @@
 			subtitle: "感器喉囊"
 			tasks: [{
 				id: "6A2E4FD865EEC3AE"
-				item: "kubejs:sensor_throat_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:sensor_throat_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -3085,7 +4290,13 @@
 			subtitle: "缩声箭腺"
 			tasks: [{
 				id: "574FE1CEF445EA78"
-				item: "kubejs:silent_arrow_gland"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:silent_arrow_gland"
+					}
+				}
 				type: "item"
 			}]
 			x: -4.0d
@@ -3097,7 +4308,13 @@
 			subtitle: "伏听肺叶"
 			tasks: [{
 				id: "5373D5A47313DA8C"
-				item: "kubejs:listening_lung"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:listening_lung"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -3109,7 +4326,13 @@
 			subtitle: "幽脉肝核"
 			tasks: [{
 				id: "29A07BCCD9FC0A90"
-				item: "kubejs:gloomvein_liver"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:gloomvein_liver"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -3121,7 +4344,13 @@
 			subtitle: "静默冠脑"
 			tasks: [{
 				id: "06841BFFA9488191"
-				item: "kubejs:silence_crown"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:silence_crown"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -3133,7 +4362,13 @@
 			subtitle: "深层囊室"
 			tasks: [{
 				id: "5BF12E21DFA83758"
-				item: "kubejs:deepchamber_sac"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:deepchamber_sac"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -3145,7 +4380,13 @@
 			subtitle: "传波前额"
 			tasks: [{
 				id: "3A2D2BD9E09A3008"
-				item: "kubejs:wavefront_forehead"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:wavefront_forehead"
+					}
+				}
 				type: "item"
 			}]
 			x: 0.0d
@@ -3157,7 +4398,13 @@
 			subtitle: "幽壳脾囊"
 			tasks: [{
 				id: "60092785344AD27D"
-				item: "kubejs:gloomshell_spleen"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:gloomshell_spleen"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -3169,7 +4416,13 @@
 			subtitle: "回声髓液"
 			tasks: [{
 				id: "66DC2BCF2E04B7DF"
-				item: "kubejs:echo_marrow"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:echo_marrow"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -3181,7 +4434,13 @@
 			subtitle: "深心残瓣"
 			tasks: [{
 				id: "34BE6FAA5B9658D9"
-				item: "kubejs:deepheart_remnant"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:deepheart_remnant"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -3193,7 +4452,13 @@
 			subtitle: "古庙裂罐手"
 			tasks: [{
 				id: "5C1542003BC19111"
-				item: "kubejs:ancient_jar_hand"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:ancient_jar_hand"
+					}
+				}
 				type: "item"
 			}]
 			x: 4.0d
@@ -3205,7 +4470,13 @@
 			subtitle: "回响心核"
 			tasks: [{
 				id: "3BA92C0165F750B9"
-				item: "kubejs:echo_core"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:echo_core"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3217,7 +4488,13 @@
 			subtitle: "监守骨板"
 			tasks: [{
 				id: "046A1A3275A3FE3F"
-				item: "kubejs:warden_boneplate"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:warden_boneplate"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3229,7 +4506,13 @@
 			subtitle: "回声耳蜗"
 			tasks: [{
 				id: "144013A73B61E284"
-				item: "kubejs:echo_cochlea"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:echo_cochlea"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3241,7 +4524,13 @@
 			subtitle: "潜震足垫"
 			tasks: [{
 				id: "745E52FCFAB5A498"
-				item: "kubejs:stealthshock_sole"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:stealthshock_sole"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3253,7 +4542,13 @@
 			subtitle: "传感副脑"
 			tasks: [{
 				id: "51667C165EB50F69"
-				item: "kubejs:sensor_subbrain"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:sensor_subbrain"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3265,7 +4560,13 @@
 			subtitle: "谐振脊髓"
 			tasks: [{
 				id: "0DC8C92E9FCB7069"
-				item: "kubejs:resonance_spine"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:resonance_spine"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3277,7 +4578,13 @@
 			subtitle: "共鸣肾鞘"
 			tasks: [{
 				id: "34013B807FCCC8A9"
-				item: "kubejs:resonant_kidneysheath"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:resonant_kidneysheath"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3289,7 +4596,13 @@
 			subtitle: "异界浮膜"
 			tasks: [{
 				id: "0C64279422D0BD25"
-				item: "kubejs:otherdeep_float_membrane"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:otherdeep_float_membrane"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3301,7 +4614,13 @@
 			subtitle: "颤鸣尾椎"
 			tasks: [{
 				id: "3F9BCE73BFA38498"
-				item: "kubejs:tremor_tail"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:tremor_tail"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3313,7 +4632,13 @@
 			subtitle: "古城折步腿"
 			tasks: [{
 				id: "3EAED14D591530DB"
-				item: "kubejs:ancient_city_step_leg"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:ancient_city_step_leg"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d
@@ -3325,7 +4650,13 @@
 			subtitle: "异渊猎膜"
 			tasks: [{
 				id: "48BDCC6C2E1252E7"
-				item: "kubejs:abyss_hunter_membrane"
+				item: {
+					Count: 1
+					id: "organapi:organ_item"
+					tag: {
+						OrganId: "vanillasculk:abyss_hunter_membrane"
+					}
+				}
 				type: "item"
 			}]
 			x: 8.0d

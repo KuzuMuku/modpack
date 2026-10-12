@@ -1376,7 +1376,7 @@
 			y: 11.0d
 		}
 		{
-			description: ["Ars 学者下装是 Ars Nouveau 魔法体系的装备部件。穿戴后可以提升法术能力和魔力相关属性。做出来后适合法师路线玩家在施法时获得额外加成。来源是 Ars Nouveau 的学者装备线。"]
+			description: ["Ars 学者下装是 Ars Nouveau 魔法体系的装备部件。穿戴后可以提升法术能力和魔力相关属性。适合法师路线玩家在施法时获得额外加成。"]
 			id: "096EEC76BBD10E9D"
 			optional: true
 			tasks: [
@@ -1408,7 +1408,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["Ars 战法师下装是 Ars Nouveau 的战斗向装备。穿戴后可以增强战斗法术效果和提供防御。做出来后适合喜欢近战与法术结合玩法的玩家使用。"]
+			description: [""]
 			id: "0AEC82C80A17C3A2"
 			optional: true
 			tasks: [
@@ -1440,7 +1440,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["Ars 术士下装是 Ars Nouveau 的术士装备，提供高魔力相关属性。穿戴后可以增强施法能力和魔力回复。做出来后适合纯法师路线的玩家在高强度施法场景中使用。"]
+			description: ["Ars 术士下装是 Ars Nouveau 的术士装备，提供高魔力相关属性。穿戴后可以增强施法能力和魔力回复。"]
 			id: "32F3723E2864D82C"
 			optional: true
 			tasks: [
@@ -1472,7 +1472,7 @@
 			y: -3.0d
 		}
 		{
-			description: ["Botania 法织套使用魔法植物和法术材料制作。穿戴后提供魔力相关加成和防御，适合 Botania 魔法路线玩家。做出来后可以在使用 Botania 魔法系统时获得额外增益。来源是 Botania 的法术装备线。"]
+			description: [""]
 			id: "7E7F94C497423643"
 			optional: true
 			tasks: [
@@ -2971,7 +2971,7 @@
 			y: 15.5d
 		}
 		{
-			description: ["哥布林杀手套是特殊装备，与哥布林内容相关。穿戴后提供对哥布林的伤害加成和防御。做出来后适合在对抗哥布林时使用。来源是特殊战斗装备线。"]
+			description: [""]
 			id: "4A2D0E4A8C1F232A"
 			optional: true
 			tasks: [
@@ -3025,7 +3025,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["影武者套是特殊装备，与影武者内容相关。穿戴后提供隐身和快速移动能力。做出来后适合在潜行和快速探索任务中使用。来源是特殊装备系统。"]
+			description: [""]
 			id: "4A2D0E4A8C1F232F"
 			optional: true
 			tasks: [
@@ -4509,50 +4509,6 @@
 					item: {
 						Count: 1
 						id: "iceandfire:armor_gray_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1497A0FF0E2032B2"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_amethyst_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0BE9A97E36D774FF"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_amethyst_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "40F70398578A3AC0"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_amethyst_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "26F294BE60950E11"
-					item: {
-						Count: 1
-						id: "iceandfire:armor_amethyst_boots"
 						tag: {
 							Damage: 0
 						}

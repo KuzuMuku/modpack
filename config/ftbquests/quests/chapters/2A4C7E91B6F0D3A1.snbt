@@ -6,11 +6,10 @@
 	hide_quest_until_deps_visible: true
 	icon: "twilightdelight:hydra_burger"
 	id: "2A4C7E91B6F0D3A1"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2A07000000000002"]
 			description: ["先用烹饪锅和已解锁的维度食材做出真正的远征料理。异界料理线的重点不是收藏，而是把特殊食材变成稳定增益。"]
 			id: "2C07000000000001"
 			optional: true
@@ -24,10 +23,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"2A07000000000002"
-				"654A8A0E9770844D"
-			]
+			dependencies: ["654A8A0E9770844D"]
 			description: ["火炬莓果汁是暮色食材转化为补给品的第一步。先学会把维度特产做成便携饮品。"]
 			id: "2C07000000000002"
 			optional: true
@@ -41,10 +37,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"2A07000000000002"
-				"493BF3DC21914799"
-			]
+			dependencies: ["493BF3DC21914799"]
 			description: ["击败九头蛇后，把它的素材真正变成料理。Boss 战利品不只该做武器，也可以成为远征强补给。"]
 			id: "2C07000000000003"
 			optional: true
@@ -58,10 +51,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"2A07000000000002"
-				"4DE28097D8377425"
-			]
+			dependencies: ["4DE28097D8377425"]
 			description: ["天境花茶是典型的空岛轻量补给。它比重餐更适合高机动探索时随身携带。"]
 			id: "2C07000000000004"
 			optional: true
@@ -75,10 +65,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"2A07000000000002"
-				"4DE28097D8377425"
-			]
+			dependencies: ["4DE28097D8377425"]
 			description: ["鹌鹑炖菜更像一顿完整主餐。空岛料理不只是轻食，也能承担长时间远征的续航。"]
 			id: "2C07000000000005"
 			optional: true

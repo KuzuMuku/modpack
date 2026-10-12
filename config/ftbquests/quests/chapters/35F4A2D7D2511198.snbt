@@ -65,6 +65,48 @@
 			x: 4.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["1E01000000000010"]
+			description: ["路碑可登记为传送目的地，为远行者保留一条安全的归途。"]
+			id: "2A07000000000006"
+			optional: true
+			tasks: [{
+				id: "2A07000000000106"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "设立路碑"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2A07000000000006"]
+			description: ["返程卷轴可消耗使用，将你送回已登记的路碑。"]
+			id: "2A07000000000007"
+			optional: true
+			tasks: [{
+				id: "2A07000000000107"
+				item: "waystones:return_scroll"
+				type: "item"
+			}]
+			title: "一卷归途"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2A07000000000006"]
+			description: ["传送卷轴可前往已登记的路碑。带上一卷，探索时便多一份选择。"]
+			id: "2A07000000000008"
+			optional: true
+			tasks: [{
+				id: "2A07000000000108"
+				item: "waystones:warp_scroll"
+				type: "item"
+			}]
+			title: "远行卷轴"
+			x: 4.0d
+			y: 5.5d
+		}
 	]
 	title: "旅行伙伴"
 }
