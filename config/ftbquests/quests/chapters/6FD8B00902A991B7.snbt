@@ -370,11 +370,7 @@
 			id: "6F0200000000000F"
 			tasks: [{
 				id: "6F0200000000010F"
-				item: {
-					Count: 1
-					id: "ars_nouveau:dominion_wand"
-					tag: { }
-				}
+				item: "ars_nouveau:dominion_wand"
 				type: "item"
 			}]
 			title: "支配魔杖"

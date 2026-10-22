@@ -854,7 +854,7 @@
 				{
 					count: 8L
 					id: "0AF79F2745A48CED"
-					item: "ae2:quantum_ring"
+					item: { Count: 8, id: "ae2:quantum_ring" }
 					type: "item"
 				}
 				{
@@ -897,7 +897,7 @@
 			tasks: [{
 				count: 2L
 				id: "776AB3C726B85ED5"
-				item: "ae2:quartz_fiber"
+				item: { Count: 2, id: "ae2:quartz_fiber" }
 				type: "item"
 			}]
 			title: "隔离连接"

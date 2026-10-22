@@ -622,7 +622,7 @@
 				{
 					count: 3L
 					id: "0F12B8D03A622D3A"
-					item: "minecraft:cobblestone"
+					item: { Count: 3, id: "minecraft:cobblestone" }
 					type: "item"
 				}
 			]
